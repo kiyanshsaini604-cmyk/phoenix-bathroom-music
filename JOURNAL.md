@@ -1,6 +1,6 @@
 ---
 title: "Phoenix"
-github: "https://github.com/Indu/phoenix-bathroom-music"
+github: "https://github.com/kiyanshsaini604-cmyk/phoenix-bathroom-music"
 description: "A bathroom voice music device that plays songs from a self-hosted music server by voice request with onboard animations."
 created_at: "2026-03-20"
 total_time: "2h"
