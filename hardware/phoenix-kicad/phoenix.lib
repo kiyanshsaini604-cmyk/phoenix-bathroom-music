@@ -1,0 +1,19 @@
+(
+  lib
+  (lib_ID 32199d4e-0517-4c4e-9d47-377491789eb5)
+  (qualified_lib_id kicad)
+  (version 20211014)
+  (descr "Phoenix project symbols")
+  (uri "phoenix.sch")
+  (timestamp 1178945123)
+  (comp
+    (lib_id 32199d4e-0517-4c4e-9d47-377491789eb5:MIC1)
+    (name C1)
+    (library_ref "device")
+  )
+  (comp
+    (lib_id 32199d4e-0517-4c4e-9d47-377491789eb5:SPEAKER1)
+    (name C2)
+    (library_ref "device")
+  )
+)

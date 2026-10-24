@@ -1,0 +1,18 @@
+[build-system]
+requires = ["setuptools>=64.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "phoenix-device"
+version = "0.1.0"
+description = "Phoenix bathroom voice music device firmware and system services"
+requires-python = ">=3.10"
+
+[project.optional-dependencies]
+dev = ["pytest>=7.0", "ruff>=0.1.0", "mypy>=0.990"]
+
+[tool.ruff]
+line-length = 100
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]

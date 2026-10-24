@@ -1,0 +1,10 @@
+vohttp>=0.5.0
+vosk>=0.3.8
+numpy>=1.21.0
+requests>=2.28.0
+Pillow>=9.0.0
+pyserial>=3.5
+websockets>=11.0.0
+espeakng>=0.1.1
+pyyaml>=6.0
+pyaudio>=0.2.11
