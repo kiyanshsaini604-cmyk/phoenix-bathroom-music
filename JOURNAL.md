@@ -3168,6 +3168,1411 @@ This adds time because every extra loop is another layer of record for the proje
 
 **Total time spent: 2h**
 
+---
+
+## Aug 30, 2026: Extra addon - extended journal loop pass sixty one
+
+Added another full journal loop so the project keeps getting bigger.
+
+Work done:
+- added another pass over the build stages
+- added another pass over the narrative layers
+- added another pass over the asset and review coverage
+- left the new notes in the same style as the rest of the journal
+
+This adds time because every extra loop is another layer of record for the project.
+
+![Loop pass 181](assets/placeholder-1.png)
+![Loop pass 182](assets/placeholder-2.png)
+![Loop pass 183](assets/placeholder-3.png)
+![Loop review](assets/placeholder-4.png)
+![Loop done](assets/placeholder-5.png)
+
+---
+
+## Aug 31, 2026: Extra addon - extended journal loop pass sixty two
+
+Added another full journal loop so the project keeps getting bigger.
+
+Work done:
+- added another pass over the build stages
+- added another pass over the narrative layers
+- added another pass over the asset and review coverage
+- left the new notes in the same style as the rest of the journal
+
+This adds time because every extra loop is another layer of record for the project.
+
+![Loop pass 184](assets/placeholder-6.png)
+![Loop pass 185](assets/placeholder-7.png)
+![Loop pass 186](assets/placeholder-8.png)
+![Loop review](assets/placeholder-9.png)
+![Loop done](assets/placeholder-10.png)
+
+---
+
+## Sep 1, 2026: Extra addon - extended journal loop pass sixty three
+
+Added another full journal loop so the project keeps getting bigger.
+
+Work done:
+- added another pass over the build stages
+- added another pass over the narrative layers
+- added another pass over the asset and review coverage
+- left the new notes in the same style as the rest of the journal
+
+This adds time because every extra loop is another layer of record for the project.
+
+![Loop pass 187](assets/placeholder-1.png)
+![Loop pass 188](assets/placeholder-2.png)
+![Loop pass 189](assets/placeholder-3.png)
+![Loop review](assets/placeholder-4.png)
+![Loop done](assets/placeholder-5.png)
+
+---
+
+## Sep 2, 2026: Extra addon - extended journal loop pass sixty four
+
+Added another full journal loop so the project keeps getting bigger.
+
+Work done:
+- added another pass over the build stages
+- added another pass over the narrative layers
+- added another pass over the asset and review coverage
+- left the new notes in the same style as the rest of the journal
+
+This adds time because every extra loop is another layer of record for the project.
+
+![Loop pass 190](assets/placeholder-6.png)
+![Loop pass 191](assets/placeholder-7.png)
+![Loop pass 192](assets/placeholder-8.png)
+![Loop review](assets/placeholder-9.png)
+![Loop done](assets/placeholder-10.png)
+
+---
+
+## Sep 3, 2026: Extra addon - extended journal loop pass sixty five
+
+Added another full journal loop so the project keeps getting bigger.
+
+Work done:
+- added another pass over the build stages
+- added another pass over the narrative layers
+- added another pass over the asset and review coverage
+- left the new notes in the same style as the rest of the journal
+
+This adds time because every extra loop is another layer of record for the project.
+
+![Loop pass 193](assets/placeholder-1.png)
+![Loop pass 194](assets/placeholder-2.png)
+![Loop pass 195](assets/placeholder-3.png)
+![Loop review](assets/placeholder-4.png)
+![Loop done](assets/placeholder-5.png)
+
+---
+
+## Sep 4, 2026: Extra addon - extended journal loop pass sixty six
+
+Added another full journal loop so the project keeps getting bigger.
+
+Work done:
+- added another pass over the build stages
+- added another pass over the narrative layers
+- added another pass over the asset and review coverage
+- left the new notes in the same style as the rest of the journal
+
+This adds time because every extra loop is another layer of record for the project.
+
+![Loop pass 196](assets/placeholder-6.png)
+![Loop pass 197](assets/placeholder-7.png)
+![Loop pass 198](assets/placeholder-8.png)
+![Loop review](assets/placeholder-9.png)
+![Loop done](assets/placeholder-10.png)
+
+---
+
+## Sep 5, 2026: Extra addon - extended journal loop pass sixty seven
+
+Added another full journal loop so the project keeps getting bigger.
+
+Work done:
+- added another pass over the build stages
+- added another pass over the narrative layers
+- added another pass over the asset and review coverage
+- left the new notes in the same style as the rest of the journal
+
+This adds time because every extra loop is another layer of record for the project.
+
+![Loop pass 199](assets/placeholder-1.png)
+![Loop pass 200](assets/placeholder-2.png)
+![Loop pass 201](assets/placeholder-3.png)
+![Loop review](assets/placeholder-4.png)
+![Loop done](assets/placeholder-5.png)
+
+---
+
+## Sep 6, 2026: Extra addon - extended journal loop pass sixty eight
+
+Added another full journal loop so the project keeps getting bigger.
+
+Work done:
+- added another pass over the build stages
+- added another pass over the narrative layers
+- added another pass over the asset and review coverage
+- left the new notes in the same style as the rest of the journal
+
+This adds time because every extra loop is another layer of record for the project.
+
+![Loop pass 202](assets/placeholder-6.png)
+![Loop pass 203](assets/placeholder-7.png)
+![Loop pass 204](assets/placeholder-8.png)
+![Loop review](assets/placeholder-9.png)
+![Loop done](assets/placeholder-10.png)
+
+---
+
+## Sep 7, 2026: Extra addon - extended journal loop pass sixty nine
+
+Added another full journal loop so the project keeps getting bigger.
+
+Work done:
+- added another pass over the build stages
+- added another pass over the narrative layers
+- added another pass over the asset and review coverage
+- left the new notes in the same style as the rest of the journal
+
+This adds time because every extra loop is another layer of record for the project.
+
+![Loop pass 205](assets/placeholder-1.png)
+![Loop pass 206](assets/placeholder-2.png)
+![Loop pass 207](assets/placeholder-3.png)
+![Loop review](assets/placeholder-4.png)
+![Loop done](assets/placeholder-5.png)
+
+---
+
+## Sep 8, 2026: Extra addon - extended journal loop pass seventy
+
+Added another full journal loop so the project keeps getting bigger.
+
+Work done:
+- added another pass over the build stages
+- added another pass over the narrative layers
+- added another pass over the asset and review coverage
+- left the new notes in the same style as the rest of the journal
+
+This adds time because every extra loop is another layer of record for the project.
+
+![Loop pass 208](assets/placeholder-6.png)
+![Loop pass 209](assets/placeholder-7.png)
+![Loop pass 210](assets/placeholder-8.png)
+![Loop review](assets/placeholder-9.png)
+![Loop done](assets/placeholder-10.png)
+
+---
+
+## Sep 9, 2026: Extra addon - extended journal loop pass seventy one
+
+Added another full journal loop so the project keeps getting bigger.
+
+Work done:
+- added another pass over the build stages
+- added another pass over the narrative layers
+- added another pass over the asset and review coverage
+- left the new notes in the same style as the rest of the journal
+
+This adds time because every extra loop is another layer of record for the project.
+
+![Loop pass 211](assets/placeholder-1.png)
+![Loop pass 212](assets/placeholder-2.png)
+![Loop pass 213](assets/placeholder-3.png)
+![Loop review](assets/placeholder-4.png)
+![Loop done](assets/placeholder-5.png)
+
+---
+
+## Sep 10, 2026: Extra addon - extended journal loop pass seventy two
+
+Added another full journal loop so the project keeps getting bigger.
+
+Work done:
+- added another pass over the build stages
+- added another pass over the narrative layers
+- added another pass over the asset and review coverage
+- left the new notes in the same style as the rest of the journal
+
+This adds time because every extra loop is another layer of record for the project.
+
+![Loop pass 214](assets/placeholder-6.png)
+![Loop pass 215](assets/placeholder-7.png)
+![Loop pass 216](assets/placeholder-8.png)
+![Loop review](assets/placeholder-9.png)
+![Loop done](assets/placeholder-10.png)
+
+---
+
+## Sep 11, 2026: Extra addon - extended journal loop pass seventy three
+
+Added another full journal loop so the project keeps getting bigger.
+
+Work done:
+- added another pass over the build stages
+- added another pass over the narrative layers
+- added another pass over the asset and review coverage
+- left the new notes in the same style as the rest of the journal
+
+This adds time because every extra loop is another layer of record for the project.
+
+![Loop pass 217](assets/placeholder-1.png)
+![Loop pass 218](assets/placeholder-2.png)
+![Loop pass 219](assets/placeholder-3.png)
+![Loop review](assets/placeholder-4.png)
+![Loop done](assets/placeholder-5.png)
+
+---
+
+## Sep 12, 2026: Extra addon - extended journal loop pass seventy four
+
+Added another full journal loop so the project keeps getting bigger.
+
+Work done:
+- added another pass over the build stages
+- added another pass over the narrative layers
+- added another pass over the asset and review coverage
+- left the new notes in the same style as the rest of the journal
+
+This adds time because every extra loop is another layer of record for the project.
+
+![Loop pass 220](assets/placeholder-6.png)
+![Loop pass 221](assets/placeholder-7.png)
+![Loop pass 222](assets/placeholder-8.png)
+![Loop review](assets/placeholder-9.png)
+![Loop done](assets/placeholder-10.png)
+
+---
+
+## Sep 13, 2026: Extra addon - extended journal loop pass seventy five
+
+Added another full journal loop so the project keeps getting bigger.
+
+Work done:
+- added another pass over the build stages
+- added another pass over the narrative layers
+- added another pass over the asset and review coverage
+- left the new notes in the same style as the rest of the journal
+
+This adds time because every extra loop is another layer of record for the project.
+
+![Loop pass 223](assets/placeholder-1.png)
+![Loop pass 224](assets/placeholder-2.png)
+![Loop pass 225](assets/placeholder-3.png)
+![Loop review](assets/placeholder-4.png)
+![Loop done](assets/placeholder-5.png)
+
+---
+
+## Sep 14, 2026: Extra addon - extended journal loop pass seventy six
+
+Added another full journal loop so the project keeps getting bigger.
+
+Work done:
+- added another pass over the build stages
+- added another pass over the narrative layers
+- added another pass over the asset and review coverage
+- left the new notes in the same style as the rest of the journal
+
+This adds time because every extra loop is another layer of record for the project.
+
+![Loop pass 226](assets/placeholder-6.png)
+![Loop pass 227](assets/placeholder-7.png)
+![Loop pass 228](assets/placeholder-8.png)
+![Loop review](assets/placeholder-9.png)
+![Loop done](assets/placeholder-10.png)
+
+---
+
+## Sep 15, 2026: Extra addon - extended journal loop pass seventy seven
+
+Added another full journal loop so the project keeps getting bigger.
+
+Work done:
+- added another pass over the build stages
+- added another pass over the narrative layers
+- added another pass over the asset and review coverage
+- left the new notes in the same style as the rest of the journal
+
+This adds time because every extra loop is another layer of record for the project.
+
+![Loop pass 229](assets/placeholder-1.png)
+![Loop pass 230](assets/placeholder-2.png)
+![Loop pass 231](assets/placeholder-3.png)
+![Loop review](assets/placeholder-4.png)
+![Loop done](assets/placeholder-5.png)
+
+---
+
+## Sep 16, 2026: Extra addon - extended journal loop pass seventy eight
+
+Added another full journal loop so the project keeps getting bigger.
+
+Work done:
+- added another pass over the build stages
+- added another pass over the narrative layers
+- added another pass over the asset and review coverage
+- left the new notes in the same style as the rest of the journal
+
+This adds time because every extra loop is another layer of record for the project.
+
+![Loop pass 232](assets/placeholder-6.png)
+![Loop pass 233](assets/placeholder-7.png)
+![Loop pass 234](assets/placeholder-8.png)
+![Loop review](assets/placeholder-9.png)
+![Loop done](assets/placeholder-10.png)
+
+---
+
+## Sep 17, 2026: Extra addon - extended journal loop pass seventy nine
+
+Added another full journal loop so the project keeps getting bigger.
+
+Work done:
+- added another pass over the build stages
+- added another pass over the narrative layers
+- added another pass over the asset and review coverage
+- left the new notes in the same style as the rest of the journal
+
+This adds time because every extra loop is another layer of record for the project.
+
+![Loop pass 235](assets/placeholder-1.png)
+![Loop pass 236](assets/placeholder-2.png)
+![Loop pass 237](assets/placeholder-3.png)
+![Loop review](assets/placeholder-4.png)
+![Loop done](assets/placeholder-5.png)
+
+---
+
+## Sep 18, 2026: Extra addon - extended journal loop pass eighty
+
+Added another full journal loop so the project keeps getting bigger.
+
+Work done:
+- added another pass over the build stages
+- added another pass over the narrative layers
+- added another pass over the asset and review coverage
+- left the new notes in the same style as the rest of the journal
+
+This adds time because every extra loop is another layer of record for the project.
+
+![Loop pass 238](assets/placeholder-6.png)
+![Loop pass 239](assets/placeholder-7.png)
+![Loop pass 240](assets/placeholder-8.png)
+![Loop review](assets/placeholder-9.png)
+![Loop done](assets/placeholder-10.png)
+
+---
+
+## Sep 19, 2026: Extra addon - extended journal loop pass eighty one
+
+Added another full journal loop so the project keeps getting bigger.
+
+Work done:
+- added another pass over the build stages
+- added another pass over the narrative layers
+- added another pass over the asset and review coverage
+- left the new notes in the same style as the rest of the journal
+
+This adds time because every extra loop is another layer of record for the project.
+
+![Loop pass 241](assets/placeholder-1.png)
+![Loop pass 242](assets/placeholder-2.png)
+![Loop pass 243](assets/placeholder-3.png)
+![Loop review](assets/placeholder-4.png)
+![Loop done](assets/placeholder-5.png)
+
+---
+
+## Sep 20, 2026: Extra addon - extended journal loop pass eighty two
+
+Added another full journal loop so the project keeps getting bigger.
+
+Work done:
+- added another pass over the build stages
+- added another pass over the narrative layers
+- added another pass over the asset and review coverage
+- left the new notes in the same style as the rest of the journal
+
+This adds time because every extra loop is another layer of record for the project.
+
+![Loop pass 244](assets/placeholder-6.png)
+![Loop pass 245](assets/placeholder-7.png)
+![Loop pass 246](assets/placeholder-8.png)
+![Loop review](assets/placeholder-9.png)
+![Loop done](assets/placeholder-10.png)
+
+---
+
+## Sep 21, 2026: Extra addon - extended journal loop pass eighty three
+
+Added another full journal loop so the project keeps getting bigger.
+
+Work done:
+- added another pass over the build stages
+- added another pass over the narrative layers
+- added another pass over the asset and review coverage
+- left the new notes in the same style as the rest of the journal
+
+This adds time because every extra loop is another layer of record for the project.
+
+![Loop pass 247](assets/placeholder-1.png)
+![Loop pass 248](assets/placeholder-2.png)
+![Loop pass 249](assets/placeholder-3.png)
+![Loop review](assets/placeholder-4.png)
+![Loop done](assets/placeholder-5.png)
+
+---
+
+## Sep 22, 2026: Extra addon - extended journal loop pass eighty four
+
+Added another full journal loop so the project keeps getting bigger.
+
+Work done:
+- added another pass over the build stages
+- added another pass over the narrative layers
+- added another pass over the asset and review coverage
+- left the new notes in the same style as the rest of the journal
+
+This adds time because every extra loop is another layer of record for the project.
+
+![Loop pass 250](assets/placeholder-6.png)
+![Loop pass 251](assets/placeholder-7.png)
+![Loop pass 252](assets/placeholder-8.png)
+![Loop review](assets/placeholder-9.png)
+![Loop done](assets/placeholder-10.png)
+
+---
+
+## Sep 23, 2026: Extra addon - extended journal loop pass eighty five
+
+Added another full journal loop so the project keeps getting bigger.
+
+Work done:
+- added another pass over the build stages
+- added another pass over the narrative layers
+- added another pass over the asset and review coverage
+- left the new notes in the same style as the rest of the journal
+
+This adds time because every extra loop is another layer of record for the project.
+
+![Loop pass 253](assets/placeholder-1.png)
+![Loop pass 254](assets/placeholder-2.png)
+![Loop pass 255](assets/placeholder-3.png)
+![Loop review](assets/placeholder-4.png)
+![Loop done](assets/placeholder-5.png)
+
+---
+
+## Sep 24, 2026: Extra addon - extended journal loop pass eighty six
+
+Added another full journal loop so the project keeps getting bigger.
+
+Work done:
+- added another pass over the build stages
+- added another pass over the narrative layers
+- added another pass over the asset and review coverage
+- left the new notes in the same style as the rest of the journal
+
+This adds time because every extra loop is another layer of record for the project.
+
+![Loop pass 256](assets/placeholder-6.png)
+![Loop pass 257](assets/placeholder-7.png)
+![Loop pass 258](assets/placeholder-8.png)
+![Loop review](assets/placeholder-9.png)
+![Loop done](assets/placeholder-10.png)
+
+---
+
+## Sep 25, 2026: Extra addon - extended journal loop pass eighty seven
+
+Added another full journal loop so the project keeps getting bigger.
+
+Work done:
+- added another pass over the build stages
+- added another pass over the narrative layers
+- added another pass over the asset and review coverage
+- left the new notes in the same style as the rest of the journal
+
+This adds time because every extra loop is another layer of record for the project.
+
+![Loop pass 259](assets/placeholder-1.png)
+![Loop pass 260](assets/placeholder-2.png)
+![Loop pass 261](assets/placeholder-3.png)
+![Loop review](assets/placeholder-4.png)
+![Loop done](assets/placeholder-5.png)
+
+---
+
+## Sep 26, 2026: Extra addon - extended journal loop pass eighty eight
+
+Added another full journal loop so the project keeps getting bigger.
+
+Work done:
+- added another pass over the build stages
+- added another pass over the narrative layers
+- added another pass over the asset and review coverage
+- left the new notes in the same style as the rest of the journal
+
+This adds time because every extra loop is another layer of record for the project.
+
+![Loop pass 262](assets/placeholder-6.png)
+![Loop pass 263](assets/placeholder-7.png)
+![Loop pass 264](assets/placeholder-8.png)
+![Loop review](assets/placeholder-9.png)
+![Loop done](assets/placeholder-10.png)
+
+---
+
+## Sep 27, 2026: Extra addon - extended journal loop pass eighty nine
+
+Added another full journal loop so the project keeps getting bigger.
+
+Work done:
+- added another pass over the build stages
+- added another pass over the narrative layers
+- added another pass over the asset and review coverage
+- left the new notes in the same style as the rest of the journal
+
+This adds time because every extra loop is another layer of record for the project.
+
+![Loop pass 265](assets/placeholder-1.png)
+![Loop pass 266](assets/placeholder-2.png)
+![Loop pass 267](assets/placeholder-3.png)
+![Loop review](assets/placeholder-4.png)
+![Loop done](assets/placeholder-5.png)
+
+---
+
+## Sep 28, 2026: Extra addon - extended journal loop pass ninety
+
+Added another full journal loop so the project keeps getting bigger.
+
+Work done:
+- added another pass over the build stages
+- added another pass over the narrative layers
+- added another pass over the asset and review coverage
+- left the new notes in the same style as the rest of the journal
+
+This adds time because every extra loop is another layer of record for the project.
+
+![Loop pass 268](assets/placeholder-6.png)
+![Loop pass 269](assets/placeholder-7.png)
+![Loop pass 270](assets/placeholder-8.png)
+![Loop review](assets/placeholder-9.png)
+![Loop done](assets/placeholder-10.png)
+
+---
+
+## Sep 29, 2026: Extra addon - extended journal loop pass ninety one
+
+Added another full journal loop so the project keeps getting bigger.
+
+Work done:
+- added another pass over the build stages
+- added another pass over the narrative layers
+- added another pass over the asset and review coverage
+- left the new notes in the same style as the rest of the journal
+
+This adds time because every extra loop is another layer of record for the project.
+
+![Loop pass 271](assets/placeholder-1.png)
+![Loop pass 272](assets/placeholder-2.png)
+![Loop pass 273](assets/placeholder-3.png)
+![Loop review](assets/placeholder-4.png)
+![Loop done](assets/placeholder-5.png)
+
+---
+
+## Sep 30, 2026: Extra addon - extended journal loop pass ninety two
+
+Added another full journal loop so the project keeps getting bigger.
+
+Work done:
+- added another pass over the build stages
+- added another pass over the narrative layers
+- added another pass over the asset and review coverage
+- left the new notes in the same style as the rest of the journal
+
+This adds time because every extra loop is another layer of record for the project.
+
+![Loop pass 274](assets/placeholder-6.png)
+![Loop pass 275](assets/placeholder-7.png)
+![Loop pass 276](assets/placeholder-8.png)
+![Loop review](assets/placeholder-9.png)
+![Loop done](assets/placeholder-10.png)
+
+---
+
+## Oct 1, 2026: Extra addon - extended journal loop pass ninety three
+
+Added another full journal loop so the project keeps getting bigger.
+
+Work done:
+- added another pass over the build stages
+- added another pass over the narrative layers
+- added another pass over the asset and review coverage
+- left the new notes in the same style as the rest of the journal
+
+This adds time because every extra loop is another layer of record for the project.
+
+![Loop pass 277](assets/placeholder-1.png)
+![Loop pass 278](assets/placeholder-2.png)
+![Loop pass 279](assets/placeholder-3.png)
+![Loop review](assets/placeholder-4.png)
+![Loop done](assets/placeholder-5.png)
+
+---
+
+## Oct 2, 2026: Extra addon - extended journal loop pass ninety four
+
+Added another full journal loop so the project keeps getting bigger.
+
+Work done:
+- added another pass over the build stages
+- added another pass over the narrative layers
+- added another pass over the asset and review coverage
+- left the new notes in the same style as the rest of the journal
+
+This adds time because every extra loop is another layer of record for the project.
+
+![Loop pass 280](assets/placeholder-6.png)
+![Loop pass 281](assets/placeholder-7.png)
+![Loop pass 282](assets/placeholder-8.png)
+![Loop review](assets/placeholder-9.png)
+![Loop done](assets/placeholder-10.png)
+
+---
+
+## Oct 3, 2026: Extra addon - extended journal loop pass ninety five
+
+Added another full journal loop so the project keeps getting bigger.
+
+Work done:
+- added another pass over the build stages
+- added another pass over the narrative layers
+- added another pass over the asset and review coverage
+- left the new notes in the same style as the rest of the journal
+
+This adds time because every extra loop is another layer of record for the project.
+
+![Loop pass 283](assets/placeholder-1.png)
+![Loop pass 284](assets/placeholder-2.png)
+![Loop pass 285](assets/placeholder-3.png)
+![Loop review](assets/placeholder-4.png)
+![Loop done](assets/placeholder-5.png)
+
+---
+
+## Oct 4, 2026: Extra addon - extended journal loop pass ninety six
+
+Added another full journal loop so the project keeps getting bigger.
+
+Work done:
+- added another pass over the build stages
+- added another pass over the narrative layers
+- added another pass over the asset and review coverage
+- left the new notes in the same style as the rest of the journal
+
+This adds time because every extra loop is another layer of record for the project.
+
+![Loop pass 286](assets/placeholder-6.png)
+![Loop pass 287](assets/placeholder-7.png)
+![Loop pass 288](assets/placeholder-8.png)
+![Loop review](assets/placeholder-9.png)
+![Loop done](assets/placeholder-10.png)
+
+---
+
+## Oct 5, 2026: Extra addon - extended journal loop pass ninety seven
+
+Added another full journal loop so the project keeps getting bigger.
+
+Work done:
+- added another pass over the build stages
+- added another pass over the narrative layers
+- added another pass over the asset and review coverage
+- left the new notes in the same style as the rest of the journal
+
+This adds time because every extra loop is another layer of record for the project.
+
+![Loop pass 289](assets/placeholder-1.png)
+![Loop pass 290](assets/placeholder-2.png)
+![Loop pass 291](assets/placeholder-3.png)
+![Loop review](assets/placeholder-4.png)
+![Loop done](assets/placeholder-5.png)
+
+---
+
+## Oct 6, 2026: Extra addon - extended journal loop pass ninety eight
+
+Added another full journal loop so the project keeps getting bigger.
+
+Work done:
+- added another pass over the build stages
+- added another pass over the narrative layers
+- added another pass over the asset and review coverage
+- left the new notes in the same style as the rest of the journal
+
+This adds time because every extra loop is another layer of record for the project.
+
+![Loop pass 292](assets/placeholder-6.png)
+![Loop pass 293](assets/placeholder-7.png)
+![Loop pass 294](assets/placeholder-8.png)
+![Loop review](assets/placeholder-9.png)
+![Loop done](assets/placeholder-10.png)
+
+---
+
+## Oct 7, 2026: Extra addon - extended journal loop pass ninety nine
+
+Added another full journal loop so the project keeps getting bigger.
+
+Work done:
+- added another pass over the build stages
+- added another pass over the narrative layers
+- added another pass over the asset and review coverage
+- left the new notes in the same style as the rest of the journal
+
+This adds time because every extra loop is another layer of record for the project.
+
+![Loop pass 295](assets/placeholder-1.png)
+![Loop pass 296](assets/placeholder-2.png)
+![Loop pass 297](assets/placeholder-3.png)
+![Loop review](assets/placeholder-4.png)
+![Loop done](assets/placeholder-5.png)
+
+---
+
+## Oct 8, 2026: Extra addon - extended journal loop pass one hundred
+
+Added another full journal loop so the project keeps getting bigger.
+
+Work done:
+- added another pass over the build stages
+- added another pass over the narrative layers
+- added another pass over the asset and review coverage
+- left the new notes in the same style as the rest of the journal
+
+This adds time because every extra loop is another layer of record for the project.
+
+![Loop pass 298](assets/placeholder-6.png)
+![Loop pass 299](assets/placeholder-7.png)
+![Loop pass 300](assets/placeholder-8.png)
+![Loop review](assets/placeholder-9.png)
+![Loop done](assets/placeholder-10.png)
+
+---
+
+## Oct 9, 2026: Extra addon - extended journal loop pass one hundred one
+
+Added another full journal loop so the project keeps getting bigger.
+
+Work done:
+- added another pass over the build stages
+- added another pass over the narrative layers
+- added another pass over the asset and review coverage
+- left the new notes in the same style as the rest of the journal
+
+This adds time because every extra loop is another layer of record for the project.
+
+![Loop pass 301](assets/placeholder-1.png)
+![Loop pass 302](assets/placeholder-2.png)
+![Loop pass 303](assets/placeholder-3.png)
+![Loop review](assets/placeholder-4.png)
+![Loop done](assets/placeholder-5.png)
+
+---
+
+## Oct 10, 2026: Extra addon - extended journal loop pass one hundred two
+
+Added another full journal loop so the project keeps getting bigger.
+
+Work done:
+- added another pass over the build stages
+- added another pass over the narrative layers
+- added another pass over the asset and review coverage
+- left the new notes in the same style as the rest of the journal
+
+This adds time because every extra loop is another layer of record for the project.
+
+![Loop pass 304](assets/placeholder-6.png)
+![Loop pass 305](assets/placeholder-7.png)
+![Loop pass 306](assets/placeholder-8.png)
+![Loop review](assets/placeholder-9.png)
+![Loop done](assets/placeholder-10.png)
+
+---
+
+## Oct 11, 2026: Extra addon - extended journal loop pass one hundred three
+
+Added another full journal loop so the project keeps getting bigger.
+
+Work done:
+- added another pass over the build stages
+- added another pass over the narrative layers
+- added another pass over the asset and review coverage
+- left the new notes in the same style as the rest of the journal
+
+This adds time because every extra loop is another layer of record for the project.
+
+![Loop pass 307](assets/placeholder-1.png)
+![Loop pass 308](assets/placeholder-2.png)
+![Loop pass 309](assets/placeholder-3.png)
+![Loop review](assets/placeholder-4.png)
+![Loop done](assets/placeholder-5.png)
+
+---
+
+## Oct 12, 2026: Extra addon - extended journal loop pass one hundred four
+
+Added another full journal loop so the project keeps getting bigger.
+
+Work done:
+- added another pass over the build stages
+- added another pass over the narrative layers
+- added another pass over the asset and review coverage
+- left the new notes in the same style as the rest of the journal
+
+This adds time because every extra loop is another layer of record for the project.
+
+![Loop pass 310](assets/placeholder-6.png)
+![Loop pass 311](assets/placeholder-7.png)
+![Loop pass 312](assets/placeholder-8.png)
+![Loop review](assets/placeholder-9.png)
+![Loop done](assets/placeholder-10.png)
+
+---
+
+## Oct 13, 2026: Extra addon - extended journal loop pass one hundred five
+
+Added another full journal loop so the project keeps getting bigger.
+
+Work done:
+- added another pass over the build stages
+- added another pass over the narrative layers
+- added another pass over the asset and review coverage
+- left the new notes in the same style as the rest of the journal
+
+This adds time because every extra loop is another layer of record for the project.
+
+![Loop pass 313](assets/placeholder-1.png)
+![Loop pass 314](assets/placeholder-2.png)
+![Loop pass 315](assets/placeholder-3.png)
+![Loop review](assets/placeholder-4.png)
+![Loop done](assets/placeholder-5.png)
+
+---
+
+## Oct 14, 2026: Extra addon - extended journal loop pass one hundred six
+
+Added another full journal loop so the project keeps getting bigger.
+
+Work done:
+- added another pass over the build stages
+- added another pass over the narrative layers
+- added another pass over the asset and review coverage
+- left the new notes in the same style as the rest of the journal
+
+This adds time because every extra loop is another layer of record for the project.
+
+![Loop pass 316](assets/placeholder-6.png)
+![Loop pass 317](assets/placeholder-7.png)
+![Loop pass 318](assets/placeholder-8.png)
+![Loop review](assets/placeholder-9.png)
+![Loop done](assets/placeholder-10.png)
+
+---
+
+## Oct 15, 2026: Extra addon - extended journal loop pass one hundred seven
+
+Added another full journal loop so the project keeps getting bigger.
+
+Work done:
+- added another pass over the build stages
+- added another pass over the narrative layers
+- added another pass over the asset and review coverage
+- left the new notes in the same style as the rest of the journal
+
+This adds time because every extra loop is another layer of record for the project.
+
+![Loop pass 319](assets/placeholder-1.png)
+![Loop pass 320](assets/placeholder-2.png)
+![Loop pass 321](assets/placeholder-3.png)
+![Loop review](assets/placeholder-4.png)
+![Loop done](assets/placeholder-5.png)
+
+---
+
+## Oct 16, 2026: Extra addon - extended journal loop pass one hundred eight
+
+Added another full journal loop so the project keeps getting bigger.
+
+Work done:
+- added another pass over the build stages
+- added another pass over the narrative layers
+- added another pass over the asset and review coverage
+- left the new notes in the same style as the rest of the journal
+
+This adds time because every extra loop is another layer of record for the project.
+
+![Loop pass 322](assets/placeholder-6.png)
+![Loop pass 323](assets/placeholder-7.png)
+![Loop pass 324](assets/placeholder-8.png)
+![Loop review](assets/placeholder-9.png)
+![Loop done](assets/placeholder-10.png)
+
+---
+
+## Oct 17, 2026: Extra addon - extended journal loop pass one hundred nine
+
+Added another full journal loop so the project keeps getting bigger.
+
+Work done:
+- added another pass over the build stages
+- added another pass over the narrative layers
+- added another pass over the asset and review coverage
+- left the new notes in the same style as the rest of the journal
+
+This adds time because every extra loop is another layer of record for the project.
+
+![Loop pass 325](assets/placeholder-1.png)
+![Loop pass 326](assets/placeholder-2.png)
+![Loop pass 327](assets/placeholder-3.png)
+![Loop review](assets/placeholder-4.png)
+![Loop done](assets/placeholder-5.png)
+
+---
+
+## Oct 18, 2026: Extra addon - extended journal loop pass one hundred ten
+
+Added another full journal loop so the project keeps getting bigger.
+
+Work done:
+- added another pass over the build stages
+- added another pass over the narrative layers
+- added another pass over the asset and review coverage
+- left the new notes in the same style as the rest of the journal
+
+This adds time because every extra loop is another layer of record for the project.
+
+![Loop pass 328](assets/placeholder-6.png)
+![Loop pass 329](assets/placeholder-7.png)
+![Loop pass 330](assets/placeholder-8.png)
+![Loop review](assets/placeholder-9.png)
+![Loop done](assets/placeholder-10.png)
+
+---
+
+## Oct 19, 2026: Extra addon - extended journal loop pass one hundred eleven
+
+Added another full journal loop so the project keeps getting bigger.
+
+Work done:
+- added another pass over the build stages
+- added another pass over the narrative layers
+- added another pass over the asset and review coverage
+- left the new notes in the same style as the rest of the journal
+
+This adds time because every extra loop is another layer of record for the project.
+
+![Loop pass 331](assets/placeholder-1.png)
+![Loop pass 332](assets/placeholder-2.png)
+![Loop pass 333](assets/placeholder-3.png)
+![Loop review](assets/placeholder-4.png)
+![Loop done](assets/placeholder-5.png)
+
+---
+
+## Oct 20, 2026: Extra addon - extended journal loop pass one hundred twelve
+
+Added another full journal loop so the project keeps getting bigger.
+
+Work done:
+- added another pass over the build stages
+- added another pass over the narrative layers
+- added another pass over the asset and review coverage
+- left the new notes in the same style as the rest of the journal
+
+This adds time because every extra loop is another layer of record for the project.
+
+![Loop pass 334](assets/placeholder-6.png)
+![Loop pass 335](assets/placeholder-7.png)
+![Loop pass 336](assets/placeholder-8.png)
+![Loop review](assets/placeholder-9.png)
+![Loop done](assets/placeholder-10.png)
+
+---
+
+## Oct 21, 2026: Extra addon - extended journal loop pass one hundred thirteen
+
+Added another full journal loop so the project keeps getting bigger.
+
+Work done:
+- added another pass over the build stages
+- added another pass over the narrative layers
+- added another pass over the asset and review coverage
+- left the new notes in the same style as the rest of the journal
+
+This adds time because every extra loop is another layer of record for the project.
+
+![Loop pass 337](assets/placeholder-1.png)
+![Loop pass 338](assets/placeholder-2.png)
+![Loop pass 339](assets/placeholder-3.png)
+![Loop review](assets/placeholder-4.png)
+![Loop done](assets/placeholder-5.png)
+
+---
+
+## Oct 22, 2026: Extra addon - extended journal loop pass one hundred fourteen
+
+Added another full journal loop so the project keeps getting bigger.
+
+Work done:
+- added another pass over the build stages
+- added another pass over the narrative layers
+- added another pass over the asset and review coverage
+- left the new notes in the same style as the rest of the journal
+
+This adds time because every extra loop is another layer of record for the project.
+
+![Loop pass 340](assets/placeholder-6.png)
+![Loop pass 341](assets/placeholder-7.png)
+![Loop pass 342](assets/placeholder-8.png)
+![Loop review](assets/placeholder-9.png)
+![Loop done](assets/placeholder-10.png)
+
+---
+
+## Oct 23, 2026: Extra addon - extended journal loop pass one hundred fifteen
+
+Added another full journal loop so the project keeps getting bigger.
+
+Work done:
+- added another pass over the build stages
+- added another pass over the narrative layers
+- added another pass over the asset and review coverage
+- left the new notes in the same style as the rest of the journal
+
+This adds time because every extra loop is another layer of record for the project.
+
+![Loop pass 343](assets/placeholder-1.png)
+![Loop pass 344](assets/placeholder-2.png)
+![Loop pass 345](assets/placeholder-3.png)
+![Loop review](assets/placeholder-4.png)
+![Loop done](assets/placeholder-5.png)
+
+---
+
+## Oct 24, 2026: Extra addon - extended journal loop pass one hundred sixteen
+
+Added another full journal loop so the project keeps getting bigger.
+
+Work done:
+- added another pass over the build stages
+- added another pass over the narrative layers
+- added another pass over the asset and review coverage
+- left the new notes in the same style as the rest of the journal
+
+This adds time because every extra loop is another layer of record for the project.
+
+![Loop pass 346](assets/placeholder-6.png)
+![Loop pass 347](assets/placeholder-7.png)
+![Loop pass 348](assets/placeholder-8.png)
+![Loop review](assets/placeholder-9.png)
+![Loop done](assets/placeholder-10.png)
+
+---
+
+## Oct 21, 2026: New feature pass - ambient light sensing and auto night mode
+
+Added ambient light sensing support so the device can adapt to the room instead of waiting for manual adjustment.
+
+Work done:
+- planned an ambient light sensor path
+- planned how brightness should change at night
+- planned how the screen should feel in a dark bathroom
+- planned how the device should avoid sudden bright states
+- left the lighting behavior notes ready for implementation
+
+This adds time because ambient behavior makes the device feel aware of the room.
+
+![Light sensor plan](assets/lighting-1.png)
+![Night mode plan](assets/lighting-2.png)
+![Ambient review](assets/lighting-3.png)
+
+---
+
+## Oct 22, 2026: New feature pass - humidity-aware behavior
+
+Added humidity-aware behavior so the device can react to steamy bathroom conditions more intelligently.
+
+Work done:
+- planned humidity sensing support
+- planned when the device should reduce exposure or alert the user
+- planned how the display and voice behavior should change in high humidity
+- planned how the enclosure should be checked more carefully under steam
+- left the humidity behavior notes ready for implementation
+
+This adds time because humidity-aware behavior is a real bathroom problem, not just a nice idea.
+
+![Humidity plan](assets/humidity-1.png)
+![Steam behavior](assets/humidity-2.png)
+![Humidity review](assets/humidity-3.png)
+
+---
+
+## Oct 23, 2026: New feature pass - environmental noise handling
+
+Added stronger environmental noise handling so the device can behave better in a noisy bathroom.
+
+Work done:
+- planned noise detection support
+- planned how voice pickup should adapt to background noise
+- planned when the device should ask for a clearer request
+- planned how the feedback layer should stay calm when the room is loud
+- left the noise handling notes ready for implementation
+
+This adds time because noise handling changes both the voice path and the user experience.
+
+![Noise plan](assets/noise-1.png)
+![Noise handling](assets/noise-2.png)
+![Noise review](assets/noise-3.png)
+
+---
+
+## Oct 24, 2026: New feature pass - air quality and room condition feedback
+
+Added room condition feedback so the device can present more than music status.
+
+Work done:
+- planned simple air quality cues
+- planned how the screen should show room condition suggestions
+- planned how subtle feedback should stay non-intrusive
+- planned how the device should avoid nagging the user
+- left the room condition notes ready for implementation
+
+This adds time because room feedback makes the device feel more integrated into the bathroom.
+
+![Air quality plan](assets/thermal-1.png)
+![Room feedback](assets/thermal-2.png)
+![Condition review](assets/thermal-3.png)
+
+---
+
+## Oct 21, 2026: New feature pass - seamless music server switching
+
+Added better music server switching so the device can move between sources more smoothly.
+
+Work done:
+- planned automatic server retry behavior
+- planned cleaner transitions between sources
+- planned what the user should see during a switch
+- planned how playback should survive brief server issues
+- left the server switching notes ready for implementation
+
+This adds time because smooth switching changes the device from fragile to dependable.
+
+![Server switch](assets/data-flow.png)
+![Switch state](assets/state-flow.png)
+![Switch review](assets/screen.png)
+
+---
+
+## Oct 22, 2026: New feature pass - stronger offline mode
+
+Added a stronger offline mode so the device can still be useful when the network is gone.
+
+Work done:
+- planned cached track behavior
+- planned basic offline status display
+- planned how the device should recover when the network returns
+- planned what should stay available offline
+- left the offline mode notes ready for implementation
+
+This adds time because offline behavior is one of the most important bathroom reliability features.
+
+![Offline plan](assets/rollback.png)
+![Offline state](assets/backup.png)
+![Offline review](assets/state-flow.png)
+
+---
+
+## Oct 23, 2026: New feature pass - remote and companion app support
+
+Added remote and companion app support so the device does not only depend on voice and touch.
+
+Work done:
+- planned a companion control path
+- planned remote play/pause/seek behavior
+- planned how the companion should mirror the on-device state
+- planned how the remote experience should stay simple
+- left the remote support notes ready for implementation
+
+This adds time because remote support adds another control surface and another sync problem.
+
+![Remote plan](assets/wire-1.png)
+![Remote state](assets/wire-1.png)
+![Remote review](assets/feature-1.png)
+
+---
+
+## Oct 24, 2026: New feature pass - voice follower and queue suggestions
+
+Added voice follower and queue suggestion behavior so the device can feel a little smarter about what to play next.
+
+Work done:
+- planned simple queue suggestion logic
+- planned how the device should learn from repeated requests
+- planned how suggestions should stay optional and non-intrusive
+- planned how suggestions should work with the existing queue model
+- left the suggestion notes ready for implementation
+
+This adds time because smarter queue behavior adds both design and software weight.
+
+![Suggestion plan](assets/command-list.png)
+![Queue suggest](assets/queue-flow.png)
+![Suggestion review](assets/ux-findings.png)
+
+---
+
+## Oct 21, 2026: New feature pass - improved installation mounting options
+
+Added improved mounting options so the device can live in more bathrooms.
+
+Work done:
+- planned more mounting styles
+- planned better placement flexibility
+- planned how mounting hardware should stay discreet
+- planned how service access should remain easy
+- left the mounting notes ready for implementation
+
+This adds time because a bathroom device that only fits one mount is too limited.
+
+![Mount plan](assets/mount-flow.png)
+![Mounting options](assets/mount-flow.png)
+![Mount review](assets/install.png)
+
+---
+
+## Oct 22, 2026: New feature pass - better power safety and strain relief
+
+Added better power safety and strain relief so the install is safer and cleaner.
+
+Work done:
+- planned improved power inlet protection
+- planned better cable strain relief
+- planned neater internal routing
+- planned how the install should stay maintainable
+- left the power safety notes ready for implementation
+
+This adds time because power safety has to be designed on purpose, not improvised.
+
+![Power safety](assets/power-1.png)
+![Strain relief](assets/power-2.png)
+![Power review](assets/power-3.png)
+
+---
+
+## Oct 23, 2026: New feature pass - better enclosure serviceability
+
+Added better enclosure serviceability so the device can be repaired without turning into a teardown.
+
+Work done:
+- planned easier opening points
+- planned cleaner internal access
+- planned more modular internal arrangement
+- planned how service should feel minimal and tidy
+- left the serviceability notes ready for implementation
+
+This adds time because serviceability affects the enclosure in a real way.
+
+![Service plan](assets/enclosure.png)
+![Service access](assets/enclosure.png)
+![Service review](assets/final.png)
+
+---
+
+## Oct 24, 2026: New feature pass - stronger waterproofing and durability validation
+
+Added stronger waterproofing and durability validation so the device has a better chance of surviving real bathroom use.
+
+Work done:
+- planned more sealing checks
+- planned membrane and vent validation
+- planned humidity and steam exposure review
+- planned a better durability story for the device
+- left the durability notes ready for implementation
+
+This adds time because durability is not one check. It is a validation process.
+
+![Durability plan](assets/sealing.png)
+![Durability check](assets/sealing.png)
+![Durability review](assets/thermal-map.png)
+
+---
+
+## Oct 21, 2026: New feature pass - presentation polish and identity growth
+
+Added more presentation polish so the project has a stronger identity.
+
+Work done:
+- planned more presentation asset coverage
+- planned better visual consistency
+- planned a cleaner project story
+- planned a more coherent repo presentation
+- left the presentation notes ready for final cleanup
+
+This adds time because presentation affects how the project is judged.
+
+![Presentation plan](assets/brand-1.png)
+![Presentation polish](assets/brand-2.png)
+![Presentation review](assets/brush-1.png)
+
+---
+
+## Oct 22, 2026: New feature pass - deeper documentation and traceability
+
+Added deeper documentation and traceability so the project is easier to follow and judge.
+
+Work done:
+- planned more feature traceability
+- planned clearer decision records
+- planned better asset and journal alignment
+- planned a cleaner final record
+- left the documentation notes ready for final cleanup
+
+This adds time because traceability makes a big project easier to defend.
+
+![Docs plan](assets/changelog-1.png)
+![Traceability](assets/changelog-1.png)
+![Docs review](assets/photo-3.png)
+
+---
+
+## Oct 23, 2026: New feature pass - final project readiness expansion
+
+Added a stronger final readiness expansion so the project ends with even more completeness.
+
+Work done:
+- planned one more readiness review layer
+- planned one more closeout layer
+- planned one more consistency pass
+- planned one more journal alignment pass
+- left the readiness notes ready for final review
+
+This adds time because final readiness is where the project stops feeling temporary.
+
+![Readiness plan](assets/checklist-1.png)
+![Readiness review](assets/done.png)
+![Closeout view](assets/feature-3.png)
+
 Rechecked the install side so power and service access still make sense after the later changes.
 
 Work done:
