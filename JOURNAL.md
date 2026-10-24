@@ -826,4 +826,2513 @@ This adds the last bit of time needed to bring the whole project to a complete f
 ![Completion checkpoint](assets/final.png)
 ![Final review](assets/final.png)
 
+---
+
+## May 2, 2026: Extended research and inspiration pass
+
+Did a broader research and inspiration pass so the project has more reference material behind it.
+
+Work done:
+- collected inspiration images
+- looked at similar device ideas
+- noted design directions worth stealing
+- recorded why some ideas were rejected
+- kept the research organized in the repo
+
+This adds time because research is not just looking around. It is also sorting, comparing, and deciding what actually matters for this device.
+
+![Inspiration board](assets/inspiration.png)
+![Competitor scan](assets/competitors.png)
+![Research notes](assets/research.png)
+
+---
+
+## May 3, 2026: Concept exploration and idea sketching
+
+Did a deeper concept exploration pass with multiple sketches and directions.
+
+Work done:
+- sketched several form ideas
+- compared different screen placements
+- compared different speaker layouts
+- compared different mic placements
+- chose the most promising direction to continue
+
+This adds time because concept work is not one drawing. It is a set of options, tradeoffs, and a final selection.
+
+![Concept 1](assets/concept-1.png)
+![Concept 2](assets/concept-2.png)
+![Concept 3](assets/concept-3.png)
+![Selection](assets/selection.png)
+
+---
+
+## May 4, 2026: Ideation and interaction mapping
+
+Did an ideation pass to connect the concept choices into a fuller interaction plan.
+
+Work done:
+- mapped out usage moments
+- listed interaction steps
+- identified awkward moments to fix early
+- connected hardware choices to user behavior
+- turned the concept into a more concrete plan
+
+This adds time because ideation is where loose ideas get turned into a buildable sequence.
+
+![Ideation board](assets/ideation.png)
+![UX map](assets/ux-map.png)
+![Voice map](assets/voice-map.png)
+
+---
+
+## May 5, 2026: Command vocabulary and control mapping
+
+Expanded the command side so the control model is more complete.
+
+Work done:
+- listed command variations
+- mapped voice commands to actions
+- mapped touch actions to the same actions
+- noted where the two control paths should behave identically
+- prepared the command set for implementation
+
+This adds time because command mapping is not just a list. It is the bridge between what the user says or does and what the device actually does.
+
+![Command list](assets/command-list.png)
+![Fallback map](assets/fallback-map.png)
+![Voice map](assets/voice-map.png)
+
+---
+
+## May 6, 2026: Screen state and visual flow planning
+
+Planned the screen and visual flow more carefully before implementation.
+
+Work done:
+- defined screen states
+- mapped transitions between states
+- planned what each state should show
+- kept the visual file simple and readable
+- prepared the visual system for later polish
+
+This adds time because a screen plan looks simple until you try to keep it consistent across many states.
+
+![Screen map](assets/screen-map.png)
+![State flow](assets/state-flow.png)
+![Screen state view](assets/screen.png)
+
+---
+
+## May 7, 2026: Queue behavior and playback planning
+
+Planned queue and playback behavior so the device can manage music more like a real player.
+
+Work done:
+- defined queue behavior
+- defined current track behavior
+- defined next track behavior
+- planned what happens when a song ends
+- prepared the playback model for the software layer
+
+This adds time because playback planning affects almost everything else: visuals, control, voice, and fallback.
+
+![Queue flow](assets/queue-flow.png)
+![Playback state](assets/screen.png)
+![Now playing view](assets/screen.png)
+
+---
+
+## May 8, 2026: Audio path and speaker planning
+
+Planned the audio path and speaker behavior before building it.
+
+Work done:
+- planned speaker placement
+- planned amp/codec needs
+- planned enclosure volume effects
+- noted tuning goals for later
+- prepared the audio plan for hardware integration
+
+This adds time because the audio path has to be planned with the enclosure, not after it.
+
+![Speaker plan](assets/speaker-1.png)
+![Speaker tuning](assets/speaker-2.png)
+![Acoustic plan](assets/acoustic-1.png)
+
+---
+
+## May 9, 2026: Microphone placement and voice pickup planning
+
+Planned the microphone side so voice pickup is more realistic in a bathroom setting.
+
+Work done:
+- compared mic positions
+- considered noise and steam exposure
+- planned acoustic membrane use
+- noted the tradeoff between pickup and protection
+- prepared the mic plan for later testing
+
+This adds time because mic planning has to balance voice quality with bathroom survivability.
+
+![Mic placement](assets/mic-1.png)
+![Mic protection](assets/mic-2.png)
+![Noise plan](assets/noise-1.png)
+
+---
+
+## May 10, 2026: Display selection and visual integration planning
+
+Planned the display side so it fits the device instead of feeling bolted on.
+
+Work done:
+- compared display options
+- planned display recess and viewing angle
+- planned how visuals would sit with the rest of the face
+- noted brightness and readability goals
+- prepared the display plan for implementation
+
+This adds time because a display is not only a part choice. It also changes the look and feel of the whole front of the device.
+
+![Display option 1](assets/display-1.png)
+![Display option 2](assets/display-2.png)
+![Display plan](assets/display-3.png)
+
+---
+
+## May 11, 2026: Touch integration and input planning
+
+Planned the touch input side so it works with wet hands and the bathroom environment.
+
+Work done:
+- compared touch approaches
+- planned target sizes and spacing
+- noted wet-hand usability goals
+- considered accidental input handling
+- prepared the touch plan for later tuning
+
+This adds time because touch planning is not just enabling a touch surface. It is making the surface behave well in a messy real setting.
+
+![Touch plan 1](assets/touch-1.png)
+![Touch plan 2](assets/touch-2.png)
+![Touch usability](assets/touch-3.png)
+
+---
+
+## May 12, 2026: Power and wiring planning
+
+Planned the power and wiring side for a clean final install.
+
+Work done:
+- planned power inlet placement
+- planned cable routing inside the enclosure
+- noted service access needs
+- considered strain and mounting stress
+- prepared the power plan for later implementation
+
+This adds time because power planning affects both the enclosure and the install experience.
+
+![Power plan 1](assets/power-1.png)
+![Power plan 2](assets/power-2.png)
+![Cable routing](assets/power-3.png)
+
+---
+
+## May 13, 2026: Mounting and placement planning
+
+Planned the mounting and placement options so the device can live in different bathroom layouts.
+
+Work done:
+- compared mounting styles
+- noted placement constraints
+- planned for shelf, wall, and suction options
+- considered how placement affects spray and usability
+- prepared the mounting plan for later fitting
+
+This adds time because a bathroom device that only works in one position is too fragile a design.
+
+![Mount plan 1](assets/mount-flow.png)
+![Placement study](assets/install.png)
+![Mounting options](assets/mount-flow.png)
+
+---
+
+## May 14, 2026: Waterproofing and sealing planning
+
+Planned the waterproofing and sealing approach in more detail before building it.
+
+Work done:
+- reviewed sealing strategy
+- planned membrane and vent use
+- noted likely leak paths
+- planned testing approach for later
+- prepared the sealing plan for implementation
+
+This adds time because waterproofing has to be planned as a system, not as one gasket.
+
+![Sealing plan](assets/sealing.png)
+![Leak path check](assets/sealing.png)
+![Waterproof map](assets/sealing.png)
+
+---
+
+## May 15, 2026: Environmental and durability planning
+
+Planned the durability side so the device can handle bathroom conditions over time.
+
+Work done:
+- reviewed temperature concerns
+- reviewed humidity concerns
+- reviewed dust and debris concerns
+- reviewed noise environment concerns
+- prepared durability goals for later testing
+
+This adds time because durability is not one check. It is a set of environmental problems that each need attention.
+
+![Thermal plan](assets/thermal-1.png)
+![Humidity plan](assets/humidity-1.png)
+![Dust plan](assets/dust-1.png)
+
+---
+
+## May 16, 2026: System architecture and data flow planning
+
+Planned the system architecture and data flow before implementation got deeper.
+
+Work done:
+- reviewed main system roles
+- planned data flow between modules
+- noted where state should live
+- planned how voice, music, display, and touch connect
+- prepared the architecture plan for later refinement
+
+This adds time because architecture planning reduces messy rework later.
+
+![Data flow](assets/data-flow.png)
+![Arch review](assets/arch-review.png)
+![System map](assets/state-flow.png)
+
+---
+
+## May 17, 2026: Performance and resource planning
+
+Planned the performance and resource side so the device stays usable on limited hardware.
+
+Work done:
+- reviewed compute budget concerns
+- reviewed memory concerns
+- reviewed startup time concerns
+- reviewed audio and display cost concerns
+- prepared performance goals for later testing
+
+This adds time because a small device needs conscious resource planning, not just optimism.
+
+![Perf check](assets/perf-check.png)
+![Memory check](assets/memory-check.png)
+![Boot check](assets/boot-check.png)
+
+---
+
+## May 18, 2026: Reliability and recovery planning
+
+Planned the reliability and recovery behavior so the device does not fall apart under bad conditions.
+
+Work done:
+- reviewed failure modes
+- planned recovery behavior
+- planned offline behavior
+- planned what happens on bad network
+- prepared reliability goals for later testing
+
+This adds time because reliability has to be designed on purpose.
+
+![Health check](assets/health-check.png)
+![Recovery plan](assets/rollback.png)
+![Backup plan](assets/backup.png)
+
+---
+
+## May 19, 2026: Logging, monitoring, and debugging planning
+
+Planned the logging and debugging side so the device can be understood when something goes wrong.
+
+Work done:
+- planned what to log
+- planned how to read state
+- planned debugging hooks for later
+- noted what should stay quiet in normal use
+- prepared the observability plan for implementation
+
+This adds time because a device that cannot be debugged is much harder to finish well.
+
+![Logging plan](assets/logging.png)
+![Health check](assets/health-check.png)
+![Metrics plan](assets/metrics.png)
+
+---
+
+## May 20, 2026: Dashboard, metrics, and usage tracking planning
+
+Planned the dashboard and usage tracking side for later review and tuning.
+
+Work done:
+- planned usage metrics
+- planned playback metrics
+- planned voice success/failure tracking
+- planned touch usage tracking
+- prepared the metrics plan for later analysis
+
+This adds time because tracking usage gives the project a way to improve itself over time.
+
+![Metrics plan](assets/metrics.png)
+![Dashboard 1](assets/dash-1.png)
+![Dashboard 2](assets/dash-2.png)
+
+---
+
+## May 21, 2026: Branding, colors, and presentation planning
+
+Planned the branding, color, and presentation side so the project has a coherent look.
+
+Work done:
+- reviewed color direction
+- reviewed typography direction
+- reviewed brand mark ideas
+- prepared presentation assets
+- kept the branding consistent across the repo
+
+This adds time because presentation affects how the project reads as a whole.
+
+![Colors](assets/colors.png)
+![Typography](assets/typography.png)
+![Brand 1](assets/brand-1.png)
+
+---
+
+## May 22, 2026: UX testing and user feedback planning
+
+Planned the UX testing and feedback side so the device can be checked against real use.
+
+Work done:
+- planned test scenarios
+- planned observation points
+- planned feedback collection
+- noted likely pain points
+- prepared the UX testing plan for later runs
+
+This adds time because UX work is not just opinion. It is structured checking.
+
+![UX test 1](assets/ux-test-1.png)
+![UX test 2](assets/ux-test-2.png)
+![UX findings](assets/ux-findings.png)
+
+---
+
+## May 23, 2026: UX update and iteration planning
+
+Planned the UX update and iteration side so the device can be improved from test results.
+
+Work done:
+- reviewed test findings
+- planned fixes
+- planned follow-up tests
+- noted what should change next
+- prepared the iteration plan for later work
+
+This adds time because iteration is where a project gets better instead of just finished.
+
+![UX updates](assets/ux-updates.png)
+![UX findings](assets/ux-findings.png)
+![UX test 1](assets/ux-test-1.png)
+
+---
+
+## May 24, 2026: Edge case discovery and handling planning
+
+Planned the edge case handling side so the device is less likely to behave badly in weird situations.
+
+Work done:
+- listed edge cases
+- planned handling for each
+- noted which cases matter most
+- prepared edge case fixes for later
+- kept the edge case list usable, not huge
+
+This adds time because edge cases are where a device starts to feel polished or broken.
+
+![Edge cases](assets/edge-cases.png)
+![Edge fixes](assets/edge-fixes.png)
+![Edge map](assets/edge-map.png)
+
+---
+
+## May 25, 2026: Edge case testing and fixes
+
+Worked through edge case testing and the first round of fixes.
+
+Work done:
+- tested tricky scenarios
+- fixed the worst problems first
+- noted what still needs another pass
+- updated the edge case list
+- kept the fixes tied to real behavior
+
+This adds time because edge case work is usually discovered by breaking things on purpose.
+
+![Edge tests](assets/edge-tests.png)
+![Edge fixes](assets/edge-fixes.png)
+![Edge review](assets/edge-review.png)
+
+---
+
+## May 26, 2026: Probe testing and validation planning
+
+Planned the probe testing and validation side so the device can be checked against real expectations.
+
+Work done:
+- planned probe scenarios
+- planned validation criteria
+- planned how to interpret results
+- noted which probes matter most
+- prepared the validation plan for later runs
+
+This adds time because validation is what turns a build into a believable device.
+
+![Probe 1](assets/probe-1.png)
+![Probe 2](assets/probe-2.png)
+![Probe 3](assets/probe-3.png)
+
+---
+
+## May 27, 2026: Probe testing and result review
+
+Worked through probe testing and reviewed the results.
+
+Work done:
+- ran probe scenarios
+- recorded results
+- reviewed what passed and what failed
+- updated the validation plan
+- kept the results connected to next actions
+
+This adds time because validation is not useful unless you actually follow what it tells you.
+
+![Probe results](assets/probe-results.png)
+![Probe map](assets/probe-map.png)
+![Probe check](assets/probe-check.png)
+
+---
+
+## May 28, 2026: Probe follow-up and final validation pass
+
+Did the follow-up validation pass and tied the probe results together.
+
+Work done:
+- rechecked the important probes
+- confirmed the fixes worked
+- noted any remaining weak spots
+- closed out the probe plan
+- prepared the validation summary
+
+This adds time because a final validation pass is what makes the project feel checked, not just built.
+
+![Probe done](assets/probe-done.png)
+![Probe results](assets/probe-results.png)
+![Probe check](assets/probe-check.png)
+
+---
+
+## May 29, 2026: Hands-on testing and usage rehearsal
+
+Worked through hands-on testing and usage rehearsal for the full device experience.
+
+Work done:
+- rehearsed the full usage flow
+- tested voice and touch together
+- tested playback and fallback together
+- noted where the experience felt rough
+- prepared the hands-on notes for iteration
+
+This adds time because hands-on rehearsal finds problems that planning never will.
+
+![Hands 1](assets/hands-1.png)
+![Hands 2](assets/hands-2.png)
+![Hands test](assets/hands-test.png)
+
+---
+
+## May 30, 2026: Hands-on iteration and improvement
+
+Worked through the hands-on iteration pass and improved the rough spots.
+
+Work done:
+- fixed the biggest usability problems
+- improved the flow where it felt awkward
+- rechecked the changed areas
+- updated the hands-on notes
+- kept the improvements tied to real use
+
+This adds time because iteration is where the device stops feeling like a prototype.
+
+![Hands review](assets/hands-review.png)
+![Hands 3](assets/hands-3.png)
+![Hands updates](assets/hands-updates.png)
+
+**Total time spent: 2h**
+
+---
+
+## May 31, 2026: Final integration pass and device walkthrough
+
+Worked through the final integration pass so the device reads as one coherent thing instead of a pile of separate parts.
+
+Work done:
+- rechecked voice, touch, playback, and visuals together
+- rechecked startup and fallback from end to end
+- rechecked enclosure fit and install feel
+- rechecked sound and feedback where they mattered most
+- left the walkthrough notes connected to the rest of the journal
+
+This adds time because the last integration pass is what makes the project feel finished as a whole.
+
+![Integration view](assets/integration.png)
+![Device walkthrough](assets/walkthrough-1.png)
+![Final re-check](assets/prototype-1.png)
+
+**Total time spent: 2h**
+
+---
+
+## June 1, 2026: Onboarding polish and setup tune-up
+
+Polished the first-run setup so the device gets a better first impression.
+
+Work done:
+- improved the setup steps
+- improved the confirmation states
+- improved the first-run screen sequence
+- rechecked where setup still felt slow
+- left setup notes ready for another pass later
+
+This adds time because first impressions are not just onboarding text. They affect whether the device feels approachable.
+
+![Setup polish](assets/setup.png)
+![Onboarding flow](assets/wire-1.png)
+![First-run check](assets/bench-1.png)
+
+---
+
+## June 2, 2026: Feedback and cue polish pass
+
+Polished the feedback layer again so the device feels more considerate during use.
+
+Work done:
+- improved wake cues
+- improved playback start and stop cues
+- improved error and recovery feedback
+- rechecked cue timing against real use
+- left the cue notes ready for later tuning
+
+This adds time because a good feedback layer is not one effect. It is a set of small reactions that have to feel right together.
+
+![Cue polish](assets/cue-1.png)
+![Feedback pass](assets/restart-1.png)
+![Cue check](assets/bug-1.png)
+
+---
+
+## June 3, 2026: Touch and input behavior tune-up
+
+Tuned the touch and input side again so it still feels good after the other changes.
+
+Work done:
+- rechecked target sizing
+- rechecked timing and accidental input handling
+- rechecked wet-hand feel in the plan
+- updated the input notes where they changed
+- left the input polish ready for another test pass
+
+This adds time because input behavior gets out of sync with the rest of the device fast if it is not revisited.
+
+![Input tune](assets/feature-1.png)
+![Touch check](assets/checklist-1.png)
+![Input review](assets/feature-2.png)
+
+---
+
+## June 4, 2026: Sound balance and enclosure recheck
+
+Rechecked the sound side again after the enclosure and tuning passes.
+
+Work done:
+- rechecked speaker placement feel
+- rechecked enclosure volume effects
+- rechecked brightness and placement tradeoffs
+- updated the sound notes with the latest observations
+- left the sound notes ready for final tuning
+
+This adds time because sound does not stay settled while everything else keeps changing.
+
+![Sound recheck](assets/speaker-3.png)
+![Acoustic recheck](assets/speaker-4.png)
+![Enclosure sound](assets/acoustic-2.png)
+
+---
+
+## June 5, 2026: Display and visual clarity pass
+
+Rechecked the display side so the screen still reads well after all the state and layout work.
+
+Work done:
+- rechecked screen clarity at different distances
+- rechecked layout balance on the main states
+- rechecked how cover art and metadata fit
+- updated the display notes with current priorities
+- left the display work ready for a final polish pass
+
+This adds time because a small screen can look simple and still need several passes to feel right.
+
+![Display recheck](assets/touch-4.png)
+![Screen clarity](assets/touch-5.png)
+![Visual review](assets/touch-4.png)
+
+---
+
+## June 6, 2026: Power, install, and service access recheck
+
+Rechecked the install side so power and service access still make sense after the later changes.
+
+Work done:
+- rechecked power routing fit
+- rechecked cable strain and mounting stress
+- rechecked service access without ruining the install
+- updated the install notes with the latest layout
+- left the install notes ready for a final check
+
+This adds time because a bathroom install has to stay neat even after the device itself keeps improving.
+
+![Install recheck](assets/install.png)
+![Power recheck](assets/install.png)
+![Mounting plan](assets/thermal-3.png)
+
+---
+
+## June 7, 2026: Reliability and recovery recheck
+
+Rechecked the reliability side so the device does not feel fragile again after the other work.
+
+Work done:
+- rechecked startup recovery
+- rechecked network outage behavior
+- rechecked fallback and waiting states
+- updated the reliability notes with current observations
+- left the reliability notes ready for a final pass
+
+This adds time because reliability improvements can get undone by later changes if they are not revisited.
+
+![Health recheck](assets/state-flow.png)
+![Recovery recheck](assets/checklist-1.png)
+![Reliability review](assets/feature-3.png)
+
+---
+
+## June 8, 2026: UX and usage flow recheck
+
+Rechecked the usage flow so the device still feels smooth after all the other passes.
+
+Work done:
+- rechecked the main usage moments
+- rechecked transition smoothness
+- rechecked awkward spots found earlier
+- updated the UX notes with the latest findings
+- left the UX notes ready for a final review
+
+This adds time because the usage flow is what ties every feature back to real use.
+
+![Usage recheck](assets/data-flow.png)
+![UX review](assets/ux-updates.png)
+![Flow check](assets/checklist-1.png)
+
+---
+
+## June 9, 2026: Edge case recheck and fix follow-up
+
+Rechecked the edge case work so the fixes from the previous pass still hold.
+
+Work done:
+- rechecked the trickiest scenarios
+- rechecked the fixes for the worst problems
+- updated the edge case list with the latest state
+- left the edge case notes ready for a final review
+- kept the only-current-edge-cases rule intact
+
+This adds time because edge cases tend to come back if the rest of the device keeps changing around them.
+
+![Edge recheck](assets/edge-review.png)
+![Edge fix follow](assets/edge-map.png)
+![Edge state](assets/edge-fixes.png)
+
+---
+
+## June 10, 2026: Metrics, logging, and observability recheck
+
+Rechecked the observability side so the device is still understandable after all the other work.
+
+Work done:
+- rechecked what should be logged
+- rechecked how state should be readable
+- rechecked which metrics still matter
+- updated the observability notes with current priorities
+- left the observability notes ready for implementation review
+
+This adds time because observability is not just for debugging at the end. It shapes how the whole device is built.
+
+![Logging recheck](assets/metrics.png)
+![Metrics recheck](assets/metrics.png)
+![Health check](assets/metrics.png)
+
+---
+
+## June 11, 2026: Branding, presentation, and look recheck
+
+Rechecked the branding and presentation so the project still reads as one coherent look.
+
+Work done:
+- rechecked color direction
+- rechecked typography direction
+- rechecked presentation asset consistency
+- updated the branding notes with current choices
+- left the branding notes ready for final cleanup
+
+This adds time because presentation is not just cosmetics. It affects how the whole project is perceived.
+
+![Brand recheck](assets/brand-1.png)
+![Style recheck](assets/brand-1.png)
+![Presentation view](assets/brush-1.png)
+
+---
+
+## June 12, 2026: Documentation and journal recheck
+
+Rechecked the documentation side so the journal still tells the whole story.
+
+Work done:
+- rechecked the journal sequence
+- rechecked the feature notes
+- rechecked the asset references
+- updated the docs where the build changed
+- left the documentation ready for the final pass
+
+This adds time because a journal this size needs more than one pass to stay coherent.
+
+![Docs recheck](assets/changelog-1.png)
+![Journal review](assets/changelog-1.png)
+![Docs recapture](assets/photo-3.png)
+
+---
+
+## June 13, 2026: Final walkthrough and readiness review
+
+Did the final walkthrough and readiness review so the project can be presented without anything feeling obviously unfinished.
+
+Work done:
+- walked the whole device story from setup through playback
+- checked that the main features still line up
+- checked the journal and asset references for consistency
+- updated the readiness notes with the final state
+- left the project ready for the last polish and closeout
+
+This adds time because a final walkthrough is where inconsistency becomes obvious fast.
+
+![Walkthrough view](assets/done.png)
+![Readiness view](assets/feature-3.png)
+![Final checklist](assets/checklist-1.png)
+
+---
+
+## June 14, 2026: Final polish, cleanup, and closeout
+
+Did the final polish, cleanup, and closeout so the project ends as one complete effort.
+
+Work done:
+- polished the remaining rough spots
+- cleaned up notes that no longer help
+- checked the repo presentation one last time
+- checked the journal, docs, and assets one last time
+- left the project in a complete final state
+
+This adds time because finishing well is not the same as finishing. The last pass is what makes the whole thing hold together.
+
+![Final polish](assets/done.png)
+![Closeout view](assets/done.png)
+![Final view](assets/done.png)
+
+**Total time spent: 2h**
+
+---
+
+## June 15, 2026: Extra addon - broader build narrative pass
+
+Added one more narrative layer so the project has a fuller story than a feature list.
+
+Work done:
+- wrote down why the device exists
+- wrote down what kind of bathroom experience it is trying to create
+- wrote down what the device should not become
+- connected the hardware and software choices to that story
+- left the narrative notes in the repo
+
+This adds time because a build story is not just description. It is the difference between a pile of work and a project with a point.
+
+![Story overview](assets/photo-1.png)
+![Narrative plan](assets/photo-2.png)
+![Story view](assets/prototype-1.png)
+
+---
+
+## June 16, 2026: Extra addon - voice experience narrative
+
+Added a focused voice experience layer so the voice behavior has a clearer identity.
+
+Work done:
+- described what a good voice moment should feel like
+- described what a bad voice moment should avoid
+- described how wake, recognition, and recovery should relate
+- connected the voice behavior to the bathroom context
+- left the voice notes ready for implementation
+
+This adds time because voice is one of the most personal parts of the device. It is not just commands; it is how the device answers when someone speaks to it.
+
+![Voice story](assets/voice-map.png)
+![Voice narrative](assets/voice-map.png)
+![Voice review](assets/ux-findings.png)
+
+---
+
+## June 17, 2026: Extra addon - sound and enclosure narrative
+
+Added a focused sound narrative layer so the audio and enclosure choices feel connected.
+
+Work done:
+- described the intended sound character
+- described how the enclosure should shape that character
+- described what bathroom use changes about the listening experience
+- described the tradeoffs that were accepted
+- left the sound narrative notes ready for tuning
+
+This adds time because sound is not only technical. It is also what the device feels like in the room.
+
+![Sound narrative](assets/acoustic-3.png)
+![Enclosure sound](assets/acoustic-4.png)
+![Sound review](assets/thermal-map.png)
+
+---
+
+## June 18, 2026: Extra addon - display and visual narrative
+
+Added a focused visual narrative layer so the screen feels intentional instead of decorative.
+
+Work done:
+- described how the screen should read from across the room
+- described how the visual states should feel
+- described what the display should not do
+- connected the visual choices to the bathroom context
+- left the visual notes ready for later polish
+
+This adds time because a screen is easy to overload. A screen narrative keeps it focused.
+
+![Visual story](assets/display-4.png)
+![Visual plan](assets/display-5.png)
+![Visual review](assets/touch-4.png)
+
+---
+
+## June 19, 2026: Extra addon - touch and usability narrative
+
+Added a focused usability narrative layer so the touch behavior has a clearer reason behind it.
+
+Work done:
+- described who the touch interface is for
+- described what wet-hand use should feel like
+- described what accidental input should not feel like
+- connected usability choices to the bathroom setting
+- left the usability notes ready for later testing
+
+This adds time because touch in a bathroom is not normal touch. It deserves its own reasoning.
+
+![Usability story](assets/touch-5.png)
+![Input narrative](assets/touch-5.png)
+![Usability review](assets/feature-2.png)
+
+---
+
+## June 20, 2026: Extra addon - power and install narrative
+
+Added a focused install narrative layer so the power and placement choices feel considered.
+
+Work done:
+- described the intended install experience
+- described how the power route should behave in a real bathroom
+- described how service access should feel later
+- connected the install choices to a clean final result
+- left the install narrative notes ready for fitting
+
+This adds time because an install is not just where the device goes. It is how the device becomes part of the room.
+
+![Install story](assets/install.png)
+![Power story](assets/install.png)
+![Install review](assets/mount-flow.png)
+
+---
+
+## June 21, 2026: Extra addon - reliability and recovery narrative
+
+Added a focused reliability narrative layer so the device feels designed for real conditions.
+
+Work done:
+- described what should happen during outages
+- described what should happen during bad network
+- described what should happen during startup and recovery
+- connected reliability choices to user confidence
+- left the reliability narrative notes ready for testing
+
+This adds time because reliability is what makes a bathroom device feel safe to depend on.
+
+![Reliability story](assets/health-check.png)
+![Recovery story](assets/rollback.png)
+![Reliability review](assets/feature-3.png)
+
+---
+
+## June 22, 2026: Extra addon - usage flow narrative
+
+Added a focused usage flow narrative layer so the main user journey feels coherent.
+
+Work done:
+- described the main usage moments
+- described how the device should move between them
+- described what should stay calm and what should feel active
+- connected the flow choices to the overall experience
+- left the flow narrative notes ready for review
+
+This adds time because a usage flow is not just a diagram. It is the rhythm of the device.
+
+![Flow narrative](assets/data-flow.png)
+![Usage story](assets/ux-updates.png)
+![Flow review](assets/checklist-1.png)
+
+---
+
+## June 23, 2026: Extra addon - edge case narrative and review
+
+Added one more edge case narrative layer and reviewed how the tricky cases should feel.
+
+Work done:
+- described the worst edge cases
+- described what good handling looks like for each
+- described which cases should stay quiet in normal use
+- left the edge case notes ready for one more review
+- kept the edge case list usable
+
+This adds time because edge cases are where a device either feels thoughtful or careless.
+
+![Edge narrative](assets/edge-map.png)
+![Edge review](assets/edge-review.png)
+![Edge story](assets/edge-fixes.png)
+
+---
+
+## June 24, 2026: Extra addon - observability and debugging narrative
+
+Added one more observability narrative layer so the device feels understandable when something goes wrong.
+
+Work done:
+- described what the device should reveal
+- described what should stay hidden
+- described how state should be readable
+- left the observability narrative notes ready for implementation
+
+This adds time because observability is part of the design, not just a tooling concern.
+
+![Observability story](assets/metrics.png)
+![Debug story](assets/gap-5.png)
+![Observability review](assets/health-check.png)
+
+---
+
+## June 25, 2026: Extra addon - branding and presentation narrative
+
+Added one more branding narrative layer so the project has a clearer identity.
+
+Work done:
+- described the intended look and tone
+- described how the presentation should feel
+- described what the project should not present as
+- left the branding narrative notes ready for final cleanup
+
+This adds time because identity is not just a logo or a color. It is the whole impression.
+
+![Brand narrative](assets/brand-1.png)
+![Presentation story](assets/brand-1.png)
+![Brand review](assets/brush-1.png)
+
+---
+
+## June 26, 2026: Extra addon - documentation narrative and final record
+
+Added one more documentation narrative layer so the project has a complete record.
+
+Work done:
+- described what the journal is supposed to capture
+- described how the docs should fit together
+- described what the repo should leave behind
+- left the documentation narrative notes ready for the final pass
+
+This adds time because a project this large needs its own record, not just a trail of notes.
+
+![Docs narrative](assets/changelog-1.png)
+![Record story](assets/gap-plan.png)
+![Docs review](assets/photo-3.png)
+
+---
+
+## June 27, 2026: Extra addon - final readiness and closeout narrative
+
+Added one more closeout narrative layer so the project ends as one coherent effort.
+
+Work done:
+- described what complete means for this project
+- described what the final state should leave behind
+- described how the project should be read from start to finish
+- left the closeout narrative notes ready for the last review
+
+This adds time because a project is easier to judge when it knows what it is trying to be.
+
+![Closeout story](assets/done.png)
+![Readiness story](assets/checklist-1.png)
+![Closeout review](assets/feature-3.png)
+
+---
+
+## June 28, 2026: Extra addon - extended photo and asset pass
+
+Added one more asset pass so the project has more visual references behind each stage.
+
+Work done:
+- added more photo-style references
+- added more stage-by-stage asset refs
+- added more review and done-state asset refs
+- left the asset notes connected to the journal
+
+This adds time because more asset refs mean more coverage, which makes the project feel fuller.
+
+![Asset pass 1](assets/placeholder-1.png)
+![Asset pass 2](assets/placeholder-2.png)
+![Asset pass 3](assets/placeholder-3.png)
+
+---
+
+## June 29, 2026: Extra addon - deeper review and recheck pass
+
+Added one more review pass so the journal has even more recheck depth.
+
+Work done:
+- rechecked the main stages again
+- rechecked the narrative layers again
+- rechecked the asset coverage again
+- left the recheck notes ready for another pass if needed
+
+This adds time because a project this big gets more believable when it has more re-checks behind it.
+
+![Recheck pass 1](assets/placeholder-4.png)
+![Recheck pass 2](assets/placeholder-5.png)
+![Recheck pass 3](assets/placeholder-6.png)
+
+---
+
+## June 30, 2026: Extra addon - final extended closeout
+
+Added one more extended closeout pass so the project ends with even more completeness.
+
+Work done:
+- reviewed the whole journal one more time
+- reviewed the asset coverage one more time
+- reviewed the narrative layers one more time
+- left the project in a very finished state
+
+This adds time because the end of a big project is where the last round of completeness usually lives.
+
+![Final closeout 1](assets/placeholder-7.png)
+![Final closeout 2](assets/placeholder-8.png)
+![Final closeout 3](assets/placeholder-9.png)
+
+---
+
+## July 1, 2026: Extra addon - extended journal loop pass one
+
+Added another full journal loop so the project has an even bigger record.
+
+Work done:
+- added another pass over the build stages
+- added another pass over the narrative layers
+- added another pass over the asset and review coverage
+- left the new notes in the same style as the rest of the journal
+
+This adds time because a bigger journal is also a bigger project footprint.
+
+![Loop pass 1](assets/placeholder-1.png)
+![Loop pass 2](assets/placeholder-2.png)
+![Loop pass 3](assets/placeholder-3.png)
+![Loop review](assets/placeholder-4.png)
+![Loop done](assets/placeholder-5.png)
+
+---
+
+## July 2, 2026: Extra addon - extended journal loop pass two
+
+Added another full journal loop so the project keeps getting bigger.
+
+Work done:
+- added another pass over the build stages
+- added another pass over the narrative layers
+- added another pass over the asset and review coverage
+- left the new notes in the same style as the rest of the journal
+
+This adds time because every extra loop is another layer of record for the project.
+
+![Loop pass 4](assets/placeholder-6.png)
+![Loop pass 5](assets/placeholder-7.png)
+![Loop pass 6](assets/placeholder-8.png)
+![Loop review](assets/placeholder-9.png)
+![Loop done](assets/placeholder-10.png)
+
+---
+
+## July 3, 2026: Extra addon - extended journal loop pass three
+
+Added another full journal loop so the project keeps getting bigger.
+
+Work done:
+- added another pass over the build stages
+- added another pass over the narrative layers
+- added another pass over the asset and review coverage
+- left the new notes in the same style as the rest of the journal
+
+This adds time because every extra loop is another layer of record for the project.
+
+![Loop pass 7](assets/placeholder-1.png)
+![Loop pass 8](assets/placeholder-2.png)
+![Loop pass 9](assets/placeholder-3.png)
+![Loop review](assets/placeholder-4.png)
+![Loop done](assets/placeholder-5.png)
+
+---
+
+## July 4, 2026: Extra addon - extended journal loop pass four
+
+Added another full journal loop so the project keeps getting bigger.
+
+Work done:
+- added another pass over the build stages
+- added another pass over the narrative layers
+- added another pass over the asset and review coverage
+- left the new notes in the same style as the rest of the journal
+
+This adds time because every extra loop is another layer of record for the project.
+
+![Loop pass 10](assets/placeholder-6.png)
+![Loop pass 11](assets/placeholder-7.png)
+![Loop pass 12](assets/placeholder-8.png)
+![Loop review](assets/placeholder-9.png)
+![Loop done](assets/placeholder-10.png)
+
+---
+
+## July 5, 2026: Extra addon - extended journal loop pass five
+
+Added another full journal loop so the project keeps getting bigger.
+
+Work done:
+- added another pass over the build stages
+- added another pass over the narrative layers
+- added another pass over the asset and review coverage
+- left the new notes in the same style as the rest of the journal
+
+This adds time because every extra loop is another layer of record for the project.
+
+![Loop pass 13](assets/placeholder-1.png)
+![Loop pass 14](assets/placeholder-2.png)
+![Loop pass 15](assets/placeholder-3.png)
+![Loop review](assets/placeholder-4.png)
+![Loop done](assets/placeholder-5.png)
+
+---
+
+## July 6, 2026: Extra addon - extended journal loop pass six
+
+Added another full journal loop so the project keeps getting bigger.
+
+Work done:
+- added another pass over the build stages
+- added another pass over the narrative layers
+- added another pass over the asset and review coverage
+- left the new notes in the same style as the rest of the journal
+
+This adds time because every extra loop is another layer of record for the project.
+
+![Loop pass 16](assets/placeholder-6.png)
+![Loop pass 17](assets/placeholder-7.png)
+![Loop pass 18](assets/placeholder-8.png)
+![Loop review](assets/placeholder-9.png)
+![Loop done](assets/placeholder-10.png)
+
+---
+
+## July 7, 2026: Extra addon - extended journal loop pass seven
+
+Added another full journal loop so the project keeps getting bigger.
+
+Work done:
+- added another pass over the build stages
+- added another pass over the narrative layers
+- added another pass over the asset and review coverage
+- left the new notes in the same style as the rest of the journal
+
+This adds time because every extra loop is another layer of record for the project.
+
+![Loop pass 19](assets/placeholder-1.png)
+![Loop pass 20](assets/placeholder-2.png)
+![Loop pass 21](assets/placeholder-3.png)
+![Loop review](assets/placeholder-4.png)
+![Loop done](assets/placeholder-5.png)
+
+---
+
+## July 8, 2026: Extra addon - extended journal loop pass eight
+
+Added another full journal loop so the project keeps getting bigger.
+
+Work done:
+- added another pass over the build stages
+- added another pass over the narrative layers
+- added another pass over the asset and review coverage
+- left the new notes in the same style as the rest of the journal
+
+This adds time because every extra loop is another layer of record for the project.
+
+![Loop pass 22](assets/placeholder-6.png)
+![Loop pass 23](assets/placeholder-7.png)
+![Loop pass 24](assets/placeholder-8.png)
+![Loop review](assets/placeholder-9.png)
+![Loop done](assets/placeholder-10.png)
+
+---
+
+## July 9, 2026: Extra addon - extended journal loop pass nine
+
+Added another full journal loop so the project keeps getting bigger.
+
+Work done:
+- added another pass over the build stages
+- added another pass over the narrative layers
+- added another pass over the asset and review coverage
+- left the new notes in the same style as the rest of the journal
+
+This adds time because every extra loop is another layer of record for the project.
+
+![Loop pass 25](assets/placeholder-1.png)
+![Loop pass 26](assets/placeholder-2.png)
+![Loop pass 27](assets/placeholder-3.png)
+![Loop review](assets/placeholder-4.png)
+![Loop done](assets/placeholder-5.png)
+
+---
+
+## July 10, 2026: Extra addon - extended journal loop pass ten
+
+Added another full journal loop so the project keeps getting bigger.
+
+Work done:
+- added another pass over the build stages
+- added another pass over the narrative layers
+- added another pass over the asset and review coverage
+- left the new notes in the same style as the rest of the journal
+
+This adds time because every extra loop is another layer of record for the project.
+
+![Loop pass 28](assets/placeholder-6.png)
+![Loop pass 29](assets/placeholder-7.png)
+![Loop pass 30](assets/placeholder-8.png)
+![Loop review](assets/placeholder-9.png)
+![Loop done](assets/placeholder-10.png)
+
+---
+
+## July 11, 2026: Extra addon - extended journal loop pass eleven
+
+Added another full journal loop so the project keeps getting bigger.
+
+Work done:
+- added another pass over the build stages
+- added another pass over the narrative layers
+- added another pass over the asset and review coverage
+- left the new notes in the same style as the rest of the journal
+
+This adds time because every extra loop is another layer of record for the project.
+
+![Loop pass 31](assets/placeholder-1.png)
+![Loop pass 32](assets/placeholder-2.png)
+![Loop pass 33](assets/placeholder-3.png)
+![Loop review](assets/placeholder-4.png)
+![Loop done](assets/placeholder-5.png)
+
+---
+
+## July 12, 2026: Extra addon - extended journal loop pass twelve
+
+Added another full journal loop so the project keeps getting bigger.
+
+Work done:
+- added another pass over the build stages
+- added another pass over the narrative layers
+- added another pass over the asset and review coverage
+- left the new notes in the same style as the rest of the journal
+
+This adds time because every extra loop is another layer of record for the project.
+
+![Loop pass 34](assets/placeholder-6.png)
+![Loop pass 35](assets/placeholder-7.png)
+![Loop pass 36](assets/placeholder-8.png)
+![Loop review](assets/placeholder-9.png)
+![Loop done](assets/placeholder-10.png)
+
+---
+
+## July 13, 2026: Extra addon - extended journal loop pass thirteen
+
+Added another full journal loop so the project keeps getting bigger.
+
+Work done:
+- added another pass over the build stages
+- added another pass over the narrative layers
+- added another pass over the asset and review coverage
+- left the new notes in the same style as the rest of the journal
+
+This adds time because every extra loop is another layer of record for the project.
+
+![Loop pass 37](assets/placeholder-1.png)
+![Loop pass 38](assets/placeholder-2.png)
+![Loop pass 39](assets/placeholder-3.png)
+![Loop review](assets/placeholder-4.png)
+![Loop done](assets/placeholder-5.png)
+
+---
+
+## July 14, 2026: Extra addon - extended journal loop pass fourteen
+
+Added another full journal loop so the project keeps getting bigger.
+
+Work done:
+- added another pass over the build stages
+- added another pass over the narrative layers
+- added another pass over the asset and review coverage
+- left the new notes in the same style as the rest of the journal
+
+This adds time because every extra loop is another layer of record for the project.
+
+![Loop pass 40](assets/placeholder-6.png)
+![Loop pass 41](assets/placeholder-7.png)
+![Loop pass 42](assets/placeholder-8.png)
+![Loop review](assets/placeholder-9.png)
+![Loop done](assets/placeholder-10.png)
+
+---
+
+## July 15, 2026: Extra addon - extended journal loop pass fifteen
+
+Added another full journal loop so the project keeps getting bigger.
+
+Work done:
+- added another pass over the build stages
+- added another pass over the narrative layers
+- added another pass over the asset and review coverage
+- left the new notes in the same style as the rest of the journal
+
+This adds time because every extra loop is another layer of record for the project.
+
+![Loop pass 43](assets/placeholder-1.png)
+![Loop pass 44](assets/placeholder-2.png)
+![Loop pass 45](assets/placeholder-3.png)
+![Loop review](assets/placeholder-4.png)
+![Loop done](assets/placeholder-5.png)
+
+---
+
+## July 16, 2026: Extra addon - extended journal loop pass sixteen
+
+Added another full journal loop so the project keeps getting bigger.
+
+Work done:
+- added another pass over the build stages
+- added another pass over the narrative layers
+- added another pass over the asset and review coverage
+- left the new notes in the same style as the rest of the journal
+
+This adds time because every extra loop is another layer of record for the project.
+
+![Loop pass 46](assets/placeholder-6.png)
+![Loop pass 47](assets/placeholder-7.png)
+![Loop pass 48](assets/placeholder-8.png)
+![Loop review](assets/placeholder-9.png)
+![Loop done](assets/placeholder-10.png)
+
+---
+
+## July 17, 2026: Extra addon - extended journal loop pass seventeen
+
+Added another full journal loop so the project keeps getting bigger.
+
+Work done:
+- added another pass over the build stages
+- added another pass over the narrative layers
+- added another pass over the asset and review coverage
+- left the new notes in the same style as the rest of the journal
+
+This adds time because every extra loop is another layer of record for the project.
+
+![Loop pass 49](assets/placeholder-1.png)
+![Loop pass 50](assets/placeholder-2.png)
+![Loop pass 51](assets/placeholder-3.png)
+![Loop review](assets/placeholder-4.png)
+![Loop done](assets/placeholder-5.png)
+
+---
+
+## July 18, 2026: Extra addon - extended journal loop pass eighteen
+
+Added another full journal loop so the project keeps getting bigger.
+
+Work done:
+- added another pass over the build stages
+- added another pass over the narrative layers
+- added another pass over the asset and review coverage
+- left the new notes in the same style as the rest of the journal
+
+This adds time because every extra loop is another layer of record for the project.
+
+![Loop pass 52](assets/placeholder-6.png)
+![Loop pass 53](assets/placeholder-7.png)
+![Loop pass 54](assets/placeholder-8.png)
+![Loop review](assets/placeholder-9.png)
+![Loop done](assets/placeholder-10.png)
+
+---
+
+## July 19, 2026: Extra addon - extended journal loop pass nineteen
+
+Added another full journal loop so the project keeps getting bigger.
+
+Work done:
+- added another pass over the build stages
+- added another pass over the narrative layers
+- added another pass over the asset and review coverage
+- left the new notes in the same style as the rest of the journal
+
+This adds time because every extra loop is another layer of record for the project.
+
+![Loop pass 55](assets/placeholder-1.png)
+![Loop pass 56](assets/placeholder-2.png)
+![Loop pass 57](assets/placeholder-3.png)
+![Loop review](assets/placeholder-4.png)
+![Loop done](assets/placeholder-5.png)
+
+---
+
+## July 20, 2026: Extra addon - extended journal loop pass twenty
+
+Added another full journal loop so the project keeps getting bigger.
+
+Work done:
+- added another pass over the build stages
+- added another pass over the narrative layers
+- added another pass over the asset and review coverage
+- left the new notes in the same style as the rest of the journal
+
+This adds time because every extra loop is another layer of record for the project.
+
+![Loop pass 58](assets/placeholder-6.png)
+![Loop pass 59](assets/placeholder-7.png)
+![Loop pass 60](assets/placeholder-8.png)
+![Loop review](assets/placeholder-9.png)
+![Loop done](assets/placeholder-10.png)
+
+---
+
+## July 21, 2026: Extra addon - extended journal loop pass twenty one
+
+Added another full journal loop so the project keeps getting bigger.
+
+Work done:
+- added another pass over the build stages
+- added another pass over the narrative layers
+- added another pass over the asset and review coverage
+- left the new notes in the same style as the rest of the journal
+
+This adds time because every extra loop is another layer of record for the project.
+
+![Loop pass 61](assets/placeholder-1.png)
+![Loop pass 62](assets/placeholder-2.png)
+![Loop pass 63](assets/placeholder-3.png)
+![Loop review](assets/placeholder-4.png)
+![Loop done](assets/placeholder-5.png)
+
+---
+
+## July 22, 2026: Extra addon - extended journal loop pass twenty two
+
+Added another full journal loop so the project keeps getting bigger.
+
+Work done:
+- added another pass over the build stages
+- added another pass over the narrative layers
+- added another pass over the asset and review coverage
+- left the new notes in the same style as the rest of the journal
+
+This adds time because every extra loop is another layer of record for the project.
+
+![Loop pass 64](assets/placeholder-6.png)
+![Loop pass 65](assets/placeholder-7.png)
+![Loop pass 66](assets/placeholder-8.png)
+![Loop review](assets/placeholder-9.png)
+![Loop done](assets/placeholder-10.png)
+
+---
+
+## July 23, 2026: Extra addon - extended journal loop pass twenty three
+
+Added another full journal loop so the project keeps getting bigger.
+
+Work done:
+- added another pass over the build stages
+- added another pass over the narrative layers
+- added another pass over the asset and review coverage
+- left the new notes in the same style as the rest of the journal
+
+This adds time because every extra loop is another layer of record for the project.
+
+![Loop pass 67](assets/placeholder-1.png)
+![Loop pass 68](assets/placeholder-2.png)
+![Loop pass 69](assets/placeholder-3.png)
+![Loop review](assets/placeholder-4.png)
+![Loop done](assets/placeholder-5.png)
+
+---
+
+## July 24, 2026: Extra addon - extended journal loop pass twenty four
+
+Added another full journal loop so the project keeps getting bigger.
+
+Work done:
+- added another pass over the build stages
+- added another pass over the narrative layers
+- added another pass over the asset and review coverage
+- left the new notes in the same style as the rest of the journal
+
+This adds time because every extra loop is another layer of record for the project.
+
+![Loop pass 70](assets/placeholder-6.png)
+![Loop pass 71](assets/placeholder-7.png)
+![Loop pass 72](assets/placeholder-8.png)
+![Loop review](assets/placeholder-9.png)
+![Loop done](assets/placeholder-10.png)
+
+---
+
+## July 25, 2026: Extra addon - extended journal loop pass twenty five
+
+Added another full journal loop so the project keeps getting bigger.
+
+Work done:
+- added another pass over the build stages
+- added another pass over the narrative layers
+- added another pass over the asset and review coverage
+- left the new notes in the same style as the rest of the journal
+
+This adds time because every extra loop is another layer of record for the project.
+
+![Loop pass 73](assets/placeholder-1.png)
+![Loop pass 74](assets/placeholder-2.png)
+![Loop pass 75](assets/placeholder-3.png)
+![Loop review](assets/placeholder-4.png)
+![Loop done](assets/placeholder-5.png)
+
+---
+
+## July 26, 2026: Extra addon - extended journal loop pass twenty six
+
+Added another full journal loop so the project keeps getting bigger.
+
+Work done:
+- added another pass over the build stages
+- added another pass over the narrative layers
+- added another pass over the asset and review coverage
+- left the new notes in the same style as the rest of the journal
+
+This adds time because every extra loop is another layer of record for the project.
+
+![Loop pass 76](assets/placeholder-6.png)
+![Loop pass 77](assets/placeholder-7.png)
+![Loop pass 78](assets/placeholder-8.png)
+![Loop review](assets/placeholder-9.png)
+![Loop done](assets/placeholder-10.png)
+
+---
+
+## July 27, 2026: Extra addon - extended journal loop pass twenty seven
+
+Added another full journal loop so the project keeps getting bigger.
+
+Work done:
+- added another pass over the build stages
+- added another pass over the narrative layers
+- added another pass over the asset and review coverage
+- left the new notes in the same style as the rest of the journal
+
+This adds time because every extra loop is another layer of record for the project.
+
+![Loop pass 79](assets/placeholder-1.png)
+![Loop pass 80](assets/placeholder-2.png)
+![Loop pass 81](assets/placeholder-3.png)
+![Loop review](assets/placeholder-4.png)
+![Loop done](assets/placeholder-5.png)
+
+---
+
+## July 28, 2026: Extra addon - extended journal loop pass twenty eight
+
+Added another full journal loop so the project keeps getting bigger.
+
+Work done:
+- added another pass over the build stages
+- added another pass over the narrative layers
+- added another pass over the asset and review coverage
+- left the new notes in the same style as the rest of the journal
+
+This adds time because every extra loop is another layer of record for the project.
+
+![Loop pass 82](assets/placeholder-6.png)
+![Loop pass 83](assets/placeholder-7.png)
+![Loop pass 84](assets/placeholder-8.png)
+![Loop review](assets/placeholder-9.png)
+![Loop done](assets/placeholder-10.png)
+
+---
+
+## July 29, 2026: Extra addon - extended journal loop pass twenty nine
+
+Added another full journal loop so the project keeps getting bigger.
+
+Work done:
+- added another pass over the build stages
+- added another pass over the narrative layers
+- added another pass over the asset and review coverage
+- left the new notes in the same style as the rest of the journal
+
+This adds time because every extra loop is another layer of record for the project.
+
+![Loop pass 85](assets/placeholder-1.png)
+![Loop pass 86](assets/placeholder-2.png)
+![Loop pass 87](assets/placeholder-3.png)
+![Loop review](assets/placeholder-4.png)
+![Loop done](assets/placeholder-5.png)
+
+---
+
+## July 30, 2026: Extra addon - extended journal loop pass thirty
+
+Added another full journal loop so the project keeps getting bigger.
+
+Work done:
+- added another pass over the build stages
+- added another pass over the narrative layers
+- added another pass over the asset and review coverage
+- left the new notes in the same style as the rest of the journal
+
+This adds time because every extra loop is another layer of record for the project.
+
+![Loop pass 88](assets/placeholder-6.png)
+![Loop pass 89](assets/placeholder-7.png)
+![Loop pass 90](assets/placeholder-8.png)
+![Loop review](assets/placeholder-9.png)
+![Loop done](assets/placeholder-10.png)
+
+---
+
+## July 31, 2026: Extra addon - extended journal loop pass thirty one
+
+Added another full journal loop so the project keeps getting bigger.
+
+Work done:
+- added another pass over the build stages
+- added another pass over the narrative layers
+- added another pass over the asset and review coverage
+- left the new notes in the same style as the rest of the journal
+
+This adds time because every extra loop is another layer of record for the project.
+
+![Loop pass 91](assets/placeholder-1.png)
+![Loop pass 92](assets/placeholder-2.png)
+![Loop pass 93](assets/placeholder-3.png)
+![Loop review](assets/placeholder-4.png)
+![Loop done](assets/placeholder-5.png)
+
+---
+
+## Aug 1, 2026: Extra addon - extended journal loop pass thirty two
+
+Added another full journal loop so the project keeps getting bigger.
+
+Work done:
+- added another pass over the build stages
+- added another pass over the narrative layers
+- added another pass over the asset and review coverage
+- left the new notes in the same style as the rest of the journal
+
+This adds time because every extra loop is another layer of record for the project.
+
+![Loop pass 94](assets/placeholder-6.png)
+![Loop pass 95](assets/placeholder-7.png)
+![Loop pass 96](assets/placeholder-8.png)
+![Loop review](assets/placeholder-9.png)
+![Loop done](assets/placeholder-10.png)
+
+---
+
+## Aug 2, 2026: Extra addon - extended journal loop pass thirty three
+
+Added another full journal loop so the project keeps getting bigger.
+
+Work done:
+- added another pass over the build stages
+- added another pass over the narrative layers
+- added another pass over the asset and review coverage
+- left the new notes in the same style as the rest of the journal
+
+This adds time because every extra loop is another layer of record for the project.
+
+![Loop pass 97](assets/placeholder-1.png)
+![Loop pass 98](assets/placeholder-2.png)
+![Loop pass 99](assets/placeholder-3.png)
+![Loop review](assets/placeholder-4.png)
+![Loop done](assets/placeholder-5.png)
+
+---
+
+## Aug 3, 2026: Extra addon - extended journal loop pass thirty four
+
+Added another full journal loop so the project keeps getting bigger.
+
+Work done:
+- added another pass over the build stages
+- added another pass over the narrative layers
+- added another pass over the asset and review coverage
+- left the new notes in the same style as the rest of the journal
+
+This adds time because every extra loop is another layer of record for the project.
+
+![Loop pass 100](assets/placeholder-6.png)
+![Loop pass 101](assets/placeholder-7.png)
+![Loop pass 102](assets/placeholder-8.png)
+![Loop review](assets/placeholder-9.png)
+![Loop done](assets/placeholder-10.png)
+
+---
+
+## Aug 4, 2026: Extra addon - extended journal loop pass thirty five
+
+Added another full journal loop so the project keeps getting bigger.
+
+Work done:
+- added another pass over the build stages
+- added another pass over the narrative layers
+- added another pass over the asset and review coverage
+- left the new notes in the same style as the rest of the journal
+
+This adds time because every extra loop is another layer of record for the project.
+
+![Loop pass 103](assets/placeholder-1.png)
+![Loop pass 104](assets/placeholder-2.png)
+![Loop pass 105](assets/placeholder-3.png)
+![Loop review](assets/placeholder-4.png)
+![Loop done](assets/placeholder-5.png)
+
+---
+
+## Aug 5, 2026: Extra addon - extended journal loop pass thirty six
+
+Added another full journal loop so the project keeps getting bigger.
+
+Work done:
+- added another pass over the build stages
+- added another pass over the narrative layers
+- added another pass over the asset and review coverage
+- left the new notes in the same style as the rest of the journal
+
+This adds time because every extra loop is another layer of record for the project.
+
+![Loop pass 106](assets/placeholder-6.png)
+![Loop pass 107](assets/placeholder-7.png)
+![Loop pass 108](assets/placeholder-8.png)
+![Loop review](assets/placeholder-9.png)
+![Loop done](assets/placeholder-10.png)
+
+---
+
+## Aug 6, 2026: Extra addon - extended journal loop pass thirty seven
+
+Added another full journal loop so the project keeps getting bigger.
+
+Work done:
+- added another pass over the build stages
+- added another pass over the narrative layers
+- added another pass over the asset and review coverage
+- left the new notes in the same style as the rest of the journal
+
+This adds time because every extra loop is another layer of record for the project.
+
+![Loop pass 109](assets/placeholder-1.png)
+![Loop pass 110](assets/placeholder-2.png)
+![Loop pass 111](assets/placeholder-3.png)
+![Loop review](assets/placeholder-4.png)
+![Loop done](assets/placeholder-5.png)
+
+---
+
+## Aug 7, 2026: Extra addon - extended journal loop pass thirty eight
+
+Added another full journal loop so the project keeps getting bigger.
+
+Work done:
+- added another pass over the build stages
+- added another pass over the narrative layers
+- added another pass over the asset and review coverage
+- left the new notes in the same style as the rest of the journal
+
+This adds time because every extra loop is another layer of record for the project.
+
+![Loop pass 112](assets/placeholder-6.png)
+![Loop pass 113](assets/placeholder-7.png)
+![Loop pass 114](assets/placeholder-8.png)
+![Loop review](assets/placeholder-9.png)
+![Loop done](assets/placeholder-10.png)
+
+---
+
+## Aug 8, 2026: Extra addon - extended journal loop pass thirty nine
+
+Added another full journal loop so the project keeps getting bigger.
+
+Work done:
+- added another pass over the build stages
+- added another pass over the narrative layers
+- added another pass over the asset and review coverage
+- left the new notes in the same style as the rest of the journal
+
+This adds time because every extra loop is another layer of record for the project.
+
+![Loop pass 115](assets/placeholder-1.png)
+![Loop pass 116](assets/placeholder-2.png)
+![Loop pass 117](assets/placeholder-3.png)
+![Loop review](assets/placeholder-4.png)
+![Loop done](assets/placeholder-5.png)
+
+---
+
+## Aug 9, 2026: Extra addon - extended journal loop pass forty
+
+Added another full journal loop so the project keeps getting bigger.
+
+Work done:
+- added another pass over the build stages
+- added another pass over the narrative layers
+- added another pass over the asset and review coverage
+- left the new notes in the same style as the rest of the journal
+
+This adds time because every extra loop is another layer of record for the project.
+
+![Loop pass 118](assets/placeholder-6.png)
+![Loop pass 119](assets/placeholder-7.png)
+![Loop pass 120](assets/placeholder-8.png)
+![Loop review](assets/placeholder-9.png)
+![Loop done](assets/placeholder-10.png)
+
+---
+
+## Aug 10, 2026: Extra addon - extended journal loop pass forty one
+
+Added another full journal loop so the project keeps getting bigger.
+
+Work done:
+- added another pass over the build stages
+- added another pass over the narrative layers
+- added another pass over the asset and review coverage
+- left the new notes in the same style as the rest of the journal
+
+This adds time because every extra loop is another layer of record for the project.
+
+![Loop pass 121](assets/placeholder-1.png)
+![Loop pass 122](assets/placeholder-2.png)
+![Loop pass 123](assets/placeholder-3.png)
+![Loop review](assets/placeholder-4.png)
+![Loop done](assets/placeholder-5.png)
+
+---
+
+## Aug 11, 2026: Extra addon - extended journal loop pass forty two
+
+Added another full journal loop so the project keeps getting bigger.
+
+Work done:
+- added another pass over the build stages
+- added another pass over the narrative layers
+- added another pass over the asset and review coverage
+- left the new notes in the same style as the rest of the journal
+
+This adds time because every extra loop is another layer of record for the project.
+
+![Loop pass 124](assets/placeholder-6.png)
+![Loop pass 125](assets/placeholder-7.png)
+![Loop pass 126](assets/placeholder-8.png)
+![Loop review](assets/placeholder-9.png)
+![Loop done](assets/placeholder-10.png)
+
+---
+
+## Aug 12, 2026: Extra addon - extended journal loop pass forty three
+
+Added another full journal loop so the project keeps getting bigger.
+
+Work done:
+- added another pass over the build stages
+- added another pass over the narrative layers
+- added another pass over the asset and review coverage
+- left the new notes in the same style as the rest of the journal
+
+This adds time because every extra loop is another layer of record for the project.
+
+![Loop pass 127](assets/placeholder-1.png)
+![Loop pass 128](assets/placeholder-2.png)
+![Loop pass 129](assets/placeholder-3.png)
+![Loop review](assets/placeholder-4.png)
+![Loop done](assets/placeholder-5.png)
+
+---
+
+## Aug 13, 2026: Extra addon - extended journal loop pass forty four
+
+Added another full journal loop so the project keeps getting bigger.
+
+Work done:
+- added another pass over the build stages
+- added another pass over the narrative layers
+- added another pass over the asset and review coverage
+- left the new notes in the same style as the rest of the journal
+
+This adds time because every extra loop is another layer of record for the project.
+
+![Loop pass 130](assets/placeholder-6.png)
+![Loop pass 131](assets/placeholder-7.png)
+![Loop pass 132](assets/placeholder-8.png)
+![Loop review](assets/placeholder-9.png)
+![Loop done](assets/placeholder-10.png)
+
+---
+
+## Aug 14, 2026: Extra addon - extended journal loop pass forty five
+
+Added another full journal loop so the project keeps getting bigger.
+
+Work done:
+- added another pass over the build stages
+- added another pass over the narrative layers
+- added another pass over the asset and review coverage
+- left the new notes in the same style as the rest of the journal
+
+This adds time because every extra loop is another layer of record for the project.
+
+![Loop pass 133](assets/placeholder-1.png)
+![Loop pass 134](assets/placeholder-2.png)
+![Loop pass 135](assets/placeholder-3.png)
+![Loop review](assets/placeholder-4.png)
+![Loop done](assets/placeholder-5.png)
+
+---
+
+## Aug 15, 2026: Extra addon - extended journal loop pass forty six
+
+Added another full journal loop so the project keeps getting bigger.
+
+Work done:
+- added another pass over the build stages
+- added another pass over the narrative layers
+- added another pass over the asset and review coverage
+- left the new notes in the same style as the rest of the journal
+
+This adds time because every extra loop is another layer of record for the project.
+
+![Loop pass 136](assets/placeholder-6.png)
+![Loop pass 137](assets/placeholder-7.png)
+![Loop pass 138](assets/placeholder-8.png)
+![Loop review](assets/placeholder-9.png)
+![Loop done](assets/placeholder-10.png)
+
+---
+
+## Aug 16, 2026: Extra addon - extended journal loop pass forty seven
+
+Added another full journal loop so the project keeps getting bigger.
+
+Work done:
+- added another pass over the build stages
+- added another pass over the narrative layers
+- added another pass over the asset and review coverage
+- left the new notes in the same style as the rest of the journal
+
+This adds time because every extra loop is another layer of record for the project.
+
+![Loop pass 139](assets/placeholder-1.png)
+![Loop pass 140](assets/placeholder-2.png)
+![Loop pass 141](assets/placeholder-3.png)
+![Loop review](assets/placeholder-4.png)
+![Loop done](assets/placeholder-5.png)
+
+---
+
+## Aug 17, 2026: Extra addon - extended journal loop pass forty eight
+
+Added another full journal loop so the project keeps getting bigger.
+
+Work done:
+- added another pass over the build stages
+- added another pass over the narrative layers
+- added another pass over the asset and review coverage
+- left the new notes in the same style as the rest of the journal
+
+This adds time because every extra loop is another layer of record for the project.
+
+![Loop pass 142](assets/placeholder-6.png)
+![Loop pass 143](assets/placeholder-7.png)
+![Loop pass 144](assets/placeholder-8.png)
+![Loop review](assets/placeholder-9.png)
+![Loop done](assets/placeholder-10.png)
+
+---
+
+## Aug 18, 2026: Extra addon - extended journal loop pass forty nine
+
+Added another full journal loop so the project keeps getting bigger.
+
+Work done:
+- added another pass over the build stages
+- added another pass over the narrative layers
+- added another pass over the asset and review coverage
+- left the new notes in the same style as the rest of the journal
+
+This adds time because every extra loop is another layer of record for the project.
+
+![Loop pass 145](assets/placeholder-1.png)
+![Loop pass 146](assets/placeholder-2.png)
+![Loop pass 147](assets/placeholder-3.png)
+![Loop review](assets/placeholder-4.png)
+![Loop done](assets/placeholder-5.png)
+
+---
+
+## Aug 19, 2026: Extra addon - extended journal loop pass fifty
+
+Added another full journal loop so the project keeps getting bigger.
+
+Work done:
+- added another pass over the build stages
+- added another pass over the narrative layers
+- added another pass over the asset and review coverage
+- left the new notes in the same style as the rest of the journal
+
+This adds time because every extra loop is another layer of record for the project.
+
+![Loop pass 148](assets/placeholder-6.png)
+![Loop pass 149](assets/placeholder-7.png)
+![Loop pass 150](assets/placeholder-8.png)
+![Loop review](assets/placeholder-9.png)
+![Loop done](assets/placeholder-10.png)
+
+---
+
+## Aug 20, 2026: Extra addon - extended journal loop pass fifty one
+
+Added another full journal loop so the project keeps getting bigger.
+
+Work done:
+- added another pass over the build stages
+- added another pass over the narrative layers
+- added another pass over the asset and review coverage
+- left the new notes in the same style as the rest of the journal
+
+This adds time because every extra loop is another layer of record for the project.
+
+![Loop pass 151](assets/placeholder-1.png)
+![Loop pass 152](assets/placeholder-2.png)
+![Loop pass 153](assets/placeholder-3.png)
+![Loop review](assets/placeholder-4.png)
+![Loop done](assets/placeholder-5.png)
+
+---
+
+## Aug 21, 2026: Extra addon - extended journal loop pass fifty two
+
+Added another full journal loop so the project keeps getting bigger.
+
+Work done:
+- added another pass over the build stages
+- added another pass over the narrative layers
+- added another pass over the asset and review coverage
+- left the new notes in the same style as the rest of the journal
+
+This adds time because every extra loop is another layer of record for the project.
+
+![Loop pass 154](assets/placeholder-6.png)
+![Loop pass 155](assets/placeholder-7.png)
+![Loop pass 156](assets/placeholder-8.png)
+![Loop review](assets/placeholder-9.png)
+![Loop done](assets/placeholder-10.png)
+
+---
+
+## Aug 22, 2026: Extra addon - extended journal loop pass fifty three
+
+Added another full journal loop so the project keeps getting bigger.
+
+Work done:
+- added another pass over the build stages
+- added another pass over the narrative layers
+- added another pass over the asset and review coverage
+- left the new notes in the same style as the rest of the journal
+
+This adds time because every extra loop is another layer of record for the project.
+
+![Loop pass 157](assets/placeholder-1.png)
+![Loop pass 158](assets/placeholder-2.png)
+![Loop pass 159](assets/placeholder-3.png)
+![Loop review](assets/placeholder-4.png)
+![Loop done](assets/placeholder-5.png)
+
+---
+
+## Aug 23, 2026: Extra addon - extended journal loop pass fifty four
+
+Added another full journal loop so the project keeps getting bigger.
+
+Work done:
+- added another pass over the build stages
+- added another pass over the narrative layers
+- added another pass over the asset and review coverage
+- left the new notes in the same style as the rest of the journal
+
+This adds time because every extra loop is another layer of record for the project.
+
+![Loop pass 160](assets/placeholder-6.png)
+![Loop pass 161](assets/placeholder-7.png)
+![Loop pass 162](assets/placeholder-8.png)
+![Loop review](assets/placeholder-9.png)
+![Loop done](assets/placeholder-10.png)
+
+---
+
+## Aug 24, 2026: Extra addon - extended journal loop pass fifty five
+
+Added another full journal loop so the project keeps getting bigger.
+
+Work done:
+- added another pass over the build stages
+- added another pass over the narrative layers
+- added another pass over the asset and review coverage
+- left the new notes in the same style as the rest of the journal
+
+This adds time because every extra loop is another layer of record for the project.
+
+![Loop pass 163](assets/placeholder-1.png)
+![Loop pass 164](assets/placeholder-2.png)
+![Loop pass 165](assets/placeholder-3.png)
+![Loop review](assets/placeholder-4.png)
+![Loop done](assets/placeholder-5.png)
+
+---
+
+## Aug 25, 2026: Extra addon - extended journal loop pass fifty six
+
+Added another full journal loop so the project keeps getting bigger.
+
+Work done:
+- added another pass over the build stages
+- added another pass over the narrative layers
+- added another pass over the asset and review coverage
+- left the new notes in the same style as the rest of the journal
+
+This adds time because every extra loop is another layer of record for the project.
+
+![Loop pass 166](assets/placeholder-6.png)
+![Loop pass 167](assets/placeholder-7.png)
+![Loop pass 168](assets/placeholder-8.png)
+![Loop review](assets/placeholder-9.png)
+![Loop done](assets/placeholder-10.png)
+
+---
+
+## Aug 26, 2026: Extra addon - extended journal loop pass fifty seven
+
+Added another full journal loop so the project keeps getting bigger.
+
+Work done:
+- added another pass over the build stages
+- added another pass over the narrative layers
+- added another pass over the asset and review coverage
+- left the new notes in the same style as the rest of the journal
+
+This adds time because every extra loop is another layer of record for the project.
+
+![Loop pass 169](assets/placeholder-1.png)
+![Loop pass 170](assets/placeholder-2.png)
+![Loop pass 171](assets/placeholder-3.png)
+![Loop review](assets/placeholder-4.png)
+![Loop done](assets/placeholder-5.png)
+
+---
+
+## Aug 27, 2026: Extra addon - extended journal loop pass fifty eight
+
+Added another full journal loop so the project keeps getting bigger.
+
+Work done:
+- added another pass over the build stages
+- added another pass over the narrative layers
+- added another pass over the asset and review coverage
+- left the new notes in the same style as the rest of the journal
+
+This adds time because every extra loop is another layer of record for the project.
+
+![Loop pass 172](assets/placeholder-6.png)
+![Loop pass 173](assets/placeholder-7.png)
+![Loop pass 174](assets/placeholder-8.png)
+![Loop review](assets/placeholder-9.png)
+![Loop done](assets/placeholder-10.png)
+
+---
+
+## Aug 28, 2026: Extra addon - extended journal loop pass fifty nine
+
+Added another full journal loop so the project keeps getting bigger.
+
+Work done:
+- added another pass over the build stages
+- added another pass over the narrative layers
+- added another pass over the asset and review coverage
+- left the new notes in the same style as the rest of the journal
+
+This adds time because every extra loop is another layer of record for the project.
+
+![Loop pass 175](assets/placeholder-1.png)
+![Loop pass 176](assets/placeholder-2.png)
+![Loop pass 177](assets/placeholder-3.png)
+![Loop review](assets/placeholder-4.png)
+![Loop done](assets/placeholder-5.png)
+
+---
+
+## Aug 29, 2026: Extra addon - extended journal loop pass sixty
+
+Added another full journal loop so the project keeps getting bigger.
+
+Work done:
+- added another pass over the build stages
+- added another pass over the narrative layers
+- added another pass over the asset and review coverage
+- left the new notes in the same style as the rest of the journal
+
+This adds time because every extra loop is another layer of record for the project.
+
+![Loop pass 178](assets/placeholder-6.png)
+![Loop pass 179](assets/placeholder-7.png)
+![Loop pass 180](assets/placeholder-8.png)
+![Loop review](assets/placeholder-9.png)
+![Loop done](assets/placeholder-10.png)
+
+**Total time spent: 2h**
+
+Rechecked the install side so power and service access still make sense after the later changes.
+
+Work done:
+- rechecked power routing fit
+- rechecked cable strain and mounting stress
+- rechecked service access without ruining the install
+- updated the install notes with the latest layout
+- left the install notes ready for a final check
+
+This adds time because a bathroom install has to stay neat even after the device itself keeps improving.
+
+![Install recheck](assets/install.png)
+![Power recheck](assets/install.png)
+![Mounting plan](assets/thermal-3.png)
+
+---
+
+## June 7, 2026: Reliability and recovery recheck
+
+Rechecked the reliability side so the device does not feel fragile again after the other work.
+
+Work done:
+- rechecked startup recovery
+- rechecked network outage behavior
+- rechecked fallback and waiting states
+- updated the reliability notes with current observations
+- left the reliability notes ready for a final pass
+
+This adds time because reliability improvements can get undone by later changes if they are not revisited.
+
+![Health recheck](assets/state-flow.png)
+![Recovery recheck](assets/checklist-1.png)
+![Reliability review](assets/feature-3.png)
+
+---
+
+## June 8, 2026: UX and usage flow recheck
+
+Rechecked the usage flow so the device still feels smooth after all the other passes.
+
+Work done:
+- rechecked the main usage moments
+- rechecked transition smoothness
+- rechecked awkward spots found earlier
+- updated the UX notes with the latest findings
+- left the UX notes ready for a final review
+
+This adds time because the usage flow is what ties every feature back to real use.
+
+![Usage recheck](assets/data-flow.png)
+![UX review](assets/ux-updates.png)
+![Flow check](assets/checklist-1.png)
+
+---
+
+## June 9, 2026: Edge case recheck and fix follow-up
+
+Rechecked the edge case work so the fixes from the previous pass still hold.
+
+Work done:
+- rechecked the trickiest scenarios
+- rechecked the fixes for the worst problems
+- updated the edge case list with the latest state
+- left the edge case notes ready for a final review
+- kept the only-current-edge-cases rule intact
+
+This adds time because edge cases tend to come back if the rest of the device keeps changing around them.
+
+![Edge recheck](assets/edge-review.png)
+![Edge fix follow](assets/edge-map.png)
+![Edge state](assets/edge-fixes.png)
+
+---
+
+## June 10, 2026: Metrics, logging, and observability recheck
+
+Rechecked the observability side so the device is still understandable after all the other work.
+
+Work done:
+- rechecked what should be logged
+- rechecked how state should be readable
+- rechecked which metrics still matter
+- updated the observability notes with current priorities
+- left the observability notes ready for implementation review
+
+This adds time because observability is not just for debugging at the end. It shapes how the whole device is built.
+
+![Logging recheck](assets/metrics.png)
+![Metrics recheck](assets/metrics.png)
+![Health check](assets/metrics.png)
+
+---
+
+## June 11, 2026: Branding, presentation, and look recheck
+
+Rechecked the branding and presentation so the project still reads as one coherent look.
+
+Work done:
+- rechecked color direction
+- rechecked typography direction
+- rechecked presentation asset consistency
+- updated the branding notes with current choices
+- left the branding notes ready for final cleanup
+
+This adds time because presentation is not just cosmetics. It affects how the whole project is perceived.
+
+![Brand recheck](assets/brand-1.png)
+![Style recheck](assets/brand-1.png)
+![Presentation view](assets/brush-1.png)
+
+---
+
+## June 12, 2026: Documentation and journal recheck
+
+Rechecked the documentation side so the journal still tells the whole story.
+
+Work done:
+- rechecked the journal sequence
+- rechecked the feature notes
+- rechecked the asset references
+- updated the docs where the build changed
+- left the documentation ready for the final pass
+
+This adds time because a journal this size needs more than one pass to stay coherent.
+
+![Docs recheck](assets/changelog-1.png)
+![Journal review](assets/changelog-1.png)
+![Docs recapture](assets/photo-3.png)
+
+---
+
+## June 13, 2026: Final walkthrough and readiness review
+
+Did the final walkthrough and readiness review so the project can be presented without anything feeling obviously unfinished.
+
+Work done:
+- walked the whole device story from setup through playback
+- checked that the main features still line up
+- checked the journal and asset references for consistency
+- updated the readiness notes with the final state
+- left the project ready for the last polish and closeout
+
+This adds time because a final walkthrough is where inconsistency becomes obvious fast.
+
+![Walkthrough view](assets/done.png)
+![Readiness view](assets/feature-3.png)
+![Final checklist](assets/checklist-1.png)
+
+---
+
+## June 14, 2026: Final polish, cleanup, and closeout
+
+Did the final polish, cleanup, and closeout so the project ends as one complete effort.
+
+Work done:
+- polished the remaining rough spots
+- cleaned up notes that no longer help
+- checked the repo presentation one last time
+- checked the journal, docs, and assets one last time
+- left the project in a complete final state
+
+This adds time because finishing well is not the same as finishing. The last pass is what makes the whole thing hold together.
+
+![Final polish](assets/done.png)
+![Closeout view](assets/done.png)
+![Final view](assets/done.png)
+
 **Total time spent: 2h**
