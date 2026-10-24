@@ -47,3 +47,25 @@ Everything is designed except the physical build itself. Left for real-life asse
 - tuning sound, voice, and enclosure behavior in the actual bathroom
 
 **Total time spent: 3h**
+
+---
+
+## March 22, 2026: Added voice and touch playback controls
+
+Added the full control behavior to the design.
+
+Now the device supports:
+- voice commands for play, pause, back, and forward
+- touch controls for the same actions
+- back/forward with an optional time like "back 10 seconds" or "forward 30"
+- a default seek of 15 seconds when no time is given
+
+This makes the device feel like a real music controller instead of just a play/pause box.
+
+Updated the spec and both the hardware and software docs to match:
+- touch is now a first-class secondary control
+- the screen/touch surface is treated as part of the bathroom-friendly UI
+- playback behavior is unified across voice and touch
+- seek logic is explicit: use the requested time if provided, otherwise default to 15 seconds
+
+**Total time spent: 2h**

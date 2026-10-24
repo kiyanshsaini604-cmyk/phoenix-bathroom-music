@@ -2,7 +2,7 @@
 
 ## 1. Build philosophy
 
-This is a single device project, not a platform. Every part should exist to make the bathroom music experience better: voice control, personal music playback, screen feedback, and a sealed form that can live in the wet area.
+This is a single device project, not a platform. Every part should exist to make the bathroom music experience better: voice control, touch control, personal music playback, screen feedback, and a sealed form that can live in the wet area.
 
 The build should feel finished, not like a proof of concept stuffed into a housing. That means:
 
@@ -23,7 +23,7 @@ Why this class:
 - familiar enough that the project stays buildable by one person
 - easy to run headless once it is set up
 
-This is not a microcontroller-only project. The device needs to do several things at once: listen, parse speech, talk to a music server, play audio, and draw visuals. A small Linux board is the most direct path.
+This is not a microcontroller-only project. The device needs to do several things at once: listen, parse speech, talk to a music server, play audio, draw visuals, and respond to touch. A small Linux board is the most direct path.
 
 ## 3. Core board selection logic
 
@@ -48,6 +48,8 @@ Good fit characteristics:
 - not so large that it becomes the weakest point in the enclosure
 
 A SPI-driven small LCD is a sensible class of part for this project. The exact panel can vary, but the design intent is: small, simple, and visually calm.
+
+The display is also the main touch surface. That simplifies the hardware because the same part can show visuals and accept touch input.
 
 ## 5. Audio output
 
@@ -79,7 +81,25 @@ Practical protection approach:
 - keep the opening away from direct spray where possible
 - design the housing so water does not pool over the mic entrance
 
-## 7. Enclosure material and construction
+## 7. Touch input
+
+Touch is the secondary control, paired with voice.
+
+Design goals:
+
+- play, pause, back, and forward through touch
+- seek support if the UI wants a tap zone, slider, or time input
+- usable with wet hands
+- forgiving enough that rough bathroom use still works
+
+Practical notes:
+
+- a small touch screen is the simplest way to combine visuals and touch in one part
+- if the screen is the touch surface, keep the UX simple so wet-finger input still works
+- if a separate touch pad is used, it should be sealed and placed where it is easy to reach
+- avoid requiring very precise taps unless the UI is specifically built around that
+
+## 8. Enclosure material and construction
 
 The enclosure should be durable, water-resistant, and easy to assemble.
 
@@ -99,7 +119,7 @@ Construction approach:
 
 If the device will be used long term in a bathroom, the enclosure should feel like it belongs there: easy to wipe, resistant to humidity, and not full of seams that trap water.
 
-## 8. Waterproofing strategy
+## 9. Waterproofing strategy
 
 Waterproofing is a system, not a single gasket.
 
@@ -120,7 +140,7 @@ Target behavior:
 
 Realistic note: the hardest part is usually not the case itself, but the places where sound and air must pass through. That includes the speaker opening, the microphone port, and any venting needed to avoid pressure/trap issues.
 
-## 9. Power and connectivity
+## 10. Power and connectivity
 
 For a bathroom install, power should be clean and permanent if possible.
 
@@ -133,7 +153,7 @@ Preferred approach:
 
 If battery is used temporarily during development, plan for charging and runtime early. For the final device, built-in speakers and continuous availability suggest a mains-powered install more than a battery-powered gadget.
 
-## 10. Mounting and placement
+## 11. Mounting and placement
 
 The device should work in more than one bathroom layout.
 
@@ -153,7 +173,7 @@ Placement considerations:
 - leave room for sound to exit the speaker
 - avoid trapping water behind the device
 
-## 11. Software stack
+## 12. Software stack
 
 ### Music server
 
@@ -179,9 +199,10 @@ Speech recognition:
 
 Intent handling:
 
-- a small parser for commands like "play X by Y"
-- fuzzy matching or best-match logic against library metadata
-- clear fallback when the request is ambiguous
+- a small parser for commands like "play X by Y", "pause", "back", "forward"
+- seek handling for back/forward with optional time input
+- default seek of 15 seconds when no time is given
+- clear fallback when recognition is uncertain
 
 This stack keeps the voice path local-first and believable. It does not need to be perfect. It needs to work often enough that the device feels useful.
 
@@ -193,8 +214,9 @@ The device should behave like a Subsonic client:
 - search by artist/title
 - retrieve song metadata
 - stream or play the matched track
+- seek within the track when asked
 
-This is the mechanism that turns a voice request into actual music from your library.
+This is the mechanism that turns a voice request or touch command into actual music from your library.
 
 ### Visuals and UI
 
@@ -205,11 +227,14 @@ The screen should show:
 - recognized request
 - now playing state
 - match/no-match feedback
-- simple playback status
+- playback status
+- seek actions when they happen
 
 Keep the UI sparse. The device is a bathroom object; it should feel calm and readable from a distance, not like a compact phone app.
 
-## 12. Firmware and system software approach
+Touch UI should be simple enough to use quickly in a wet environment. Big targets, clear state, and limited reliance on precise gestures are the right direction.
+
+## 13. Firmware and system software approach
 
 The device software should be split into clear roles:
 
@@ -217,10 +242,11 @@ The device software should be split into clear roles:
 - voice service for waking and recognition
 - music client service for server communication and playback
 - visual service for screen state and animation
+- input layer that merges voice and touch commands into one playback behavior
 
 This separation makes the project easier to debug and easier to describe in a Hack Club journal. Each layer can be tested independently.
 
-## 13. Acoustic and mechanical integration
+## 14. Acoustic and mechanical integration
 
 The device’s character comes from how the electronics sit inside the object.
 
@@ -229,42 +255,46 @@ Key integration points:
 - speaker position relative to the enclosure volume
 - mic position relative to the user and water sources
 - screen recess depth and viewing angle
+- touch usability from the same surface that shows the visuals
 - openable or serviceable enclosure without making it feel fragile
 - overall proportions that read as one object
 
 The result should be something you would not mind leaving in a bathroom. That is a higher bar than “it works on the bench.”
 
-## 14. Build sequence
+## 15. Build sequence
 
 The build should proceed in this order:
 
 1. Define the enclosure size and internal layout
-2. Choose board, display, speaker, mic, and power path
+2. Choose board, display, speaker, mic, touch approach, and power path
 3. Design the acoustic openings and sealing strategy
 4. Assemble the electronics on a prototype basis if needed
 5. Get basic audio playback working
-6. Get the display working
+6. Get the display and touch working
 7. Get the music server client working
 8. Add wake word and voice recognition
-9. Add music request matching
-10. Add screen visuals and status behavior
-11. Finalize enclosure, sealing, and mounting
-12. Install and tune for bathroom use
+9. Add music request matching and playback controls
+10. Add voice and touch seek behavior with the 15-second default
+11. Add screen visuals and status behavior
+12. Finalize enclosure, sealing, and mounting
+13. Install and tune for bathroom use
 
 This order keeps the mechanical and electrical decisions from trapping the software, and keeps the software from hiding weak mechanical choices.
 
-## 15. Acceptance criteria
+## 16. Acceptance criteria
 
 The build is done when:
 
 - the device plays music from your self-hosted library
 - voice requests like “play X by Y” work well enough in real use
+- play, pause, back, and forward work by voice and by touch
+- back/forward seek uses a given time when provided and defaults to 15 seconds otherwise
 - the screen shows meaningful state and visuals
 - the enclosure is sealed and bathroom-viable
 - the device can be mounted and powered cleanly
 - the whole thing feels like a finished object, not a lab experiment
 
-## 16. What is intentionally left for real-life assembly
+## 17. What is intentionally left for real-life assembly
 
 This plan is complete except for the physical build itself.
 
@@ -272,9 +302,9 @@ Left for hands-on assembly:
 
 - printing, machining, or otherwise fabricating the enclosure
 - sealing, gasketing, and testing the enclosure
-- wiring and fitting the actual boards, speaker, microphone, and display
+- wiring and fitting the actual boards, speaker, microphone, display, and touch surface
 - conformal coating, potting, or other protection work on the real hardware
 - final mounting in the bathroom and practical tuning
-- actual sound tuning, mic placement tuning, and enclosure tweaking
+- actual sound tuning, mic placement tuning, touch tuning, and enclosure tweaking
 
 Everything else — the device concept, the architecture, the parts direction, the waterproofing approach, the software stack, and the build sequence — is fully designed here.

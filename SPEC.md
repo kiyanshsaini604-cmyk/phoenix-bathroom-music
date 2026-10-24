@@ -10,6 +10,7 @@ The core interaction is:
 - The device understands the request, pulls the track from your self-hosted music server, and plays it
 - A small screen shows visual feedback instead of a phone UI
 - Speakers built into the device give you the sound
+- You can also control playback by touch
 
 It is meant to feel like a small appliance, not a laptop or a phone clone.
 
@@ -18,11 +19,12 @@ It is meant to feel like a small appliance, not a laptop or a phone clone.
 The interesting parts of the project are:
 
 - voice input as the primary control
+- touch input as a secondary control
 - a personal music library as the source
 - visual feedback on a small screen
 - a form factor that actually works in a bathroom
 
-This keeps the project focused. The device is not trying to be a universal music service. It is a physical object for one specific ritual: music in the shower or bath, controlled by voice, with no phone in the wet zone.
+This keeps the project focused. The device is not trying to be a universal music service. It is a physical object for one specific ritual: music in the shower or bath, controlled by voice and touch, with no phone in the wet zone.
 
 ## 3. Product language
 
@@ -69,10 +71,10 @@ Phoenix should look like one object, not a sandwich of exposed boards and wires.
 
 ### Controls
 
-- No physical buttons unless there is a very good reason
-- Primary control is voice
+- Primary control is voice, with touch as the secondary control
 - A small hardware state indicator or one tactile control can help for wake, mute, or emergency off
 - The device should still be usable if voice is imperfect
+- Touch input should be usable wet-handed where possible, not only precise dry fingertip taps
 
 ### Mounting
 
@@ -140,6 +142,7 @@ A compact board with Wi-Fi and enough graphics/audio capability is the right cla
 ### Sensors
 
 - Microphone is the main sensor
+- Touch input on the screen or on a dedicated touch surface
 - Optionally a simple status LED or small indicator array
 - Optionally a physical mute/ wake control
 
@@ -170,10 +173,10 @@ The intended flow is:
 
 A good practical stack:
 
+- a wake-word engine for local wake detection
 - Vosk for offline-capable speech recognition
-- A local wake-word detector if you want true hands-free behavior
-- A simple intent parser for "play X by Y" style requests
-- Fallback behavior when recognition is uncertain
+- a local intent parser for "play X by Y" style requests
+- fallback behavior when recognition is uncertain
 
 The voice path does not need to be perfect. It needs to be believable and useful.
 
@@ -185,14 +188,20 @@ The device should:
 - pick the best match
 - start streaming or playing the track
 - show feedback on screen while playback happens
+- support voice and touch playback controls
 
-The Subsonic API family gives a reasonable client model:
-- authenticate
-- search
-- fetch song metadata
-- stream the track
+Playback commands should work in both modes:
 
-This is the part that makes "play song by name" actually work against a real library.
+- voice: play, pause, back, forward
+- touch: play, pause, back, forward
+
+For back and forward:
+
+- if a time is given, seek by that amount
+- if no time is given, use a default seek of 15 seconds
+- examples: "back 10 seconds", "forward 30", "back", "forward"
+
+This makes the device feel like a real music controller instead of just a play/pause box.
 
 ### Visuals
 
@@ -203,58 +212,88 @@ The screen should not be decoration. It should communicate:
 - now playing
 - library match or no match
 - basic playback state
+- seek actions when they happen
 
 A good visual strategy is a mix of:
 
 - calm ambient animation when idle
 - music-reactive motion during playback
-- clear state changes when voice is heard
+- clear state changes when voice or touch is used
 - simple text or art when useful
 
 The goal is "nice to look at while bathing," not "dense app interface."
 
-## 8. What makes it original
+## 8. Voice and touch command set
+
+The device should support these interactions:
+
+Voice:
+
+- "Hey Phoenix" to wake
+- "play X by Y"
+- "pause"
+- "play"
+- "back"
+- "forward"
+- "back 10 seconds"
+- "forward 30 seconds"
+- and similar variations
+
+Touch:
+
+- play/pause
+- back
+- forward
+- maybe a seek slider or tap zones if that fits the screen and waterproofing better than precise taps
+
+The same action should work the same way whether it comes from voice or touch. That consistency is part of what makes the device feel polished.
+
+## 9. What makes it original
 
 The original part is not any single technology. It is the combination:
 
 - a dedicated physical device
-- voice-first control
+- voice-first control with touch fallback
 - personal library source
 - bathroom-first design
 - screen visuals instead of a phone UI
 - built-in speakers so the phone can stay out of the wet area
+- seek control with a time-based back/forward behavior
 
 That is a real product-shaped idea rather than a generic showcase build.
 
-## 9. Build sequence
+## 10. Build sequence
 
 A sensible order:
 
 1. Enclosure concept and dimensions
 2. Speaker and mic placement
 3. Waterproofing strategy for acoustic openings
-4. Main board, display, audio, and power layout
+4. Main board, display, audio, touch, and power layout
 5. Basic playback from the music server
 6. Voice wake and recognition
 7. Music request matching
-8. Screen visuals and status behavior
-9. Mounting and install experience
-10. Iterate on look, sound, and interaction
+8. Voice and touch playback controls, including seek
+9. Screen visuals and status behavior
+10. Mounting and install experience
+11. Iterate on look, sound, and interaction
 
 This order matters because the hard parts are scattered across mechanical, electrical, and software domains. If you start with the enclosure and the acoustic path first, the rest is easier to fit inside it.
 
-## 10. Success criteria
+## 11. Success criteria
 
 The project is successful if:
 
 - you can request songs by voice and get the right track most of the time
 - the music actually comes from your self-hosted library
+- play, pause, back, and forward work by voice and by touch
+- seek defaults to 15 seconds unless a time is given
 - the device feels like an object, not a breadboard in a box
 - the screen adds something instead of just being there
 - the device can live in a bathroom without feeling fragile
 - the whole thing makes sense as a Forge/Fabricate project: original, buildable, and funded for real parts and fabrication
 
-## 11. What this is not
+## 12. What this is not
 
 - Not a phone app
 - Not a licensed streaming service
@@ -262,8 +301,8 @@ The project is successful if:
 - Not a full assistant platform
 - Not a pure media player with buttons
 
-It is a bathroom voice music object built around your own music and your own hardware.
+It is a bathroom voice and touch music object built around your own music and your own hardware.
 
-## 12. Name
+## 13. Name
 
 "Phoenix" works as the device name and wake word. It gives the project identity without needing a separate branding exercise.
