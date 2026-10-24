@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="640" viewBox="0 0 1280 640">
+  <rect width="1280" height="640" fill="#0f1418"/>
+  <rect x="40" y="40" width="1200" height="560" rx="18" fill="#171f25" stroke="#2a3640" stroke-width="2"/>
+  <text x="60" y="90" font-family="system-ui,sans-serif" font-size="28" font-weight="700" fill="#ffffff">Phoenix — enclosure concept</text>
+  <text x="60" y="120" font-family="system-ui,sans-serif" font-size="18" fill="#9fd0e0">Front/back concept view and sealing notes.</text>
+
+  <g font-family="system-ui,sans-serif" font-size="18" fill="#ffffff">
+    <rect x="120" y="200" width="420" height="300" rx="18" fill="#1f2c35" stroke="#3c5264"/>
+    <rect x="180" y="260" width="300" height="180" rx="12" fill="#0b171f" stroke="#3c5264"/>
+    <text x="200" y="310" fill="#9fd0e0">screen recess</text>
+    <circle cx="230" cy="420" r="14" fill="#0b171f" stroke="#3c5264"/>
+    <text x="255" y="425" fill="#9fd0e0">mic port + membrane</text>
+    <rect x="330" y="400" width="160" height="60" rx="8" fill="#0b171f" stroke="#3c5264"/>
+    <text x="345" y="437" fill="#9fd0e0">speaker port</text>
+  </g>
+
+  <g font-family="system-ui,sans-serif" font-size="16" fill="#8fb6c6">
+    <text x="600" y="240">Back panel: sealed split-line gasket, panel-mount power inlet, service latch.</text>
+    <text x="600" y="265">Acoustic openings get membranes, not raw printed holes.</text>
+    <text x="600" y="290">Mounting features built into the body for shelf, bracket, or suction use.</text>
+    <text x="600" y="315">Enclosure is ASA-preferred; PETG fallback if ASA is unavailable.</text>
+    <text x="600" y="340">Waterproofing is a system: seal, membrane, covered ports, coating where appropriate.</text>
+  </g>
+
+  <text x="60" y="540" font-family="system-ui,sans-serif" font-size="16" fill="#8fb6c6">Dimensions and exact form factor to be finalized during physical build.</text>
+</svg>

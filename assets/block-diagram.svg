@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="640" viewBox="0 0 1280 640">
+  <rect width="1280" height="640" fill="#0f1418"/>
+  <rect x="40" y="40" width="1200" height="560" rx="18" fill="#171f25" stroke="#2a3640" stroke-width="2"/>
+  <text x="60" y="90" font-family="system-ui,sans-serif" font-size="28" font-weight="700" fill="#ffffff">Phoenix — block/wiring diagram</text>
+  <text x="60" y="120" font-family="system-ui,sans-serif" font-size="18" fill="#9fd0e0">Core signal and power routing concept.</text>
+
+  <g font-family="system-ui,sans-serif" font-size="18" fill="#ffffff">
+    <rect x="80" y="220" width="200" height="120" rx="10" fill="#1f3341" stroke="#3b5d72"/>
+    <text x="95" y="255" font-weight="700">Compute board</text>
+    <text y="280" fill="#bcd9e6">Pi Zero 2 W class</text>
+    <text y="300" fill="#bcd9e6">Wi-Fi + GPIO</text>
+
+    <rect x="360" y="220" width="200" height="120" rx="10" fill="#1f3341" stroke="#3b5d72"/>
+    <text x="375" y="255" font-weight="700">Audio codec/amp</text>
+    <text y="280" fill="#bcd9e6">DAC / amp stage</text>
+    <text y="300" fill="#bcd9e6">if board audio weak</text>
+
+    <rect x="640" y="220" width="200" height="120" rx="10" fill="#1f3341" stroke="#3b5d72"/>
+    <text x="655" y="255" font-weight="700">Display + touch</text>
+    <text y="280" fill="#bcd9e6">SPI LCD + touch</text>
+    <text y="300" fill="#bcd9e6">visuals + input</text>
+
+    <rect x="920" y="220" width="200" height="120" rx="10" fill="#1f3341" stroke="#3b5d72"/>
+    <text x="935" y="255" font-weight="700">Speaker</text>
+    <text y="280" fill="#bcd9e6">built-in output</text>
+    <text y="300" fill="#bcd9e6">amp -> speaker</text>
+
+    <rect x="640" y="400" width="200" height="120" rx="10" fill="#1f3341" stroke="#3b5d72"/>
+    <text x="655" y="435" font-weight="700">Microphone</text>
+    <text y="460" fill="#bcd9e6">protected port</text>
+    <text y="480" fill="#bcd9e6">acoustic membrane</text>
+  </g>
+
+  <g stroke="#4f7d93" stroke-width="3" fill="none">
+    <path d="M 280 280 L 360 280"/>
+    <path d="M 560 280 L 640 280"/>
+    <path d="M 840 280 L 920 280"/>
+    <path d="M 740 340 L 740 400"/>
+    <path d="M 180 340 L 180 470"/>
+    <path d="M 180 470 L 640 470" stroke-dasharray="6 6"/>
+  </g>
+
+  <g font-family="system-ui,sans-serif" font-size="16" fill="#8fb6c6">
+    <text x="60" y="545">Power: sealed inlet -> board + audio stage. No exposed USB in final install.</text>
+    <text x="60" y="568">Audio: mic -> capture path; server stream -> codec/amp -> speaker.</text>
+    <text x="60" y="590">Touch and display share one screen part where possible.</text>
+  </g>
+</svg>

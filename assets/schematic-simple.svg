@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="640" viewBox="0 0 1280 640">
+  <rect width="1280" height="640" fill="#11181f"/>
+  <rect x="40" y="40" width="1200" height="560" rx="18" fill="#16222c" stroke="#2c4a5c" stroke-width="2"/>
+  <text x="60" y="90" font-family="system-ui,sans-serif" font-size="28" font-weight="700" fill="#ffffff">Phoenix — simple subsystem diagram</text>
+  <text x="60" y="120" font-family="system-ui,sans-serif" font-size="18" fill="#9fd0e0">Block overview for build reference and replication.</text>
+
+  <g font-family="system-ui,sans-serif" font-size="20" fill="#ffffff">
+    <rect x="80" y="180" width="220" height="110" rx="10" fill="#1f3341" stroke="#3b5d72"/>
+    <text x="92" y="215" font-weight="700">Compute board</text>
+    <text y="245" fill="#bcd9e6">Raspberry Pi Zero 2 W</text>
+
+    <rect x="430" y="180" width="220" height="110" rx="10" fill="#1f3341" stroke="#3b5d72"/>
+    <text x="442" y="215" font-weight="700">Audio interface</text>
+    <text y="245" fill="#bcd9e6">Codec / amp / HAT if needed</text>
+
+    <rect x="780" y="180" width="220" height="110" rx="10" fill="#1f3341" stroke="#3b5d72"/>
+    <text x="792" y="215" font-weight="700">Display + touch</text>
+    <text y="245" fill="#bcd9e6">Small SPI touch LCD</text>
+
+    <rect x="80" y="380" width="220" height="110" rx="10" fill="#1f3341" stroke="#3b5d72"/>
+    <text x="92" y="415" font-weight="700">Speaker</text>
+    <text y="445" fill="#bcd9e6">Built-in bathroom speaker</text>
+
+    <rect x="430" y="380" width="220" height="110" rx="10" fill="#1f3341" stroke="#3b5d72"/>
+    <text x="442" y="415" font-weight="700">Microphone</text>
+    <text y="445" fill="#bcd9e6">Protected mic path</text>
+
+    <rect x="780" y="380" width="220" height="110" rx="10" fill="#1f3341" stroke="#3b5d72"/>
+    <text x="792" y="415" font-weight="700">Power / mount</text>
+    <text y="445" fill="#bcd9e6">Sealed inlet + bracket</text>
+  </g>
+
+  <g stroke="#4f7d93" stroke-width="3" fill="none">
+    <path d="M 300 235 L 430 235"/>
+    <path d="M 650 235 L 780 235"/>
+    <path d="M 300 435 L 430 435"/>
+    <path d="M 650 435 L 780 435"/>
+    <path d="M 190 290 L 190 380"/>
+    <path d="M 540 290 L 540 380"/>
+    <path d="M 890 290 L 890 380"/>
+  </g>
+
+  <text x="60" y="540" font-family="system-ui,sans-serif" font-size="16" fill="#8fb6c6">Music server: Airsonic-Advanced or Navidrome over Subsonic-compatible API.</text>
+  <text x="60" y="565" font-family="system-ui,sans-serif" font-size="16" fill="#8fb6c6">Voice path: local wake word + Vosk, with server-side fallback where needed.</text>
+</svg>
