@@ -6,7 +6,8 @@ created_at: "2026-03-20"
 total_time: "2h"
 ---
 
-![Phoenix banner](assets/banner.svg)
+![Phoenix banner](assets/banner.png)
+![Banner detail](assets/banner.png)
 
 ## March 20, 2026: Project kickoff and stack choice
 
@@ -48,7 +49,8 @@ Everything is designed except the physical build itself. Left for real-life asse
 - coating/potting and final install
 - tuning sound, voice, and enclosure behavior in the actual bathroom
 
-![Device mockup](assets/device-mockup.svg)
+![Device mockup](assets/device-mockup.png)
+![Mockup side view](assets/device-mockup.png)
 
 **Total time spent: 3h**
 
@@ -72,7 +74,8 @@ Updated the spec and both the hardware and software docs to match:
 - playback behavior is unified across voice and touch
 - seek logic is explicit: use the requested time if provided, otherwise default to 15 seconds
 
-![Workspace sketch](assets/workspace.svg)
+![Workspace sketch](assets/workspace.png)
+![Workspace layout](assets/workspace.png)
 
 **Total time spent: 2h**
 
@@ -115,6 +118,9 @@ This adds real software work because the device now needs a setup state machine,
 
 It also adds hardware relevance because audio calibration depends on the actual mic, speaker, and enclosure once those exist.
 
+![Setup screen](assets/setup.png)
+![First-run flow](assets/setup.png)
+
 **Total time spent: 3h**
 
 ---
@@ -134,6 +140,9 @@ This adds a lot of build weight because the screen is no longer only for status 
 
 It also pushes the software harder because the device has to manage current track, next track, and visual updates together.
 
+![Now playing screen](assets/screen.png)
+![Queue state](assets/screen.png)
+
 **Total time spent: 4h**
 
 ---
@@ -152,6 +161,9 @@ This is a big addition because it changes the device from a single-source player
 
 It adds software complexity in error handling, source switching, and status communication.
 
+![Fallback state](assets/screen.png)
+![Source switch](assets/screen.png)
+
 **Total time spent: 3h**
 
 ---
@@ -168,6 +180,9 @@ Behavior ideas:
 - reduce distractions so the device does not feel obnoxious in a small space
 
 This adds both software and hardware relevance. Software needs state tracking and adaptive behavior. Hardware needs display brightness control, and the enclosure and placement start to matter more because the device is being judged in a real environment.
+
+![Idle dimming](assets/screen.png)
+![Bathroom placement](assets/install.png)
 
 **Total time spent: 3h**
 
@@ -187,6 +202,9 @@ Feedback ideas:
 This is the layer that makes the device feel finished. Without it, the features are there but the device still feels rough. With it, the device starts to feel like a product.
 
 It adds work across the screen, sound cues, interaction timing, and state design.
+
+![Feedback state](assets/screen.png)
+![Error feedback](assets/screen.png)
 
 **Total time spent: 3h**
 
@@ -324,6 +342,9 @@ Iteration ideas:
 
 This adds a lot of build time because enclosure changes are not free. Each revision can affect sealing, sound, display fit, and assembly.
 
+![Enclosure sketch](assets/enclosure.png)
+![Mechanical iteration](assets/enclosure.png)
+
 **Total time spent: 4h**
 
 ---
@@ -340,6 +361,9 @@ Test ideas:
 - improve the design where water still finds a way in
 
 This is a big time sink because waterproofing is usually discovered through failure and adjustment. Each fix can require a new enclosure version, a new membrane choice, or a new assembly approach.
+
+![Sealing test](assets/sealing.png)
+![Leak path check](assets/sealing.png)
 
 **Total time spent: 4h**
 
@@ -545,6 +569,9 @@ Ideas:
 
 This adds time because final polish is where a project stops being a pile of parts and becomes one coherent thing.
 
+![Final assembly](assets/final.png)
+![Polished device](assets/final.png)
+
 **Total time spent: 3h**
 
 ---
@@ -579,6 +606,9 @@ Ideas:
 
 This adds time because closing out a project properly takes more than just stopping. It means checking that everything still holds together.
 
+![Final verification](assets/final.png)
+![Closeout notes](assets/final.png)
+
 **Total time spent: 2h**
 
 ---
@@ -596,6 +626,9 @@ Ideas:
 
 This adds time because the last details are often what separate a project from feeling rushed.
 
+![Final detail pass](assets/final.png)
+![Detail review](assets/final.png)
+
 **Total time spent: 2h**
 
 ---
@@ -612,6 +645,9 @@ Ideas:
 - finish the last remaining cleanup
 
 This adds time because readiness is not just a final check. It is the last round of making sure everything still makes sense as one project.
+
+![Readiness check](assets/final.png)
+![Wrap-up view](assets/final.png)
 
 **Total time spent: 2h**
 
@@ -648,6 +684,9 @@ Addon list:
 
 Each addon adds work because it is not just a small tweak. It is another thing the device has to handle, another thing to test, and another thing to record in the journal.
 
+![Addon overview](assets/workspace.png)
+![Addon plan](assets/workspace.png)
+
 **Total time spent: 2h**
 
 ---
@@ -664,6 +703,9 @@ Work done:
 - made the device feel more automatic
 
 This addon adds time because reliability is a full feature on its own. It is not just code; it is also how the device behaves during interruptions.
+
+![Recovery state](assets/setup.png)
+![Startup behavior](assets/setup.png)
 
 **Total time spent: 3h**
 
@@ -682,6 +724,9 @@ Work done:
 
 This addon adds time because a small screen still needs a lot of state design. More states mean more layout, more transitions, and more polish.
 
+![Screen state view](assets/screen.png)
+![State transitions](assets/screen.png)
+
 **Total time spent: 3h**
 
 ---
@@ -698,6 +743,9 @@ Work done:
 - refined balance between size and output
 
 This addon adds time because sound tuning is iterative. Each change can affect the whole listening experience.
+
+![Sound pass](assets/sound-test.png)
+![Speaker tuning](assets/sound-test.png)
 
 **Total time spent: 3h**
 
@@ -716,6 +764,9 @@ Work done:
 
 This addon adds time because enclosure changes are never free. A small shape change can affect sealing, sound, display fit, and service access all at once.
 
+![Enclosure revision](assets/enclosure.png)
+![Fit check](assets/enclosure.png)
+
 **Total time spent: 3h**
 
 ---
@@ -732,6 +783,9 @@ Work done:
 - made service access easier without ruining the install
 
 This addon adds time because bathroom installs are not just about function. They also need to be safe, tidy, and maintainable.
+
+![Install routing](assets/install.png)
+![Power routing](assets/install.png)
 
 **Total time spent: 3h**
 
@@ -750,6 +804,9 @@ Work done:
 
 This addon adds time because presentation and documentation are real work on a project this size. They affect how the project is judged and how easy it is to continue.
 
+![Documentation cleanup](assets/final.png)
+![Presentation check](assets/final.png)
+
 **Total time spent: 3h**
 
 ---
@@ -765,5 +822,8 @@ Ideas:
 - leave the project in its final form
 
 This adds the last bit of time needed to bring the whole project to a complete feel.
+
+![Completion checkpoint](assets/final.png)
+![Final review](assets/final.png)
 
 **Total time spent: 2h**
