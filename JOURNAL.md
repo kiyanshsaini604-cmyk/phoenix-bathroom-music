@@ -6,6 +6,8 @@ created_at: "2026-03-20"
 total_time: "2h"
 ---
 
+![Phoenix banner](assets/banner.svg)
+
 ## March 20, 2026: Project kickoff and stack choice
 
 Decided on the core idea: a dedicated bathroom music device that listens for voice requests like "Hey Phoenix, play X by Y" and plays from a self-hosted open source music server, with onboard screen animations instead of a phone.
@@ -46,6 +48,8 @@ Everything is designed except the physical build itself. Left for real-life asse
 - coating/potting and final install
 - tuning sound, voice, and enclosure behavior in the actual bathroom
 
+![Device mockup](assets/device-mockup.svg)
+
 **Total time spent: 3h**
 
 ---
@@ -67,5 +71,25 @@ Updated the spec and both the hardware and software docs to match:
 - the screen/touch surface is treated as part of the bathroom-friendly UI
 - playback behavior is unified across voice and touch
 - seek logic is explicit: use the requested time if provided, otherwise default to 15 seconds
+
+![Workspace sketch](assets/workspace.svg)
+
+**Total time spent: 2h**
+
+---
+
+## Media notes
+
+Image references for this project are stored in `assets/`:
+- `assets/banner.svg` — project banner
+- `assets/device-mockup.svg` — device concept mockup
+- `assets/workspace.svg` — workspace sketch
+
+Replace these with real photos as the build progresses. Good candidates:
+- enclosure sketches
+- board layout photos
+- wiring/assembly photos
+- sealed enclosure test shots
+- bathroom install photos
 
 **Total time spent: 2h**

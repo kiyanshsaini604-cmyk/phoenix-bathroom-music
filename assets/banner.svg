@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="640" viewBox="0 0 1280 640">
+  <rect width="1280" height="640" fill="#0b1f2a"/>
+  <rect x="0" y="420" width="1280" height="220" fill="#0d2a35"/>
+  <circle cx="1080" cy="280" r="180" fill="#2fd6c8" opacity="0.18"/>
+  <text x="40" y="120" font-family="system-ui,sans-serif" font-size="64" font-weight="700" fill="#ffffff">Phoenix</text>
+  <text x="40" y="200" font-family="system-ui,sans-serif" font-size="32" fill="#8fe6df">Voice &amp; touch bathroom music device</text>
+  <text x="40" y="260" font-family="system-ui,sans-serif" font-size="24" fill="#7fd6d0">Self-hosted music server · Local voice control · Built-in speaker</text>
+  <text x="40" y="470" font-family="system-ui,sans-serif" font-size="20" fill="#5fbdb8">Fabricate / Forge · Hack Club</text>
+  <text x="1240" y="600" font-family="system-ui,sans-serif" font-size="20" fill="#5fbdb8" text-anchor="end">Fabricate_Hackclub</text>
+</svg>
