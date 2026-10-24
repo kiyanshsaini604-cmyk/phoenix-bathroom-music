@@ -75,21 +75,3 @@ Updated the spec and both the hardware and software docs to match:
 ![Workspace sketch](assets/workspace.svg)
 
 **Total time spent: 2h**
-
----
-
-## Media notes
-
-Image references for this project are stored in `assets/`:
-- `assets/banner.svg` — project banner
-- `assets/device-mockup.svg` — device concept mockup
-- `assets/workspace.svg` — workspace sketch
-
-Replace these with real photos as the build progresses. Good candidates:
-- enclosure sketches
-- board layout photos
-- wiring/assembly photos
-- sealed enclosure test shots
-- bathroom install photos
-
-**Total time spent: 2h**
