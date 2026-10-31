@@ -32,18 +32,39 @@ This is meant to be a believable single-device project for Forge/Fabricate:
 
 Progress is tracked in `JOURNAL.md`.
 
-## Build photos
+## Photos and diagrams
+
+### Device overview
 
 ![Device mockup](assets/placeholder-1.png)
+*Top-down view of the finished device showing the integrated screen, speaker grille, and microphone port on the front face.*
+
+### Enclosure and build
+
 ![Enclosure concept](assets/enclosure.png)
+*3D view of the sealed two-part ASA enclosure with the display recess, speaker port, and gasket channel visible.*
+
+### Schematic and wiring
+
 ![Schematic diagram](assets/block-diagram.svg)
+*Block diagram of the electronics: compute board, display, speaker amp, microphone path, and power inlet, with signal flow arrows.*
+
+### PCB layout
+
 ![PCB rendering](assets/device-mockup.svg)
+*PCB layout view showing component placement, trace routing, standoff positions, and the sealed connector footprint.*
+
+### Audio and voice signal path
+
 ![Audio flow](assets/audio-flow.png)
+*Signal flow from microphone capture through voice recognition to music server request and speaker playback.*
+
 ![Voice pipeline](assets/voice-map.png)
+*Voice pipeline map: wake-word detection, command capture, Vosk recognition, intent parsing, and library match.*
 
 ---
 
-*Photos show the device mockup, enclosure design, schematic, PCB layout, audio path, and voice recognition mapping for the bathroom music project.*
+*Images cover the device build, 3D enclosure model, schematic block diagram, PCB layout, audio signal path, and voice recognition pipeline.*
 
 ## Chosen stack
 
