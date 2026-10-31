@@ -3670,3 +3670,164 @@ Work done:
 
 **Total time spent: 240h**
 
+## How to journal
+
+This section is a quick guide for anyone adding new entries to this journal. The journal itself is the long build record above; this part just documents the format so the entries stay consistent.
+
+### Entry format
+
+Each entry looks like this:
+
+```
+## Month D, YYYY: Entry title
+
+Work done:
+- item one
+- item two
+
+![Month D, YYYY](assets/filename.png)
+
+**Total time: Xh 0m**
+
+---
+```
+
+### What each entry needs
+
+- A header that starts with `## ` and includes the date in `Month D, YYYY` form.
+- A `Work done:` section with at least one bullet.
+- One image line that references a file in `assets/`.
+- A time log line in the form `**Total time: Xh 0m**`.
+- A `---` separator after the time log.
+
+### Time format
+
+Use `**Total time: Xh 0m**` with whole hours and zero minutes, or `**Total time: Xh Ym**` when an entry runs past the hour. The important part is that the line starts with `**Total time:` and includes both an hour value and a minute value so it can be parsed consistently.
+
+### Image rules
+
+- Images live in `assets/`.
+- Every entry references its image with a markdown line like `![caption](assets/filename.png)`.
+- The referenced file must actually exist in `assets/`.
+
+### File-level rules
+
+- One entry per date header.
+- Entries are ordered chronologically.
+- The journal ends with a single `**Total time spent: 240h**` footer after the last entry's separator.
+
+### Why this format
+
+This keeps the journal easy to scan and easy to check: every entry has the same five pieces, every image has a real file behind it, and every session's time is recorded in the same parseable shape.
+
+## Journal Format Specification
+
+This section defines the exact structure every journal entry in this project must follow.
+
+### Entry Structure
+
+Each journal entry follows this exact structure:
+
+```
+## Month D, YYYY: Entry Title
+
+Work done:
+- Description of work item 1
+- Description of work item 2
+- (additional items as needed)
+
+![Month D, 2026](assets/filename.png)
+
+**Total time: Xh 0m** or **Total time: Xh** or **Total time: Xh Ym**
+
+---
+```
+
+### Required Components Per Entry
+
+1. **Header line**: `## Month D, YYYY: Entry Title`
+   - Month can be abbreviated (Jan, Feb, Mar, etc.) or full (January, February, March, etc.)
+   - Day is 1-31 with ordinal suffix optional
+   - Year is 4 digits
+   - Colon after title, then space before description
+
+2. **Work done section**:
+   ```
+   Work done:
+   - List accomplishments for that session
+   ```
+   - Minimum 1 item, reasonable maximum 10-15 items
+   - Each item starts with `- ` (dash space)
+
+3. **Image**:
+   ```
+   ![Month D, 2026](assets/filename.png)
+   ```
+   - Must reference a file that exists in `assets/`
+   - Recommended naming: `placeholder-XX.png` (1-23) or specific names like `changelog-1.png`, `done.png`, `feature-3.png`, `checklist-1.png`, `brush-1.png`, `photo-3.png`
+   - Image should be on its own line
+
+4. **Time log**:
+   ```
+   **Total time: Xh 0m**
+   ```
+   - Format: `**Total time:**` followed by space, then `Xh 0m` or `Xh` or `Xh Ym`
+   - `X` is a positive integer (hours)
+   - Optional `0m` for zero minutes (required for parseability)
+   - Optional `Ym` for additional minutes if needed
+   - Example valid: `**Total time: 2h 0m**`, `**Total time: 1h 30m**`, `**Total time: 3h**`
+
+5. **Separator**:
+   ```
+   ---
+   ```
+   - Three dashes on their own line
+   - Marks end of entry, start of next entry
+
+### Global Footer
+
+After all entries, the file must include:
+
+```
+**Total time spent: 240h**
+```
+
+- This is the global total time spent on the entire project
+- Placed at the very end of JOURNAL.md, after the last `---` separator
+- Format: `**Total time spent: 240h**` (with bold markdown)
+
+### Formatting Rules
+
+- **One entry per dated header** - no duplicate dates
+- **Entries are sequential** - use consecutive dates or clearly mark gaps
+- **Images must exist** - every `![...](assets/...)` reference must have a corresponding file in `assets/`
+- **Time lines must be parseable** - the `**Total time:**` pattern must be present and parseable
+- **No orphaned content** - every entry must have all 5 components (header, work, image, time, separator)
+- **Consistent style** - same formatting conventions throughout the file
+
+### Example Entry
+
+```
+## Oct 23, 2026: Music client and Subsonic integration
+
+Work done:
+- built the music client around the Subsonic-compatible API
+- added search and playback request handling
+- wired the client into the device config for server address and auth
+- left the client tests covering the happy and error paths
+
+![Music client sketch](assets/placeholder-7.png)
+
+**Total time: 2h 0m**
+
+---
+```
+
+### Checklist for Each Entry
+
+- [ ] Header starts with `## ` and has date format
+- [ ] `Work done:` section with at least 1 item
+- [ ] Image line starts with `![` and references `assets/`
+- [ ] Time line starts with `**Total time:` and has parseable format
+- [ ] `---` separator on its own line after time line
+- [ ] Image file actually exists in `assets/` directory
