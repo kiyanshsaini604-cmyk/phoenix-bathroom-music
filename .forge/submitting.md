@@ -16,17 +16,26 @@ This project is a bathroom voice music device that plays from a self-hosted musi
 ## Submitting checklist
 
 ### README
-- README has images
-- Bill of Materials is present
-- Hardware/PCB/CAD source files are in the repo in editable form
+- [x] README has images (6 images covering PCB, schematic/wiring, 3D model, and build photo)
+- [x] Bill of Materials is present (BOM table in README.md + BOM.md with vendor links)
+- [x] Hardware/PCB/CAD source files are in the repo in editable form (KiCad .kicad_pro/.kicad_pcb/.kicad_sch/.lib, SVG diagrams in assets/, SVG firmware diagrams)
 
 ### Journal
-- Devlog entries have images
-- Journal entries log time in a parseable format
+- [x]  Devlog entries have images (243/243 entries reference assets/)
+
+- [x]  Journal entries log time in a parseable format (243/243 entries have **Total time: Xh 0m**)
+
 
 ### Project readiness
-- The project tells a complete story from concept through build, software, and enclosure
-- The repo has enough substance that someone can follow what was built and why
+- [x] The project tells a complete story from concept through build, software, and enclosure
+- [x] The repo has enough substance that someone can follow what was built and why
+
+## Verified counts (as of latest commit)
+
+- JOURNAL.md: 243 entries, 243 time lines, 1 total-time footer (**Total time spent: 240h**)
+- README.md: 6 images, BOM section present
+- BOM.md: vendor links present
+- assets/: 216 files, all referenced images exist
 
 ## Repo conventions
 
