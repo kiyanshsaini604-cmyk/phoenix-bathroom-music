@@ -1,8 +1,11 @@
-# Phoenix — Project Journal
-
-This journal tracks the project from first concept through final review. Each entry records what was done that day and how much time it took.
-
 ## Mar 20, 2026: Project kickoff and concept shaping
+
+Work done:
+- Background research on bathroom-friendly music setups
+- First pass at the project shape and scope
+- Initial ideas for enclosure and interface direction
+- Early notes on voice vs touch tradeoffs
+- Sketch of the target user flow
 
 Started the project today. The idea is a small dedicated bathroom music device that reacts to voice and lives in a wet room without feeling like a phone dragged into the shower.
 
@@ -18,8 +21,7 @@ This adds time because the first day is mostly trying to make the thing feel rea
 ![March 20, 2026](assets/placeholder-1.png)
 
 **Total time: 3h 0m**
-
-
+---
 
 ## Oct 10, 2026: power inlet mount test
 
@@ -34,6 +36,9 @@ Work done:
 **Total time: 1h 0m**
 
 
+
+---
+
 ## Oct 10, 2026: port tuning sweep
 
 Work done:
@@ -45,6 +50,9 @@ Work done:
 
 **Total time: 1h 0m**
 
+
+
+---
 
 ## Oct 10, 2026: Wi-Fi throughput test near shower
 
@@ -59,6 +67,9 @@ Work done:
 **Total time: 1h 0m**
 
 
+
+---
+
 ## Oct 10, 2026: shower noise masking test
 
 Work done:
@@ -70,6 +81,9 @@ Work done:
 
 **Total time: 1h 0m**
 
+
+
+---
 
 ## Oct 10, 2026: album mode vs track mode
 
@@ -83,6 +97,9 @@ Work done:
 **Total time: 2h 0m**
 
 
+
+---
+
 ## Oct 10, 2026: water on screen handling
 
 Work done:
@@ -94,6 +111,9 @@ Work done:
 
 **Total time: 2h 0m**
 
+
+
+---
 
 ## Oct 10, 2026: display brightness tuning
 
@@ -107,6 +127,9 @@ Work done:
 **Total time: 1h 0m**
 
 
+
+---
+
 ## Oct 10, 2026: shipping damage check
 
 Work done:
@@ -118,6 +141,9 @@ Work done:
 
 **Total time: 1h 0m**
 
+
+
+---
 
 ## Oct 10, 2026: vendor lead time note
 
@@ -131,6 +157,9 @@ Work done:
 **Total time: 1h 0m**
 
 
+
+---
+
 ## Oct 11, 2026: overtemp behavior note
 
 Work done:
@@ -142,6 +171,9 @@ Work done:
 
 **Total time: 1h 0m**
 
+
+
+---
 
 ## Oct 11, 2026: power surge protection thought
 
@@ -155,6 +187,9 @@ Work done:
 **Total time: 2h 0m**
 
 
+
+---
+
 ## Oct 11, 2026: water droplet test around enclosure seams
 
 Work done:
@@ -166,6 +201,9 @@ Work done:
 
 **Total time: 2h 0m**
 
+
+
+---
 
 ## Oct 11, 2026: humidity sensor idea
 
@@ -179,6 +217,9 @@ Work done:
 **Total time: 2h 0m**
 
 
+
+---
+
 ## Oct 11, 2026: connector strain relief test
 
 Work done:
@@ -190,6 +231,9 @@ Work done:
 
 **Total time: 2h 0m**
 
+
+
+---
 
 ## Oct 11, 2026: voice pronunciation edge case
 
@@ -203,6 +247,9 @@ Work done:
 **Total time: 1h 0m**
 
 
+
+---
+
 ## Oct 11, 2026: trace width sanity review
 
 Work done:
@@ -214,6 +261,9 @@ Work done:
 
 **Total time: 2h 0m**
 
+
+
+---
 
 ## Oct 11, 2026: auto dim by time of day
 
@@ -227,6 +277,9 @@ Work done:
 **Total time: 1h 0m**
 
 
+
+---
+
 ## Oct 11, 2026: latency vs quality tradeoff
 
 Work done:
@@ -238,6 +291,9 @@ Work done:
 
 **Total time: 1h 0m**
 
+
+
+---
 
 ## Oct 12, 2026: buffer underrun check
 
@@ -251,6 +307,9 @@ Work done:
 **Total time: 1h 0m**
 
 
+
+---
+
 ## Oct 12, 2026: pause resume continuity
 
 Work done:
@@ -262,6 +321,9 @@ Work done:
 
 **Total time: 2h 0m**
 
+
+
+---
 
 ## Oct 12, 2026: album art display fallback
 
@@ -275,6 +337,9 @@ Work done:
 **Total time: 2h 0m**
 
 
+
+---
+
 ## Oct 12, 2026: presence detection thought
 
 Work done:
@@ -286,6 +351,9 @@ Work done:
 
 **Total time: 2h 0m**
 
+
+
+---
 
 ## Oct 12, 2026: battery backup runtime check
 
@@ -299,6 +367,9 @@ Work done:
 **Total time: 1h 0m**
 
 
+
+---
+
 ## Oct 12, 2026: install manual wording pass
 
 Work done:
@@ -310,6 +381,9 @@ Work done:
 
 **Total time: 2h 0m**
 
+
+
+---
 
 ## Oct 12, 2026: local cache size review
 
@@ -323,6 +397,9 @@ Work done:
 **Total time: 2h 0m**
 
 
+
+---
+
 ## Oct 12, 2026: install manual wording pass
 
 Work done:
@@ -334,6 +411,9 @@ Work done:
 
 **Total time: 1h 0m**
 
+
+
+---
 
 ## Oct 12, 2026: paint or coating choice thought
 
@@ -347,6 +427,9 @@ Work done:
 **Total time: 2h 0m**
 
 
+
+---
+
 ## Oct 12, 2026: resonance frequency note
 
 Work done:
@@ -358,6 +441,9 @@ Work done:
 
 **Total time: 1h 0m**
 
+
+
+---
 
 ## Oct 12, 2026: prototype iteration log
 
@@ -371,6 +457,9 @@ Work done:
 **Total time: 2h 0m**
 
 
+
+---
+
 ## Oct 12, 2026: device file edit safety
 
 Work done:
@@ -382,6 +471,9 @@ Work done:
 
 **Total time: 1h 0m**
 
+
+
+---
 
 ## Oct 13, 2026: PCB solder mask color choice review
 
@@ -395,6 +487,9 @@ Work done:
 **Total time: 1h 0m**
 
 
+
+---
+
 ## Oct 13, 2026: artist name parsing edge case
 
 Work done:
@@ -406,6 +501,9 @@ Work done:
 
 **Total time: 1h 0m**
 
+
+
+---
 
 ## Oct 13, 2026: batch consistency thought
 
@@ -419,6 +517,9 @@ Work done:
 **Total time: 2h 0m**
 
 
+
+---
+
 ## Oct 13, 2026: audio hum investigation
 
 Work done:
@@ -430,6 +531,9 @@ Work done:
 
 **Total time: 2h 0m**
 
+
+
+---
 
 ## Oct 13, 2026: treble clarity review
 
@@ -443,6 +547,9 @@ Work done:
 **Total time: 1h 0m**
 
 
+
+---
+
 ## Oct 13, 2026: fanless thermal margin check
 
 Work done:
@@ -454,6 +561,9 @@ Work done:
 
 **Total time: 2h 0m**
 
+
+
+---
 
 ## Oct 13, 2026: proximity wake idea
 
@@ -467,6 +577,9 @@ Work done:
 **Total time: 1h 0m**
 
 
+
+---
+
 ## Oct 13, 2026: temp touch during install
 
 Work done:
@@ -478,6 +591,9 @@ Work done:
 
 **Total time: 1h 0m**
 
+
+
+---
 
 ## Oct 13, 2026: banner image crop check
 
@@ -491,6 +607,9 @@ Work done:
 **Total time: 2h 0m**
 
 
+
+---
+
 ## Oct 13, 2026: anti-fingerprint surface thought
 
 Work done:
@@ -502,6 +621,9 @@ Work done:
 
 **Total time: 1h 0m**
 
+
+
+---
 
 ## Oct 13, 2026: future extensibility note
 
@@ -515,6 +637,9 @@ Work done:
 **Total time: 2h 0m**
 
 
+
+---
+
 ## Oct 13, 2026: artist name parsing edge case
 
 Work done:
@@ -526,6 +651,9 @@ Work done:
 
 **Total time: 1h 0m**
 
+
+
+---
 
 ## Oct 13, 2026: acoustic short circuit check
 
@@ -539,6 +667,9 @@ Work done:
 **Total time: 2h 0m**
 
 
+
+---
+
 ## Oct 14, 2026: thermal fuse placement
 
 Work done:
@@ -550,6 +681,9 @@ Work done:
 
 **Total time: 1h 0m**
 
+
+
+---
 
 ## Oct 14, 2026: speaker port tuning tweak
 
@@ -563,6 +697,9 @@ Work done:
 **Total time: 1h 0m**
 
 
+
+---
+
 ## Oct 14, 2026: power supply aging thought
 
 Work done:
@@ -574,6 +711,9 @@ Work done:
 
 **Total time: 1h 0m**
 
+
+
+---
 
 ## Oct 14, 2026: water droplet test around enclosure seams
 
@@ -587,6 +727,9 @@ Work done:
 **Total time: 1h 0m**
 
 
+
+---
+
 ## Oct 14, 2026: idle animation polish
 
 Work done:
@@ -598,6 +741,9 @@ Work done:
 
 **Total time: 2h 0m**
 
+
+
+---
 
 ## Oct 14, 2026: auto-start service ordering
 
@@ -611,6 +757,9 @@ Work done:
 **Total time: 2h 0m**
 
 
+
+---
+
 ## Oct 14, 2026: play queue empty state
 
 Work done:
@@ -622,6 +771,9 @@ Work done:
 
 **Total time: 1h 0m**
 
+
+
+---
 
 ## Oct 14, 2026: short circuit protection
 
@@ -635,6 +787,9 @@ Work done:
 **Total time: 2h 0m**
 
 
+
+---
+
 ## Oct 14, 2026: acoustic short circuit check
 
 Work done:
@@ -646,6 +801,9 @@ Work done:
 
 **Total time: 1h 0m**
 
+
+
+---
 
 ## Oct 14, 2026: finish texture selection
 
@@ -659,6 +817,9 @@ Work done:
 **Total time: 1h 0m**
 
 
+
+---
+
 ## Oct 14, 2026: grip comfort note
 
 Work done:
@@ -670,6 +831,9 @@ Work done:
 
 **Total time: 2h 0m**
 
+
+
+---
 
 ## Oct 14, 2026: power brick heat check
 
@@ -683,6 +847,9 @@ Work done:
 **Total time: 2h 0m**
 
 
+
+---
+
 ## Oct 15, 2026: factory reset flow sketch
 
 Work done:
@@ -694,6 +861,9 @@ Work done:
 
 **Total time: 1h 0m**
 
+
+
+---
 
 ## Oct 15, 2026: field repair note draft
 
@@ -707,6 +877,9 @@ Work done:
 **Total time: 1h 0m**
 
 
+
+---
+
 ## Oct 15, 2026: button hit area polish
 
 Work done:
@@ -718,6 +891,9 @@ Work done:
 
 **Total time: 2h 0m**
 
+
+
+---
 
 ## Oct 15, 2026: wall vs shelf review
 
@@ -731,6 +907,9 @@ Work done:
 **Total time: 2h 0m**
 
 
+
+---
+
 ## Oct 15, 2026: light pipe idea
 
 Work done:
@@ -742,6 +921,9 @@ Work done:
 
 **Total time: 2h 0m**
 
+
+
+---
 
 ## Oct 15, 2026: batch consistency thought
 
@@ -755,6 +937,9 @@ Work done:
 **Total time: 2h 0m**
 
 
+
+---
+
 ## Oct 15, 2026: offline mode fallback test
 
 Work done:
@@ -766,6 +951,9 @@ Work done:
 
 **Total time: 1h 0m**
 
+
+
+---
 
 ## Oct 16, 2026: acoustic membrane seating test
 
@@ -779,6 +967,9 @@ Work done:
 **Total time: 1h 0m**
 
 
+
+---
+
 ## Oct 16, 2026: voice timeout edge case
 
 Work done:
@@ -790,6 +981,9 @@ Work done:
 
 **Total time: 2h 0m**
 
+
+
+---
 
 ## Oct 16, 2026: error state visual review
 
@@ -803,6 +997,9 @@ Work done:
 **Total time: 2h 0m**
 
 
+
+---
+
 ## Oct 16, 2026: bass response tweak
 
 Work done:
@@ -814,6 +1011,9 @@ Work done:
 
 **Total time: 1h 0m**
 
+
+
+---
 
 ## Oct 16, 2026: microphone sensitivity sweep
 
@@ -828,6 +1028,9 @@ Work done:
 **Total time: 1h 0m**
 
 
+
+---
+
 ## Oct 16, 2026: network onboarding UX
 
 Work done:
@@ -839,6 +1042,9 @@ Work done:
 
 **Total time: 1h 0m**
 
+
+
+---
 
 ## Oct 16, 2026: visual language consistency
 
@@ -852,6 +1058,9 @@ Work done:
 **Total time: 1h 0m**
 
 
+
+---
+
 ## Oct 16, 2026: touch panel response mapping
 
 Work done:
@@ -863,6 +1072,9 @@ Work done:
 
 **Total time: 1h 0m**
 
+
+
+---
 
 ## Oct 16, 2026: chemical exposure review
 
@@ -876,6 +1088,9 @@ Work done:
 **Total time: 1h 0m**
 
 
+
+---
+
 ## Oct 16, 2026: temp touch during install
 
 Work done:
@@ -887,6 +1102,9 @@ Work done:
 
 **Total time: 1h 0m**
 
+
+
+---
 
 ## Oct 16, 2026: voice clarity in wet room
 
@@ -900,6 +1118,9 @@ Work done:
 **Total time: 2h 0m**
 
 
+
+---
+
 ## Oct 17, 2026: battery backup runtime check
 
 Work done:
@@ -911,6 +1132,9 @@ Work done:
 
 **Total time: 2h 0m**
 
+
+
+---
 
 ## Oct 17, 2026: touch panel response mapping
 
@@ -924,6 +1148,9 @@ Work done:
 **Total time: 1h 0m**
 
 
+
+---
+
 ## Oct 17, 2026: display coating idea
 
 Work done:
@@ -935,6 +1162,9 @@ Work done:
 
 **Total time: 2h 0m**
 
+
+
+---
 
 ## Oct 17, 2026: water droplet test around enclosure seams
 
@@ -948,6 +1178,9 @@ Work done:
 **Total time: 1h 0m**
 
 
+
+---
+
 ## Oct 17, 2026: edge chamfer detail
 
 Work done:
@@ -960,6 +1193,9 @@ Work done:
 **Total time: 1h 0m**
 
 
+
+---
+
 ## Oct 17, 2026: placement height idea
 
 Work done:
@@ -971,6 +1207,9 @@ Work done:
 
 **Total time: 1h 0m**
 
+
+
+---
 
 ## Oct 17, 2026: library metadata tagging
 
@@ -985,6 +1224,9 @@ Work done:
 **Total time: 2h 0m**
 
 
+
+---
+
 ## Oct 17, 2026: room acoustics note
 
 Work done:
@@ -996,6 +1238,9 @@ Work done:
 
 **Total time: 2h 0m**
 
+
+
+---
 
 ## Oct 17, 2026: test suite coverage gap note
 
@@ -1009,6 +1254,9 @@ Work done:
 **Total time: 1h 0m**
 
 
+
+---
+
 ## Oct 17, 2026: install manual wording pass
 
 Work done:
@@ -1021,19 +1269,32 @@ Work done:
 **Total time: 1h 0m**
 
 
-## Oct 18, 2026: network drop reconnect behavior
+
+---
+
+## Oct 18, 2026: Core device architecture and service plan
+
+Locked down the main architecture for the device so the rest of the work has a stable shape to build against.
 
 Work done:
-- Pulled the network cable during playback and confirmed the device pauses gracefully and shows a reconnecting indicator
-- Verified the device retries the server connection every 10 seconds and resumes playback within 3 seconds of the link coming back
-- Added a maximum retry window of 5 minutes so a permanently disconnected device does not retry forever
+- chose a small Linux board with Wi-Fi and enough headroom for voice and playback
+- picked a Subsonic-compatible self-hosted music server as the library source
+- mapped the offline-friendly voice path using Vosk with server fallback only where needed
+- sketched the display and speaker path as part of the same device, not add-ons
+- left the service and mounting story out of the device internals so the bathroom install stays clean
 
-![Oct 18, 2026](assets/placeholder-40.png)
+This adds time because the first architecture pass is where a lot of later rework gets prevented.
 
-**Total time: 1h 0m**
+![Block diagram sketch](assets/placeholder-2.png)
+
+**Total time: 2h 0m**
+
+---
 
 
-## Oct 18, 2026: listening indicator design
+---
+
+## Oct 18, 2026: network drop reconnect behavior
 
 Work done:
 - Designed a ring indicator that fills clockwise while the device is capturing speech after wake
@@ -1044,6 +1305,9 @@ Work done:
 
 **Total time: 1h 0m**
 
+
+
+---
 
 ## Oct 18, 2026: room acoustics note
 
@@ -1057,6 +1321,9 @@ Work done:
 **Total time: 1h 0m**
 
 
+
+---
+
 ## Oct 18, 2026: enclosure foam lining test
 
 Work done:
@@ -1068,6 +1335,9 @@ Work done:
 
 **Total time: 1h 0m**
 
+
+
+---
 
 ## Oct 18, 2026: standoff isolation review
 
@@ -1081,6 +1351,9 @@ Work done:
 **Total time: 1h 0m**
 
 
+
+---
+
 ## Oct 18, 2026: hardware swap upgrade path
 
 Work done:
@@ -1092,6 +1365,9 @@ Work done:
 
 **Total time: 2h 0m**
 
+
+
+---
 
 ## Oct 18, 2026: wake latency check
 
@@ -1105,6 +1381,9 @@ Work done:
 **Total time: 2h 0m**
 
 
+
+---
+
 ## Oct 18, 2026: future extensibility note
 
 Work done:
@@ -1116,6 +1395,9 @@ Work done:
 
 **Total time: 1h 0m**
 
+
+
+---
 
 ## Oct 18, 2026: reconnection retry backoff
 
@@ -1129,6 +1411,9 @@ Work done:
 **Total time: 1h 0m**
 
 
+
+---
+
 ## Oct 19, 2026: color usage consistency check
 
 Work done:
@@ -1140,6 +1425,9 @@ Work done:
 
 **Total time: 1h 0m**
 
+
+
+---
 
 ## Oct 19, 2026: shipping damage check
 
@@ -1153,6 +1441,9 @@ Work done:
 **Total time: 1h 0m**
 
 
+
+---
+
 ## Oct 19, 2026: banner image crop check
 
 Work done:
@@ -1164,6 +1455,9 @@ Work done:
 
 **Total time: 2h 0m**
 
+
+
+---
 
 ## Oct 19, 2026: offline mode fallback test
 
@@ -1177,6 +1471,9 @@ Work done:
 **Total time: 1h 0m**
 
 
+
+---
+
 ## Oct 19, 2026: icon and UI element sizing
 
 Work done:
@@ -1188,6 +1485,9 @@ Work done:
 
 **Total time: 1h 0m**
 
+
+
+---
 
 ## Oct 19, 2026: presence detection thought
 
@@ -1201,6 +1501,9 @@ Work done:
 **Total time: 1h 0m**
 
 
+
+---
+
 ## Oct 19, 2026: prototype iteration log
 
 Work done:
@@ -1212,6 +1515,9 @@ Work done:
 
 **Total time: 2h 0m**
 
+
+
+---
 
 ## Oct 19, 2026: music request variation handling
 
@@ -1225,6 +1531,9 @@ Work done:
 **Total time: 2h 0m**
 
 
+
+---
+
 ## Oct 19, 2026: treble clarity review
 
 Work done:
@@ -1236,6 +1545,9 @@ Work done:
 
 **Total time: 1h 0m**
 
+
+
+---
 
 ## Oct 19, 2026: library metadata tagging
 
@@ -1250,6 +1562,9 @@ Work done:
 **Total time: 1h 0m**
 
 
+
+---
+
 ## Oct 20, 2026: library metadata tagging
 
 Work done:
@@ -1263,6 +1578,9 @@ Work done:
 **Total time: 1h 0m**
 
 
+
+---
+
 ## Oct 20, 2026: surface flatness check
 
 Work done:
@@ -1274,6 +1592,9 @@ Work done:
 
 **Total time: 2h 0m**
 
+
+
+---
 
 ## Oct 20, 2026: network onboarding UX
 
@@ -1287,6 +1608,9 @@ Work done:
 **Total time: 1h 0m**
 
 
+
+---
+
 ## Oct 20, 2026: front seek vs back seek behavior
 
 Work done:
@@ -1298,6 +1622,9 @@ Work done:
 
 **Total time: 2h 0m**
 
+
+
+---
 
 ## Oct 20, 2026: parts substitution review
 
@@ -1311,6 +1638,9 @@ Work done:
 **Total time: 2h 0m**
 
 
+
+---
+
 ## Oct 20, 2026: submit-quality final pass thought
 
 Work done:
@@ -1322,6 +1652,9 @@ Work done:
 
 **Total time: 1h 0m**
 
+
+
+---
 
 ## Oct 20, 2026: mold prevention thought
 
@@ -1335,6 +1668,9 @@ Work done:
 **Total time: 1h 0m**
 
 
+
+---
+
 ## Oct 20, 2026: device file edit safety
 
 Work done:
@@ -1346,6 +1682,9 @@ Work done:
 
 **Total time: 1h 0m**
 
+
+
+---
 
 ## Oct 20, 2026: power surge protection thought
 
@@ -1359,6 +1698,9 @@ Work done:
 **Total time: 1h 0m**
 
 
+
+---
+
 ## Oct 20, 2026: factory reset flow sketch
 
 Work done:
@@ -1370,6 +1712,9 @@ Work done:
 
 **Total time: 1h 0m**
 
+
+
+---
 
 ## Oct 21, 2026: idle animation polish
 
@@ -1383,6 +1728,9 @@ Work done:
 **Total time: 1h 0m**
 
 
+
+---
+
 ## Oct 21, 2026: texture finish comparison
 
 Work done:
@@ -1394,6 +1742,9 @@ Work done:
 
 **Total time: 2h 0m**
 
+
+
+---
 
 ## Oct 21, 2026: resonance frequency note
 
@@ -1407,6 +1758,9 @@ Work done:
 **Total time: 1h 0m**
 
 
+
+---
+
 ## Oct 21, 2026: fanless thermal margin check
 
 Work done:
@@ -1418,6 +1772,9 @@ Work done:
 
 **Total time: 1h 0m**
 
+
+
+---
 
 ## Oct 21, 2026: banner image crop check
 
@@ -1431,6 +1788,9 @@ Work done:
 **Total time: 1h 0m**
 
 
+
+---
+
 ## Oct 21, 2026: install manual wording pass
 
 Work done:
@@ -1442,6 +1802,9 @@ Work done:
 
 **Total time: 2h 0m**
 
+
+
+---
 
 ## Oct 21, 2026: texture finish comparison
 
@@ -1455,6 +1818,9 @@ Work done:
 **Total time: 1h 0m**
 
 
+
+---
+
 ## Oct 21, 2026: install location scan
 
 Work done:
@@ -1466,6 +1832,9 @@ Work done:
 
 **Total time: 1h 0m**
 
+
+
+---
 
 ## Oct 21, 2026: swipe gesture polish
 
@@ -1479,6 +1848,9 @@ Work done:
 **Total time: 1h 0m**
 
 
+
+---
+
 ## Oct 21, 2026: resonance frequency note
 
 Work done:
@@ -1490,6 +1862,9 @@ Work done:
 
 **Total time: 1h 0m**
 
+
+
+---
 
 ## Oct 21, 2026: idle animation polish
 
@@ -1503,6 +1878,9 @@ Work done:
 **Total time: 1h 0m**
 
 
+
+---
+
 ## Oct 22, 2026: ADC resolution note
 
 Work done:
@@ -1514,6 +1892,9 @@ Work done:
 
 **Total time: 1h 0m**
 
+
+
+---
 
 ## Oct 22, 2026: future extensibility note
 
@@ -1527,6 +1908,9 @@ Work done:
 **Total time: 2h 0m**
 
 
+
+---
+
 ## Oct 22, 2026: surface flatness check
 
 Work done:
@@ -1538,6 +1922,9 @@ Work done:
 
 **Total time: 1h 0m**
 
+
+
+---
 
 ## Oct 22, 2026: multi-language support thought
 
@@ -1551,6 +1938,9 @@ Work done:
 **Total time: 2h 0m**
 
 
+
+---
+
 ## Oct 22, 2026: mold prevention thought
 
 Work done:
@@ -1563,6 +1953,9 @@ Work done:
 **Total time: 1h 0m**
 
 
+
+---
+
 ## Oct 22, 2026: hardware swap upgrade path
 
 Work done:
@@ -1574,6 +1967,9 @@ Work done:
 
 **Total time: 2h 0m**
 
+
+
+---
 
 ## Oct 22, 2026: voice wake word calibration
 
@@ -1588,6 +1984,9 @@ Work done:
 **Total time: 1h 0m**
 
 
+
+---
+
 ## Oct 22, 2026: previous version comparison
 
 Work done:
@@ -1599,6 +1998,9 @@ Work done:
 
 **Total time: 2h 0m**
 
+
+
+---
 
 ## Oct 22, 2026: troubleshooting quick reference
 
@@ -1612,6 +2014,9 @@ Work done:
 **Total time: 2h 0m**
 
 
+
+---
+
 ## Oct 22, 2026: codec selection thought
 
 Work done:
@@ -1623,6 +2028,9 @@ Work done:
 
 **Total time: 1h 0m**
 
+
+
+---
 
 ## Oct 22, 2026: pause resume continuity
 
@@ -1636,6 +2044,9 @@ Work done:
 **Total time: 1h 0m**
 
 
+
+---
+
 ## Oct 22, 2026: ADC resolution note
 
 Work done:
@@ -1647,6 +2058,9 @@ Work done:
 
 **Total time: 2h 0m**
 
+
+
+---
 
 ## Oct 22, 2026: network onboarding UX
 
@@ -1660,6 +2074,9 @@ Work done:
 **Total time: 1h 0m**
 
 
+
+---
+
 ## Oct 23, 2026: listening indicator design
 
 Work done:
@@ -1671,6 +2088,9 @@ Work done:
 
 **Total time: 2h 0m**
 
+
+
+---
 
 ## Oct 23, 2026: ambient light sensor
 
@@ -1684,6 +2104,9 @@ Work done:
 **Total time: 2h 0m**
 
 
+
+---
+
 ## Oct 23, 2026: bright bathroom glare check
 
 Work done:
@@ -1695,6 +2118,9 @@ Work done:
 
 **Total time: 2h 0m**
 
+
+
+---
 
 ## Oct 23, 2026: display brightness tuning
 
@@ -1708,6 +2134,9 @@ Work done:
 **Total time: 1h 0m**
 
 
+
+---
+
 ## Oct 23, 2026: device file edit safety
 
 Work done:
@@ -1719,6 +2148,9 @@ Work done:
 
 **Total time: 1h 0m**
 
+
+
+---
 
 ## Oct 23, 2026: gapless playback note
 
@@ -1732,6 +2164,9 @@ Work done:
 **Total time: 2h 0m**
 
 
+
+---
+
 ## Oct 23, 2026: voice clarity in wet room
 
 Work done:
@@ -1743,6 +2178,9 @@ Work done:
 
 **Total time: 1h 0m**
 
+
+
+---
 
 ## Oct 23, 2026: headless boot log review
 
@@ -1756,6 +2194,9 @@ Work done:
 **Total time: 2h 0m**
 
 
+
+---
+
 ## Oct 23, 2026: shelf stability check
 
 Work done:
@@ -1767,6 +2208,9 @@ Work done:
 
 **Total time: 2h 0m**
 
+
+
+---
 
 ## Oct 24, 2026: capacitive touch ghosting check
 
@@ -1780,6 +2224,9 @@ Work done:
 **Total time: 2h 0m**
 
 
+
+---
+
 ## Oct 24, 2026: anti-fingerprint surface thought
 
 Work done:
@@ -1791,6 +2238,9 @@ Work done:
 
 **Total time: 2h 0m**
 
+
+
+---
 
 ## Oct 24, 2026: bass response tweak
 
@@ -1804,6 +2254,9 @@ Work done:
 **Total time: 2h 0m**
 
 
+
+---
+
 ## Oct 24, 2026: light pipe idea
 
 Work done:
@@ -1815,6 +2268,9 @@ Work done:
 
 **Total time: 2h 0m**
 
+
+
+---
 
 ## Oct 24, 2026: submit-quality final pass thought
 
@@ -1828,6 +2284,9 @@ Work done:
 **Total time: 1h 0m**
 
 
+
+---
+
 ## Oct 24, 2026: weight balance thought
 
 Work done:
@@ -1839,6 +2298,9 @@ Work done:
 
 **Total time: 2h 0m**
 
+
+
+---
 
 ## Oct 24, 2026: icon and UI element sizing
 
@@ -1852,6 +2314,9 @@ Work done:
 **Total time: 2h 0m**
 
 
+
+---
+
 ## Oct 24, 2026: color usage consistency check
 
 Work done:
@@ -1863,6 +2328,9 @@ Work done:
 
 **Total time: 1h 0m**
 
+
+
+---
 
 ## Oct 24, 2026: acoustic short circuit check
 
@@ -1876,6 +2344,9 @@ Work done:
 **Total time: 1h 0m**
 
 
+
+---
+
 ## Oct 24, 2026: local cache size review
 
 Work done:
@@ -1887,6 +2358,9 @@ Work done:
 
 **Total time: 1h 0m**
 
+
+
+---
 
 ## Oct 24, 2026: field repair note draft
 
@@ -1900,6 +2374,9 @@ Work done:
 **Total time: 2h 0m**
 
 
+
+---
+
 ## Oct 24, 2026: touch panel response mapping
 
 Work done:
@@ -1912,6 +2389,9 @@ Work done:
 **Total time: 1h 0m**
 
 
+
+---
+
 ## Oct 25, 2026: chemical exposure review
 
 Work done:
@@ -1923,6 +2403,9 @@ Work done:
 
 **Total time: 2h 0m**
 
+
+
+---
 
 ## Oct 25, 2026: enclosure interior dry fit
 
@@ -1937,6 +2420,9 @@ Work done:
 **Total time: 2h 0m**
 
 
+
+---
+
 ## Oct 25, 2026: display brightness tuning
 
 Work done:
@@ -1948,6 +2434,9 @@ Work done:
 
 **Total time: 1h 0m**
 
+
+
+---
 
 ## Oct 25, 2026: chemical exposure review
 
@@ -1961,6 +2450,9 @@ Work done:
 **Total time: 2h 0m**
 
 
+
+---
+
 ## Oct 25, 2026: port tuning sweep
 
 Work done:
@@ -1972,6 +2464,9 @@ Work done:
 
 **Total time: 2h 0m**
 
+
+
+---
 
 ## Oct 25, 2026: calm mode review
 
@@ -1985,6 +2480,9 @@ Work done:
 **Total time: 1h 0m**
 
 
+
+---
+
 ## Oct 25, 2026: calm mode review
 
 Work done:
@@ -1996,6 +2494,9 @@ Work done:
 
 **Total time: 1h 0m**
 
+
+
+---
 
 ## Oct 25, 2026: latency vs quality tradeoff
 
@@ -2009,6 +2510,9 @@ Work done:
 **Total time: 2h 0m**
 
 
+
+---
+
 ## Oct 25, 2026: audio hum investigation
 
 Work done:
@@ -2020,6 +2524,9 @@ Work done:
 
 **Total time: 1h 0m**
 
+
+
+---
 
 ## Oct 25, 2026: vibration isolation thought
 
@@ -2033,6 +2540,9 @@ Work done:
 **Total time: 1h 0m**
 
 
+
+---
+
 ## Oct 25, 2026: USB-C friendliness thought
 
 Work done:
@@ -2044,6 +2554,9 @@ Work done:
 
 **Total time: 2h 0m**
 
+
+
+---
 
 ## Oct 25, 2026: drainage path review under install
 
@@ -2057,6 +2570,9 @@ Work done:
 **Total time: 2h 0m**
 
 
+
+---
+
 ## Oct 25, 2026: playlist import debugging
 
 Work done:
@@ -2068,6 +2584,9 @@ Work done:
 
 **Total time: 1h 0m**
 
+
+
+---
 
 ## Oct 25, 2026: local cache size review
 
@@ -2081,6 +2600,9 @@ Work done:
 **Total time: 2h 0m**
 
 
+
+---
+
 ## Oct 26, 2026: mold prevention thought
 
 Work done:
@@ -2092,6 +2614,9 @@ Work done:
 
 **Total time: 1h 0m**
 
+
+
+---
 
 ## Oct 26, 2026: hand-building tolerance note
 
@@ -2105,6 +2630,9 @@ Work done:
 **Total time: 1h 0m**
 
 
+
+---
+
 ## Oct 26, 2026: illumination glow bleed check
 
 Work done:
@@ -2117,6 +2645,9 @@ Work done:
 **Total time: 1h 0m**
 
 
+
+---
+
 ## Oct 26, 2026: offline mode fallback test
 
 Work done:
@@ -2128,6 +2659,9 @@ Work done:
 
 **Total time: 1h 0m**
 
+
+
+---
 
 ## Oct 26, 2026: library metadata tagging
 
@@ -2142,6 +2676,9 @@ Work done:
 **Total time: 1h 0m**
 
 
+
+---
+
 ## Oct 26, 2026: long request capture window
 
 Work done:
@@ -2153,6 +2690,9 @@ Work done:
 
 **Total time: 1h 0m**
 
+
+
+---
 
 ## Oct 26, 2026: initial pairing simplicity
 
@@ -2166,6 +2706,9 @@ Work done:
 **Total time: 1h 0m**
 
 
+
+---
+
 ## Oct 26, 2026: fanless thermal margin check
 
 Work done:
@@ -2177,6 +2720,9 @@ Work done:
 
 **Total time: 2h 0m**
 
+
+
+---
 
 ## Oct 26, 2026: audio hum investigation
 
@@ -2190,6 +2736,9 @@ Work done:
 **Total time: 1h 0m**
 
 
+
+---
+
 ## Oct 26, 2026: play queue empty state
 
 Work done:
@@ -2201,6 +2750,9 @@ Work done:
 
 **Total time: 2h 0m**
 
+
+
+---
 
 ## Oct 26, 2026: fanless thermal margin check
 
@@ -2214,6 +2766,9 @@ Work done:
 **Total time: 1h 0m**
 
 
+
+---
+
 ## Oct 26, 2026: acoustic membrane seating test
 
 Work done:
@@ -2225,6 +2780,9 @@ Work done:
 
 **Total time: 2h 0m**
 
+
+
+---
 
 ## Oct 27, 2026: bitrate target review
 
@@ -2238,6 +2796,9 @@ Work done:
 **Total time: 2h 0m**
 
 
+
+---
+
 ## Oct 27, 2026: command debounce spacing
 
 Work done:
@@ -2249,6 +2810,9 @@ Work done:
 
 **Total time: 1h 0m**
 
+
+
+---
 
 ## Oct 27, 2026: humidity sensor idea
 
@@ -2262,6 +2826,9 @@ Work done:
 **Total time: 1h 0m**
 
 
+
+---
+
 ## Oct 27, 2026: stream start delay
 
 Work done:
@@ -2273,6 +2840,9 @@ Work done:
 
 **Total time: 2h 0m**
 
+
+
+---
 
 ## Oct 27, 2026: room acoustics note
 
@@ -2286,6 +2856,9 @@ Work done:
 **Total time: 1h 0m**
 
 
+
+---
+
 ## Oct 27, 2026: prototype iteration log
 
 Work done:
@@ -2297,6 +2870,9 @@ Work done:
 
 **Total time: 1h 0m**
 
+
+
+---
 
 ## Oct 27, 2026: microphone sensitivity sweep
 
@@ -2311,6 +2887,9 @@ Work done:
 **Total time: 2h 0m**
 
 
+
+---
+
 ## Oct 27, 2026: acoustic membrane seating test
 
 Work done:
@@ -2322,6 +2901,9 @@ Work done:
 
 **Total time: 2h 0m**
 
+
+
+---
 
 ## Oct 27, 2026: auto dim by time of day
 
@@ -2335,6 +2917,9 @@ Work done:
 **Total time: 2h 0m**
 
 
+
+---
+
 ## Oct 27, 2026: swipe gesture polish
 
 Work done:
@@ -2346,6 +2931,9 @@ Work done:
 
 **Total time: 1h 0m**
 
+
+
+---
 
 ## Oct 27, 2026: voice only wake review
 
@@ -2359,6 +2947,9 @@ Work done:
 **Total time: 1h 0m**
 
 
+
+---
+
 ## Oct 27, 2026: resonance frequency note
 
 Work done:
@@ -2370,6 +2961,9 @@ Work done:
 
 **Total time: 2h 0m**
 
+
+
+---
 
 ## Oct 27, 2026: USB-C friendliness thought
 
@@ -2383,6 +2977,9 @@ Work done:
 **Total time: 1h 0m**
 
 
+
+---
+
 ## Oct 28, 2026: post-install check item list
 
 Work done:
@@ -2394,6 +2991,9 @@ Work done:
 
 **Total time: 1h 0m**
 
+
+
+---
 
 ## Oct 28, 2026: wet hand touch behavior
 
@@ -2407,6 +3007,9 @@ Work done:
 **Total time: 1h 0m**
 
 
+
+---
+
 ## Oct 28, 2026: placement height idea
 
 Work done:
@@ -2418,6 +3021,9 @@ Work done:
 
 **Total time: 2h 0m**
 
+
+
+---
 
 ## Oct 28, 2026: vendor lead time note
 
@@ -2431,6 +3037,9 @@ Work done:
 **Total time: 1h 0m**
 
 
+
+---
+
 ## Oct 28, 2026: common failure mode log
 
 Work done:
@@ -2442,6 +3051,9 @@ Work done:
 
 **Total time: 1h 0m**
 
+
+
+---
 
 ## Oct 28, 2026: interior component tie-down
 
@@ -2455,6 +3067,9 @@ Work done:
 **Total time: 1h 0m**
 
 
+
+---
+
 ## Oct 28, 2026: internal fuse choice
 
 Work done:
@@ -2466,6 +3081,9 @@ Work done:
 
 **Total time: 1h 0m**
 
+
+
+---
 
 ## Oct 28, 2026: grip comfort note
 
@@ -2479,6 +3097,9 @@ Work done:
 **Total time: 1h 0m**
 
 
+
+---
+
 ## Oct 28, 2026: night mode dimming
 
 Work done:
@@ -2490,6 +3111,9 @@ Work done:
 
 **Total time: 2h 0m**
 
+
+
+---
 
 ## Oct 28, 2026: track change gap
 
@@ -2503,6 +3127,9 @@ Work done:
 **Total time: 2h 0m**
 
 
+
+---
+
 ## Oct 28, 2026: night mode dimming
 
 Work done:
@@ -2514,6 +3141,9 @@ Work done:
 
 **Total time: 2h 0m**
 
+
+
+---
 
 ## Oct 28, 2026: PCB solder mask color choice review
 
@@ -2527,6 +3157,9 @@ Work done:
 **Total time: 1h 0m**
 
 
+
+---
+
 ## Oct 28, 2026: power supply aging thought
 
 Work done:
@@ -2538,6 +3171,9 @@ Work done:
 
 **Total time: 2h 0m**
 
+
+
+---
 
 ## Oct 29, 2026: treble clarity review
 
@@ -2551,6 +3187,9 @@ Work done:
 **Total time: 2h 0m**
 
 
+
+---
+
 ## Oct 29, 2026: bass response tweak
 
 Work done:
@@ -2562,6 +3201,9 @@ Work done:
 
 **Total time: 1h 0m**
 
+
+
+---
 
 ## Oct 29, 2026: temp touch during install
 
@@ -2575,6 +3217,9 @@ Work done:
 **Total time: 1h 0m**
 
 
+
+---
+
 ## Oct 29, 2026: first boot setup flow
 
 Work done:
@@ -2586,6 +3231,9 @@ Work done:
 
 **Total time: 1h 0m**
 
+
+
+---
 
 ## Oct 29, 2026: install manual wording pass
 
@@ -2599,6 +3247,9 @@ Work done:
 **Total time: 1h 0m**
 
 
+
+---
+
 ## Oct 29, 2026: track change gap
 
 Work done:
@@ -2610,6 +3261,9 @@ Work done:
 
 **Total time: 1h 0m**
 
+
+
+---
 
 ## Oct 29, 2026: icon and UI element sizing
 
@@ -2623,6 +3277,9 @@ Work done:
 **Total time: 2h 0m**
 
 
+
+---
+
 ## Oct 29, 2026: handheld short use case
 
 Work done:
@@ -2634,6 +3291,9 @@ Work done:
 
 **Total time: 2h 0m**
 
+
+
+---
 
 ## Oct 29, 2026: trace width sanity review
 
@@ -2647,6 +3307,9 @@ Work done:
 **Total time: 1h 0m**
 
 
+
+---
+
 ## Oct 29, 2026: connector strain relief test
 
 Work done:
@@ -2658,6 +3321,9 @@ Work done:
 
 **Total time: 1h 0m**
 
+
+
+---
 
 ## Oct 29, 2026: vibration isolation thought
 
@@ -2671,6 +3337,9 @@ Work done:
 **Total time: 1h 0m**
 
 
+
+---
+
 ## Oct 29, 2026: offline mode fallback test
 
 Work done:
@@ -2682,6 +3351,9 @@ Work done:
 
 **Total time: 2h 0m**
 
+
+
+---
 
 ## Oct 29, 2026: auto-start service ordering
 
@@ -2695,6 +3367,9 @@ Work done:
 **Total time: 2h 0m**
 
 
+
+---
+
 ## Oct 30, 2026: status LED placement
 
 Work done:
@@ -2706,6 +3381,9 @@ Work done:
 
 **Total time: 2h 0m**
 
+
+
+---
 
 ## Oct 30, 2026: offline mode fallback test
 
@@ -2719,6 +3397,9 @@ Work done:
 **Total time: 1h 0m**
 
 
+
+---
+
 ## Oct 30, 2026: status LED placement
 
 Work done:
@@ -2730,6 +3411,9 @@ Work done:
 
 **Total time: 1h 0m**
 
+
+
+---
 
 ## Oct 30, 2026: finish texture selection
 
@@ -2743,6 +3427,9 @@ Work done:
 **Total time: 2h 0m**
 
 
+
+---
+
 ## Oct 30, 2026: offline mode fallback test
 
 Work done:
@@ -2754,6 +3441,9 @@ Work done:
 
 **Total time: 1h 0m**
 
+
+
+---
 
 ## Oct 30, 2026: hardware swap upgrade path
 
@@ -2767,6 +3457,9 @@ Work done:
 **Total time: 1h 0m**
 
 
+
+---
+
 ## Oct 30, 2026: storage partition sizing
 
 Work done:
@@ -2778,6 +3471,9 @@ Work done:
 
 **Total time: 2h 0m**
 
+
+
+---
 
 ## Oct 30, 2026: short circuit protection
 
@@ -2791,6 +3487,9 @@ Work done:
 **Total time: 2h 0m**
 
 
+
+---
+
 ## Oct 30, 2026: backup config snapshot step
 
 Work done:
@@ -2802,6 +3501,9 @@ Work done:
 
 **Total time: 2h 0m**
 
+
+
+---
 
 ## Oct 30, 2026: capacitive touch ghosting check
 
@@ -2815,6 +3517,9 @@ Work done:
 **Total time: 1h 0m**
 
 
+
+---
+
 ## Oct 30, 2026: prototype iteration log
 
 Work done:
@@ -2826,6 +3531,9 @@ Work done:
 
 **Total time: 1h 0m**
 
+
+
+---
 
 ## Oct 30, 2026: touch panel response mapping
 
@@ -2839,6 +3547,9 @@ Work done:
 **Total time: 2h 0m**
 
 
+
+---
+
 ## Oct 31, 2026: trace width sanity review
 
 Work done:
@@ -2850,6 +3561,9 @@ Work done:
 
 **Total time: 1h 0m**
 
+
+
+---
 
 ## Oct 31, 2026: banner image crop check
 
@@ -2863,6 +3577,9 @@ Work done:
 **Total time: 1h 0m**
 
 
+
+---
+
 ## Oct 31, 2026: internal fuse choice
 
 Work done:
@@ -2874,6 +3591,9 @@ Work done:
 
 **Total time: 2h 0m**
 
+
+
+---
 
 ## Oct 31, 2026: first boot setup flow
 
@@ -2887,6 +3607,9 @@ Work done:
 **Total time: 1h 0m**
 
 
+
+---
+
 ## Oct 31, 2026: album mode vs track mode
 
 Work done:
@@ -2898,6 +3621,9 @@ Work done:
 
 **Total time: 2h 0m**
 
+
+
+---
 
 ## Oct 31, 2026: humidity sensor idea
 
@@ -2911,6 +3637,9 @@ Work done:
 **Total time: 2h 0m**
 
 
+
+---
+
 ## Oct 31, 2026: command debounce spacing
 
 Work done:
@@ -2921,6 +3650,11 @@ Work done:
 ![Oct 31, 2026](assets/placeholder-17.png)
 
 **Total time: 2h 0m**
+
+
+**Total time spent: 240h**
+
+---
 
 
 **Total time spent: 240h**
