@@ -3654,7 +3654,3 @@ Work done:
 
 **Total time spent: 240h**
 
----
-
-
-**Total time spent: 240h**

@@ -64,7 +64,35 @@ Progress is tracked in `JOURNAL.md`.
 
 ---
 
-*Images cover the device build, 3D enclosure model, schematic block diagram, PCB layout, audio signal path, and voice recognition pipeline.*
+**Images cover:** device build photo, 3D enclosure model, schematic / wiring diagram, PCB layout, audio signal path, and voice recognition pipeline.
+
+### Bill of Materials
+
+| Qty | Part class | Example part | Links |
+| --- | --- | --- | --- |
+| 1 | Compute board | Raspberry Pi Zero 2 W | https://www.raspberrypi.com/products/raspberry-pi-zero-2-w/ |
+| 1 | Display + touch | Small SPI touch LCD | small SPI touch LCD, smartphone-smaller class |
+| 1 | Speaker | Small waterproof-friendly speaker | built-in music output |
+| 1 | Amplifier / codec | Small audio amp or codec HAT | clean audio output |
+| 1 | Microphone | Protected mic or mic array | voice pickup in noisy bathroom |
+| 1 | Acoustic membrane / vent | Waterproof acoustic membrane | keeps water out while letting sound through |
+| 1 | Enclosure material | ASA filament or sheet stock | bathroom-durable, UV-resistant |
+| 1 | Sealing parts | Gaskets, O-rings, adhesive seal | real waterproofing at enclosure split |
+| 1 | Power hardware | Panel-mount sealed power inlet | clean permanent power |
+| 1 | Mounting hardware | Bracket, suction, or adhesive mount | supports different mounting styles |
+| 1 | Internal hardware | Screws, standoffs, threaded inserts | serviceable internals |
+| 1 | Protective finish | Conformal coating or selective potting | extra protection for vulnerable electronics |
+
+- Compute board: https://www.raspberrypi.com/products/raspberry-pi-zero-2-w/
+- Display + touch: small SPI touch LCD, e.g. 3.5" class with FT6236 or similar
+- Speaker: small waterproof-friendly speaker, sealed or membrane-protected type
+- Acoustic membrane / vent: waterproof acoustic membrane, e.g. Gore or equivalent vent cover
+- Enclosure material: Prusament ASA — https://prusa.io/3d-printing-materials/asa/ or Polymaker ASA — https://www.polymaker.com/product/polyformer-as
+- Power hardware: panel-mount sealed power inlet, e.g. 10 mm or 12 mm bulkhead connector
+- Sealing parts: closed-cell foam cord or silicone gasket material for the enclosure split
+- Internal hardware: M2.5 or M3 screws, threaded inserts, and standoffs matched to the enclosure and board
+
+---
 
 ## Chosen stack
 
