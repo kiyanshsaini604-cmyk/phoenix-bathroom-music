@@ -3808,7 +3808,7 @@ After all entries, the file must include:
 ### Example Entry
 
 ```
-## Oct 23, 2026: Music client and Subsonic integration
+## EXAMPLE ENTRY — Oct 23, 2026: Music client and Subsonic integration
 
 Work done:
 - built the music client around the Subsonic-compatible API
