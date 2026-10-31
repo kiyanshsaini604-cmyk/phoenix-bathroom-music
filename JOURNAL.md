@@ -3808,17 +3808,15 @@ After all entries, the file must include:
 ### Example Entry
 
 ```
-## EXAMPLE ENTRY — Oct 23, 2026: Music client and Subsonic integration
+## MONTH D, YYYY: Entry Title
 
 Work done:
-- built the music client around the Subsonic-compatible API
-- added search and playback request handling
-- wired the client into the device config for server address and auth
-- left the client tests covering the happy and error paths
+- Description of work item one
+- Description of work item two
 
-![Music client sketch](assets/placeholder-7.png)
+![Month D, 2026](assets/filename.png)
 
-**Total time: 2h 0m**
+**Total time: Xh 0m**
 
 ---
 ```
