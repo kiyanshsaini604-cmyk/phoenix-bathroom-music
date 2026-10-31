@@ -3651,8 +3651,6 @@ Work done:
 
 **Total time: 2h 0m**
 
-
-
 ---
 
 ## Oct 31, 2026: final verification and wrap-up
@@ -3662,7 +3660,7 @@ Work done:
 - Confirmed all 242 journal entries have a parseable time log and a referenced image that exists on disk
 - Confirmed the README has six images covering the build photo, 3D enclosure model, schematic/wiring diagram, PCB layout, audio signal path, and voice pipeline
 - Confirmed the Bill of Materials is present both as a table in the README and as a dedicated BOM.md with vendor links
-- Confirmed every asset referenced anywhere in the repo is present in the assets folder
+- Confirmed every asset referenced anywhere in the repo is present in the assets directory
 
 ![Final verification screenshot](assets/done.png)
 
