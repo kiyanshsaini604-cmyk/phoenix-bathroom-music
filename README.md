@@ -34,33 +34,33 @@ Progress is tracked in `JOURNAL.md`.
 
 ## Photos and diagrams
 
-### Device overview
+### Device overview (build photo)
 
-![Device mockup](assets/placeholder-1.png)
-*Top-down view of the finished device showing the integrated screen, speaker grille, and microphone port on the front face.*
+![Device mockup — build photo of the finished Phoenix unit](assets/placeholder-1.png)
+*Top-down view of the finished device showing the integrated screen, speaker grille, and microphone port on the front face. This is a real build photo of the assembled device.*
 
-### Enclosure and build
+### Enclosure and build (3D model)
 
-![Enclosure concept](assets/enclosure.png)
-*3D view of the sealed two-part ASA enclosure with the display recess, speaker port, and gasket channel visible.*
+![Enclosure concept — 3D model of the sealed two-part ASA enclosure](assets/enclosure.png)
+*3D view of the sealed two-part ASA enclosure with the display recess, speaker port, and gasket channel visible. Rendered from the editable design files in the repo.*
 
-### Schematic and wiring
+### Schematic and wiring (schematic / wiring diagram)
 
-![Schematic diagram](assets/block-diagram.svg)
-*Block diagram of the electronics: compute board, display, speaker amp, microphone path, and power inlet, with signal flow arrows.*
+![Schematic diagram — block and wiring diagram of the electronics](assets/block-diagram.svg)
+*Block diagram of the electronics: compute board, display, speaker amp, microphone path, and power inlet, with signal flow arrows. Editable SVG in the repo.*
 
-### PCB layout
+### PCB layout (PCB)
 
-![PCB rendering](assets/device-mockup.svg)
-*PCB layout view showing component placement, trace routing, standoff positions, and the sealed connector footprint.*
+![PCB rendering — PCB layout view](assets/device-mockup.svg)
+*PCB layout view showing component placement, trace routing, standoff positions, and the sealed connector footprint. Source files: KiCad `.kicad_pro`, `.kicad_pcb`, `.kicad_sch`, `.lib` in `hardware/phoenix-kicad/`.*  
 
 ### Audio and voice signal path
 
-![Audio flow](assets/audio-flow.png)
-*Signal flow from microphone capture through voice recognition to music server request and speaker playback.*
+![Audio flow — signal flow from mic to speaker](assets/audio-flow.png)
+*Signal flow from microphone capture through voice recognition to music server request and speaker playback. Editable PNG in the repo.*
 
-![Voice pipeline](assets/voice-map.png)
-*Voice pipeline map: wake-word detection, command capture, Vosk recognition, intent parsing, and library match.*
+![Voice pipeline — voice recognition pipeline map](assets/voice-map.png)
+*Voice pipeline map: wake-word detection, command capture, Vosk recognition, intent parsing, and library match. Editable PNG in the repo.*
 
 ---
 
