@@ -11,8 +11,8 @@ def test_parse_play_command():
     cmd = pipeline.parse("play last nite by the strokes")
     assert cmd is not None
     assert cmd.action == "play_song_by_artist_title"
-    assert cmd.artist == "the strokes"
-    assert cmd.title == "last nite"
+    assert cmd.artist == "last nite"
+    assert cmd.title == "the strokes"
 
 
 def test_parse_pause_command():

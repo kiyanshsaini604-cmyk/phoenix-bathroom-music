@@ -72,7 +72,7 @@ class Screen:
 
     def _interpret_touch(self, event: TouchEvent) -> dict[str, Any]:
         if event.kind == "play_pause":
-            return {"action": "pause" if self.playing_state else "play"}
+            return {"action": "play" if self.playing_state else "pause"}
         if event.kind == "back":
             return {"action": "back"}
         if event.kind == "forward":

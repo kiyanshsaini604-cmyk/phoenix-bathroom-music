@@ -1,0 +1,15 @@
+{
+  "server": {
+    "url": "http://music.local:4040",
+    "user": "user",
+    "password": "changeme"
+  },
+  "voice": {
+    "wake_phrase": "hey phoenix",
+    "default_seek_seconds": 15
+  },
+  "display": {
+    "brightness_idle": 30,
+    "brightness_playing": 70
+  }
+}
