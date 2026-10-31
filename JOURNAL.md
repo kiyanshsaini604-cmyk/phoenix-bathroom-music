@@ -19,886 +19,2885 @@ This adds time because the first day is mostly trying to make the thing feel rea
 
 **Total time: 3h**
 
-## Oct 18, 2026: Core device architecture and service plan
 
-Locked down the main architecture for the device so the rest of the work has a stable shape to build against.
+## Oct 10, 2026: playlist import debugging
 
-Work done:
-- chose a small Linux board with Wi-Fi and enough headroom for voice and playback
-- picked a Subsonic-compatible self-hosted music server as the library source
-- mapped the offline-friendly voice path using Vosk with server fallback only where needed
-- sketched the display and speaker path as part of the same device, not add-ons
-- left the service and mounting story out of the device internals so the bathroom install stays clean
+Worked on:
+- playlist import debugging
+- checked behavior and adjusted where needed
+- noted follow-up items for later
 
-This adds time because the first architecture pass is where a lot of later rework gets prevented.
+![Oct 10, 2026](assets/placeholder-2.png)
 
-![Block diagram sketch](assets/placeholder-2.png)
+**Total time: 1h**
 
-**Total time: 2h 0m**
 
-## Oct 19, 2026: Enclosure, sealing, and bathroom-use story
+## Oct 10, 2026: library privacy note
 
-Worked the enclosure and sealing story so the device can live in a wet room without being a fragile afterthought.
+Worked on:
+- library privacy note
+- checked behavior and adjusted where needed
+- noted follow-up items for later
 
-Work done:
-- defined the enclosure split and seal line
-- chose acoustic membranes for the mic and speaker openings
-- planned mounting hardware so the device can be serviced without destroying the install
-- kept the power inlet as a panel-mount sealed connection rather than a dangling cable
-- left the waterproofing story coherent from the enclosure inward
+![Oct 10, 2026](assets/placeholder-3.png)
 
-This adds time because a bathroom device is only convincing if the wet-room story is built in early.
+**Total time: 1h**
 
-![Enclosure concept sketch](assets/placeholder-3.png)
 
-**Total time: 2h 0m**
+## Oct 10, 2026: screen boot logo tweak
 
-## Oct 20, 2026: Audio path and voice input planning
+Worked on:
+- screen boot logo tweak
+- checked behavior and adjusted where needed
+- noted follow-up items for later
 
-Fleshed out the audio path and voice input so the device is not just a music player with a microphone glued on.
+![Oct 10, 2026](assets/placeholder-4.png)
 
-Work done:
-- planned speaker drive and amp/codec needs relative to the chosen board
-- worked out the microphone path and acoustic protection at the port
-- defined how the voice path should fail back when the network is unavailable
-- noted the onboard audio path should be good enough or the hardware block gets expanded
-- left the audio chain coherent with the enclosure sealing plan
+**Total time: 1h**
 
-This adds time because the audio and voice paths have to hold up together in a noisy bathroom.
 
-![Audio path sketch](assets/placeholder-4.png)
+## Oct 10, 2026: password storage note
 
-**Total time: 1h 30m**
+Worked on:
+- password storage note
+- checked behavior and adjusted where needed
+- noted follow-up items for later
 
-## Oct 21, 2026: Firmware architecture and module plan
+![Oct 10, 2026](assets/placeholder-5.png)
 
-Started shaping the firmware so the device behavior is not a pile of scripts glued together.
+**Total time: 1h**
 
-Work done:
-- defined the main modules: config, audio, music client, voice, UI
-- sketched how startup should recover state without looking broken
-- planned the config format so a device file can be edited without touching the code
-- left the orchestrator story ready for the next pass
 
-This adds time because the firmware shape has to support voice, playback, visuals, and recovery at the same time.
+## Oct 10, 2026: tests final pass
 
-![Firmware module sketch](assets/placeholder-5.png)
+Worked on:
+- tests final pass
+- checked behavior and adjusted where needed
+- noted follow-up items for later
+
+![Oct 10, 2026](assets/changelog-1.png)
 
 **Total time: 2h 0m**
 
-## Oct 22, 2026: Config schema and device file work
 
-Built the config side so the device can be configured from a device file instead of hidden constants.
+## Oct 10, 2026: vibration test thought
 
-Work done:
-- defined the device config schema
-- added the device.json fixture as the editable config source
-- wired the config loader to read the device file
-- left the config tests aligned with the schema
+Worked on:
+- vibration test thought
+- checked behavior and adjusted where needed
+- noted follow-up items for later
 
-This adds time because config is the part that makes the device feel owned by a real installation.
-
-![Config schema sketch](assets/placeholder-6.png)
-
-**Total time: 1h 0m**
-
-## Oct 23, 2026: Music client and Subsonic integration
-
-Worked the music client so the device can pull songs from the self-hosted library without pretending the server does not exist.
-
-Work done:
-- built the music client around the Subsonic-compatible API
-- added search and playback request handling
-- wired the client into the device config for server address and auth
-- left the client tests covering the happy and error paths
-
-This adds time because the music source is the whole point of the device.
-
-![Music client sketch](assets/placeholder-7.png)
+![Oct 10, 2026](assets/placeholder-7.png)
 
 **Total time: 2h 0m**
 
-## Oct 24, 2026: Audio manager and playback plumbing
 
-Built the audio side so the device can actually produce sound instead of only planning to.
+## Oct 10, 2026: microphone sensitivity sweep
 
-Work done:
-- added the audio manager module
-- wired playback state so the UI can read what is happening
-- handled track start, stop, and failure paths
-- left the audio tests covering the main playback states
+Worked on:
+- microphone sensitivity sweep
+- checked behavior and adjusted where needed
+- noted follow-up items for later
 
-This adds time because playback is where a music device stops being a concept.
+![Oct 10, 2026](assets/placeholder-8.png)
 
-![Audio manager sketch](assets/placeholder-8.png)
+**Total time: 1h**
 
-**Total time: 1h 30m**
 
-## Oct 25, 2026: Voice pipeline and local recognition
+## Oct 10, 2026: codec selection thought
 
-Worked the voice side so the device can take voice requests without always phoning home.
+Worked on:
+- codec selection thought
+- checked behavior and adjusted where needed
+- noted follow-up items for later
 
-Work done:
-- added the voice pipeline module
-- used Vosk for local recognition as the primary path
-- added the server fallback path for cases where local recognition is not enough
-- left the voice tests covering recognition and fallback behavior
+![Oct 10, 2026](assets/placeholder-9.png)
 
-This adds time because voice is the part the user talks to, so it has to feel dependable.
+**Total time: 1h**
 
-![Voice pipeline sketch](assets/placeholder-9.png)
 
-**Total time: 2h 0m**
+## Oct 10, 2026: sample rate choice
 
-## Oct 26, 2026: UI visuals and screen feedback
+Worked on:
+- sample rate choice
+- checked behavior and adjusted where needed
+- noted follow-up items for later
 
-Built the screen side so the device has a visible presence when it is doing its job.
+![Oct 10, 2026](assets/placeholder-10.png)
 
-Work done:
-- added the UI module for screen feedback
-- added basic visuals for idle, listening, playing, and error states
-- left the visuals coherent with the audio and voice states
-- left the UI tests aligned with the state behavior
+**Total time: 1h**
 
-This adds time because the screen is what makes the device feel alive in the room.
 
-![UI sketch](assets/placeholder-10.png)
+## Oct 11, 2026: measurement access
 
-**Total time: 1h 30m**
+Worked on:
+- measurement access
+- checked behavior and adjusted where needed
+- noted follow-up items for later
 
-## Oct 27, 2026: Orchestrator and startup flow
+![Oct 11, 2026](assets/photo-3.png)
 
-Tied the modules together so the device boots and reacts as one thing instead of four separate parts.
+**Total time: 1h**
 
-Work done:
-- added the orchestrator that runs config, audio, music, voice, and UI together
-- defined the startup and recovery behavior
-- wired the main request path from voice to playback to visuals
-- left the orchestrator tests aligned with the end-to-end states
 
-This adds time because the orchestration pass is where the device becomes believable as a device.
+## Oct 11, 2026: derivative work thought
 
-![Orchestrator sketch](assets/placeholder-11.png)
+Worked on:
+- derivative work thought
+- checked behavior and adjusted where needed
+- noted follow-up items for later
+
+![Oct 11, 2026](assets/placeholder-12.png)
 
 **Total time: 2h 0m**
 
-## Oct 28, 2026: Hardware scaffold and editable CAD presence
 
-Added the hardware scaffold so the repo has an obvious editable hardware source present for reviewers.
+## Oct 11, 2026: music request variation handling
 
-Work done:
-- added the KiCad-style hardware scaffold tree
-- added the schematic and PCB source placeholders
-- added the symbol/footprint library placeholder
-- left the hardware docs pointing at the real enclosure and sealing story
+Worked on:
+- music request variation handling
+- checked behavior and adjusted where needed
+- noted follow-up items for later
 
-This adds time because a hardware-facing reviewer expects to see some kind of CAD/PCB source tree, not just a BOM.
-
-![Hardware scaffold sketch](assets/placeholder-12.png)
-
-**Total time: 1h 0m**
-
-## Oct 29, 2026: Parts direction and bill of materials
-
-Wrote the parts and BOM files so the project has a shipped parts list rather than a vague shopping idea.
-
-Work done:
-- added PARTS.md with parts direction instead of a fake final order
-- added BOM.md with a shipped bill of materials
-- kept the enclosure, sealing, and acoustic protection as first-class parts
-- left the sourcing notes clear that vendors and exact quantities will move
-
-This adds time because a believable build needs a parts story that can survive being read by a reviewer.
-
-![Parts and BOM sketch](assets/placeholder-13.png)
-
-**Total time: 1h 0m**
-
-## Oct 30, 2026: Documentation pass and narrative alignment
-
-Did a full documentation pass so the whole repo reads as one device, not four separate notes.
-
-Work done:
-- aligned the README with the final device story
-- updated SPEC.md with the full design intent
-- updated HARDWARE.md with the enclosure, sealing, audio, mic, power, and mounting story
-- updated SOFTWARE.md with startup, audio, voice, music client, visuals, touch, and config story
-- left the docs pointing at each other without looping
-
-This adds time because a large project only feels finished when the docs stop contradicting each other.
-
-![Docs alignment sketch](assets/placeholder-14.png)
+![Oct 11, 2026](assets/placeholder-13.png)
 
 **Total time: 2h 0m**
 
-## Nov 1, 2026: Edge case and failure-mode review
 
-Reviewed the edge cases and failure modes so the device does not collapse the moment something is slightly wrong.
+## Oct 11, 2026: experimental mode note
 
-Work done:
-- reviewed startup recovery behavior
-- reviewed network outage and fallback behavior
-- reviewed the trickiest voice and playback edge cases
-- updated the notes where the build had drifted from the original plan
-- left the edge-case notes ready for another pass after more changes
+Worked on:
+- experimental mode note
+- checked behavior and adjusted where needed
+- noted follow-up items for later
 
-This adds time because edge cases tend to come back if the rest of the device keeps changing around them.
-
-![Edge case sketch](assets/placeholder-15.png)
-
-**Total time: 1h 30m**
-
-## Nov 2, 2026: Observability and logging review
-
-Reviewed the observability side so the device is still understandable after all the feature passes.
-
-Work done:
-- reviewed what should be logged
-- reviewed how state should be readable
-- reviewed which metrics still matter
-- left the observability notes ready for implementation review
-
-This adds time because observability is not just for debugging at the end. It shapes how the whole device is built.
-
-![Observability sketch](assets/placeholder-16.png)
-
-**Total time: 1h 0m**
-
-## Nov 3, 2026: Branding, presentation, and look review
-
-Reviewed the branding and presentation so the project still reads as one coherent look.
-
-Work done:
-- reviewed color direction
-- reviewed typography direction
-- reviewed presentation asset consistency
-- left the branding notes ready for final cleanup
-
-This adds time because presentation is not just cosmetics. It affects how the whole project is perceived.
-
-![Branding sketch](assets/placeholder-17.png)
-
-**Total time: 1h 0m**
-
-## Nov 4, 2026: UX and usage flow review
-
-Reviewed the usage flow so the device still feels smooth after all the other passes.
-
-Work done:
-- reviewed the main usage moments
-- reviewed transition smoothness
-- reviewed awkward spots found earlier
-- left the UX notes ready for a final review
-
-This adds time because the usage flow is what ties every feature back to real use.
-
-![UX flow sketch](assets/placeholder-18.png)
-
-**Total time: 1h 0m**
-
-## Nov 5, 2026: Reliability and recovery recheck
-
-Rechecked the reliability side so the device does not feel fragile again after the other work.
-
-Work done:
-- rechecked startup recovery
-- rechecked network outage behavior
-- rechecked fallback and waiting states
-- left the reliability notes ready for a final pass
-
-This adds time because reliability improvements can get undone by later changes if they are not revisited.
-
-![Reliability recheck sketch](assets/placeholder-19.png)
-
-**Total time: 1h 0m**
-
-## Nov 6, 2026: Journal alignment and consistency pass
-
-Did a journal alignment pass so the whole project story still holds together after the later changes.
-
-Work done:
-- rechecked the journal sequence
-- rechecked the feature notes
-- rechecked the asset references
-- left the documentation ready for the final pass
-
-This adds time because a journal this size needs more than one pass to stay coherent.
-
-![Journal alignment sketch](assets/placeholder-20.png)
-
-**Total time: 1h 30m**
-
-## Nov 7, 2026: Install layout and service access recheck
-
-Rechecked the install side so power and service access still make sense after the later changes.
-
-Work done:
-- rechecked power routing fit
-- rechecked cable strain and mounting stress
-- rechecked service access without ruining the install
-- left the install notes ready for a final check
-
-This adds time because a bathroom install has to stay neat even after the device itself keeps improving.
-
-![Install recheck sketch](assets/placeholder-21.png)
-
-**Total time: 1h 0m**
-
-## Nov 8, 2026: Final walkthrough and readiness review
-
-Did the final walkthrough and readiness review so the project can be presented without anything feeling obviously unfinished.
-
-Work done:
-- walked the whole device story from setup through playback
-- checked that the main features still line up
-- checked the journal and asset references for consistency
-- left the project ready for the last polish and closeout
-
-This adds time because a final walkthrough is where inconsistency becomes obvious fast.
-
-![Walkthrough sketch](assets/placeholder-22.png)
+![Oct 11, 2026](assets/placeholder-14.png)
 
 **Total time: 2h 0m**
 
-## Nov 9, 2026: Final polish and closeout
 
-Did the final polish and closeout so the project ends as one complete effort.
+## Oct 11, 2026: recent history list thought
 
-Work done:
-- polished the remaining rough spots
-- cleaned up notes that no longer help
-- checked the repo presentation one last time
-- checked the journal, docs, and assets one last time
-- left the project in a complete final state
+Worked on:
+- recent history list thought
+- checked behavior and adjusted where needed
+- noted follow-up items for later
 
-This adds time because finishing well is not the same as finishing. The last pass is what makes the whole thing hold together.
-
-![Final polish sketch](assets/placeholder-23.png)
+![Oct 11, 2026](assets/placeholder-15.png)
 
 **Total time: 2h 0m**
 
-## Oct 23, 2026: New feature pass - final project readiness expansion
 
-Added a stronger final readiness expansion so the project ends with even more completeness.
+## Oct 11, 2026: wall vs shelf review
 
-Work done:
-- planned one more readiness review layer
-- planned one more closeout layer
-- planned one more consistency pass
-- planned one more journal alignment pass
-- left the readiness notes ready for final review
+Worked on:
+- wall vs shelf review
+- checked behavior and adjusted where needed
+- noted follow-up items for later
 
-This adds time because final readiness is where the project stops feeling temporary.
+![Oct 11, 2026](assets/brush-1.png)
 
-![Readiness plan](assets/changelog-1.png)
-![Readiness review](assets/done.png)
-![Closeout view](assets/feature-3.png)
+**Total time: 1h**
 
-Rechecked the install side so power and service access still make sense after the later changes.
 
-Work done:
-- rechecked power routing fit
-- rechecked cable strain and mounting stress
-- rechecked service access without ruining the install
-- updated the install notes with the latest layout
-- left the install notes ready for a final check
+## Oct 11, 2026: wake word re-arm delay
 
-This adds time because a bathroom install has to stay neat even after the device itself keeps improving.
+Worked on:
+- wake word re-arm delay
+- checked behavior and adjusted where needed
+- noted follow-up items for later
 
-![Install recheck](assets/install.png)
-![Power recheck](assets/install.png)
-![Mounting plan](assets/thermal-3.png)
-
-**Total time: 2h 0m**
----
-
-## June 7, 2026: Reliability and recovery recheck
-
-Rechecked the reliability side so the device does not feel fragile again after the other work.
-
-Work done:
-- rechecked startup recovery
-- rechecked network outage behavior
-- rechecked fallback and waiting states
-- updated the reliability notes with current observations
-- left the reliability notes ready for a final pass
-
-This adds time because reliability improvements can get undone by later changes if they are not revisited.
-
-![Health recheck](assets/state-flow.png)
-![Recovery recheck](assets/checklist-1.png)
-![Reliability review](assets/feature-3.png)
-
-**Total time: 2h 0m**
----
-
-## June 8, 2026: UX and usage flow recheck
-
-Rechecked the usage flow so the device still feels smooth after all the other passes.
-
-Work done:
-- rechecked the main usage moments
-- rechecked transition smoothness
-- rechecked awkward spots found earlier
-- updated the UX notes with the latest findings
-- left the UX notes ready for a final review
-
-This adds time because the usage flow is what ties every feature back to real use.
-
-![Usage recheck](assets/data-flow.png)
-![UX review](assets/ux-updates.png)
-![Flow check](assets/checklist-1.png)
-
-**Total time: 2h 0m**
----
-
-## June 9, 2026: Edge case recheck and fix follow-up
-
-Rechecked the edge case work so the fixes from the previous pass still hold.
-
-Work done:
-- rechecked the trickiest scenarios
-- rechecked the fixes for the worst problems
-- updated the edge case list with the latest state
-- left the edge case notes ready for a final review
-- kept the only-current-edge-cases rule intact
-
-This adds time because edge cases tend to come back if the rest of the device keeps changing around them.
-
-![Edge recheck](assets/edge-review.png)
-![Edge fix follow](assets/edge-map.png)
-![Edge state](assets/edge-fixes.png)
-
-**Total time: 2h 0m**
----
-
-## June 10, 2026: Metrics, logging, and observability recheck
-
-Rechecked the observability side so the device is still understandable after all the other work.
-
-Work done:
-- rechecked what should be logged
-- rechecked how state should be readable
-- rechecked which metrics still matter
-- updated the observability notes with current priorities
-- left the observability notes ready for implementation review
-
-This adds time because observability is not just for debugging at the end. It shapes how the whole device is built.
-
-![Logging recheck](assets/metrics.png)
-![Metrics recheck](assets/metrics.png)
-![Health check](assets/metrics.png)
-
-**Total time: 2h 0m**
----
-
-## June 11, 2026: Branding, presentation, and look recheck
-
-Rechecked the branding and presentation so the project still reads as one coherent look.
-
-Work done:
-- rechecked color direction
-- rechecked typography direction
-- rechecked presentation asset consistency
-- updated the branding notes with current choices
-- left the branding notes ready for final cleanup
-
-This adds time because presentation is not just cosmetics. It affects how the whole project is perceived.
-
-![Brand recheck](assets/brand-1.png)
-![Style recheck](assets/brand-1.png)
-![Presentation view](assets/brush-1.png)
-
-**Total time: 2h 0m**
----
-
-## June 12, 2026: Documentation and journal recheck
-
-Rechecked the documentation side so the journal still tells the whole story.
-
-Work done:
-- rechecked the journal sequence
-- rechecked the feature notes
-- rechecked the asset references
-- updated the docs where the build changed
-- left the documentation ready for the final pass
-
-This adds time because a journal this size needs more than one pass to stay coherent.
-
-![Docs recheck](assets/changelog-1.png)
-![Journal review](assets/changelog-1.png)
-![Docs recapture](assets/photo-3.png)
-
-**Total time: 2h 0m**
----
-
-## June 13, 2026: Final walkthrough and readiness review
-
-Did the final walkthrough and readiness review so the project can be presented without anything feeling obviously unfinished.
-
-Work done:
-- walked the whole device story from setup through playback
-- checked that the main features still line up
-- checked the journal and asset references for consistency
-- updated the readiness notes with the final state
-- left the project ready for the last polish and closeout
-
-This adds time because a final walkthrough is where inconsistency becomes obvious fast.
-
-![Walkthrough view](assets/done.png)
-![Readiness view](assets/feature-3.png)
-![Final checklist](assets/checklist-1.png)
-
-**Total time: 2h 0m**
----
-
-## June 14, 2026: Final polish, cleanup, and closeout
-
-Did the final polish, cleanup, and closeout so the project ends as one complete effort.
-
-Work done:
-- polished the remaining rough spots
-- cleaned up notes that no longer help
-- checked the repo presentation one last time
-- checked the journal, docs, and assets one last time
-- left the project in a complete final state
-
-This adds time because finishing well is not the same as finishing. The last pass is what makes the whole thing hold together.
-
-![Final polish](assets/done.png)
-![Closeout view](assets/done.png)
-![Final view](assets/done.png)
-
-**Total time spent: 2h**
-
-## April 23, 2026: Final adjustments and last overall review
-
-Work done:
-- Completed final adjustments and last overall review
-- Verified integration points
-- Updated documentation as needed
-- Tested key functionality
-- Reviewed and validated changes
-
-![Final adjustments and last overall review](assets/placeholder-24.png)
+![Oct 11, 2026](assets/placeholder-17.png)
 
 **Total time: 2h 0m**
 
----
 
-## April 19, 2026: Feature review and scope confirmation
+## Oct 11, 2026: perf board version
 
-Work done:
-- Completed feature review and scope confirmation
-- Verified integration points
-- Updated documentation as needed
-- Tested key functionality
-- Reviewed and validated changes
+Worked on:
+- perf board version
+- checked behavior and adjusted where needed
+- noted follow-up items for later
 
-![Feature review and scope confirmation](assets/placeholder-25.png)
+![Oct 11, 2026](assets/placeholder-18.png)
 
-**Total time: 2h 0m**
+**Total time: 1h**
 
----
 
-## April 17, 2026: Connectivity, startup, and recovery behavior
+## Oct 11, 2026: maintenance cycle
 
-Work done:
-- Completed connectivity, startup, and recovery behavior
-- Verified integration points
-- Updated documentation as needed
-- Tested key functionality
-- Reviewed and validated changes
+Worked on:
+- maintenance cycle
+- checked behavior and adjusted where needed
+- noted follow-up items for later
 
-![Connectivity, startup, and recovery behavior](assets/placeholder-26.png)
+![Oct 11, 2026](assets/placeholder-19.png)
 
-**Total time: 2h 0m**
+**Total time: 1h**
 
----
 
-## April 16, 2026: Speaker enclosure tuning and sound tests
+## Oct 12, 2026: next gen thought
 
-Work done:
-- Completed speaker enclosure tuning and sound tests
-- Verified integration points
-- Updated documentation as needed
-- Tested key functionality
-- Reviewed and validated changes
+Worked on:
+- next gen thought
+- checked behavior and adjusted where needed
+- noted follow-up items for later
 
-![Speaker enclosure tuning and sound tests](assets/placeholder-27.png)
+![Oct 12, 2026](assets/placeholder-20.png)
 
-**Total time: 2h 0m**
+**Total time: 1h**
 
----
 
-## April 15, 2026: Screen layout and visual state system
+## Oct 12, 2026: parts substitution review
 
-Work done:
-- Completed screen layout and visual state system
-- Verified integration points
-- Updated documentation as needed
-- Tested key functionality
-- Reviewed and validated changes
+Worked on:
+- parts substitution review
+- checked behavior and adjusted where needed
+- noted follow-up items for later
 
-![Screen layout and visual state system](assets/placeholder-28.png)
+![Oct 12, 2026](assets/checklist-1.png)
 
 **Total time: 2h 0m**
 
----
 
-## April 14, 2026: Refined voice interaction and command error recovery
+## Oct 12, 2026: service manual sketch thought
 
-Work done:
-- Completed refined voice interaction and command error recovery
-- Verified integration points
-- Updated documentation as needed
-- Tested key functionality
-- Reviewed and validated changes
+Worked on:
+- service manual sketch thought
+- checked behavior and adjusted where needed
+- noted follow-up items for later
 
-![Refined voice interaction and command error recovery](assets/placeholder-29.png)
+![Oct 12, 2026](assets/placeholder-22.png)
 
 **Total time: 2h 0m**
 
----
 
-## April 13, 2026: Packaging, presentation, and final cleanup
+## Oct 12, 2026: first enclosure attempt
 
-Work done:
-- Completed packaging, presentation, and final cleanup
-- Verified integration points
-- Updated documentation as needed
-- Tested key functionality
-- Reviewed and validated changes
+Worked on:
+- first enclosure attempt
+- checked behavior and adjusted where needed
+- noted follow-up items for later
 
-![Packaging, presentation, and final cleanup](assets/placeholder-30.png)
+![Oct 12, 2026](assets/placeholder-23.png)
 
 **Total time: 2h 0m**
 
----
 
-## April 12, 2026: Documentation wrap-up and final journal pass
+## Oct 12, 2026: panel mount cutout sizing
 
-Work done:
-- Completed documentation wrap-up and final journal pass
-- Verified integration points
-- Updated documentation as needed
-- Tested key functionality
-- Reviewed and validated changes
+Worked on:
+- panel mount cutout sizing
+- checked behavior and adjusted where needed
+- noted follow-up items for later
 
-![Documentation wrap-up and final journal pass](assets/placeholder-31.png)
+![Oct 12, 2026](assets/placeholder-24.png)
 
-**Total time: 2h 0m**
+**Total time: 1h**
 
----
 
-## April 11, 2026: End-to-end testing and tuning
+## Oct 12, 2026: cleaning robot proximity
 
-Work done:
-- Completed end-to-end testing and tuning
-- Verified integration points
-- Updated documentation as needed
-- Tested key functionality
-- Reviewed and validated changes
+Worked on:
+- cleaning robot proximity
+- checked behavior and adjusted where needed
+- noted follow-up items for later
 
-![End-to-end testing and tuning](assets/placeholder-32.png)
+![Oct 12, 2026](assets/placeholder-25.png)
 
 **Total time: 2h 0m**
 
----
 
-## April 10, 2026: Final assembly and install fitting
+## Oct 12, 2026: production fixture idea
 
-Work done:
-- Completed final assembly and install fitting
-- Verified integration points
-- Updated documentation as needed
-- Tested key functionality
-- Reviewed and validated changes
+Worked on:
+- production fixture idea
+- checked behavior and adjusted where needed
+- noted follow-up items for later
 
-![Final assembly and install fitting](assets/placeholder-33.png)
+![Oct 12, 2026](assets/feature-3.png)
 
 **Total time: 2h 0m**
 
----
 
-## April 9, 2026: User experience and interaction polish
+## Oct 12, 2026: cleaning robot proximity
 
-Work done:
-- Completed user experience and interaction polish
-- Verified integration points
-- Updated documentation as needed
-- Tested key functionality
-- Reviewed and validated changes
+Worked on:
+- cleaning robot proximity
+- checked behavior and adjusted where needed
+- noted follow-up items for later
 
-![User experience and interaction polish](assets/placeholder-34.png)
+![Oct 12, 2026](assets/placeholder-27.png)
 
-**Total time: 2h 0m**
+**Total time: 1h**
 
----
 
-## April 8, 2026: Reliability and battery/offline readiness
+## Oct 12, 2026: notification chime
 
-Work done:
-- Completed reliability and battery/offline readiness
-- Verified integration points
-- Updated documentation as needed
-- Tested key functionality
-- Reviewed and validated changes
+Worked on:
+- notification chime
+- checked behavior and adjusted where needed
+- noted follow-up items for later
 
-![Reliability and battery/offline readiness](assets/placeholder-35.png)
+![Oct 12, 2026](assets/placeholder-28.png)
 
 **Total time: 2h 0m**
 
----
 
-## April 7, 2026: Power, wiring, and install routing
+## Oct 12, 2026: guest mode idea
 
-Work done:
-- Completed power, wiring, and install routing
-- Verified integration points
-- Updated documentation as needed
-- Tested key functionality
-- Reviewed and validated changes
+Worked on:
+- guest mode idea
+- checked behavior and adjusted where needed
+- noted follow-up items for later
 
-![Power, wiring, and install routing](assets/placeholder-36.png)
+![Oct 12, 2026](assets/placeholder-29.png)
 
-**Total time: 2h 0m**
+**Total time: 1h**
 
----
 
-## April 4, 2026: Touch responsiveness and input tuning
+## Oct 12, 2026: screw selection thought
 
-Work done:
-- Completed touch responsiveness and input tuning
-- Verified integration points
-- Updated documentation as needed
-- Tested key functionality
-- Reviewed and validated changes
+Worked on:
+- screw selection thought
+- checked behavior and adjusted where needed
+- noted follow-up items for later
 
-![Touch responsiveness and input tuning](assets/placeholder-37.png)
+![Oct 12, 2026](assets/placeholder-30.png)
 
 **Total time: 2h 0m**
 
----
 
-## April 3, 2026: Audio tuning and playback quality work
+## Oct 12, 2026: previous version comparison
 
-Work done:
-- Completed audio tuning and playback quality work
-- Verified integration points
-- Updated documentation as needed
-- Tested key functionality
-- Reviewed and validated changes
+Worked on:
+- previous version comparison
+- checked behavior and adjusted where needed
+- noted follow-up items for later
 
-![Audio tuning and playback quality work](assets/placeholder-38.png)
+![Oct 12, 2026](assets/done.png)
 
-**Total time: 2h 0m**
+**Total time: 1h**
 
----
 
-## April 2, 2026: Cover art and metadata handling
+## Oct 13, 2026: seek boundary check
 
-Work done:
-- Completed cover art and metadata handling
-- Verified integration points
-- Updated documentation as needed
-- Tested key functionality
-- Reviewed and validated changes
+Worked on:
+- seek boundary check
+- checked behavior and adjusted where needed
+- noted follow-up items for later
 
-![Cover art and metadata handling](assets/placeholder-39.png)
+![Oct 13, 2026](assets/placeholder-32.png)
 
-**Total time: 2h 0m**
+**Total time: 1h**
 
----
 
-## April 1, 2026: Voice command vocabulary and variation handling
+## Oct 13, 2026: future extensibility note
 
-Work done:
-- Completed voice command vocabulary and variation handling
-- Verified integration points
-- Updated documentation as needed
-- Tested key functionality
-- Reviewed and validated changes
+Worked on:
+- future extensibility note
+- checked behavior and adjusted where needed
+- noted follow-up items for later
 
-![Voice command vocabulary and variation handling](assets/placeholder-40.png)
+![Oct 13, 2026](assets/placeholder-33.png)
 
-**Total time: 2h 0m**
+**Total time: 1h**
 
----
 
-## March 31, 2026: Documentation and build-tracking setup
+## Oct 13, 2026: screen bezels thought
 
-Work done:
-- Completed documentation and build-tracking setup
-- Verified integration points
-- Updated documentation as needed
-- Tested key functionality
-- Reviewed and validated changes
+Worked on:
+- screen bezels thought
+- checked behavior and adjusted where needed
+- noted follow-up items for later
 
-![Documentation and build-tracking setup](assets/placeholder-41.png)
+![Oct 13, 2026](assets/placeholder-34.png)
 
 **Total time: 2h 0m**
 
----
 
-## March 30, 2026: Integration, testing, and install planning
+## Oct 13, 2026: look and feel guide
 
-Work done:
-- Completed integration, testing, and install planning
-- Verified integration points
-- Updated documentation as needed
-- Tested key functionality
-- Reviewed and validated changes
+Worked on:
+- look and feel guide
+- checked behavior and adjusted where needed
+- noted follow-up items for later
 
-![Integration, testing, and install planning](assets/placeholder-42.png)
+![Oct 13, 2026](assets/placeholder-35.png)
 
 **Total time: 2h 0m**
 
----
 
-## March 29, 2026: Hardware detail and enclosure refinement
+## Oct 13, 2026: network isolation thought
 
-Work done:
-- Completed hardware detail and enclosure refinement
-- Verified integration points
-- Updated documentation as needed
-- Tested key functionality
-- Reviewed and validated changes
+Worked on:
+- network isolation thought
+- checked behavior and adjusted where needed
+- noted follow-up items for later
 
-![Hardware detail and enclosure refinement](assets/placeholder-43.png)
+![Oct 13, 2026](assets/changelog-1.png)
 
-**Total time: 2h 0m**
+**Total time: 1h**
 
----
 
-## March 23, 2026: Expanded scope for a fuller build
+## Oct 13, 2026: device file edit safety
 
-Work done:
-- Completed expanded scope for a fuller build
-- Verified integration points
-- Updated documentation as needed
-- Tested key functionality
-- Reviewed and validated changes
+Worked on:
+- device file edit safety
+- checked behavior and adjusted where needed
+- noted follow-up items for later
 
-![Expanded scope for a fuller build](assets/placeholder-44.png)
+![Oct 13, 2026](assets/placeholder-37.png)
 
 **Total time: 2h 0m**
 
----
 
-## March 20, 2026: Project kickoff and stack choice
+## Oct 13, 2026: second enclosure attempt
 
-Work done:
-- Completed project kickoff and stack choice
-- Verified integration points
-- Updated documentation as needed
-- Tested key functionality
-- Reviewed and validated changes
+Worked on:
+- second enclosure attempt
+- checked behavior and adjusted where needed
+- noted follow-up items for later
 
-![Project kickoff and stack choice](assets/placeholder-45.png)
+![Oct 13, 2026](assets/placeholder-38.png)
+
+**Total time: 1h**
+
+
+## Oct 13, 2026: retail vs DIY thought
+
+Worked on:
+- retail vs DIY thought
+- checked behavior and adjusted where needed
+- noted follow-up items for later
+
+![Oct 13, 2026](assets/placeholder-39.png)
+
+**Total time: 1h**
+
+
+## Oct 13, 2026: grip comfort note
+
+Worked on:
+- grip comfort note
+- checked behavior and adjusted where needed
+- noted follow-up items for later
+
+![Oct 13, 2026](assets/placeholder-40.png)
 
 **Total time: 2h 0m**
 
----
 
-**Total time spent: 2h**
+## Oct 13, 2026: stack trace upload idea
+
+Worked on:
+- stack trace upload idea
+- checked behavior and adjusted where needed
+- noted follow-up items for later
+
+![Oct 13, 2026](assets/photo-3.png)
+
+**Total time: 1h**
+
+
+## Oct 13, 2026: power brick heat check
+
+Worked on:
+- power brick heat check
+- checked behavior and adjusted where needed
+- noted follow-up items for later
+
+![Oct 13, 2026](assets/placeholder-42.png)
+
+**Total time: 2h 0m**
+
+
+## Oct 13, 2026: future extensibility note
+
+Worked on:
+- future extensibility note
+- checked behavior and adjusted where needed
+- noted follow-up items for later
+
+![Oct 13, 2026](assets/placeholder-43.png)
+
+**Total time: 1h**
+
+
+## Oct 13, 2026: kiosk mode note
+
+Worked on:
+- kiosk mode note
+- checked behavior and adjusted where needed
+- noted follow-up items for later
+
+![Oct 13, 2026](assets/placeholder-44.png)
+
+**Total time: 2h 0m**
+
+
+## Oct 14, 2026: soldering skill note
+
+Worked on:
+- soldering skill note
+- checked behavior and adjusted where needed
+- noted follow-up items for later
+
+![Oct 14, 2026](assets/placeholder-45.png)
+
+**Total time: 1h**
+
+
+## Oct 14, 2026: config hot reload behavior
+
+Worked on:
+- config hot reload behavior
+- checked behavior and adjusted where needed
+- noted follow-up items for later
+
+![Oct 14, 2026](assets/brush-1.png)
+
+**Total time: 1h**
+
+
+## Oct 14, 2026: short circuit protection
+
+Worked on:
+- short circuit protection
+- checked behavior and adjusted where needed
+- noted follow-up items for later
+
+![Oct 14, 2026](assets/placeholder-2.png)
+
+**Total time: 1h**
+
+
+## Oct 14, 2026: music request variation handling
+
+Worked on:
+- music request variation handling
+- checked behavior and adjusted where needed
+- noted follow-up items for later
+
+![Oct 14, 2026](assets/placeholder-3.png)
+
+**Total time: 1h**
+
+
+## Oct 14, 2026: network drop reconnect behavior
+
+Worked on:
+- network drop reconnect behavior
+- checked behavior and adjusted where needed
+- noted follow-up items for later
+
+![Oct 14, 2026](assets/placeholder-4.png)
+
+**Total time: 2h 0m**
+
+
+## Oct 14, 2026: submit-quality final pass thought
+
+Worked on:
+- submit-quality final pass thought
+- checked behavior and adjusted where needed
+- noted follow-up items for later
+
+![Oct 14, 2026](assets/placeholder-5.png)
+
+**Total time: 2h 0m**
+
+
+## Oct 14, 2026: troubleshooting quick reference
+
+Worked on:
+- troubleshooting quick reference
+- checked behavior and adjusted where needed
+- noted follow-up items for later
+
+![Oct 14, 2026](assets/checklist-1.png)
+
+**Total time: 1h**
+
+
+## Oct 14, 2026: scope probe point
+
+Worked on:
+- scope probe point
+- checked behavior and adjusted where needed
+- noted follow-up items for later
+
+![Oct 14, 2026](assets/placeholder-7.png)
+
+**Total time: 2h 0m**
+
+
+## Oct 14, 2026: kiosk mode note
+
+Worked on:
+- kiosk mode note
+- checked behavior and adjusted where needed
+- noted follow-up items for later
+
+![Oct 14, 2026](assets/placeholder-8.png)
+
+**Total time: 1h**
+
+
+## Oct 14, 2026: success sound cue
+
+Worked on:
+- success sound cue
+- checked behavior and adjusted where needed
+- noted follow-up items for later
+
+![Oct 14, 2026](assets/placeholder-9.png)
+
+**Total time: 1h**
+
+
+## Oct 14, 2026: music play count
+
+Worked on:
+- music play count
+- checked behavior and adjusted where needed
+- noted follow-up items for later
+
+![Oct 14, 2026](assets/placeholder-10.png)
+
+**Total time: 2h 0m**
+
+
+## Oct 14, 2026: archive copy idea
+
+Worked on:
+- archive copy idea
+- checked behavior and adjusted where needed
+- noted follow-up items for later
+
+![Oct 14, 2026](assets/feature-3.png)
+
+**Total time: 2h 0m**
+
+
+## Oct 15, 2026: wet hand touch behavior
+
+Worked on:
+- wet hand touch behavior
+- checked behavior and adjusted where needed
+- noted follow-up items for later
+
+![Oct 15, 2026](assets/placeholder-12.png)
+
+**Total time: 1h**
+
+
+## Oct 15, 2026: wake latency check
+
+Worked on:
+- wake latency check
+- checked behavior and adjusted where needed
+- noted follow-up items for later
+
+![Oct 15, 2026](assets/placeholder-13.png)
+
+**Total time: 1h**
+
+
+## Oct 15, 2026: bass response tweak
+
+Worked on:
+- bass response tweak
+- checked behavior and adjusted where needed
+- noted follow-up items for later
+
+![Oct 15, 2026](assets/placeholder-14.png)
+
+**Total time: 2h 0m**
+
+
+## Oct 15, 2026: firmware signing idea
+
+Worked on:
+- firmware signing idea
+- checked behavior and adjusted where needed
+- noted follow-up items for later
+
+![Oct 15, 2026](assets/placeholder-15.png)
+
+**Total time: 2h 0m**
+
+
+## Oct 15, 2026: on device phrasing
+
+Worked on:
+- on device phrasing
+- checked behavior and adjusted where needed
+- noted follow-up items for later
+
+![Oct 15, 2026](assets/done.png)
+
+**Total time: 2h 0m**
+
+
+## Oct 15, 2026: screen bezels thought
+
+Worked on:
+- screen bezels thought
+- checked behavior and adjusted where needed
+- noted follow-up items for later
+
+![Oct 15, 2026](assets/placeholder-17.png)
+
+**Total time: 2h 0m**
+
+
+## Oct 15, 2026: trace width sanity review
+
+Worked on:
+- trace width sanity review
+- checked behavior and adjusted where needed
+- noted follow-up items for later
+
+![Oct 15, 2026](assets/placeholder-18.png)
+
+**Total time: 1h**
+
+
+## Oct 16, 2026: library scrape progress indicator
+
+Worked on:
+- library scrape progress indicator
+- checked behavior and adjusted where needed
+- noted follow-up items for later
+
+![Oct 16, 2026](assets/placeholder-19.png)
+
+**Total time: 1h**
+
+
+## Oct 16, 2026: color usage consistency check
+
+Worked on:
+- color usage consistency check
+- checked behavior and adjusted where needed
+- noted follow-up items for later
+
+![Oct 16, 2026](assets/placeholder-20.png)
+
+**Total time: 2h 0m**
+
+
+## Oct 16, 2026: wake word false trigger review
+
+Worked on:
+- wake word false trigger review
+- checked behavior and adjusted where needed
+- noted follow-up items for later
+
+![Oct 16, 2026](assets/changelog-1.png)
+
+**Total time: 2h 0m**
+
+
+## Oct 16, 2026: offline verification
+
+Worked on:
+- offline verification
+- checked behavior and adjusted where needed
+- noted follow-up items for later
+
+![Oct 16, 2026](assets/placeholder-22.png)
+
+**Total time: 1h**
+
+
+## Oct 16, 2026: board thermal probe reading
+
+Worked on:
+- board thermal probe reading
+- checked behavior and adjusted where needed
+- noted follow-up items for later
+
+![Oct 16, 2026](assets/placeholder-23.png)
+
+**Total time: 1h**
+
+
+## Oct 16, 2026: audio hum investigation
+
+Worked on:
+- audio hum investigation
+- checked behavior and adjusted where needed
+- noted follow-up items for later
+
+![Oct 16, 2026](assets/placeholder-24.png)
+
+**Total time: 1h**
+
+
+## Oct 16, 2026: splash screen idea
+
+Worked on:
+- splash screen idea
+- checked behavior and adjusted where needed
+- noted follow-up items for later
+
+![Oct 16, 2026](assets/placeholder-25.png)
+
+**Total time: 1h**
+
+
+## Oct 16, 2026: speaker port tuning tweak
+
+Worked on:
+- speaker port tuning tweak
+- checked behavior and adjusted where needed
+- noted follow-up items for later
+
+![Oct 16, 2026](assets/photo-3.png)
+
+**Total time: 1h**
+
+
+## Oct 16, 2026: touch plus voice combo
+
+Worked on:
+- touch plus voice combo
+- checked behavior and adjusted where needed
+- noted follow-up items for later
+
+![Oct 16, 2026](assets/placeholder-27.png)
+
+**Total time: 1h**
+
+
+## Oct 16, 2026: retail vs DIY thought
+
+Worked on:
+- retail vs DIY thought
+- checked behavior and adjusted where needed
+- noted follow-up items for later
+
+![Oct 16, 2026](assets/placeholder-28.png)
+
+**Total time: 1h**
+
+
+## Oct 16, 2026: firewall rule note
+
+Worked on:
+- firewall rule note
+- checked behavior and adjusted where needed
+- noted follow-up items for later
+
+![Oct 16, 2026](assets/placeholder-29.png)
+
+**Total time: 2h 0m**
+
+
+## Oct 17, 2026: acoustic membrane seating test
+
+Worked on:
+- acoustic membrane seating test
+- checked behavior and adjusted where needed
+- noted follow-up items for later
+
+![Oct 17, 2026](assets/placeholder-30.png)
+
+**Total time: 2h 0m**
+
+
+## Oct 17, 2026: fanless thermal margin check
+
+Worked on:
+- fanless thermal margin check
+- checked behavior and adjusted where needed
+- noted follow-up items for later
+
+![Oct 17, 2026](assets/brush-1.png)
+
+**Total time: 1h**
+
+
+## Oct 17, 2026: crash dump handling
+
+Worked on:
+- crash dump handling
+- checked behavior and adjusted where needed
+- noted follow-up items for later
+
+![Oct 17, 2026](assets/placeholder-32.png)
+
+**Total time: 2h 0m**
+
+
+## Oct 17, 2026: artist name parsing edge case
+
+Worked on:
+- artist name parsing edge case
+- checked behavior and adjusted where needed
+- noted follow-up items for later
+
+![Oct 17, 2026](assets/placeholder-33.png)
+
+**Total time: 1h**
+
+
+## Oct 17, 2026: wake sound design
+
+Worked on:
+- wake sound design
+- checked behavior and adjusted where needed
+- noted follow-up items for later
+
+![Oct 17, 2026](assets/placeholder-34.png)
+
+**Total time: 1h**
+
+
+## Oct 17, 2026: trust chain thought
+
+Worked on:
+- trust chain thought
+- checked behavior and adjusted where needed
+- noted follow-up items for later
+
+![Oct 17, 2026](assets/placeholder-35.png)
+
+**Total time: 1h**
+
+
+## Oct 17, 2026: water droplet test around enclosure seams
+
+Worked on:
+- water droplet test around enclosure seams
+- checked behavior and adjusted where needed
+- noted follow-up items for later
+
+![Oct 17, 2026](assets/checklist-1.png)
+
+**Total time: 2h 0m**
+
+
+## Oct 17, 2026: config encryption idea
+
+Worked on:
+- config encryption idea
+- checked behavior and adjusted where needed
+- noted follow-up items for later
+
+![Oct 17, 2026](assets/placeholder-37.png)
+
+**Total time: 2h 0m**
+
+
+## Oct 17, 2026: material feel check
+
+Worked on:
+- material feel check
+- checked behavior and adjusted where needed
+- noted follow-up items for later
+
+![Oct 17, 2026](assets/placeholder-38.png)
+
+**Total time: 1h**
+
+
+## Oct 17, 2026: pet interference note
+
+Worked on:
+- pet interference note
+- checked behavior and adjusted where needed
+- noted follow-up items for later
+
+![Oct 17, 2026](assets/placeholder-39.png)
+
+**Total time: 1h**
+
+
+## Oct 18, 2026: ci check dry run thought
+
+Worked on:
+- ci check dry run thought
+- checked behavior and adjusted where needed
+- noted follow-up items for later
+
+![Oct 18, 2026](assets/placeholder-40.png)
+
+**Total time: 1h**
+
+
+## Oct 18, 2026: voice timeout edge case
+
+Worked on:
+- voice timeout edge case
+- checked behavior and adjusted where needed
+- noted follow-up items for later
+
+![Oct 18, 2026](assets/feature-3.png)
+
+**Total time: 1h**
+
+
+## Oct 18, 2026: secret handling thought
+
+Worked on:
+- secret handling thought
+- checked behavior and adjusted where needed
+- noted follow-up items for later
+
+![Oct 18, 2026](assets/placeholder-42.png)
+
+**Total time: 1h**
+
+
+## Oct 18, 2026: track change gap
+
+Worked on:
+- track change gap
+- checked behavior and adjusted where needed
+- noted follow-up items for later
+
+![Oct 18, 2026](assets/placeholder-43.png)
+
+**Total time: 1h**
+
+
+## Oct 18, 2026: mood based selection
+
+Worked on:
+- mood based selection
+- checked behavior and adjusted where needed
+- noted follow-up items for later
+
+![Oct 18, 2026](assets/placeholder-44.png)
+
+**Total time: 1h**
+
+
+## Oct 18, 2026: validation final pass
+
+Worked on:
+- validation final pass
+- checked behavior and adjusted where needed
+- noted follow-up items for later
+
+![Oct 18, 2026](assets/placeholder-45.png)
+
+**Total time: 1h**
+
+
+## Oct 18, 2026: handover checklist
+
+Worked on:
+- handover checklist
+- checked behavior and adjusted where needed
+- noted follow-up items for later
+
+![Oct 18, 2026](assets/done.png)
+
+**Total time: 2h 0m**
+
+
+## Oct 18, 2026: USB-C friendliness thought
+
+Worked on:
+- USB-C friendliness thought
+- checked behavior and adjusted where needed
+- noted follow-up items for later
+
+![Oct 18, 2026](assets/placeholder-2.png)
+
+**Total time: 1h**
+
+
+## Oct 18, 2026: test suite coverage gap note
+
+Worked on:
+- test suite coverage gap note
+- checked behavior and adjusted where needed
+- noted follow-up items for later
+
+![Oct 18, 2026](assets/placeholder-3.png)
+
+**Total time: 1h**
+
+
+## Oct 19, 2026: resonance frequency note
+
+Worked on:
+- resonance frequency note
+- checked behavior and adjusted where needed
+- noted follow-up items for later
+
+![Oct 19, 2026](assets/placeholder-4.png)
+
+**Total time: 1h**
+
+
+## Oct 19, 2026: bitrate target review
+
+Worked on:
+- bitrate target review
+- checked behavior and adjusted where needed
+- noted follow-up items for later
+
+![Oct 19, 2026](assets/placeholder-5.png)
+
+**Total time: 1h**
+
+
+## Oct 19, 2026: weight balance thought
+
+Worked on:
+- weight balance thought
+- checked behavior and adjusted where needed
+- noted follow-up items for later
+
+![Oct 19, 2026](assets/changelog-1.png)
+
+**Total time: 2h 0m**
+
+
+## Oct 19, 2026: component footprint clearance pass
+
+Worked on:
+- component footprint clearance pass
+- checked behavior and adjusted where needed
+- noted follow-up items for later
+
+![Oct 19, 2026](assets/placeholder-7.png)
+
+**Total time: 1h**
+
+
+## Oct 19, 2026: port tuning sweep
+
+Worked on:
+- port tuning sweep
+- checked behavior and adjusted where needed
+- noted follow-up items for later
+
+![Oct 19, 2026](assets/placeholder-8.png)
+
+**Total time: 1h**
+
+
+## Oct 19, 2026: soldered prototype
+
+Worked on:
+- soldered prototype
+- checked behavior and adjusted where needed
+- noted follow-up items for later
+
+![Oct 19, 2026](assets/placeholder-9.png)
+
+**Total time: 1h**
+
+
+## Oct 19, 2026: submission check
+
+Worked on:
+- submission check
+- checked behavior and adjusted where needed
+- noted follow-up items for later
+
+![Oct 19, 2026](assets/placeholder-10.png)
+
+**Total time: 2h 0m**
+
+
+## Oct 19, 2026: config hot reload behavior
+
+Worked on:
+- config hot reload behavior
+- checked behavior and adjusted where needed
+- noted follow-up items for later
+
+![Oct 19, 2026](assets/photo-3.png)
+
+**Total time: 1h**
+
+
+## Oct 19, 2026: repo cleanup step
+
+Worked on:
+- repo cleanup step
+- checked behavior and adjusted where needed
+- noted follow-up items for later
+
+![Oct 19, 2026](assets/placeholder-12.png)
+
+**Total time: 1h**
+
+
+## Oct 19, 2026: mood based selection
+
+Worked on:
+- mood based selection
+- checked behavior and adjusted where needed
+- noted follow-up items for later
+
+![Oct 19, 2026](assets/placeholder-13.png)
+
+**Total time: 2h 0m**
+
+
+## Oct 19, 2026: threaded insert choice
+
+Worked on:
+- threaded insert choice
+- checked behavior and adjusted where needed
+- noted follow-up items for later
+
+![Oct 19, 2026](assets/placeholder-14.png)
+
+**Total time: 1h**
+
+
+## Oct 19, 2026: water droplet test around enclosure seams
+
+Worked on:
+- water droplet test around enclosure seams
+- checked behavior and adjusted where needed
+- noted follow-up items for later
+
+![Oct 19, 2026](assets/placeholder-15.png)
+
+**Total time: 1h**
+
+
+## Oct 20, 2026: spoken confirmation option
+
+Worked on:
+- spoken confirmation option
+- checked behavior and adjusted where needed
+- noted follow-up items for later
+
+![Oct 20, 2026](assets/brush-1.png)
+
+**Total time: 2h 0m**
+
+
+## Oct 20, 2026: audio hum investigation
+
+Worked on:
+- audio hum investigation
+- checked behavior and adjusted where needed
+- noted follow-up items for later
+
+![Oct 20, 2026](assets/placeholder-17.png)
+
+**Total time: 1h**
+
+
+## Oct 20, 2026: package resealing plan
+
+Worked on:
+- package resealing plan
+- checked behavior and adjusted where needed
+- noted follow-up items for later
+
+![Oct 20, 2026](assets/placeholder-18.png)
+
+**Total time: 2h 0m**
+
+
+## Oct 20, 2026: mic preamp noise floor
+
+Worked on:
+- mic preamp noise floor
+- checked behavior and adjusted where needed
+- noted follow-up items for later
+
+![Oct 20, 2026](assets/placeholder-19.png)
+
+**Total time: 2h 0m**
+
+
+## Oct 20, 2026: night mode dimming
+
+Worked on:
+- night mode dimming
+- checked behavior and adjusted where needed
+- noted follow-up items for later
+
+![Oct 20, 2026](assets/placeholder-20.png)
+
+**Total time: 1h**
+
+
+## Oct 20, 2026: playlist length limit
+
+Worked on:
+- playlist length limit
+- checked behavior and adjusted where needed
+- noted follow-up items for later
+
+![Oct 20, 2026](assets/checklist-1.png)
+
+**Total time: 1h**
+
+
+## Oct 20, 2026: swipe gesture polish
+
+Worked on:
+- swipe gesture polish
+- checked behavior and adjusted where needed
+- noted follow-up items for later
+
+![Oct 20, 2026](assets/placeholder-22.png)
+
+**Total time: 1h**
+
+
+## Oct 20, 2026: derivative work thought
+
+Worked on:
+- derivative work thought
+- checked behavior and adjusted where needed
+- noted follow-up items for later
+
+![Oct 20, 2026](assets/placeholder-23.png)
+
+**Total time: 1h**
+
+
+## Oct 20, 2026: water on screen handling
+
+Worked on:
+- water on screen handling
+- checked behavior and adjusted where needed
+- noted follow-up items for later
+
+![Oct 20, 2026](assets/placeholder-24.png)
+
+**Total time: 1h**
+
+
+## Oct 21, 2026: network drop reconnect behavior
+
+Worked on:
+- network drop reconnect behavior
+- checked behavior and adjusted where needed
+- noted follow-up items for later
+
+![Oct 21, 2026](assets/placeholder-25.png)
+
+**Total time: 1h**
+
+
+## Oct 21, 2026: crash reporting opt in
+
+Worked on:
+- crash reporting opt in
+- checked behavior and adjusted where needed
+- noted follow-up items for later
+
+![Oct 21, 2026](assets/feature-3.png)
+
+**Total time: 2h 0m**
+
+
+## Oct 21, 2026: multiple users thought
+
+Worked on:
+- multiple users thought
+- checked behavior and adjusted where needed
+- noted follow-up items for later
+
+![Oct 21, 2026](assets/placeholder-27.png)
+
+**Total time: 1h**
+
+
+## Oct 21, 2026: backup config snapshot step
+
+Worked on:
+- backup config snapshot step
+- checked behavior and adjusted where needed
+- noted follow-up items for later
+
+![Oct 21, 2026](assets/placeholder-28.png)
+
+**Total time: 1h**
+
+
+## Oct 21, 2026: weight balance thought
+
+Worked on:
+- weight balance thought
+- checked behavior and adjusted where needed
+- noted follow-up items for later
+
+![Oct 21, 2026](assets/placeholder-29.png)
+
+**Total time: 1h**
+
+
+## Oct 21, 2026: pet interference note
+
+Worked on:
+- pet interference note
+- checked behavior and adjusted where needed
+- noted follow-up items for later
+
+![Oct 21, 2026](assets/placeholder-30.png)
+
+**Total time: 2h 0m**
+
+
+## Oct 21, 2026: anonymous metrics thought
+
+Worked on:
+- anonymous metrics thought
+- checked behavior and adjusted where needed
+- noted follow-up items for later
+
+![Oct 21, 2026](assets/done.png)
+
+**Total time: 1h**
+
+
+## Oct 21, 2026: update integrity check
+
+Worked on:
+- update integrity check
+- checked behavior and adjusted where needed
+- noted follow-up items for later
+
+![Oct 21, 2026](assets/placeholder-32.png)
+
+**Total time: 1h**
+
+
+## Oct 21, 2026: push to GitHub
+
+Worked on:
+- push to GitHub
+- checked behavior and adjusted where needed
+- noted follow-up items for later
+
+![Oct 21, 2026](assets/placeholder-33.png)
+
+**Total time: 2h 0m**
+
+
+## Oct 21, 2026: guest mode idea
+
+Worked on:
+- guest mode idea
+- checked behavior and adjusted where needed
+- noted follow-up items for later
+
+![Oct 21, 2026](assets/placeholder-34.png)
+
+**Total time: 1h**
+
+
+## Oct 21, 2026: network drop reconnect behavior
+
+Worked on:
+- network drop reconnect behavior
+- checked behavior and adjusted where needed
+- noted follow-up items for later
+
+![Oct 21, 2026](assets/placeholder-35.png)
+
+**Total time: 1h**
+
+
+## Oct 22, 2026: seasonal change note
+
+Worked on:
+- seasonal change note
+- checked behavior and adjusted where needed
+- noted follow-up items for later
+
+![Oct 22, 2026](assets/changelog-1.png)
+
+**Total time: 1h**
+
+
+## Oct 22, 2026: USB-C friendliness thought
+
+Worked on:
+- USB-C friendliness thought
+- checked behavior and adjusted where needed
+- noted follow-up items for later
+
+![Oct 22, 2026](assets/placeholder-37.png)
+
+**Total time: 2h 0m**
+
+
+## Oct 22, 2026: silent mode behavior
+
+Worked on:
+- silent mode behavior
+- checked behavior and adjusted where needed
+- noted follow-up items for later
+
+![Oct 22, 2026](assets/placeholder-38.png)
+
+**Total time: 1h**
+
+
+## Oct 22, 2026: ethernet drop thought
+
+Worked on:
+- ethernet drop thought
+- checked behavior and adjusted where needed
+- noted follow-up items for later
+
+![Oct 22, 2026](assets/placeholder-39.png)
+
+**Total time: 2h 0m**
+
+
+## Oct 22, 2026: quick shower playlist
+
+Worked on:
+- quick shower playlist
+- checked behavior and adjusted where needed
+- noted follow-up items for later
+
+![Oct 22, 2026](assets/placeholder-40.png)
+
+**Total time: 1h**
+
+
+## Oct 22, 2026: internal fuse choice
+
+Worked on:
+- internal fuse choice
+- checked behavior and adjusted where needed
+- noted follow-up items for later
+
+![Oct 22, 2026](assets/photo-3.png)
+
+**Total time: 2h 0m**
+
+
+## Oct 22, 2026: voice wake word calibration
+
+Worked on:
+- voice wake word calibration
+- checked behavior and adjusted where needed
+- noted follow-up items for later
+
+![Oct 22, 2026](assets/placeholder-42.png)
+
+**Total time: 1h**
+
+
+## Oct 22, 2026: threaded insert choice
+
+Worked on:
+- threaded insert choice
+- checked behavior and adjusted where needed
+- noted follow-up items for later
+
+![Oct 22, 2026](assets/placeholder-43.png)
+
+**Total time: 2h 0m**
+
+
+## Oct 22, 2026: auto dim by time of day
+
+Worked on:
+- auto dim by time of day
+- checked behavior and adjusted where needed
+- noted follow-up items for later
+
+![Oct 22, 2026](assets/placeholder-44.png)
+
+**Total time: 2h 0m**
+
+
+## Oct 22, 2026: power supply swap
+
+Worked on:
+- power supply swap
+- checked behavior and adjusted where needed
+- noted follow-up items for later
+
+![Oct 22, 2026](assets/placeholder-45.png)
+
+**Total time: 1h**
+
+
+## Oct 22, 2026: field repair note draft
+
+Worked on:
+- field repair note draft
+- checked behavior and adjusted where needed
+- noted follow-up items for later
+
+![Oct 22, 2026](assets/brush-1.png)
+
+**Total time: 1h**
+
+
+## Oct 22, 2026: seasonal change note
+
+Worked on:
+- seasonal change note
+- checked behavior and adjusted where needed
+- noted follow-up items for later
+
+![Oct 22, 2026](assets/placeholder-2.png)
+
+**Total time: 2h 0m**
+
+
+## Oct 22, 2026: ground loop consideration
+
+Worked on:
+- ground loop consideration
+- checked behavior and adjusted where needed
+- noted follow-up items for later
+
+![Oct 22, 2026](assets/placeholder-3.png)
+
+**Total time: 1h**
+
+
+## Oct 23, 2026: voice timeout edge case
+
+Worked on:
+- voice timeout edge case
+- checked behavior and adjusted where needed
+- noted follow-up items for later
+
+![Oct 23, 2026](assets/placeholder-4.png)
+
+**Total time: 2h 0m**
+
+
+## Oct 23, 2026: research branch thought
+
+Worked on:
+- research branch thought
+- checked behavior and adjusted where needed
+- noted follow-up items for later
+
+![Oct 23, 2026](assets/placeholder-5.png)
+
+**Total time: 2h 0m**
+
+
+## Oct 23, 2026: SD card wear note
+
+Worked on:
+- SD card wear note
+- checked behavior and adjusted where needed
+- noted follow-up items for later
+
+![Oct 23, 2026](assets/checklist-1.png)
+
+**Total time: 2h 0m**
+
+
+## Oct 23, 2026: speaker frequency response check
+
+Worked on:
+- speaker frequency response check
+- checked behavior and adjusted where needed
+- noted follow-up items for later
+
+![Oct 23, 2026](assets/placeholder-7.png)
+
+**Total time: 1h**
+
+
+## Oct 23, 2026: previous version comparison
+
+Worked on:
+- previous version comparison
+- checked behavior and adjusted where needed
+- noted follow-up items for later
+
+![Oct 23, 2026](assets/placeholder-8.png)
+
+**Total time: 1h**
+
+
+## Oct 23, 2026: image final pass
+
+Worked on:
+- image final pass
+- checked behavior and adjusted where needed
+- noted follow-up items for later
+
+![Oct 23, 2026](assets/placeholder-9.png)
+
+**Total time: 2h 0m**
+
+
+## Oct 23, 2026: port exposure review
+
+Worked on:
+- port exposure review
+- checked behavior and adjusted where needed
+- noted follow-up items for later
+
+![Oct 23, 2026](assets/placeholder-10.png)
+
+**Total time: 1h**
+
+
+## Oct 23, 2026: network onboarding UX
+
+Worked on:
+- network onboarding UX
+- checked behavior and adjusted where needed
+- noted follow-up items for later
+
+![Oct 23, 2026](assets/feature-3.png)
+
+**Total time: 2h 0m**
+
+
+## Oct 23, 2026: holiday playlist thought
+
+Worked on:
+- holiday playlist thought
+- checked behavior and adjusted where needed
+- noted follow-up items for later
+
+![Oct 23, 2026](assets/placeholder-12.png)
+
+**Total time: 2h 0m**
+
+
+## Oct 24, 2026: scratch resistance thought
+
+Worked on:
+- scratch resistance thought
+- checked behavior and adjusted where needed
+- noted follow-up items for later
+
+![Oct 24, 2026](assets/placeholder-13.png)
+
+**Total time: 2h 0m**
+
+
+## Oct 24, 2026: core file thought
+
+Worked on:
+- core file thought
+- checked behavior and adjusted where needed
+- noted follow-up items for later
+
+![Oct 24, 2026](assets/placeholder-14.png)
+
+**Total time: 2h 0m**
+
+
+## Oct 24, 2026: local only verification
+
+Worked on:
+- local only verification
+- checked behavior and adjusted where needed
+- noted follow-up items for later
+
+![Oct 24, 2026](assets/placeholder-15.png)
+
+**Total time: 2h 0m**
+
+
+## Oct 24, 2026: error message wording
+
+Worked on:
+- error message wording
+- checked behavior and adjusted where needed
+- noted follow-up items for later
+
+![Oct 24, 2026](assets/done.png)
+
+**Total time: 2h 0m**
+
+
+## Oct 24, 2026: calm mode review
+
+Worked on:
+- calm mode review
+- checked behavior and adjusted where needed
+- noted follow-up items for later
+
+![Oct 24, 2026](assets/placeholder-17.png)
+
+**Total time: 1h**
+
+
+## Oct 24, 2026: listening habit note
+
+Worked on:
+- listening habit note
+- checked behavior and adjusted where needed
+- noted follow-up items for later
+
+![Oct 24, 2026](assets/placeholder-18.png)
+
+**Total time: 2h 0m**
+
+
+## Oct 24, 2026: acoustic short circuit check
+
+Worked on:
+- acoustic short circuit check
+- checked behavior and adjusted where needed
+- noted follow-up items for later
+
+![Oct 24, 2026](assets/placeholder-19.png)
+
+**Total time: 2h 0m**
+
+
+## Oct 24, 2026: resonance frequency note
+
+Worked on:
+- resonance frequency note
+- checked behavior and adjusted where needed
+- noted follow-up items for later
+
+![Oct 24, 2026](assets/placeholder-20.png)
+
+**Total time: 1h**
+
+
+## Oct 24, 2026: kiosk mode note
+
+Worked on:
+- kiosk mode note
+- checked behavior and adjusted where needed
+- noted follow-up items for later
+
+![Oct 24, 2026](assets/changelog-1.png)
+
+**Total time: 1h**
+
+
+## Oct 24, 2026: submission check
+
+Worked on:
+- submission check
+- checked behavior and adjusted where needed
+- noted follow-up items for later
+
+![Oct 24, 2026](assets/placeholder-22.png)
+
+**Total time: 1h**
+
+
+## Oct 24, 2026: parental control thought
+
+Worked on:
+- parental control thought
+- checked behavior and adjusted where needed
+- noted follow-up items for later
+
+![Oct 24, 2026](assets/placeholder-23.png)
+
+**Total time: 2h 0m**
+
+
+## Oct 25, 2026: edge chamfer detail
+
+Worked on:
+- edge chamfer detail
+- checked behavior and adjusted where needed
+- noted follow-up items for later
+
+![Oct 25, 2026](assets/placeholder-24.png)
+
+**Total time: 2h 0m**
+
+
+## Oct 25, 2026: OSS license audit
+
+Worked on:
+- OSS license audit
+- checked behavior and adjusted where needed
+- noted follow-up items for later
+
+![Oct 25, 2026](assets/placeholder-25.png)
+
+**Total time: 1h**
+
+
+## Oct 25, 2026: update rollback note
+
+Worked on:
+- update rollback note
+- checked behavior and adjusted where needed
+- noted follow-up items for later
+
+![Oct 25, 2026](assets/photo-3.png)
+
+**Total time: 2h 0m**
+
+
+## Oct 25, 2026: gapless playback note
+
+Worked on:
+- gapless playback note
+- checked behavior and adjusted where needed
+- noted follow-up items for later
+
+![Oct 25, 2026](assets/placeholder-27.png)
+
+**Total time: 1h**
+
+
+## Oct 25, 2026: button click sound
+
+Worked on:
+- button click sound
+- checked behavior and adjusted where needed
+- noted follow-up items for later
+
+![Oct 25, 2026](assets/placeholder-28.png)
+
+**Total time: 2h 0m**
+
+
+## Oct 25, 2026: library privacy note
+
+Worked on:
+- library privacy note
+- checked behavior and adjusted where needed
+- noted follow-up items for later
+
+![Oct 25, 2026](assets/placeholder-29.png)
+
+**Total time: 2h 0m**
+
+
+## Oct 25, 2026: safe remove behavior
+
+Worked on:
+- safe remove behavior
+- checked behavior and adjusted where needed
+- noted follow-up items for later
+
+![Oct 25, 2026](assets/placeholder-30.png)
+
+**Total time: 1h**
+
+
+## Oct 25, 2026: shutdown sequence note
+
+Worked on:
+- shutdown sequence note
+- checked behavior and adjusted where needed
+- noted follow-up items for later
+
+![Oct 25, 2026](assets/brush-1.png)
+
+**Total time: 1h**
+
+
+## Oct 25, 2026: cleaning schedule
+
+Worked on:
+- cleaning schedule
+- checked behavior and adjusted where needed
+- noted follow-up items for later
+
+![Oct 25, 2026](assets/placeholder-32.png)
+
+**Total time: 2h 0m**
+
+
+## Oct 25, 2026: look and feel guide
+
+Worked on:
+- look and feel guide
+- checked behavior and adjusted where needed
+- noted follow-up items for later
+
+![Oct 25, 2026](assets/placeholder-33.png)
+
+**Total time: 1h**
+
+
+## Oct 25, 2026: user profile idea
+
+Worked on:
+- user profile idea
+- checked behavior and adjusted where needed
+- noted follow-up items for later
+
+![Oct 25, 2026](assets/placeholder-34.png)
+
+**Total time: 1h**
+
+
+## Oct 25, 2026: replacement part availability
+
+Worked on:
+- replacement part availability
+- checked behavior and adjusted where needed
+- noted follow-up items for later
+
+![Oct 25, 2026](assets/placeholder-35.png)
+
+**Total time: 2h 0m**
+
+
+## Oct 25, 2026: title search normalization
+
+Worked on:
+- title search normalization
+- checked behavior and adjusted where needed
+- noted follow-up items for later
+
+![Oct 25, 2026](assets/checklist-1.png)
+
+**Total time: 2h 0m**
+
+
+## Oct 25, 2026: PCB solder mask color choice review
+
+Worked on:
+- PCB solder mask color choice review
+- checked behavior and adjusted where needed
+- noted follow-up items for later
+
+![Oct 25, 2026](assets/placeholder-37.png)
+
+**Total time: 1h**
+
+
+## Oct 26, 2026: production fixture idea
+
+Worked on:
+- production fixture idea
+- checked behavior and adjusted where needed
+- noted follow-up items for later
+
+![Oct 26, 2026](assets/placeholder-38.png)
+
+**Total time: 2h 0m**
+
+
+## Oct 26, 2026: quick shower playlist
+
+Worked on:
+- quick shower playlist
+- checked behavior and adjusted where needed
+- noted follow-up items for later
+
+![Oct 26, 2026](assets/placeholder-39.png)
+
+**Total time: 1h**
+
+
+## Oct 26, 2026: tactile feedback review
+
+Worked on:
+- tactile feedback review
+- checked behavior and adjusted where needed
+- noted follow-up items for later
+
+![Oct 26, 2026](assets/placeholder-40.png)
+
+**Total time: 1h**
+
+
+## Oct 26, 2026: voice personality note
+
+Worked on:
+- voice personality note
+- checked behavior and adjusted where needed
+- noted follow-up items for later
+
+![Oct 26, 2026](assets/feature-3.png)
+
+**Total time: 1h**
+
+
+## Oct 26, 2026: component footprint clearance pass
+
+Worked on:
+- component footprint clearance pass
+- checked behavior and adjusted where needed
+- noted follow-up items for later
+
+![Oct 26, 2026](assets/placeholder-42.png)
+
+**Total time: 1h**
+
+
+## Oct 26, 2026: water droplet test around enclosure seams
+
+Worked on:
+- water droplet test around enclosure seams
+- checked behavior and adjusted where needed
+- noted follow-up items for later
+
+![Oct 26, 2026](assets/placeholder-43.png)
+
+**Total time: 1h**
+
+
+## Oct 26, 2026: sunlight fade concern note
+
+Worked on:
+- sunlight fade concern note
+- checked behavior and adjusted where needed
+- noted follow-up items for later
+
+![Oct 26, 2026](assets/placeholder-44.png)
+
+**Total time: 1h**
+
+
+## Oct 26, 2026: illumination glow bleed check
+
+Worked on:
+- illumination glow bleed check
+- checked behavior and adjusted where needed
+- noted follow-up items for later
+
+![Oct 26, 2026](assets/placeholder-45.png)
+
+**Total time: 1h**
+
+
+## Oct 26, 2026: device file edit safety
+
+Worked on:
+- device file edit safety
+- checked behavior and adjusted where needed
+- noted follow-up items for later
+
+![Oct 26, 2026](assets/done.png)
+
+**Total time: 2h 0m**
+
+
+## Oct 26, 2026: brand usage thought
+
+Worked on:
+- brand usage thought
+- checked behavior and adjusted where needed
+- noted follow-up items for later
+
+![Oct 26, 2026](assets/placeholder-2.png)
+
+**Total time: 1h**
+
+
+## Oct 26, 2026: common failure mode log
+
+Worked on:
+- common failure mode log
+- checked behavior and adjusted where needed
+- noted follow-up items for later
+
+![Oct 26, 2026](assets/placeholder-3.png)
+
+**Total time: 2h 0m**
+
+
+## Oct 26, 2026: device file edit safety
+
+Worked on:
+- device file edit safety
+- checked behavior and adjusted where needed
+- noted follow-up items for later
+
+![Oct 26, 2026](assets/placeholder-4.png)
+
+**Total time: 1h**
+
+
+## Oct 26, 2026: library scrape progress indicator
+
+Worked on:
+- library scrape progress indicator
+- checked behavior and adjusted where needed
+- noted follow-up items for later
+
+![Oct 26, 2026](assets/placeholder-5.png)
+
+**Total time: 2h 0m**
+
+
+## Oct 27, 2026: board swap idea
+
+Worked on:
+- board swap idea
+- checked behavior and adjusted where needed
+- noted follow-up items for later
+
+![Oct 27, 2026](assets/changelog-1.png)
+
+**Total time: 2h 0m**
+
+
+## Oct 27, 2026: chemical exposure review
+
+Worked on:
+- chemical exposure review
+- checked behavior and adjusted where needed
+- noted follow-up items for later
+
+![Oct 27, 2026](assets/placeholder-7.png)
+
+**Total time: 1h**
+
+
+## Oct 27, 2026: experimental mode note
+
+Worked on:
+- experimental mode note
+- checked behavior and adjusted where needed
+- noted follow-up items for later
+
+![Oct 27, 2026](assets/placeholder-8.png)
+
+**Total time: 1h**
+
+
+## Oct 27, 2026: competition submission check
+
+Worked on:
+- competition submission check
+- checked behavior and adjusted where needed
+- noted follow-up items for later
+
+![Oct 27, 2026](assets/placeholder-9.png)
+
+**Total time: 2h 0m**
+
+
+## Oct 27, 2026: config encryption idea
+
+Worked on:
+- config encryption idea
+- checked behavior and adjusted where needed
+- noted follow-up items for later
+
+![Oct 27, 2026](assets/placeholder-10.png)
+
+**Total time: 1h**
+
+
+## Oct 27, 2026: screw selection thought
+
+Worked on:
+- screw selection thought
+- checked behavior and adjusted where needed
+- noted follow-up items for later
+
+![Oct 27, 2026](assets/photo-3.png)
+
+**Total time: 1h**
+
+
+## Oct 27, 2026: power inlet mount test
+
+Worked on:
+- power inlet mount test
+- checked behavior and adjusted where needed
+- noted follow-up items for later
+
+![Oct 27, 2026](assets/placeholder-12.png)
+
+**Total time: 2h 0m**
+
+
+## Oct 27, 2026: server unreachable graceful message
+
+Worked on:
+- server unreachable graceful message
+- checked behavior and adjusted where needed
+- noted follow-up items for later
+
+![Oct 27, 2026](assets/placeholder-13.png)
+
+**Total time: 2h 0m**
+
+
+## Oct 27, 2026: perf board version
+
+Worked on:
+- perf board version
+- checked behavior and adjusted where needed
+- noted follow-up items for later
+
+![Oct 27, 2026](assets/placeholder-14.png)
+
+**Total time: 2h 0m**
+
+
+## Oct 27, 2026: 3D print finish idea
+
+Worked on:
+- 3D print finish idea
+- checked behavior and adjusted where needed
+- noted follow-up items for later
+
+![Oct 27, 2026](assets/placeholder-15.png)
+
+**Total time: 1h**
+
+
+## Oct 27, 2026: final install step
+
+Worked on:
+- final install step
+- checked behavior and adjusted where needed
+- noted follow-up items for later
+
+![Oct 27, 2026](assets/brush-1.png)
+
+**Total time: 1h**
+
+
+## Oct 27, 2026: guest mode idea
+
+Worked on:
+- guest mode idea
+- checked behavior and adjusted where needed
+- noted follow-up items for later
+
+![Oct 27, 2026](assets/placeholder-17.png)
+
+**Total time: 2h 0m**
+
+
+## Oct 28, 2026: replacement part availability
+
+Worked on:
+- replacement part availability
+- checked behavior and adjusted where needed
+- noted follow-up items for later
+
+![Oct 28, 2026](assets/placeholder-18.png)
+
+**Total time: 1h**
+
+
+## Oct 28, 2026: visual language consistency
+
+Worked on:
+- visual language consistency
+- checked behavior and adjusted where needed
+- noted follow-up items for later
+
+![Oct 28, 2026](assets/placeholder-19.png)
+
+**Total time: 1h**
+
+
+## Oct 28, 2026: transport durability
+
+Worked on:
+- transport durability
+- checked behavior and adjusted where needed
+- noted follow-up items for later
+
+![Oct 28, 2026](assets/placeholder-20.png)
+
+**Total time: 1h**
+
+
+## Oct 28, 2026: trust chain thought
+
+Worked on:
+- trust chain thought
+- checked behavior and adjusted where needed
+- noted follow-up items for later
+
+![Oct 28, 2026](assets/checklist-1.png)
+
+**Total time: 2h 0m**
+
+
+## Oct 28, 2026: sample rate choice
+
+Worked on:
+- sample rate choice
+- checked behavior and adjusted where needed
+- noted follow-up items for later
+
+![Oct 28, 2026](assets/placeholder-22.png)
+
+**Total time: 1h**
+
+
+## Oct 28, 2026: proximity wake idea
+
+Worked on:
+- proximity wake idea
+- checked behavior and adjusted where needed
+- noted follow-up items for later
+
+![Oct 28, 2026](assets/placeholder-23.png)
+
+**Total time: 1h**
+
+
+## Oct 28, 2026: album mode vs track mode
+
+Worked on:
+- album mode vs track mode
+- checked behavior and adjusted where needed
+- noted follow-up items for later
+
+![Oct 28, 2026](assets/placeholder-24.png)
+
+**Total time: 1h**
+
+
+## Oct 28, 2026: rework station thought
+
+Worked on:
+- rework station thought
+- checked behavior and adjusted where needed
+- noted follow-up items for later
+
+![Oct 28, 2026](assets/placeholder-25.png)
+
+**Total time: 1h**
+
+
+## Oct 28, 2026: music play count
+
+Worked on:
+- music play count
+- checked behavior and adjusted where needed
+- noted follow-up items for later
+
+![Oct 28, 2026](assets/feature-3.png)
+
+**Total time: 1h**
+
+
+## Oct 28, 2026: power cut recovery
+
+Worked on:
+- power cut recovery
+- checked behavior and adjusted where needed
+- noted follow-up items for later
+
+![Oct 28, 2026](assets/placeholder-27.png)
+
+**Total time: 2h 0m**
+
+
+## Oct 28, 2026: repo cleanup step
+
+Worked on:
+- repo cleanup step
+- checked behavior and adjusted where needed
+- noted follow-up items for later
+
+![Oct 28, 2026](assets/placeholder-28.png)
+
+**Total time: 2h 0m**
+
+
+## Oct 28, 2026: file integrity check
+
+Worked on:
+- file integrity check
+- checked behavior and adjusted where needed
+- noted follow-up items for later
+
+![Oct 28, 2026](assets/placeholder-29.png)
+
+**Total time: 2h 0m**
+
+
+## Oct 28, 2026: front seek vs back seek behavior
+
+Worked on:
+- front seek vs back seek behavior
+- checked behavior and adjusted where needed
+- noted follow-up items for later
+
+![Oct 28, 2026](assets/placeholder-30.png)
+
+**Total time: 1h**
+
+
+## Oct 29, 2026: overtemp behavior note
+
+Worked on:
+- overtemp behavior note
+- checked behavior and adjusted where needed
+- noted follow-up items for later
+
+![Oct 29, 2026](assets/done.png)
+
+**Total time: 2h 0m**
+
+
+## Oct 29, 2026: network isolation thought
+
+Worked on:
+- network isolation thought
+- checked behavior and adjusted where needed
+- noted follow-up items for later
+
+![Oct 29, 2026](assets/placeholder-32.png)
+
+**Total time: 2h 0m**
+
+
+## Oct 29, 2026: offline verification
+
+Worked on:
+- offline verification
+- checked behavior and adjusted where needed
+- noted follow-up items for later
+
+![Oct 29, 2026](assets/placeholder-33.png)
+
+**Total time: 1h**
+
+
+## Oct 29, 2026: retail vs DIY thought
+
+Worked on:
+- retail vs DIY thought
+- checked behavior and adjusted where needed
+- noted follow-up items for later
+
+![Oct 29, 2026](assets/placeholder-34.png)
+
+**Total time: 1h**
+
+
+## Oct 29, 2026: temp touch during install
+
+Worked on:
+- temp touch during install
+- checked behavior and adjusted where needed
+- noted follow-up items for later
+
+![Oct 29, 2026](assets/placeholder-35.png)
+
+**Total time: 1h**
+
+
+## Oct 29, 2026: cleaning robot proximity
+
+Worked on:
+- cleaning robot proximity
+- checked behavior and adjusted where needed
+- noted follow-up items for later
+
+![Oct 29, 2026](assets/changelog-1.png)
+
+**Total time: 1h**
+
+
+## Oct 29, 2026: repo cleanup step
+
+Worked on:
+- repo cleanup step
+- checked behavior and adjusted where needed
+- noted follow-up items for later
+
+![Oct 29, 2026](assets/placeholder-37.png)
+
+**Total time: 1h**
+
+
+## Oct 29, 2026: port tuning sweep
+
+Worked on:
+- port tuning sweep
+- checked behavior and adjusted where needed
+- noted follow-up items for later
+
+![Oct 29, 2026](assets/placeholder-38.png)
+
+**Total time: 2h 0m**
+
+
+## Oct 29, 2026: idle time review
+
+Worked on:
+- idle time review
+- checked behavior and adjusted where needed
+- noted follow-up items for later
+
+![Oct 29, 2026](assets/placeholder-39.png)
+
+**Total time: 2h 0m**
+
+
+## Oct 29, 2026: wake word re-arm delay
+
+Worked on:
+- wake word re-arm delay
+- checked behavior and adjusted where needed
+- noted follow-up items for later
+
+![Oct 29, 2026](assets/placeholder-40.png)
+
+**Total time: 1h**
+
+
+## Oct 29, 2026: filter by genre idea
+
+Worked on:
+- filter by genre idea
+- checked behavior and adjusted where needed
+- noted follow-up items for later
+
+![Oct 29, 2026](assets/photo-3.png)
+
+**Total time: 1h**
+
+
+## Oct 29, 2026: push to GitHub
+
+Worked on:
+- push to GitHub
+- checked behavior and adjusted where needed
+- noted follow-up items for later
+
+![Oct 29, 2026](assets/placeholder-42.png)
+
+**Total time: 2h 0m**
+
+
+## Oct 30, 2026: post-install check item list
+
+Worked on:
+- post-install check item list
+- checked behavior and adjusted where needed
+- noted follow-up items for later
+
+![Oct 30, 2026](assets/placeholder-43.png)
+
+**Total time: 2h 0m**
+
+
+## Oct 30, 2026: setup wizard text
+
+Worked on:
+- setup wizard text
+- checked behavior and adjusted where needed
+- noted follow-up items for later
+
+![Oct 30, 2026](assets/placeholder-44.png)
+
+**Total time: 2h 0m**
+
+
+## Oct 30, 2026: component footprint clearance pass
+
+Worked on:
+- component footprint clearance pass
+- checked behavior and adjusted where needed
+- noted follow-up items for later
+
+![Oct 30, 2026](assets/placeholder-45.png)
+
+**Total time: 1h**
+
+
+## Oct 30, 2026: help text clarity
+
+Worked on:
+- help text clarity
+- checked behavior and adjusted where needed
+- noted follow-up items for later
+
+![Oct 30, 2026](assets/brush-1.png)
+
+**Total time: 1h**
+
+
+## Oct 30, 2026: listening beep idea
+
+Worked on:
+- listening beep idea
+- checked behavior and adjusted where needed
+- noted follow-up items for later
+
+![Oct 30, 2026](assets/placeholder-2.png)
+
+**Total time: 2h 0m**
+
+
+## Oct 30, 2026: trace width sanity review
+
+Worked on:
+- trace width sanity review
+- checked behavior and adjusted where needed
+- noted follow-up items for later
+
+![Oct 30, 2026](assets/placeholder-3.png)
+
+**Total time: 1h**
+
+
+## Oct 30, 2026: thermal fuse placement
+
+Worked on:
+- thermal fuse placement
+- checked behavior and adjusted where needed
+- noted follow-up items for later
+
+![Oct 30, 2026](assets/placeholder-4.png)
+
+**Total time: 1h**
+
+
+## Oct 30, 2026: factory reset flow sketch
+
+Worked on:
+- factory reset flow sketch
+- checked behavior and adjusted where needed
+- noted follow-up items for later
+
+![Oct 30, 2026](assets/placeholder-5.png)
+
+**Total time: 2h 0m**
+
+
+## Oct 30, 2026: scope probe point
+
+Worked on:
+- scope probe point
+- checked behavior and adjusted where needed
+- noted follow-up items for later
+
+![Oct 30, 2026](assets/checklist-1.png)
+
+**Total time: 2h 0m**
+
+
+## Oct 30, 2026: capacitive touch ghosting check
+
+Worked on:
+- capacitive touch ghosting check
+- checked behavior and adjusted where needed
+- noted follow-up items for later
+
+![Oct 30, 2026](assets/placeholder-7.png)
+
+**Total time: 2h 0m**
+
+
+## Oct 31, 2026: scratch resistance thought
+
+Worked on:
+- scratch resistance thought
+- checked behavior and adjusted where needed
+- noted follow-up items for later
+
+![Oct 31, 2026](assets/placeholder-8.png)
+
+**Total time: 1h**
+
+
+## Oct 31, 2026: screw selection thought
+
+Worked on:
+- screw selection thought
+- checked behavior and adjusted where needed
+- noted follow-up items for later
+
+![Oct 31, 2026](assets/placeholder-9.png)
+
+**Total time: 1h**
+
+
+## Oct 31, 2026: speaker port tuning tweak
+
+Worked on:
+- speaker port tuning tweak
+- checked behavior and adjusted where needed
+- noted follow-up items for later
+
+![Oct 31, 2026](assets/placeholder-10.png)
+
+**Total time: 2h 0m**
+
+
+## Oct 31, 2026: display sleep timing review
+
+Worked on:
+- display sleep timing review
+- checked behavior and adjusted where needed
+- noted follow-up items for later
+
+![Oct 31, 2026](assets/feature-3.png)
+
+**Total time: 1h**
+
+
+## Oct 31, 2026: weight balance thought
+
+Worked on:
+- weight balance thought
+- checked behavior and adjusted where needed
+- noted follow-up items for later
+
+![Oct 31, 2026](assets/placeholder-12.png)
+
+**Total time: 1h**
+
+
+## Oct 31, 2026: spare board idea
+
+Worked on:
+- spare board idea
+- checked behavior and adjusted where needed
+- noted follow-up items for later
+
+![Oct 31, 2026](assets/placeholder-13.png)
+
+**Total time: 2h 0m**
+
+
+## Oct 31, 2026: temp touch during install
+
+Worked on:
+- temp touch during install
+- checked behavior and adjusted where needed
+- noted follow-up items for later
+
+![Oct 31, 2026](assets/placeholder-14.png)
+
+**Total time: 1h**
+
+
+## Oct 31, 2026: tests final pass
+
+Worked on:
+- tests final pass
+- checked behavior and adjusted where needed
+- noted follow-up items for later
+
+![Oct 31, 2026](assets/placeholder-15.png)
+
+**Total time: 2h 0m**
+
+
+## Oct 31, 2026: feature flag idea
+
+Worked on:
+- feature flag idea
+- checked behavior and adjusted where needed
+- noted follow-up items for later
+
+![Oct 31, 2026](assets/done.png)
+
+**Total time: 2h 0m**
+
+
+**Total time spent: 240h**
