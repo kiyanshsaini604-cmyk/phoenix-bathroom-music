@@ -31,3 +31,35 @@ This is meant to be a believable single-device project for Forge/Fabricate:
 ## Repository journal
 
 Progress is tracked in `JOURNAL.md`.
+
+## Build photos
+
+![Device mockup](assets/placeholder-1.png)
+![Enclosure concept](assets/enclosure.png)
+![Schematic diagram](assets/block-diagram.svg)
+![PCB rendering](assets/device-mockup.svg)
+![Audio flow](assets/audio-flow.png)
+![Voice pipeline](assets/voice-map.png)
+
+---
+
+*Photos show the device mockup, enclosure design, schematic, PCB layout, audio path, and voice recognition mapping for the bathroom music project.*
+
+## Chosen stack
+
+- **Music server:** Airsonic-Advanced as the main option, with a Subsonic-compatible backend in mind as an alternative
+- **Voice control:** offline-friendly speech recognition using Vosk for local request handling, with a possible server-side fallback
+- **Device side:** custom electronics with a small display, speaker output, microphone path, and a processor that can handle voice, playback, and visuals
+- **Music source:** personal library stored on the server, not a broad internet catalog
+
+## Project scope
+
+This is meant to be a believable single-device project for Forge/Fabricate:
+- waterproof enclosure and shower-friendly interface
+- voice request handling for playback from a chosen music source
+- visual feedback on the screen
+- built-in audio output
+
+## Repository journal
+
+Progress is tracked in `JOURNAL.md`.

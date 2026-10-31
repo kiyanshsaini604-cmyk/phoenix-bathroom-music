@@ -26,6 +26,5 @@ class DeviceConfig(BaseModel):
 
 
 def validate_device_config(data: dict) -> dict:
-    """Validate and return the device configuration dict."""
     cfg = DeviceConfig(**data)
     return cfg.model_dump()

@@ -1,8 +1,8 @@
-import phoenix.config
+from phoenix.config import load
 
 
 def test_load_returns_dict():
-    cfg = phoenix.config.load("config/device.json")
+    cfg = load("config/device.json")
     assert isinstance(cfg, dict)
 
 

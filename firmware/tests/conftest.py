@@ -1,26 +1,26 @@
 import pytest
 import asyncio
-import phoenix.config
-import phoenix.music
 import phoenix.voice
-import phoenix.ui
+import phoenix.schemas
+from phoenix import Pipeline, DeviceConfig, AudioManager, MusicClient, Screen
+from phoenix.config import load
 
 
 @pytest.fixture
 def config():
-    return phoenix.config.load("config/device.json")
+    return load("config/device.json")
 
 
 @pytest.fixture
 def music_client(config):
-    return phoenix.music.Client(config["server"])
+    return MusicClient(config["server"]["url"], config["server"]["user"], config["server"]["password"])
 
 
 @pytest.fixture
 def voice_pipeline(config):
-    return phoenix.voice.Pipeline(config["voice"])
+    return Pipeline(config["voice"])
 
 
 @pytest.fixture
 def ui():
-    return phoenix.ui.Screen()
+    return Screen()

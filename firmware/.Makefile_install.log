@@ -1,0 +1,4 @@
+WARNING: phoenix-device 0.1.0 does not provide the extra 'musical'
+
+[notice] A new release of pip is available: 26.2.1 -> 26.2.2
+[notice] To update, run: python.exe -m pip install --upgrade pip

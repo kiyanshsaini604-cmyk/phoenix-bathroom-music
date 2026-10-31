@@ -12,20 +12,18 @@ import logging
 from phoenix.config import load
 from phoenix.audio import AudioManager
 from phoenix.voice import Pipeline
-from phoenix.music import Client
+from phoenix.music import MusicClient
 from phoenix.ui import Screen
 
 LOG = logging.getLogger("phoenix")
 
 
 class Phoenix:
-    """Top-level device controller."""
-
     def __init__(self, config_path="config/device.json"):
         self.config = load(config_path)
         self.server_cfg = self.config["server"]
         self.voice_cfg = self.config["voice"]
-        self.client = Client(self.server_cfg)
+        self.client = MusicClient(self.server_cfg["url"], self.server_cfg["user"], self.server_cfg["password"])
         self.pipeline = Pipeline(self.voice_cfg)
         self.audio = AudioManager()
         self.screen = Screen()
@@ -52,7 +50,6 @@ class Phoenix:
         if touched:
             await self._handle_touch(touched)
             return
-
         if self.pipeline.wake_detected:
             await self._handle_wake()
 
@@ -97,6 +94,11 @@ class Phoenix:
             return None
         best = results[0]
         return await self.client.play_track(best["id"])
+
+    async def shutdown(self):
+        LOG.info("Phoenix shutting down")
+        await self.audio.stop()
+        self.running = False
 
 
 async def main():

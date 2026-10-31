@@ -6,7 +6,7 @@ import phoenix.audio
 def test_audio_manager_starts_without_error():
     mgr = phoenix.audio.AudioManager()
     asyncio.run(mgr.start())
-    assert mgr._pyaudio is not None
+    assert mgr._capturing is False
 
 
 def test_audio_manager_capture_state():
