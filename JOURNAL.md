@@ -1,6 +1,7 @@
 
 ## Mar 20, 2026: Project kickoff and concept shaping
-Time: 3h
+
+Time: 3 hours
 
 Work done:
 - Background research on bathroom-friendly music setups
@@ -27,7 +28,8 @@ This adds time because the first day is mostly trying to make the thing feel rea
 
 
 ## Oct 10, 2026: power inlet mount test
-Time: 1h
+
+Time: 1 hours
 
 Work done:
 - Drilled the panel-mount power inlet opening at the rear face and dry-fit the bulkhead connector
@@ -49,7 +51,8 @@ Work done:
 
 
 ## Oct 10, 2026: port tuning sweep
-Time: 1h
+
+Time: 1 hours
 
 Work done:
 - Swept the speaker port tuning by adjusting the port length in 1 mm steps and measuring the frequency response at each step
@@ -70,7 +73,8 @@ Work done:
 
 
 ## Oct 10, 2026: Wi-Fi throughput test near shower
-Time: 1h
+
+Time: 1 hours
 
 Work done:
 - Measured TCP throughput from the device to the server with the device placed where it will live in the shower area
@@ -92,7 +96,8 @@ Work done:
 
 
 ## Oct 10, 2026: shower noise masking test
-Time: 1h
+
+Time: 1 hours
 
 Work done:
 - Tested the device ability to be heard over shower noise and found the speaker is loud enough at 70% volume to be heard over a 75 dB shower
@@ -113,7 +118,8 @@ Work done:
 
 
 ## Oct 10, 2026: album mode vs track mode
-Time: 2h
+
+Time: 2 hours
 
 Work done:
 - Added album mode and track mode to the player; album mode plays all tracks from an album, track mode plays individual tracks
@@ -134,7 +140,8 @@ Work done:
 
 
 ## Oct 10, 2026: water on screen handling
-Time: 2h
+
+Time: 2 hours
 
 Work done:
 - Tested the touch panel with water droplets on the screen and found small droplets do not trigger false touches
@@ -155,7 +162,8 @@ Work done:
 
 
 ## Oct 10, 2026: display brightness tuning
-Time: 1h
+
+Time: 1 hours
 
 Work done:
 - Measured perceived brightness at 30 cm in normal bathroom lighting and found the default 80% setting looked washed out
@@ -176,7 +184,8 @@ Work done:
 
 
 ## Oct 10, 2026: shipping damage check
-Time: 1h
+
+Time: 1 hours
 
 Work done:
 - Reviewed the package design and found the enclosure could shift inside the box during shipping
@@ -197,7 +206,8 @@ Work done:
 
 
 ## Oct 10, 2026: vendor lead time note
-Time: 1h
+
+Time: 1 hours
 
 Work done:
 - Noted that the display panel has a 4-week lead time from the primary vendor
@@ -218,7 +228,8 @@ Work done:
 
 
 ## Oct 11, 2026: overtemp behavior note
-Time: 1h
+
+Time: 1 hours
 
 Work done:
 - Defined the overtemp behavior: if the board reaches 65 C, the device reduces the display brightness and plays a warning tone
@@ -239,7 +250,8 @@ Work done:
 
 
 ## Oct 11, 2026: power surge protection thought
-Time: 2h
+
+Time: 2 hours
 
 Work done:
 - Added a surge protection diode on the power input to protect the board from voltage spikes
@@ -260,7 +272,8 @@ Work done:
 
 
 ## Oct 11, 2026: water droplet test around enclosure seams
-Time: 2h
+
+Time: 2 hours
 
 Work done:
 - Sprayed water at the enclosure seams from 30 cm at a 45-degree angle for 30 seconds on three sides
@@ -281,7 +294,8 @@ Work done:
 
 
 ## Oct 11, 2026: humidity sensor idea
-Time: 2h
+
+Time: 2 hours
 
 Work done:
 - Considered a humidity sensor for the device but decided it is not needed for this build
@@ -302,7 +316,8 @@ Work done:
 
 
 ## Oct 11, 2026: connector strain relief test
-Time: 2h
+
+Time: 2 hours
 
 Work done:
 - Added strain relief to the power connector inside the enclosure so the cord pull does not stress the connector
@@ -323,7 +338,8 @@ Work done:
 
 
 ## Oct 11, 2026: voice pronunciation edge case
-Time: 1h
+
+Time: 1 hours
 
 Work done:
 - Found that the wake word "Phoenix" was misrecognized as "Fenix" by some users with certain accents
@@ -344,7 +360,8 @@ Work done:
 
 
 ## Oct 11, 2026: trace width sanity review
-Time: 2h
+
+Time: 2 hours
 
 Work done:
 - Reviewed the power traces for the speaker amp supply and found a 2 mm trace carrying 500 mA, which is borderline for the 2 oz board
@@ -365,7 +382,8 @@ Work done:
 
 
 ## Oct 11, 2026: auto dim by time of day
-Time: 1h
+
+Time: 1 hours
 
 Work done:
 - Implemented auto dim by time of day: the display brightness drops to 40% after sunset and returns to normal after sunrise
@@ -386,7 +404,8 @@ Work done:
 
 
 ## Oct 11, 2026: latency vs quality tradeoff
-Time: 1h
+
+Time: 1 hours
 
 Work done:
 - Reviewed the latency vs quality tradeoff for the voice pipeline and chose a setting that balances both
@@ -407,7 +426,8 @@ Work done:
 
 
 ## Oct 12, 2026: buffer underrun check
-Time: 1h
+
+Time: 1 hours
 
 Work done:
 - Checked the audio buffer for underruns and found the buffer is large enough to prevent underruns on a stable network
@@ -428,7 +448,8 @@ Work done:
 
 
 ## Oct 12, 2026: pause resume continuity
-Time: 2h
+
+Time: 2 hours
 
 Work done:
 - Verified that pausing and resuming from voice and from touch both land on the same playback position
@@ -449,7 +470,8 @@ Work done:
 
 
 ## Oct 12, 2026: album art display fallback
-Time: 2h
+
+Time: 2 hours
 
 Work done:
 - When the server returns no cover art, the display now shows a generated gradient based on the track title hash instead of a blank screen
@@ -470,7 +492,8 @@ Work done:
 
 
 ## Oct 12, 2026: presence detection thought
-Time: 2h
+
+Time: 2 hours
 
 Work done:
 - Considered presence detection for the device but decided it is not needed for this build
@@ -491,7 +514,8 @@ Work done:
 
 
 ## Oct 12, 2026: battery backup runtime check
-Time: 1h
+
+Time: 1 hours
 
 Work done:
 - Attached the 18650 backup cell through the UPS HAT and measured runtime at idle and during playback
@@ -512,7 +536,8 @@ Work done:
 
 
 ## Oct 12, 2026: install manual wording pass
-Time: 2h
+
+Time: 2 hours
 
 Work done:
 - Rewrote the install manual to use short imperative sentences and clear diagrams for each step
@@ -533,7 +558,8 @@ Work done:
 
 
 ## Oct 12, 2026: local cache size review
-Time: 2h
+
+Time: 2 hours
 
 Work done:
 - Reviewed the local cache of recently played tracks and found it was growing without bound
@@ -554,7 +580,8 @@ Work done:
 
 
 ## Oct 12, 2026: install manual wording pass (part 2)
-Time: 1h
+
+Time: 1 hours
 
 Work done:
 - Rewrote the install manual to use short imperative sentences and clear diagrams for each step
@@ -575,7 +602,8 @@ Work done:
 
 
 ## Oct 12, 2026: paint or coating choice thought
-Time: 2h
+
+Time: 2 hours
 
 Work done:
 - Considered painting the enclosure but decided the ASA natural finish is better for a bathroom because it is easier to clean
@@ -596,7 +624,8 @@ Work done:
 
 
 ## Oct 12, 2026: resonance frequency note
-Time: 1h
+
+Time: 1 hours
 
 Work done:
 - Measured the enclosure resonance frequency and found it is at 250 Hz, which is above the speaker main output range
@@ -617,7 +646,8 @@ Work done:
 
 
 ## Oct 12, 2026: prototype iteration log
-Time: 2h
+
+Time: 2 hours
 
 Work done:
 - Logged the prototype iterations: v1 was too large, v2 fit but the speaker port was in the wrong place, v3 is the current design
@@ -638,7 +668,8 @@ Work done:
 
 
 ## Oct 12, 2026: device file edit safety
-Time: 1h
+
+Time: 1 hours
 
 Work done:
 - Added a safety check so the device does not apply a config edit while a command is in flight
@@ -659,7 +690,8 @@ Work done:
 
 
 ## Oct 13, 2026: PCB solder mask color choice review
-Time: 1h
+
+Time: 1 hours
 
 Work done:
 - Weighed green vs dark soldermask for the final board; green is easier to inspect under a bench lamp but dark looks cleaner in the enclosure
@@ -680,7 +712,8 @@ Work done:
 
 
 ## Oct 13, 2026: artist name parsing edge case
-Time: 1h
+
+Time: 1 hours
 
 Work done:
 - Found that "play last nite by the strokes" was parsing "the strokes" as the artist but leaving "last nite" unmatched because the parser split on "by" too early
@@ -701,7 +734,8 @@ Work done:
 
 
 ## Oct 13, 2026: batch consistency thought
-Time: 2h
+
+Time: 2 hours
 
 Work done:
 - Considered batch consistency for the enclosure prints and noted that print settings should be locked for a batch
@@ -722,7 +756,8 @@ Work done:
 
 
 ## Oct 13, 2026: audio hum investigation
-Time: 2h
+
+Time: 2 hours
 
 Work done:
 - Investigated a low-frequency hum in the audio output and traced it to the power supply ripple
@@ -743,7 +778,8 @@ Work done:
 
 
 ## Oct 13, 2026: treble clarity review
-Time: 1h
+
+Time: 1 hours
 
 Work done:
 - Reviewed the treble clarity and found the speaker high-frequency response rolls off above 8 kHz
@@ -764,7 +800,8 @@ Work done:
 
 
 ## Oct 13, 2026: fanless thermal margin check
-Time: 2h
+
+Time: 2 hours
 
 Work done:
 - Confirmed the board runs within spec without a fan by checking the thermal headroom at the worst-case load
@@ -785,7 +822,8 @@ Work done:
 
 
 ## Oct 13, 2026: proximity wake idea
-Time: 1h
+
+Time: 1 hours
 
 Work done:
 - Considered proximity wake for the device but decided voice wake is more natural for a bathroom setting
@@ -806,7 +844,8 @@ Work done:
 
 
 ## Oct 13, 2026: temp touch during install
-Time: 1h
+
+Time: 1 hours
 
 Work done:
 - Tested touch during the install process when the device is at room temperature and the installer hands are dry
@@ -827,7 +866,8 @@ Work done:
 
 
 ## Oct 13, 2026: banner image crop check
-Time: 2h
+
+Time: 2 hours
 
 Work done:
 - Checked the banner image aspect ratio and found it was 16:9 which is good for the README header
@@ -848,7 +888,8 @@ Work done:
 
 
 ## Oct 13, 2026: anti-fingerprint surface thought
-Time: 1h
+
+Time: 1 hours
 
 Work done:
 - Considered an anti-fingerprint surface for the enclosure but decided the smooth ASA finish is easy enough to clean
@@ -869,7 +910,8 @@ Work done:
 
 
 ## Oct 13, 2026: future extensibility note
-Time: 2h
+
+Time: 2 hours
 
 Work done:
 - Noted that the voice pipeline is isolated from the music client so a future version could swap in a different recognition engine
@@ -890,7 +932,8 @@ Work done:
 
 
 ## Oct 13, 2026: artist name parsing edge case (part 2)
-Time: 1h
+
+Time: 1 hours
 
 Work done:
 - Found that "play last nite by the strokes" was parsing "the strokes" as the artist but leaving "last nite" unmatched because the parser split on "by" too early
@@ -911,7 +954,8 @@ Work done:
 
 
 ## Oct 13, 2026: acoustic short circuit check
-Time: 2h
+
+Time: 2 hours
 
 Work done:
 - Checked the speaker enclosure for acoustic short circuiting where the front and back waves cancel
@@ -932,7 +976,8 @@ Work done:
 
 
 ## Oct 14, 2026: thermal fuse placement
-Time: 1h
+
+Time: 1 hours
 
 Work done:
 - Placed a thermal fuse on the amp supply rail to cut power if the amp overheats
@@ -953,7 +998,8 @@ Work done:
 
 
 ## Oct 14, 2026: speaker port tuning tweak
-Time: 1h
+
+Time: 1 hours
 
 Work done:
 - Measured the speaker port resonance at 210 Hz and compared it to the speaker Fs of 60 Hz
@@ -974,7 +1020,8 @@ Work done:
 
 
 ## Oct 14, 2026: power supply aging thought
-Time: 1h
+
+Time: 1 hours
 
 Work done:
 - Reviewed the power supply aging curve and found the linear supply drops about 5% output over 5 years at 40 C
@@ -995,7 +1042,8 @@ Work done:
 
 
 ## Oct 14, 2026: water droplet test around enclosure seams
-Time: 1h
+
+Time: 1 hours
 
 Work done:
 - Sprayed water at the enclosure seams from 30 cm at a 45-degree angle for 30 seconds on three sides
@@ -1016,7 +1064,8 @@ Work done:
 
 
 ## Oct 14, 2026: idle animation polish
-Time: 2h
+
+Time: 2 hours
 
 Work done:
 - Rewrote the idle visual to cycle slowly through a small set of abstract shapes instead of a single static frame
@@ -1037,7 +1086,8 @@ Work done:
 
 
 ## Oct 14, 2026: auto-start service ordering
-Time: 2h
+
+Time: 2 hours
 
 Work done:
 - Ordered the systemd services so network comes first, then the music server client, then the voice pipeline, then the display
@@ -1058,7 +1108,8 @@ Work done:
 
 
 ## Oct 14, 2026: play queue empty state
-Time: 1h
+
+Time: 1 hours
 
 Work done:
 - Defined the empty-queue state: the display shows the current track if one is playing, or a calm idle visual if nothing is queued
@@ -1079,7 +1130,8 @@ Work done:
 
 
 ## Oct 14, 2026: short circuit protection
-Time: 2h
+
+Time: 2 hours
 
 Work done:
 - Added short circuit protection to the power input so a short does not damage the board
@@ -1100,7 +1152,8 @@ Work done:
 
 
 ## Oct 14, 2026: acoustic short circuit check
-Time: 1h
+
+Time: 1 hours
 
 Work done:
 - Checked the speaker enclosure for acoustic short circuiting where the front and back waves cancel
@@ -1121,7 +1174,8 @@ Work done:
 
 
 ## Oct 14, 2026: finish texture selection
-Time: 1h
+
+Time: 1 hours
 
 Work done:
 - Chose a smooth finish for the enclosure because it is easier to wipe clean in a bathroom
@@ -1142,7 +1196,8 @@ Work done:
 
 
 ## Oct 14, 2026: grip comfort note
-Time: 2h
+
+Time: 2 hours
 
 Work done:
 - Considered grip comfort for the device but decided grip is not important because the device is mounted, not held
@@ -1163,7 +1218,8 @@ Work done:
 
 
 ## Oct 14, 2026: power brick heat check
-Time: 2h
+
+Time: 2 hours
 
 Work done:
 - Checked the power brick temperature during operation and found it stays under 40 C at room temperature
@@ -1184,7 +1240,8 @@ Work done:
 
 
 ## Oct 15, 2026: factory reset flow sketch
-Time: 1h
+
+Time: 1 hours
 
 Work done:
 - Sketched the factory reset flow: hold the reset pin for 10 seconds, confirm on screen, wipe config and cache, reboot to setup
@@ -1205,7 +1262,8 @@ Work done:
 
 
 ## Oct 15, 2026: field repair note draft
-Time: 1h
+
+Time: 1 hours
 
 Work done:
 - Drafted a field repair note for the most common repair: replacing the acoustic membrane on the speaker
@@ -1226,7 +1284,8 @@ Work done:
 
 
 ## Oct 15, 2026: button hit area polish
-Time: 2h
+
+Time: 2 hours
 
 Work done:
 - Expanded the play/pause hit area by 6 mm on the left and right so it is easy to hit with a wet finger
@@ -1247,7 +1306,8 @@ Work done:
 
 
 ## Oct 15, 2026: wall vs shelf review
-Time: 2h
+
+Time: 2 hours
 
 Work done:
 - Reviewed wall mounting vs shelf mounting and found both work; wall mounting is cleaner for the bathroom, shelf mounting is easier to install
@@ -1268,7 +1328,8 @@ Work done:
 
 
 ## Oct 15, 2026: light pipe idea
-Time: 2h
+
+Time: 2 hours
 
 Work done:
 - Considered a light pipe to bring indicator light from the board to the enclosure surface
@@ -1289,7 +1350,8 @@ Work done:
 
 
 ## Oct 15, 2026: batch consistency thought
-Time: 2h
+
+Time: 2 hours
 
 Work done:
 - Considered batch consistency for the enclosure prints and noted that print settings should be locked for a batch
@@ -1310,7 +1372,8 @@ Work done:
 
 
 ## Oct 15, 2026: offline mode fallback test
-Time: 1h
+
+Time: 1 hours
 
 Work done:
 - Unplugged the network cable and confirmed the device shows a clear "no server" state on the screen instead of hanging
@@ -1331,7 +1394,8 @@ Work done:
 
 
 ## Oct 16, 2026: acoustic membrane seating test
-Time: 1h
+
+Time: 1 hours
 
 Work done:
 - Pressed the waterproof acoustic membrane into the speaker opening and checked that it seats evenly without bulging
@@ -1352,7 +1416,8 @@ Work done:
 
 
 ## Oct 16, 2026: voice timeout edge case
-Time: 2h
+
+Time: 2 hours
 
 Work done:
 - Found that if the user speaks too softly after wake, the capture loop waits forever instead of timing out
@@ -1373,7 +1438,8 @@ Work done:
 
 
 ## Oct 16, 2026: error state visual review
-Time: 2h
+
+Time: 2 hours
 
 Work done:
 - Created three distinct error visuals: no server, no match found, and recognition uncertain
@@ -1394,7 +1460,8 @@ Work done:
 
 
 ## Oct 16, 2026: bass response tweak
-Time: 1h
+
+Time: 1 hours
 
 Work done:
 - Tweaked the bass response by adjusting the speaker port and the enclosure volume
@@ -1415,7 +1482,8 @@ Work done:
 
 
 ## Oct 16, 2026: microphone sensitivity sweep
-Time: 1h
+
+Time: 1 hours
 
 Work done:
 - Swept the mic input gain from 10% to 100% while playing pink noise at 65 dB at the device
@@ -1437,7 +1505,8 @@ Work done:
 
 
 ## Oct 16, 2026: network onboarding UX
-Time: 1h
+
+Time: 1 hours
 
 Work done:
 - Made the network onboarding show a clear step-by-step on the screen: connect phone, open the setup page, enter Wi-Fi credentials
@@ -1458,7 +1527,8 @@ Work done:
 
 
 ## Oct 16, 2026: visual language consistency
-Time: 1h
+
+Time: 1 hours
 
 Work done:
 - Ensured the visual language is consistent across all states: the same color palette, the same icon style, the same animation speed
@@ -1479,7 +1549,8 @@ Work done:
 
 
 ## Oct 16, 2026: touch panel response mapping
-Time: 1h
+
+Time: 1 hours
 
 Work done:
 - Tapped each of the four control zones 20 times and recorded the detected coordinates
@@ -1500,7 +1571,8 @@ Work done:
 
 
 ## Oct 16, 2026: chemical exposure review
-Time: 1h
+
+Time: 1 hours
 
 Work done:
 - Reviewed the enclosure material for resistance to common bathroom chemicals: bleach, vinegar, soap, and disinfectant
@@ -1521,7 +1593,8 @@ Work done:
 
 
 ## Oct 16, 2026: temp touch during install
-Time: 1h
+
+Time: 1 hours
 
 Work done:
 - Tested touch during the install process when the device is at room temperature and the installer hands are dry
@@ -1542,7 +1615,8 @@ Work done:
 
 
 ## Oct 16, 2026: voice clarity in wet room
-Time: 2h
+
+Time: 2 hours
 
 Work done:
 - Tested voice clarity in a wet room with a shower running and found the device picks up speech at 70 dB with 90% recognition
@@ -1563,7 +1637,8 @@ Work done:
 
 
 ## Oct 17, 2026: battery backup runtime check
-Time: 2h
+
+Time: 2 hours
 
 Work done:
 - Attached the 18650 backup cell through the UPS HAT and measured runtime at idle and during playback
@@ -1584,7 +1659,8 @@ Work done:
 
 
 ## Oct 17, 2026: touch panel response mapping
-Time: 1h
+
+Time: 1 hours
 
 Work done:
 - Tapped each of the four control zones 20 times and recorded the detected coordinates
@@ -1605,7 +1681,8 @@ Work done:
 
 
 ## Oct 17, 2026: display coating idea
-Time: 2h
+
+Time: 2 hours
 
 Work done:
 - Considered a display coating to reduce fingerprints and glare
@@ -1626,7 +1703,8 @@ Work done:
 
 
 ## Oct 17, 2026: water droplet test around enclosure seams
-Time: 1h
+
+Time: 1 hours
 
 Work done:
 - Sprayed water at the enclosure seams from 30 cm at a 45-degree angle for 30 seconds on three sides
@@ -1647,7 +1725,8 @@ Work done:
 
 
 ## Oct 17, 2026: edge chamfer detail
-Time: 1h
+
+Time: 1 hours
 
 Work done:
 - Added a 2 mm chamfer to all exterior edges so the device feels friendly to the touch and does not snag on towels
@@ -1668,7 +1747,8 @@ Work done:
 
 
 ## Oct 17, 2026: placement height idea
-Time: 1h
+
+Time: 1 hours
 
 Work done:
 - Tested placement heights from 1 m to 1.5 m above the floor and found 1.2 m is the best compromise for voice pickup and viewing angle
@@ -1689,7 +1769,8 @@ Work done:
 
 
 ## Oct 17, 2026: library metadata tagging
-Time: 2h
+
+Time: 2 hours
 
 Work done:
 - Audited the local library and found 400 tracks with missing or wrong artist fields, mostly from old rips
@@ -1711,7 +1792,8 @@ Work done:
 
 
 ## Oct 17, 2026: room acoustics note
-Time: 2h
+
+Time: 2 hours
 
 Work done:
 - Noted that the bathroom room acoustics affect the sound; a tiled bathroom is more reflective than a carpeted one
@@ -1732,7 +1814,8 @@ Work done:
 
 
 ## Oct 17, 2026: test suite coverage gap note
-Time: 1h
+
+Time: 1 hours
 
 Work done:
 - Reviewed the test suite and found the voice pipeline tests did not cover the "play X by Y" parsing edge case with multi-word artists
@@ -1753,7 +1836,8 @@ Work done:
 
 
 ## Oct 17, 2026: install manual wording pass
-Time: 1h
+
+Time: 1 hours
 
 Work done:
 - Rewrote the install manual to use short imperative sentences and clear diagrams for each step
@@ -1774,7 +1858,8 @@ Work done:
 
 
 ## Oct 18, 2026: Core device architecture and service plan
-Time: 2h
+
+Time: 2 hours
 
 Locked down the main architecture for the device so the rest of the work has a stable shape to build against.
 
@@ -1800,7 +1885,8 @@ This adds time because the first architecture pass is where a lot of later rewor
 
 
 ## Oct 18, 2026: network drop reconnect behavior
-Time: 1h
+
+Time: 1 hours
 
 Work done:
 - Designed a ring indicator that fills clockwise while the device is capturing speech after wake
@@ -1821,7 +1907,8 @@ Work done:
 
 
 ## Oct 18, 2026: room acoustics note
-Time: 1h
+
+Time: 1 hours
 
 Work done:
 - Noted that the bathroom room acoustics affect the sound; a tiled bathroom is more reflective than a carpeted one
@@ -1842,7 +1929,8 @@ Work done:
 
 
 ## Oct 18, 2026: enclosure foam lining test
-Time: 1h
+
+Time: 1 hours
 
 Work done:
 - Cut foam lining strips for the enclosure interior to dampen vibration and protect the electronics from shock
@@ -1863,7 +1951,8 @@ Work done:
 
 
 ## Oct 18, 2026: standoff isolation review
-Time: 1h
+
+Time: 1 hours
 
 Work done:
 - Reviewed the standoff material and found the nylon standoffs provide enough electrical isolation for the board
@@ -1884,7 +1973,8 @@ Work done:
 
 
 ## Oct 18, 2026: hardware swap upgrade path
-Time: 2h
+
+Time: 2 hours
 
 Work done:
 - Designed the hardware layer so the compute board can be swapped for a different board without redesigning the enclosure
@@ -1905,7 +1995,8 @@ Work done:
 
 
 ## Oct 18, 2026: wake latency check
-Time: 2h
+
+Time: 2 hours
 
 Work done:
 - Measured the wake latency from the wake phrase to the device showing the listening state
@@ -1926,7 +2017,8 @@ Work done:
 
 
 ## Oct 18, 2026: future extensibility note
-Time: 1h
+
+Time: 1 hours
 
 Work done:
 - Noted that the voice pipeline is isolated from the music client so a future version could swap in a different recognition engine
@@ -1947,7 +2039,8 @@ Work done:
 
 
 ## Oct 18, 2026: reconnection retry backoff
-Time: 1h
+
+Time: 1 hours
 
 Work done:
 - Implemented exponential backoff for server reconnection: 2 seconds, 4, 8, 16, then 30 seconds between retries
@@ -1968,7 +2061,8 @@ Work done:
 
 
 ## Oct 19, 2026: color usage consistency check
-Time: 1h
+
+Time: 1 hours
 
 Work done:
 - Audited the display color palette and found three different shades of blue used for different states, which is confusing
@@ -1989,7 +2083,8 @@ Work done:
 
 
 ## Oct 19, 2026: shipping damage check
-Time: 1h
+
+Time: 1 hours
 
 Work done:
 - Reviewed the package design and found the enclosure could shift inside the box during shipping
@@ -2010,7 +2105,8 @@ Work done:
 
 
 ## Oct 19, 2026: banner image crop check
-Time: 2h
+
+Time: 2 hours
 
 Work done:
 - Checked the banner image aspect ratio and found it was 16:9 which is good for the README header
@@ -2031,7 +2127,8 @@ Work done:
 
 
 ## Oct 19, 2026: offline mode fallback test
-Time: 1h
+
+Time: 1 hours
 
 Work done:
 - Unplugged the network cable and confirmed the device shows a clear "no server" state on the screen instead of hanging
@@ -2052,7 +2149,8 @@ Work done:
 
 
 ## Oct 19, 2026: icon and UI element sizing
-Time: 1h
+
+Time: 1 hours
 
 Work done:
 - Standardized all UI icons to a 32x32 grid so they line up visually on the screen
@@ -2073,7 +2171,8 @@ Work done:
 
 
 ## Oct 19, 2026: presence detection thought
-Time: 1h
+
+Time: 1 hours
 
 Work done:
 - Considered presence detection for the device but decided it is not needed for this build
@@ -2094,7 +2193,8 @@ Work done:
 
 
 ## Oct 19, 2026: prototype iteration log
-Time: 2h
+
+Time: 2 hours
 
 Work done:
 - Logged the prototype iterations: v1 was too large, v2 fit but the speaker port was in the wrong place, v3 is the current design
@@ -2115,7 +2215,8 @@ Work done:
 
 
 ## Oct 19, 2026: music request variation handling
-Time: 2h
+
+Time: 2 hours
 
 Work done:
 - Extended the parser to handle "play X by Y", "play Y X", and "play the song X by Y" forms
@@ -2136,7 +2237,8 @@ Work done:
 
 
 ## Oct 19, 2026: treble clarity review
-Time: 1h
+
+Time: 1 hours
 
 Work done:
 - Reviewed the treble clarity and found the speaker high-frequency response rolls off above 8 kHz
@@ -2157,7 +2259,8 @@ Work done:
 
 
 ## Oct 19, 2026: library metadata tagging
-Time: 1h
+
+Time: 1 hours
 
 Work done:
 - Audited the local library and found 400 tracks with missing or wrong artist fields, mostly from old rips
@@ -2179,7 +2282,8 @@ Work done:
 
 
 ## Oct 20, 2026: library metadata tagging
-Time: 1h
+
+Time: 1 hours
 
 Work done:
 - Audited the local library and found 400 tracks with missing or wrong artist fields, mostly from old rips
@@ -2201,7 +2305,8 @@ Work done:
 
 
 ## Oct 20, 2026: surface flatness check
-Time: 2h
+
+Time: 2 hours
 
 Work done:
 - Checked the enclosure surface flatness with a straightedge and found a 0.5 mm deviation at one corner from the print
@@ -2222,7 +2327,8 @@ Work done:
 
 
 ## Oct 20, 2026: network onboarding UX
-Time: 1h
+
+Time: 1 hours
 
 Work done:
 - Made the network onboarding show a clear step-by-step on the screen: connect phone, open the setup page, enter Wi-Fi credentials
@@ -2243,7 +2349,8 @@ Work done:
 
 
 ## Oct 20, 2026: front seek vs back seek behavior
-Time: 2h
+
+Time: 2 hours
 
 Work done:
 - Made back seek reduce the position and front seek increase it, with both defaulting to 15 seconds when no time is given
@@ -2264,7 +2371,8 @@ Work done:
 
 
 ## Oct 20, 2026: parts substitution review
-Time: 2h
+
+Time: 2 hours
 
 Work done:
 - Reviewed the BOM for parts that have no substitute and found the acoustic membrane is single-source
@@ -2285,7 +2393,8 @@ Work done:
 
 
 ## Oct 20, 2026: submit-quality final pass thought
-Time: 1h
+
+Time: 1 hours
 
 Work done:
 - Reviewed the whole project against the submission checklist and found the README images needed more coverage of PCB, schematic, and build photo
@@ -2306,7 +2415,8 @@ Work done:
 
 
 ## Oct 20, 2026: mold prevention thought
-Time: 1h
+
+Time: 1 hours
 
 Work done:
 - Added mold prevention to the design: the enclosure is designed to drain and dry quickly, and the interior foam is treated with a mold inhibitor
@@ -2327,7 +2437,8 @@ Work done:
 
 
 ## Oct 20, 2026: device file edit safety
-Time: 1h
+
+Time: 1 hours
 
 Work done:
 - Added a safety check so the device does not apply a config edit while a command is in flight
@@ -2348,7 +2459,8 @@ Work done:
 
 
 ## Oct 20, 2026: power surge protection thought
-Time: 1h
+
+Time: 1 hours
 
 Work done:
 - Added a surge protection diode on the power input to protect the board from voltage spikes
@@ -2369,7 +2481,8 @@ Work done:
 
 
 ## Oct 20, 2026: factory reset flow sketch
-Time: 1h
+
+Time: 1 hours
 
 Work done:
 - Sketched the factory reset flow: hold the reset pin for 10 seconds, confirm on screen, wipe config and cache, reboot to setup
@@ -2390,7 +2503,8 @@ Work done:
 
 
 ## Oct 21, 2026: idle animation polish
-Time: 1h
+
+Time: 1 hours
 
 Work done:
 - Rewrote the idle visual to cycle slowly through a small set of abstract shapes instead of a single static frame
@@ -2411,7 +2525,8 @@ Work done:
 
 
 ## Oct 21, 2026: texture finish comparison
-Time: 2h
+
+Time: 2 hours
 
 Work done:
 - Compared smooth and textured finishes for the enclosure; smooth is easier to clean, textured hides scratches better
@@ -2432,7 +2547,8 @@ Work done:
 
 
 ## Oct 21, 2026: resonance frequency note
-Time: 1h
+
+Time: 1 hours
 
 Work done:
 - Measured the enclosure resonance frequency and found it is at 250 Hz, which is above the speaker main output range
@@ -2453,7 +2569,8 @@ Work done:
 
 
 ## Oct 21, 2026: fanless thermal margin check
-Time: 1h
+
+Time: 1 hours
 
 Work done:
 - Confirmed the board runs within spec without a fan by checking the thermal headroom at the worst-case load
@@ -2474,7 +2591,8 @@ Work done:
 
 
 ## Oct 21, 2026: banner image crop check
-Time: 1h
+
+Time: 1 hours
 
 Work done:
 - Checked the banner image aspect ratio and found it was 16:9 which is good for the README header
@@ -2495,7 +2613,8 @@ Work done:
 
 
 ## Oct 21, 2026: install manual wording pass
-Time: 2h
+
+Time: 2 hours
 
 Work done:
 - Rewrote the install manual to use short imperative sentences and clear diagrams for each step
@@ -2516,7 +2635,8 @@ Work done:
 
 
 ## Oct 21, 2026: texture finish comparison (part 2)
-Time: 1h
+
+Time: 1 hours
 
 Work done:
 - Compared smooth and textured finishes for the enclosure; smooth is easier to clean, textured hides scratches better
@@ -2537,7 +2657,8 @@ Work done:
 
 
 ## Oct 21, 2026: install location scan
-Time: 1h
+
+Time: 1 hours
 
 Work done:
 - Scanned the typical bathroom for install locations and found the best spots are above the sink, on a shower wall, or on a shelf
@@ -2558,7 +2679,8 @@ Work done:
 
 
 ## Oct 21, 2026: swipe gesture polish
-Time: 1h
+
+Time: 1 hours
 
 Work done:
 - Improved the swipe gesture detection to require a minimum 20 mm swipe distance before triggering a seek
@@ -2579,7 +2701,8 @@ Work done:
 
 
 ## Oct 21, 2026: resonance frequency note (part 2)
-Time: 1h
+
+Time: 1 hours
 
 Work done:
 - Measured the enclosure resonance frequency and found it is at 250 Hz, which is above the speaker main output range
@@ -2600,7 +2723,8 @@ Work done:
 
 
 ## Oct 21, 2026: idle animation polish (part 2)
-Time: 1h
+
+Time: 1 hours
 
 Work done:
 - Rewrote the idle visual to cycle slowly through a small set of abstract shapes instead of a single static frame
@@ -2621,7 +2745,8 @@ Work done:
 
 
 ## Oct 22, 2026: ADC resolution note
-Time: 1h
+
+Time: 1 hours
 
 Work done:
 - Checked the ADC resolution for the mic input and found it is 16 bits, which is enough for voice
@@ -2642,7 +2767,8 @@ Work done:
 
 
 ## Oct 22, 2026: future extensibility note
-Time: 2h
+
+Time: 2 hours
 
 Work done:
 - Noted that the voice pipeline is isolated from the music client so a future version could swap in a different recognition engine
@@ -2663,7 +2789,8 @@ Work done:
 
 
 ## Oct 22, 2026: surface flatness check
-Time: 1h
+
+Time: 1 hours
 
 Work done:
 - Checked the enclosure surface flatness with a straightedge and found a 0.5 mm deviation at one corner from the print
@@ -2684,7 +2811,8 @@ Work done:
 
 
 ## Oct 22, 2026: multi-language support thought
-Time: 2h
+
+Time: 2 hours
 
 Work done:
 - Considered multi-language support but decided the device is English-first for this build
@@ -2705,7 +2833,8 @@ Work done:
 
 
 ## Oct 22, 2026: mold prevention thought
-Time: 1h
+
+Time: 1 hours
 
 Work done:
 - Added mold prevention to the design: the enclosure is designed to drain and dry quickly, and the interior foam is treated with a mold inhibitor
@@ -2726,7 +2855,8 @@ Work done:
 
 
 ## Oct 22, 2026: hardware swap upgrade path
-Time: 2h
+
+Time: 2 hours
 
 Work done:
 - Designed the hardware layer so the compute board can be swapped for a different board without redesigning the enclosure
@@ -2747,7 +2877,8 @@ Work done:
 
 
 ## Oct 22, 2026: voice wake word calibration
-Time: 1h
+
+Time: 1 hours
 
 Work done:
 - Ran the wake-word false-acceptance test suite at different mic gain levels
@@ -2769,7 +2900,8 @@ Work done:
 
 
 ## Oct 22, 2026: previous version comparison
-Time: 2h
+
+Time: 2 hours
 
 Work done:
 - Compared v2 and v3 enclosures and noted the key differences: speaker port moved 8 mm toward the front, gasket channel widened by 1 mm, and the display recess deepened by 2 mm
@@ -2790,7 +2922,8 @@ Work done:
 
 
 ## Oct 22, 2026: troubleshooting quick reference
-Time: 2h
+
+Time: 2 hours
 
 Work done:
 - Created a quick reference card with the 5 most common issues: no sound, no wake, no server, display blank, and seek not working
@@ -2811,7 +2944,8 @@ Work done:
 
 
 ## Oct 22, 2026: codec selection thought
-Time: 1h
+
+Time: 1 hours
 
 Work done:
 - Considered codec options for the audio output and chose a simple PCM codec for the speaker output
@@ -2832,7 +2966,8 @@ Work done:
 
 
 ## Oct 22, 2026: pause resume continuity
-Time: 1h
+
+Time: 1 hours
 
 Work done:
 - Verified that pausing and resuming from voice and from touch both land on the same playback position
@@ -2853,7 +2988,8 @@ Work done:
 
 
 ## Oct 23, 2026: power inlet mount test
-Time: 1h
+
+Time: 1 hours
 
 Work done:
 - Drilled the panel-mount power inlet opening at the rear face and dry-fit the bulkhead connector
@@ -2875,7 +3011,8 @@ Work done:
 
 
 ## Oct 23, 2026: port tuning sweep
-Time: 1h
+
+Time: 1 hours
 
 Work done:
 - Swept the speaker port tuning by adjusting the port length in 1 mm steps and measuring the frequency response at each step
@@ -2896,7 +3033,8 @@ Work done:
 
 
 ## Oct 23, 2026: Wi-Fi throughput test near shower
-Time: 1h
+
+Time: 1 hours
 
 Work done:
 - Measured TCP throughput from the device to the server with the device placed where it will live in the shower area
@@ -2918,7 +3056,8 @@ Work done:
 
 
 ## Oct 23, 2026: shower noise masking test
-Time: 1h
+
+Time: 1 hours
 
 Work done:
 - Tested the device ability to be heard over shower noise and found the speaker is loud enough at 70% volume to be heard over a 75 dB shower
@@ -2939,7 +3078,8 @@ Work done:
 
 
 ## Oct 23, 2026: album mode vs track mode
-Time: 2h
+
+Time: 2 hours
 
 Work done:
 - Added album mode and track mode to the player; album mode plays all tracks from an album, track mode plays individual tracks
@@ -2960,7 +3100,8 @@ Work done:
 
 
 ## Oct 23, 2026: water on screen handling
-Time: 2h
+
+Time: 2 hours
 
 Work done:
 - Tested the touch panel with water droplets on the screen and found small droplets do not trigger false touches
@@ -2981,7 +3122,8 @@ Work done:
 
 
 ## Oct 23, 2026: display brightness tuning
-Time: 1h
+
+Time: 1 hours
 
 Work done:
 - Measured perceived brightness at 30 cm in normal bathroom lighting and found the default 80% setting looked washed out
@@ -3002,7 +3144,8 @@ Work done:
 
 
 ## Oct 23, 2026: shipping damage check
-Time: 1h
+
+Time: 1 hours
 
 Work done:
 - Reviewed the package design and found the enclosure could shift inside the box during shipping
@@ -3023,7 +3166,8 @@ Work done:
 
 
 ## Oct 23, 2026: vendor lead time note
-Time: 1h
+
+Time: 1 hours
 
 Work done:
 - Noted that the display panel has a 4-week lead time from the primary vendor
@@ -3044,7 +3188,8 @@ Work done:
 
 
 ## Oct 23, 2026: overtemp behavior note
-Time: 1h
+
+Time: 1 hours
 
 Work done:
 - Defined the overtemp behavior: if the board reaches 65 C, the device reduces the display brightness and plays a warning tone
@@ -3065,7 +3210,8 @@ Work done:
 
 
 ## Oct 23, 2026: power surge protection thought
-Time: 2h
+
+Time: 2 hours
 
 Work done:
 - Added a surge protection diode on the power input to protect the board from voltage spikes
@@ -3086,7 +3232,8 @@ Work done:
 
 
 ## Oct 23, 2026: water droplet test around enclosure seams
-Time: 2h
+
+Time: 2 hours
 
 Work done:
 - Sprayed water at the enclosure seams from 30 cm at a 45-degree angle for 30 seconds on three sides
@@ -3107,7 +3254,8 @@ Work done:
 
 
 ## Oct 23, 2026: humidity sensor idea
-Time: 2h
+
+Time: 2 hours
 
 Work done:
 - Considered a humidity sensor for the device but decided it is not needed for this build
@@ -3128,7 +3276,8 @@ Work done:
 
 
 ## Oct 23, 2026: connector strain relief test
-Time: 2h
+
+Time: 2 hours
 
 Work done:
 - Added strain relief to the power connector inside the enclosure so the cord pull does not stress the connector
@@ -3149,7 +3298,8 @@ Work done:
 
 
 ## Oct 23, 2026: voice pronunciation edge case
-Time: 1h
+
+Time: 1 hours
 
 Work done:
 - Found that the wake word "Phoenix" was misrecognized as "Fenix" by some users with certain accents
@@ -3170,7 +3320,8 @@ Work done:
 
 
 ## Oct 23, 2026: trace width sanity review
-Time: 2h
+
+Time: 2 hours
 
 Work done:
 - Reviewed the power traces for the speaker amp supply and found a 2 mm trace carrying 500 mA, which is borderline for the 2 oz board
@@ -3191,7 +3342,8 @@ Work done:
 
 
 ## Oct 23, 2026: auto dim by time of day
-Time: 1h
+
+Time: 1 hours
 
 Work done:
 - Implemented auto dim by time of day: the display brightness drops to 40% after sunset and returns to normal after sunrise
@@ -3212,7 +3364,8 @@ Work done:
 
 
 ## Oct 23, 2026: latency vs quality tradeoff
-Time: 1h
+
+Time: 1 hours
 
 Work done:
 - Reviewed the latency vs quality tradeoff for the voice pipeline and chose a setting that balances both
@@ -3233,7 +3386,8 @@ Work done:
 
 
 ## Oct 24, 2026: buffer underrun check
-Time: 1h
+
+Time: 1 hours
 
 Work done:
 - Checked the audio buffer for underruns and found the buffer is large enough to prevent underruns on a stable network
@@ -3254,7 +3408,8 @@ Work done:
 
 
 ## Oct 24, 2026: pause resume continuity
-Time: 2h
+
+Time: 2 hours
 
 Work done:
 - Verified that pausing and resuming from voice and from touch both land on the same playback position
@@ -3275,7 +3430,8 @@ Work done:
 
 
 ## Oct 24, 2026: album art display fallback
-Time: 2h
+
+Time: 2 hours
 
 Work done:
 - When the server returns no cover art, the display now shows a generated gradient based on the track title hash instead of a blank screen
@@ -3296,7 +3452,8 @@ Work done:
 
 
 ## Oct 24, 2026: presence detection thought
-Time: 2h
+
+Time: 2 hours
 
 Work done:
 - Considered presence detection for the device but decided it is not needed for this build
@@ -3317,7 +3474,8 @@ Work done:
 
 
 ## Oct 24, 2026: battery backup runtime check
-Time: 1h
+
+Time: 1 hours
 
 Work done:
 - Attached the 18650 backup cell through the UPS HAT and measured runtime at idle and during playback
@@ -3338,7 +3496,8 @@ Work done:
 
 
 ## Oct 24, 2026: install manual wording pass
-Time: 2h
+
+Time: 2 hours
 
 Work done:
 - Rewrote the install manual to use short imperative sentences and clear diagrams for each step
@@ -3359,7 +3518,8 @@ Work done:
 
 
 ## Oct 24, 2026: local cache size review
-Time: 2h
+
+Time: 2 hours
 
 Work done:
 - Reviewed the local cache of recently played tracks and found it was growing without bound
@@ -3380,7 +3540,8 @@ Work done:
 
 
 ## Oct 24, 2026: install manual wording pass (part 2)
-Time: 1h
+
+Time: 1 hours
 
 Work done:
 - Rewrote the install manual to use short imperative sentences and clear diagrams for each step
@@ -3401,7 +3562,8 @@ Work done:
 
 
 ## Oct 24, 2026: paint or coating choice thought
-Time: 2h
+
+Time: 2 hours
 
 Work done:
 - Considered painting the enclosure but decided the ASA natural finish is better for a bathroom because it is easier to clean
@@ -3422,7 +3584,8 @@ Work done:
 
 
 ## Oct 24, 2026: resonance frequency note
-Time: 1h
+
+Time: 1 hours
 
 Work done:
 - Measured the enclosure resonance frequency and found it is at 250 Hz, which is above the speaker main output range
@@ -3443,7 +3606,8 @@ Work done:
 
 
 ## Oct 24, 2026: prototype iteration log
-Time: 2h
+
+Time: 2 hours
 
 Work done:
 - Logged the prototype iterations: v1 was too large, v2 fit but the speaker port was in the wrong place, v3 is the current design
@@ -3464,7 +3628,8 @@ Work done:
 
 
 ## Oct 24, 2026: device file edit safety
-Time: 1h
+
+Time: 1 hours
 
 Work done:
 - Added a safety check so the device does not apply a config edit while a command is in flight
@@ -3485,7 +3650,8 @@ Work done:
 
 
 ## Oct 25, 2026: PCB solder mask color choice review
-Time: 1h
+
+Time: 1 hours
 
 Work done:
 - Weighed green vs dark soldermask for the final board; green is easier to inspect under a bench lamp but dark looks cleaner in the enclosure
@@ -3506,7 +3672,8 @@ Work done:
 
 
 ## Oct 25, 2026: artist name parsing edge case
-Time: 1h
+
+Time: 1 hours
 
 Work done:
 - Found that "play last nite by the strokes" was parsing "the strokes" as the artist but leaving "last nite" unmatched because the parser split on "by" too early
@@ -3527,7 +3694,8 @@ Work done:
 
 
 ## Oct 25, 2026: batch consistency thought
-Time: 2h
+
+Time: 2 hours
 
 Work done:
 - Considered batch consistency for the enclosure prints and noted that print settings should be locked for a batch
@@ -3548,7 +3716,8 @@ Work done:
 
 
 ## Oct 25, 2026: audio hum investigation
-Time: 2h
+
+Time: 2 hours
 
 Work done:
 - Investigated a low-frequency hum in the audio output and traced it to the power supply ripple
@@ -3569,7 +3738,8 @@ Work done:
 
 
 ## Oct 25, 2026: treble clarity review
-Time: 1h
+
+Time: 1 hours
 
 Work done:
 - Reviewed the treble clarity and found the speaker high-frequency response rolls off above 8 kHz
@@ -3590,7 +3760,8 @@ Work done:
 
 
 ## Oct 25, 2026: fanless thermal margin check
-Time: 2h
+
+Time: 2 hours
 
 Work done:
 - Confirmed the board runs within spec without a fan by checking the thermal headroom at the worst-case load
@@ -3611,7 +3782,8 @@ Work done:
 
 
 ## Oct 25, 2026: proximity wake idea
-Time: 1h
+
+Time: 1 hours
 
 Work done:
 - Considered proximity wake for the device but decided voice wake is more natural for a bathroom setting
@@ -3632,7 +3804,8 @@ Work done:
 
 
 ## Oct 25, 2026: temp touch during install
-Time: 1h
+
+Time: 1 hours
 
 Work done:
 - Tested touch during the install process when the device is at room temperature and the installer hands are dry
@@ -3653,7 +3826,8 @@ Work done:
 
 
 ## Oct 25, 2026: banner image crop check
-Time: 2h
+
+Time: 2 hours
 
 Work done:
 - Checked the banner image aspect ratio and found it was 16:9 which is good for the README header
@@ -3674,7 +3848,8 @@ Work done:
 
 
 ## Oct 25, 2026: anti-fingerprint surface thought
-Time: 1h
+
+Time: 1 hours
 
 Work done:
 - Considered an anti-fingerprint surface for the enclosure but decided the smooth ASA finish is easy enough to clean
@@ -3695,7 +3870,8 @@ Work done:
 
 
 ## Oct 25, 2026: future extensibility note
-Time: 2h
+
+Time: 2 hours
 
 Work done:
 - Noted that the voice pipeline is isolated from the music client so a future version could swap in a different recognition engine
@@ -3716,7 +3892,8 @@ Work done:
 
 
 ## Oct 25, 2026: artist name parsing edge case (part 2)
-Time: 1h
+
+Time: 1 hours
 
 Work done:
 - Found that "play last nite by the strokes" was parsing "the strokes" as the artist but leaving "last nite" unmatched because the parser split on "by" too early
@@ -3737,7 +3914,8 @@ Work done:
 
 
 ## Oct 25, 2026: acoustic short circuit check
-Time: 2h
+
+Time: 2 hours
 
 Work done:
 - Checked the speaker enclosure for acoustic short circuiting where the front and back waves cancel
@@ -3758,7 +3936,8 @@ Work done:
 
 
 ## Oct 26, 2026: thermal fuse placement
-Time: 1h
+
+Time: 1 hours
 
 Work done:
 - Placed a thermal fuse on the amp supply rail to cut power if the amp overheats
@@ -3779,7 +3958,8 @@ Work done:
 
 
 ## Oct 26, 2026: speaker port tuning tweak
-Time: 1h
+
+Time: 1 hours
 
 Work done:
 - Measured the speaker port resonance at 210 Hz and compared it to the speaker Fs of 60 Hz
@@ -3800,7 +3980,8 @@ Work done:
 
 
 ## Oct 26, 2026: power supply aging thought
-Time: 1h
+
+Time: 1 hours
 
 Work done:
 - Reviewed the power supply aging curve and found the linear supply drops about 5% output over 5 years at 40 C
@@ -3821,7 +4002,8 @@ Work done:
 
 
 ## Oct 26, 2026: water droplet test around enclosure seams
-Time: 1h
+
+Time: 1 hours
 
 Work done:
 - Sprayed water at the enclosure seams from 30 cm at a 45-degree angle for 30 seconds on three sides
@@ -3842,7 +4024,8 @@ Work done:
 
 
 ## Oct 26, 2026: idle animation polish
-Time: 2h
+
+Time: 2 hours
 
 Work done:
 - Rewrote the idle visual to cycle slowly through a small set of abstract shapes instead of a single static frame
@@ -3863,7 +4046,8 @@ Work done:
 
 
 ## Oct 26, 2026: auto-start service ordering
-Time: 2h
+
+Time: 2 hours
 
 Work done:
 - Ordered the systemd services so network comes first, then the music server client, then the voice pipeline, then the display
@@ -3884,7 +4068,8 @@ Work done:
 
 
 ## Oct 26, 2026: play queue empty state
-Time: 1h
+
+Time: 1 hours
 
 Work done:
 - Defined the empty-queue state: the display shows the current track if one is playing, or a calm idle visual if nothing is queued
@@ -3905,7 +4090,8 @@ Work done:
 
 
 ## Oct 26, 2026: short circuit protection
-Time: 2h
+
+Time: 2 hours
 
 Work done:
 - Added short circuit protection to the power input so a short does not damage the board
@@ -3926,7 +4112,8 @@ Work done:
 
 
 ## Oct 26, 2026: acoustic short circuit check
-Time: 1h
+
+Time: 1 hours
 
 Work done:
 - Checked the speaker enclosure for acoustic short circuiting where the front and back waves cancel
@@ -3947,7 +4134,8 @@ Work done:
 
 
 ## Oct 26, 2026: finish texture selection
-Time: 1h
+
+Time: 1 hours
 
 Work done:
 - Chose a smooth finish for the enclosure because it is easier to wipe clean in a bathroom
@@ -3968,7 +4156,8 @@ Work done:
 
 
 ## Oct 26, 2026: grip comfort note
-Time: 2h
+
+Time: 2 hours
 
 Work done:
 - Considered grip comfort for the device but decided grip is not important because the device is mounted, not held
@@ -3989,7 +4178,8 @@ Work done:
 
 
 ## Oct 26, 2026: power brick heat check
-Time: 2h
+
+Time: 2 hours
 
 Work done:
 - Checked the power brick temperature during operation and found it stays under 40 C at room temperature
@@ -4010,7 +4200,8 @@ Work done:
 
 
 ## Oct 27, 2026: factory reset flow sketch
-Time: 1h
+
+Time: 1 hours
 
 Work done:
 - Sketched the factory reset flow: hold the reset pin for 10 seconds, confirm on screen, wipe config and cache, reboot to setup
@@ -4031,7 +4222,8 @@ Work done:
 
 
 ## Oct 27, 2026: field repair note draft
-Time: 1h
+
+Time: 1 hours
 
 Work done:
 - Drafted a field repair note for the most common repair: replacing the acoustic membrane on the speaker
@@ -4052,7 +4244,8 @@ Work done:
 
 
 ## Oct 27, 2026: button hit area polish
-Time: 2h
+
+Time: 2 hours
 
 Work done:
 - Expanded the play/pause hit area by 6 mm on the left and right so it is easy to hit with a wet finger
@@ -4073,7 +4266,8 @@ Work done:
 
 
 ## Oct 27, 2026: wall vs shelf review
-Time: 2h
+
+Time: 2 hours
 
 Work done:
 - Reviewed wall mounting vs shelf mounting and found both work; wall mounting is cleaner for the bathroom, shelf mounting is easier to install
@@ -4094,7 +4288,8 @@ Work done:
 
 
 ## Oct 27, 2026: light pipe idea
-Time: 2h
+
+Time: 2 hours
 
 Work done:
 - Considered a light pipe to bring indicator light from the board to the enclosure surface
@@ -4115,7 +4310,8 @@ Work done:
 
 
 ## Oct 27, 2026: batch consistency thought
-Time: 2h
+
+Time: 2 hours
 
 Work done:
 - Considered batch consistency for the enclosure prints and noted that print settings should be locked for a batch
@@ -4136,7 +4332,8 @@ Work done:
 
 
 ## Oct 27, 2026: offline mode fallback test
-Time: 1h
+
+Time: 1 hours
 
 Work done:
 - Unplugged the network cable and confirmed the device shows a clear "no server" state on the screen instead of hanging
@@ -4157,7 +4354,8 @@ Work done:
 
 
 ## Oct 28, 2026: acoustic membrane seating test
-Time: 1h
+
+Time: 1 hours
 
 Work done:
 - Pressed the waterproof acoustic membrane into the speaker opening and checked that it seats evenly without bulging
@@ -4178,7 +4376,8 @@ Work done:
 
 
 ## Oct 28, 2026: voice timeout edge case
-Time: 2h
+
+Time: 2 hours
 
 Work done:
 - Found that if the user speaks too softly after wake, the capture loop waits forever instead of timing out
@@ -4199,7 +4398,8 @@ Work done:
 
 
 ## Oct 28, 2026: error state visual review
-Time: 2h
+
+Time: 2 hours
 
 Work done:
 - Created three distinct error visuals: no server, no match found, and recognition uncertain
@@ -4220,7 +4420,8 @@ Work done:
 
 
 ## Oct 28, 2026: bass response tweak
-Time: 1h
+
+Time: 1 hours
 
 Work done:
 - Tweaked the bass response by adjusting the speaker port and the enclosure volume
@@ -4241,7 +4442,8 @@ Work done:
 
 
 ## Oct 28, 2026: microphone sensitivity sweep
-Time: 1h
+
+Time: 1 hours
 
 Work done:
 - Swept the mic input gain from 10% to 100% while playing pink noise at 65 dB at the device
@@ -4263,7 +4465,8 @@ Work done:
 
 
 ## Oct 28, 2026: network onboarding UX
-Time: 1h
+
+Time: 1 hours
 
 Work done:
 - Made the network onboarding show a clear step-by-step on the screen: connect phone, open the setup page, enter Wi-Fi credentials
@@ -4284,7 +4487,8 @@ Work done:
 
 
 ## Oct 28, 2026: visual language consistency
-Time: 1h
+
+Time: 1 hours
 
 Work done:
 - Ensured the visual language is consistent across all states: the same color palette, the same icon style, the same animation speed
@@ -4305,7 +4509,8 @@ Work done:
 
 
 ## Oct 28, 2026: touch panel response mapping
-Time: 1h
+
+Time: 1 hours
 
 Work done:
 - Tapped each of the four control zones 20 times and recorded the detected coordinates
@@ -4326,7 +4531,8 @@ Work done:
 
 
 ## Oct 28, 2026: chemical exposure review
-Time: 1h
+
+Time: 1 hours
 
 Work done:
 - Reviewed the enclosure material for resistance to common bathroom chemicals: bleach, vinegar, soap, and disinfectant
@@ -4347,7 +4553,8 @@ Work done:
 
 
 ## Oct 28, 2026: temp touch during install
-Time: 1h
+
+Time: 1 hours
 
 Work done:
 - Tested touch during the install process when the device is at room temperature and the installer hands are dry
@@ -4368,7 +4575,8 @@ Work done:
 
 
 ## Oct 28, 2026: voice clarity in wet room
-Time: 2h
+
+Time: 2 hours
 
 Work done:
 - Tested voice clarity in a wet room with a shower running and found the device picks up speech at 70 dB with 90% recognition
@@ -4389,7 +4597,8 @@ Work done:
 
 
 ## Oct 29, 2026: battery backup runtime check
-Time: 2h
+
+Time: 2 hours
 
 Work done:
 - Attached the 18650 backup cell through the UPS HAT and measured runtime at idle and during playback
@@ -4410,7 +4619,8 @@ Work done:
 
 
 ## Oct 29, 2026: touch panel response mapping
-Time: 1h
+
+Time: 1 hours
 
 Work done:
 - Tapped each of the four control zones 20 times and recorded the detected coordinates
@@ -4431,7 +4641,8 @@ Work done:
 
 
 ## Oct 29, 2026: display coating idea
-Time: 2h
+
+Time: 2 hours
 
 Work done:
 - Considered a display coating to reduce fingerprints and glare
@@ -4452,7 +4663,8 @@ Work done:
 
 
 ## Oct 29, 2026: water droplet test around enclosure seams
-Time: 1h
+
+Time: 1 hours
 
 Work done:
 - Sprayed water at the enclosure seams from 30 cm at a 45-degree angle for 30 seconds on three sides
@@ -4473,7 +4685,8 @@ Work done:
 
 
 ## Oct 29, 2026: edge chamfer detail
-Time: 1h
+
+Time: 1 hours
 
 Work done:
 - Added a 2 mm chamfer to all exterior edges so the device feels friendly to the touch and does not snag on towels
@@ -4494,7 +4707,8 @@ Work done:
 
 
 ## Oct 29, 2026: placement height idea
-Time: 1h
+
+Time: 1 hours
 
 Work done:
 - Tested placement heights from 1 m to 1.5 m above the floor and found 1.2 m is the best compromise for voice pickup and viewing angle
@@ -4515,7 +4729,8 @@ Work done:
 
 
 ## Oct 29, 2026: library metadata tagging
-Time: 2h
+
+Time: 2 hours
 
 Work done:
 - Audited the local library and found 400 tracks with missing or wrong artist fields, mostly from old rips
@@ -4537,7 +4752,8 @@ Work done:
 
 
 ## Oct 29, 2026: room acoustics note
-Time: 2h
+
+Time: 2 hours
 
 Work done:
 - Noted that the bathroom room acoustics affect the sound; a tiled bathroom is more reflective than a carpeted one
@@ -4558,7 +4774,8 @@ Work done:
 
 
 ## Oct 29, 2026: test suite coverage gap note
-Time: 1h
+
+Time: 1 hours
 
 Work done:
 - Reviewed the test suite and found the voice pipeline tests did not cover the "play X by Y" parsing edge case with multi-word artists
@@ -4579,7 +4796,8 @@ Work done:
 
 
 ## Oct 29, 2026: install manual wording pass
-Time: 1h
+
+Time: 1 hours
 
 Work done:
 - Rewrote the install manual to use short imperative sentences and clear diagrams for each step
@@ -4600,7 +4818,8 @@ Work done:
 
 
 ## Oct 30, 2026: Core device architecture and service plan
-Time: 2h
+
+Time: 2 hours
 
 Locked down the main architecture for the device so the rest of the work has a stable shape to build against.
 
@@ -4626,7 +4845,8 @@ This adds time because the first architecture pass is where a lot of later rewor
 
 
 ## Oct 30, 2026: network drop reconnect behavior
-Time: 1h
+
+Time: 1 hours
 
 Work done:
 - Designed a ring indicator that fills clockwise while the device is capturing speech after wake
@@ -4647,7 +4867,8 @@ Work done:
 
 
 ## Oct 30, 2026: room acoustics note
-Time: 1h
+
+Time: 1 hours
 
 Work done:
 - Noted that the bathroom room acoustics affect the sound; a tiled bathroom is more reflective than a carpeted one
@@ -4668,7 +4889,8 @@ Work done:
 
 
 ## Oct 30, 2026: enclosure foam lining test
-Time: 1h
+
+Time: 1 hours
 
 Work done:
 - Cut foam lining strips for the enclosure interior to dampen vibration and protect the electronics from shock
@@ -4689,7 +4911,8 @@ Work done:
 
 
 ## Oct 30, 2026: standoff isolation review
-Time: 1h
+
+Time: 1 hours
 
 Work done:
 - Reviewed the standoff material and found the nylon standoffs provide enough electrical isolation for the board
@@ -4710,7 +4933,8 @@ Work done:
 
 
 ## Oct 30, 2026: hardware swap upgrade path
-Time: 2h
+
+Time: 2 hours
 
 Work done:
 - Designed the hardware layer so the compute board can be swapped for a different board without redesigning the enclosure
@@ -4731,7 +4955,8 @@ Work done:
 
 
 ## Oct 30, 2026: wake latency check
-Time: 2h
+
+Time: 2 hours
 
 Work done:
 - Measured the wake latency from the wake phrase to the device showing the listening state
@@ -4752,7 +4977,8 @@ Work done:
 
 
 ## Oct 30, 2026: future extensibility note
-Time: 1h
+
+Time: 1 hours
 
 Work done:
 - Noted that the voice pipeline is isolated from the music client so a future version could swap in a different recognition engine
@@ -4773,7 +4999,8 @@ Work done:
 
 
 ## Oct 30, 2026: reconnection retry backoff
-Time: 1h
+
+Time: 1 hours
 
 Work done:
 - Implemented exponential backoff for server reconnection: 2 seconds, 4, 8, 16, then 30 seconds between retries
@@ -4794,7 +5021,8 @@ Work done:
 
 
 ## Oct 31, 2026: color usage consistency check
-Time: 1h
+
+Time: 1 hours
 
 Work done:
 - Audited the display color palette and found three different shades of blue used for different states, which is confusing
@@ -4815,7 +5043,8 @@ Work done:
 
 
 ## Oct 31, 2026: shipping damage check
-Time: 1h
+
+Time: 1 hours
 
 Work done:
 - Reviewed the package design and found the enclosure could shift inside the box during shipping
@@ -4836,7 +5065,8 @@ Work done:
 
 
 ## Oct 31, 2026: banner image crop check
-Time: 2h
+
+Time: 2 hours
 
 Work done:
 - Checked the banner image aspect ratio and found it was 16:9 which is good for the README header
@@ -4857,7 +5087,8 @@ Work done:
 
 
 ## Oct 31, 2026: offline mode fallback test
-Time: 1h
+
+Time: 1 hours
 
 Work done:
 - Unplugged the network cable and confirmed the device shows a clear "no server" state on the screen instead of hanging
@@ -4878,7 +5109,8 @@ Work done:
 
 
 ## Oct 31, 2026: icon and UI element sizing
-Time: 1h
+
+Time: 1 hours
 
 Work done:
 - Standardized all UI icons to a 32x32 grid so they line up visually on the screen
@@ -4899,7 +5131,8 @@ Work done:
 
 
 ## Oct 31, 2026: presence detection thought
-Time: 1h
+
+Time: 1 hours
 
 Work done:
 - Considered presence detection for the device but decided it is not needed for this build
@@ -4920,7 +5153,8 @@ Work done:
 
 
 ## Oct 31, 2026: prototype iteration log
-Time: 2h
+
+Time: 2 hours
 
 Work done:
 - Logged the prototype iterations: v1 was too large, v2 fit but the speaker port was in the wrong place, v3 is the current design
@@ -4941,7 +5175,8 @@ Work done:
 
 
 ## Oct 31, 2026: music request variation handling
-Time: 2h
+
+Time: 2 hours
 
 Work done:
 - Extended the parser to handle "play X by Y", "play Y X", and "play the song X by Y" forms
@@ -4962,7 +5197,8 @@ Work done:
 
 
 ## Oct 31, 2026: treble clarity review
-Time: 1h
+
+Time: 1 hours
 
 Work done:
 - Reviewed the treble clarity and found the speaker high-frequency response rolls off above 8 kHz
@@ -4983,7 +5219,8 @@ Work done:
 
 
 ## Oct 31, 2026: library metadata tagging
-Time: 1h
+
+Time: 1 hours
 
 Work done:
 - Audited the local library and found 400 tracks with missing or wrong artist fields, mostly from old rips
@@ -5005,7 +5242,8 @@ Work done:
 
 
 ## Oct 31, 2026: humidity sensor idea
-Time: 2h
+
+Time: 2 hours
 
 Work done:
 - Considered a humidity sensor for the device but decided it is not needed for this build
@@ -5026,7 +5264,8 @@ Work done:
 
 
 ## Oct 31, 2026: album mode vs track mode
-Time: 2h
+
+Time: 2 hours
 
 Work done:
 - Added album mode and track mode to the player; album mode plays all tracks from an album, track mode plays individual tracks
@@ -5047,7 +5286,8 @@ Work done:
 
 
 ## Oct 31, 2026: command debounce spacing
-Time: 1h
+
+Time: 1 hours
 
 Work done:
 - Added debounce spacing between repeated commands so the same phrase spoken twice in a row does not trigger two playback actions
@@ -5068,7 +5308,8 @@ Work done:
 
 
 ## Oct 31, 2026: final verification and wrap-up
-Time: 2h
+
+Time: 2 hours
 
 Work done:
 - Ran the full submission checklist one final time and confirmed all four checks pass: README images, BOM, journal images, and journal time format
