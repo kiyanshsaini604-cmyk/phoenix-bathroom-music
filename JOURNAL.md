@@ -500,7 +500,7 @@ Work done:
 
 ---
 
-## Oct 12, 2026: install manual wording pass
+## Oct 12, 2026: install manual wording pass (part 2)
 
 Work done:
 - Rewrote the install manual to use short imperative sentences and clear diagrams for each step
@@ -804,7 +804,7 @@ Work done:
 
 ---
 
-## Oct 13, 2026: artist name parsing edge case
+## Oct 13, 2026: artist name parsing edge case (part 2)
 
 Work done:
 - Found that "play last nite by the strokes" was parsing "the strokes" as the artist but leaving "last nite" unmatched because the parser split on "by" too early
@@ -2276,7 +2276,7 @@ Work done:
 
 ---
 
-## Oct 21, 2026: texture finish comparison
+## Oct 21, 2026: texture finish comparison (part 2)
 
 Work done:
 - Compared smooth and textured finishes for the enclosure; smooth is easier to clean, textured hides scratches better
@@ -2333,7 +2333,7 @@ Work done:
 
 ---
 
-## Oct 21, 2026: resonance frequency note
+## Oct 21, 2026: resonance frequency note (part 2)
 
 Work done:
 - Measured the enclosure resonance frequency and found it is at 250 Hz, which is above the speaker main output range
@@ -2352,7 +2352,7 @@ Work done:
 
 ---
 
-## Oct 21, 2026: idle animation polish
+## Oct 21, 2026: idle animation polish (part 2)
 
 Work done:
 - Rewrote the idle visual to cycle slowly through a small set of abstract shapes instead of a single static frame
@@ -3058,7 +3058,7 @@ Work done:
 
 ---
 
-## Oct 24, 2026: install manual wording pass
+## Oct 24, 2026: install manual wording pass (part 2)
 
 Work done:
 - Rewrote the install manual to use short imperative sentences and clear diagrams for each step
@@ -3362,7 +3362,7 @@ Work done:
 
 ---
 
-## Oct 25, 2026: artist name parsing edge case
+## Oct 25, 2026: artist name parsing edge case (part 2)
 
 Work done:
 - Found that "play last nite by the strokes" was parsing "the strokes" as the artist but leaving "last nite" unmatched because the parser split on "by" too early
