@@ -41,7 +41,7 @@ Progress is tracked in `JOURNAL.md`.
 | Build photo | ![Build photo](assets/placeholder-1.png) |
 | 3D model | ![3D model of enclosure](assets/enclosure-concept.svg) |
 | Schematic / wiring diagram | ![Schematic and wiring diagram](assets/block-diagram.svg) |
-| PCB | ![PCB layout](assets/device-mockup.svg) |
+| PCB | ![PCB layout](assets/pcb-layout.svg) |
 
 Additional diagrams:
 
@@ -67,8 +67,8 @@ Additional diagrams:
 
 ### PCB layout — PCB
 
-![PCB layout rendering of the Phoenix control board](assets/device-mockup.svg)
-*PCB layout view of the Phoenix control board. The view shows component placement, the trace routing between the compute board interface, display connector, speaker amp section, microphone preamp path, and power inlet footprint, and the standoff positions for mounting inside the enclosure. Editable source files are included in the repo: KiCad `.kicad_pro`, `.kicad_pcb`, `.kicad_sch`, and `.lib` in `hardware/phoenix-kicad/`.*
+![PCB layout rendering of the Phoenix control board](assets/pcb-layout.svg)
+*PCB layout view of the Phoenix control board. The view shows component placement, the trace routing between the compute board interface, display connector, speaker amp section, microphone preamp path, and power inlet footprint, and the standoff positions for mounting inside the enclosure. Editable source files are included in the repo: KiCad `.kicad_pro`, `.kicad_pcb`, `.kicad_sch`, and `.lib` in `hardware/phoenix-kicad/` — source PCB file is `hardware/phoenix-kicad/phoenix.kicad_pcb`.*
 
 ### Audio and voice signal path
 
