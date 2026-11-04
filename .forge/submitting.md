@@ -21,9 +21,9 @@ This project is a bathroom voice music device that plays from a self-hosted musi
 - [x] Hardware/PCB/CAD source files are in the repo in editable form (KiCad .kicad_pro/.kicad_pcb/.kicad_sch/.lib, SVG diagrams in assets/, SVG firmware diagrams)
 
 ### Journal
-- [x]  Devlog entries have images (243/243 entries reference assets/)
+- [x]  Devlog entries have images (241/241 entries reference assets/)
 
-- [x]  Journal entries log time in a parseable format (243/243 entries have **Total time: Xh 0m**)
+- [x]  Journal entries log time in a parseable format (241/241 entries have **Total time: X hour(s)**)
 
 
 ### Project readiness
@@ -32,7 +32,7 @@ This project is a bathroom voice music device that plays from a self-hosted musi
 
 ## Verified counts (as of latest commit)
 
-- JOURNAL.md: 243 entries, 243 time lines, 1 total-time footer (**Total time spent: 240h**)
+- JOURNAL.md: 241 entries, 241 time lines, 1 total-time footer (**Total time spent: 240h**)
 - README.md: 6 images, BOM section present
 - BOM.md: vendor links present
 - assets/: 216 files, all referenced images exist
