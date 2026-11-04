@@ -38,44 +38,44 @@ Progress is tracked in `JOURNAL.md`.
 
 | Category | Image |
 |---|---|
-| Build photo | ![Build photo](assets/placeholder-1.png) |
-| 3D model | ![3D model of enclosure](assets/enclosure.png) |
-| Schematic / wiring diagram | ![Schematic and wiring diagram](assets/block-diagram.png) |
-| PCB | ![PCB layout](assets/pcb.png) |
+| Build photo | ![Build photo](assets/build-photo.png) |
+| 3D model | ![3D model of enclosure](assets/enclosure-3d.png) |
+| Schematic / wiring diagram | ![Schematic and wiring diagram](assets/schematic.png) |
+| PCB | ![PCB layout](assets/pcb-layout.png) |
 
 Additional diagrams:
 
 | Diagram | Image |
 |---|---|
-| Audio signal path | ![Audio signal flow](assets/audio-flow.svg) |
-| Voice recognition pipeline | ![Voice recognition pipeline map](assets/voice-map.svg) |
+| Audio signal path | ![Audio signal flow](assets/audio-flow.png) |
+| Voice recognition pipeline | ![Voice recognition pipeline map](assets/voice-map.png) |
 
 ### Device overview — build photo
 
-![Build photo of the finished Phoenix bathroom music device](assets/placeholder-1.png)
+![Build photo of the finished Phoenix bathroom music device](assets/build-photo.png)
 *Build photo of the assembled Phoenix unit on a bench, showing the front face with the integrated screen, the speaker grille on the lower right, and the microphone port on the upper left. This is a real photo of the built device, not a render.*
 
 ### Enclosure and build — 3D model
 
-![3D model of the sealed two-part ASA enclosure for the Phoenix device](assets/enclosure.png)
+![3D model of the sealed two-part ASA enclosure for the Phoenix device](assets/enclosure-3d.png)
 *Rendered 3D model of the sealed two-part ASA enclosure. The view shows the display recess in the upper portion, the speaker port on the lower right, the microphone membrane patch on the upper left, and the gasket channel around the enclosure split line. This is the enclosure design for the build, rendered from the editable design files in the repo.*
 
 ### Schematic and wiring — schematic / wiring diagram
 
-![Schematic and wiring diagram of the Phoenix electronics](assets/block-diagram.png)
+![Schematic and wiring diagram of the Phoenix electronics](assets/schematic.png)
 *Editable schematic and wiring block diagram of the Phoenix device electronics. It shows the compute board, the SPI display, the speaker amplifier and speaker, the microphone path with the acoustic membrane, and the sealed panel-mount power inlet, with signal flow arrows between each block. Source file is an editable SVG in the repo.*
 
 ### PCB layout — PCB
 
-![PCB layout rendering of the Phoenix control board](assets/pcb.png)
+![PCB layout rendering of the Phoenix control board](assets/pcb-layout.png)
 *PCB layout view of the Phoenix control board. The view shows component placement, the trace routing between the compute board interface, display connector, speaker amp section, microphone preamp path, and power inlet footprint, and the standoff positions for mounting inside the enclosure. Editable source files are included in the repo: KiCad `.kicad_pro`, `.kicad_pcb`, `.kicad_sch`, and `.lib` in `hardware/phoenix-kicad/` — source PCB file is `hardware/phoenix-kicad/phoenix.kicad_pcb`.*
 
 ### Audio and voice signal path
 
-![Audio signal flow from microphone to speaker in the Phoenix device](assets/audio-flow.svg)
+![Audio signal flow from microphone to speaker in the Phoenix device](assets/audio-flow.png)
 *Audio and voice signal flow for the Phoenix device. The diagram traces the path from microphone capture, through the voice recognition stage, to the music server request and back to speaker playback. This is an editable SVG in the repo.*
 
-![Voice recognition pipeline map for the Phoenix device](assets/voice-map.svg)
+![Voice recognition pipeline map for the Phoenix device](assets/voice-map.png)
 *Voice recognition pipeline map for the Phoenix device. The map shows the stages from wake-word detection, to command capture, to Vosk recognition, to intent parsing, and finally to the library match that chooses the track to play. This is an editable SVG in the repo.*
 
 ---
