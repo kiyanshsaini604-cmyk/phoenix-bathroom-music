@@ -20,7 +20,7 @@ This adds time because the first day is mostly trying to make the thing feel rea
 
 ![March 20, 2026](assets/placeholder-1.png)
 
-**Total time: 3 hours**
+**Total time: 3h 0m**
 ---
 
 ## Oct 10, 2026: power inlet mount test
@@ -33,7 +33,7 @@ Work done:
 
 ![Oct 10, 2026](assets/placeholder-2.png)
 
-**Total time: 1 hour**
+**Total time: 1h 0m**
 
 
 
@@ -52,7 +52,7 @@ Work done:
 
 ![Oct 10, 2026](assets/placeholder-3.png)
 
-**Total time: 1 hour**
+**Total time: 1h 0m**
 
 
 
@@ -72,7 +72,7 @@ Work done:
 
 ![Oct 10, 2026](assets/placeholder-4.png)
 
-**Total time: 1 hour**
+**Total time: 1h 0m**
 
 
 
@@ -91,7 +91,7 @@ Work done:
 
 ![Oct 10, 2026](assets/placeholder-5.png)
 
-**Total time: 1 hour**
+**Total time: 1h 0m**
 
 
 
@@ -110,7 +110,7 @@ Work done:
 
 ![Oct 10, 2026](assets/changelog-1.png)
 
-**Total time: 2 hours**
+**Total time: 2h 0m**
 
 
 
@@ -129,7 +129,7 @@ Work done:
 
 ![Oct 10, 2026](assets/placeholder-7.png)
 
-**Total time: 2 hours**
+**Total time: 2h 0m**
 
 
 
@@ -148,7 +148,7 @@ Work done:
 
 ![Oct 10, 2026](assets/placeholder-8.png)
 
-**Total time: 1 hour**
+**Total time: 1h 0m**
 
 
 
@@ -167,7 +167,7 @@ Work done:
 
 ![Oct 10, 2026](assets/placeholder-9.png)
 
-**Total time: 1 hour**
+**Total time: 1h 0m**
 
 
 
@@ -186,7 +186,7 @@ Work done:
 
 ![Oct 10, 2026](assets/placeholder-10.png)
 
-**Total time: 1 hour**
+**Total time: 1h 0m**
 
 
 
@@ -205,7 +205,7 @@ Work done:
 
 ![Oct 11, 2026](assets/photo-3.png)
 
-**Total time: 1 hour**
+**Total time: 1h 0m**
 
 
 
@@ -224,7 +224,7 @@ Work done:
 
 ![Oct 11, 2026](assets/placeholder-12.png)
 
-**Total time: 2 hours**
+**Total time: 2h 0m**
 
 
 
@@ -243,7 +243,7 @@ Work done:
 
 ![Oct 11, 2026](assets/placeholder-13.png)
 
-**Total time: 2 hours**
+**Total time: 2h 0m**
 
 
 
@@ -262,7 +262,7 @@ Work done:
 
 ![Oct 11, 2026](assets/placeholder-14.png)
 
-**Total time: 2 hours**
+**Total time: 2h 0m**
 
 
 
@@ -281,7 +281,7 @@ Work done:
 
 ![Oct 11, 2026](assets/placeholder-15.png)
 
-**Total time: 2 hours**
+**Total time: 2h 0m**
 
 
 
@@ -300,7 +300,7 @@ Work done:
 
 ![Oct 11, 2026](assets/brush-1.png)
 
-**Total time: 1 hour**
+**Total time: 1h 0m**
 
 
 
@@ -319,7 +319,7 @@ Work done:
 
 ![Oct 11, 2026](assets/placeholder-17.png)
 
-**Total time: 2 hours**
+**Total time: 2h 0m**
 
 
 
@@ -338,7 +338,7 @@ Work done:
 
 ![Oct 11, 2026](assets/placeholder-18.png)
 
-**Total time: 1 hour**
+**Total time: 1h 0m**
 
 
 
@@ -357,7 +357,7 @@ Work done:
 
 ![Oct 11, 2026](assets/placeholder-19.png)
 
-**Total time: 1 hour**
+**Total time: 1h 0m**
 
 
 
@@ -376,7 +376,7 @@ Work done:
 
 ![Oct 12, 2026](assets/placeholder-20.png)
 
-**Total time: 1 hour**
+**Total time: 1h 0m**
 
 
 
@@ -395,7 +395,7 @@ Work done:
 
 ![Oct 12, 2026](assets/checklist-1.png)
 
-**Total time: 2 hours**
+**Total time: 2h 0m**
 
 
 
@@ -414,7 +414,7 @@ Work done:
 
 ![Oct 12, 2026](assets/placeholder-22.png)
 
-**Total time: 2 hours**
+**Total time: 2h 0m**
 
 
 
@@ -433,7 +433,7 @@ Work done:
 
 ![Oct 12, 2026](assets/placeholder-23.png)
 
-**Total time: 2 hours**
+**Total time: 2h 0m**
 
 
 
@@ -452,7 +452,7 @@ Work done:
 
 ![Oct 12, 2026](assets/placeholder-24.png)
 
-**Total time: 1 hour**
+**Total time: 1h 0m**
 
 
 
@@ -471,7 +471,7 @@ Work done:
 
 ![Oct 12, 2026](assets/placeholder-25.png)
 
-**Total time: 2 hours**
+**Total time: 2h 0m**
 
 
 
@@ -490,7 +490,7 @@ Work done:
 
 ![Oct 12, 2026](assets/feature-3.png)
 
-**Total time: 2 hours**
+**Total time: 2h 0m**
 
 
 
@@ -509,7 +509,7 @@ Work done:
 
 ![Oct 12, 2026](assets/placeholder-27.png)
 
-**Total time: 1 hour**
+**Total time: 1h 0m**
 
 
 
@@ -528,7 +528,7 @@ Work done:
 
 ![Oct 12, 2026](assets/placeholder-28.png)
 
-**Total time: 2 hours**
+**Total time: 2h 0m**
 
 
 
@@ -547,7 +547,7 @@ Work done:
 
 ![Oct 12, 2026](assets/placeholder-29.png)
 
-**Total time: 1 hour**
+**Total time: 1h 0m**
 
 
 
@@ -566,7 +566,7 @@ Work done:
 
 ![Oct 12, 2026](assets/placeholder-30.png)
 
-**Total time: 2 hours**
+**Total time: 2h 0m**
 
 
 
@@ -585,7 +585,7 @@ Work done:
 
 ![Oct 12, 2026](assets/done.png)
 
-**Total time: 1 hour**
+**Total time: 1h 0m**
 
 
 
@@ -604,7 +604,7 @@ Work done:
 
 ![Oct 13, 2026](assets/placeholder-32.png)
 
-**Total time: 1 hour**
+**Total time: 1h 0m**
 
 
 
@@ -623,7 +623,7 @@ Work done:
 
 ![Oct 13, 2026](assets/placeholder-33.png)
 
-**Total time: 1 hour**
+**Total time: 1h 0m**
 
 
 
@@ -642,7 +642,7 @@ Work done:
 
 ![Oct 13, 2026](assets/placeholder-34.png)
 
-**Total time: 2 hours**
+**Total time: 2h 0m**
 
 
 
@@ -661,7 +661,7 @@ Work done:
 
 ![Oct 13, 2026](assets/placeholder-35.png)
 
-**Total time: 2 hours**
+**Total time: 2h 0m**
 
 
 
@@ -680,7 +680,7 @@ Work done:
 
 ![Oct 13, 2026](assets/changelog-1.png)
 
-**Total time: 1 hour**
+**Total time: 1h 0m**
 
 
 
@@ -699,7 +699,7 @@ Work done:
 
 ![Oct 13, 2026](assets/placeholder-37.png)
 
-**Total time: 2 hours**
+**Total time: 2h 0m**
 
 
 
@@ -718,7 +718,7 @@ Work done:
 
 ![Oct 13, 2026](assets/placeholder-38.png)
 
-**Total time: 1 hour**
+**Total time: 1h 0m**
 
 
 
@@ -737,7 +737,7 @@ Work done:
 
 ![Oct 13, 2026](assets/placeholder-39.png)
 
-**Total time: 1 hour**
+**Total time: 1h 0m**
 
 
 
@@ -756,7 +756,7 @@ Work done:
 
 ![Oct 13, 2026](assets/placeholder-40.png)
 
-**Total time: 2 hours**
+**Total time: 2h 0m**
 
 
 
@@ -775,7 +775,7 @@ Work done:
 
 ![Oct 13, 2026](assets/photo-3.png)
 
-**Total time: 1 hour**
+**Total time: 1h 0m**
 
 
 
@@ -794,7 +794,7 @@ Work done:
 
 ![Oct 13, 2026](assets/placeholder-42.png)
 
-**Total time: 2 hours**
+**Total time: 2h 0m**
 
 
 
@@ -813,7 +813,7 @@ Work done:
 
 ![Oct 13, 2026](assets/placeholder-43.png)
 
-**Total time: 1 hour**
+**Total time: 1h 0m**
 
 
 
@@ -832,7 +832,7 @@ Work done:
 
 ![Oct 13, 2026](assets/placeholder-44.png)
 
-**Total time: 2 hours**
+**Total time: 2h 0m**
 
 
 
@@ -851,7 +851,7 @@ Work done:
 
 ![Oct 14, 2026](assets/placeholder-45.png)
 
-**Total time: 1 hour**
+**Total time: 1h 0m**
 
 
 
@@ -870,7 +870,7 @@ Work done:
 
 ![Oct 14, 2026](assets/brush-1.png)
 
-**Total time: 1 hour**
+**Total time: 1h 0m**
 
 
 
@@ -889,7 +889,7 @@ Work done:
 
 ![Oct 14, 2026](assets/placeholder-2.png)
 
-**Total time: 1 hour**
+**Total time: 1h 0m**
 
 
 
@@ -908,7 +908,7 @@ Work done:
 
 ![Oct 14, 2026](assets/placeholder-3.png)
 
-**Total time: 1 hour**
+**Total time: 1h 0m**
 
 
 
@@ -927,7 +927,7 @@ Work done:
 
 ![Oct 14, 2026](assets/placeholder-4.png)
 
-**Total time: 2 hours**
+**Total time: 2h 0m**
 
 
 
@@ -946,7 +946,7 @@ Work done:
 
 ![Oct 14, 2026](assets/placeholder-5.png)
 
-**Total time: 2 hours**
+**Total time: 2h 0m**
 
 
 
@@ -965,7 +965,7 @@ Work done:
 
 ![Oct 14, 2026](assets/checklist-1.png)
 
-**Total time: 1 hour**
+**Total time: 1h 0m**
 
 
 
@@ -984,7 +984,7 @@ Work done:
 
 ![Oct 14, 2026](assets/placeholder-7.png)
 
-**Total time: 2 hours**
+**Total time: 2h 0m**
 
 
 
@@ -1003,7 +1003,7 @@ Work done:
 
 ![Oct 14, 2026](assets/placeholder-8.png)
 
-**Total time: 1 hour**
+**Total time: 1h 0m**
 
 
 
@@ -1022,7 +1022,7 @@ Work done:
 
 ![Oct 14, 2026](assets/placeholder-9.png)
 
-**Total time: 1 hour**
+**Total time: 1h 0m**
 
 
 
@@ -1041,7 +1041,7 @@ Work done:
 
 ![Oct 14, 2026](assets/placeholder-10.png)
 
-**Total time: 2 hours**
+**Total time: 2h 0m**
 
 
 
@@ -1060,7 +1060,7 @@ Work done:
 
 ![Oct 14, 2026](assets/feature-3.png)
 
-**Total time: 2 hours**
+**Total time: 2h 0m**
 
 
 
@@ -1079,7 +1079,7 @@ Work done:
 
 ![Oct 15, 2026](assets/placeholder-12.png)
 
-**Total time: 1 hour**
+**Total time: 1h 0m**
 
 
 
@@ -1098,7 +1098,7 @@ Work done:
 
 ![Oct 15, 2026](assets/placeholder-13.png)
 
-**Total time: 1 hour**
+**Total time: 1h 0m**
 
 
 
@@ -1117,7 +1117,7 @@ Work done:
 
 ![Oct 15, 2026](assets/placeholder-14.png)
 
-**Total time: 2 hours**
+**Total time: 2h 0m**
 
 
 
@@ -1136,7 +1136,7 @@ Work done:
 
 ![Oct 15, 2026](assets/placeholder-15.png)
 
-**Total time: 2 hours**
+**Total time: 2h 0m**
 
 
 
@@ -1155,7 +1155,7 @@ Work done:
 
 ![Oct 15, 2026](assets/done.png)
 
-**Total time: 2 hours**
+**Total time: 2h 0m**
 
 
 
@@ -1174,7 +1174,7 @@ Work done:
 
 ![Oct 15, 2026](assets/placeholder-17.png)
 
-**Total time: 2 hours**
+**Total time: 2h 0m**
 
 
 
@@ -1193,7 +1193,7 @@ Work done:
 
 ![Oct 15, 2026](assets/placeholder-18.png)
 
-**Total time: 1 hour**
+**Total time: 1h 0m**
 
 
 
@@ -1212,7 +1212,7 @@ Work done:
 
 ![Oct 16, 2026](assets/placeholder-19.png)
 
-**Total time: 1 hour**
+**Total time: 1h 0m**
 
 
 
@@ -1231,7 +1231,7 @@ Work done:
 
 ![Oct 16, 2026](assets/placeholder-20.png)
 
-**Total time: 2 hours**
+**Total time: 2h 0m**
 
 
 
@@ -1250,7 +1250,7 @@ Work done:
 
 ![Oct 16, 2026](assets/changelog-1.png)
 
-**Total time: 2 hours**
+**Total time: 2h 0m**
 
 
 
@@ -1269,7 +1269,7 @@ Work done:
 
 ![Oct 16, 2026](assets/placeholder-22.png)
 
-**Total time: 1 hour**
+**Total time: 1h 0m**
 
 
 
@@ -1289,7 +1289,7 @@ Work done:
 
 ![Oct 16, 2026](assets/placeholder-23.png)
 
-**Total time: 1 hour**
+**Total time: 1h 0m**
 
 
 
@@ -1308,7 +1308,7 @@ Work done:
 
 ![Oct 16, 2026](assets/placeholder-24.png)
 
-**Total time: 1 hour**
+**Total time: 1h 0m**
 
 
 
@@ -1327,7 +1327,7 @@ Work done:
 
 ![Oct 16, 2026](assets/placeholder-25.png)
 
-**Total time: 1 hour**
+**Total time: 1h 0m**
 
 
 
@@ -1346,7 +1346,7 @@ Work done:
 
 ![Oct 16, 2026](assets/photo-3.png)
 
-**Total time: 1 hour**
+**Total time: 1h 0m**
 
 
 
@@ -1365,7 +1365,7 @@ Work done:
 
 ![Oct 16, 2026](assets/placeholder-27.png)
 
-**Total time: 1 hour**
+**Total time: 1h 0m**
 
 
 
@@ -1384,7 +1384,7 @@ Work done:
 
 ![Oct 16, 2026](assets/placeholder-28.png)
 
-**Total time: 1 hour**
+**Total time: 1h 0m**
 
 
 
@@ -1403,7 +1403,7 @@ Work done:
 
 ![Oct 16, 2026](assets/placeholder-29.png)
 
-**Total time: 2 hours**
+**Total time: 2h 0m**
 
 
 
@@ -1422,7 +1422,7 @@ Work done:
 
 ![Oct 17, 2026](assets/placeholder-30.png)
 
-**Total time: 2 hours**
+**Total time: 2h 0m**
 
 
 
@@ -1441,7 +1441,7 @@ Work done:
 
 ![Oct 17, 2026](assets/brush-1.png)
 
-**Total time: 1 hour**
+**Total time: 1h 0m**
 
 
 
@@ -1460,7 +1460,7 @@ Work done:
 
 ![Oct 17, 2026](assets/placeholder-32.png)
 
-**Total time: 2 hours**
+**Total time: 2h 0m**
 
 
 
@@ -1479,7 +1479,7 @@ Work done:
 
 ![Oct 17, 2026](assets/placeholder-33.png)
 
-**Total time: 1 hour**
+**Total time: 1h 0m**
 
 
 
@@ -1498,7 +1498,7 @@ Work done:
 
 ![Oct 17, 2026](assets/placeholder-34.png)
 
-**Total time: 1 hour**
+**Total time: 1h 0m**
 
 
 
@@ -1517,7 +1517,7 @@ Work done:
 
 ![Oct 17, 2026](assets/placeholder-35.png)
 
-**Total time: 1 hour**
+**Total time: 1h 0m**
 
 
 
@@ -1537,7 +1537,7 @@ Work done:
 
 ![Oct 17, 2026](assets/checklist-1.png)
 
-**Total time: 2 hours**
+**Total time: 2h 0m**
 
 
 
@@ -1556,7 +1556,7 @@ Work done:
 
 ![Oct 17, 2026](assets/placeholder-37.png)
 
-**Total time: 2 hours**
+**Total time: 2h 0m**
 
 
 
@@ -1575,7 +1575,7 @@ Work done:
 
 ![Oct 17, 2026](assets/placeholder-38.png)
 
-**Total time: 1 hour**
+**Total time: 1h 0m**
 
 
 
@@ -1594,7 +1594,7 @@ Work done:
 
 ![Oct 17, 2026](assets/placeholder-39.png)
 
-**Total time: 1 hour**
+**Total time: 1h 0m**
 
 
 
@@ -1619,7 +1619,7 @@ This adds time because the first architecture pass is where a lot of later rewor
 
 ![Block diagram sketch](assets/placeholder-2.png)
 
-**Total time: 2 hours**
+**Total time: 2h 0m**
 
 ---
 
@@ -1637,7 +1637,7 @@ Work done:
 
 ![Oct 18, 2026](assets/feature-3.png)
 
-**Total time: 1 hour**
+**Total time: 1h 0m**
 
 
 
@@ -1656,7 +1656,7 @@ Work done:
 
 ![Oct 18, 2026](assets/placeholder-42.png)
 
-**Total time: 1 hour**
+**Total time: 1h 0m**
 
 
 
@@ -1675,7 +1675,7 @@ Work done:
 
 ![Oct 18, 2026](assets/placeholder-43.png)
 
-**Total time: 1 hour**
+**Total time: 1h 0m**
 
 
 
@@ -1694,7 +1694,7 @@ Work done:
 
 ![Oct 18, 2026](assets/placeholder-44.png)
 
-**Total time: 1 hour**
+**Total time: 1h 0m**
 
 
 
@@ -1713,7 +1713,7 @@ Work done:
 
 ![Oct 18, 2026](assets/placeholder-45.png)
 
-**Total time: 2 hours**
+**Total time: 2h 0m**
 
 
 
@@ -1732,7 +1732,7 @@ Work done:
 
 ![Oct 18, 2026](assets/done.png)
 
-**Total time: 2 hours**
+**Total time: 2h 0m**
 
 
 
@@ -1751,7 +1751,7 @@ Work done:
 
 ![Oct 18, 2026](assets/placeholder-2.png)
 
-**Total time: 1 hour**
+**Total time: 1h 0m**
 
 
 
@@ -1770,7 +1770,7 @@ Work done:
 
 ![Oct 18, 2026](assets/placeholder-3.png)
 
-**Total time: 1 hour**
+**Total time: 1h 0m**
 
 
 
@@ -1789,7 +1789,7 @@ Work done:
 
 ![Oct 19, 2026](assets/placeholder-4.png)
 
-**Total time: 1 hour**
+**Total time: 1h 0m**
 
 
 
@@ -1808,7 +1808,7 @@ Work done:
 
 ![Oct 19, 2026](assets/placeholder-5.png)
 
-**Total time: 1 hour**
+**Total time: 1h 0m**
 
 
 
@@ -1827,7 +1827,7 @@ Work done:
 
 ![Oct 19, 2026](assets/changelog-1.png)
 
-**Total time: 2 hours**
+**Total time: 2h 0m**
 
 
 
@@ -1846,7 +1846,7 @@ Work done:
 
 ![Oct 19, 2026](assets/placeholder-7.png)
 
-**Total time: 1 hour**
+**Total time: 1h 0m**
 
 
 
@@ -1865,7 +1865,7 @@ Work done:
 
 ![Oct 19, 2026](assets/placeholder-8.png)
 
-**Total time: 1 hour**
+**Total time: 1h 0m**
 
 
 
@@ -1884,7 +1884,7 @@ Work done:
 
 ![Oct 19, 2026](assets/placeholder-9.png)
 
-**Total time: 1 hour**
+**Total time: 1h 0m**
 
 
 
@@ -1903,7 +1903,7 @@ Work done:
 
 ![Oct 19, 2026](assets/placeholder-10.png)
 
-**Total time: 2 hours**
+**Total time: 2h 0m**
 
 
 
@@ -1922,7 +1922,7 @@ Work done:
 
 ![Oct 19, 2026](assets/photo-3.png)
 
-**Total time: 2 hours**
+**Total time: 2h 0m**
 
 
 
@@ -1941,7 +1941,7 @@ Work done:
 
 ![Oct 19, 2026](assets/placeholder-12.png)
 
-**Total time: 1 hour**
+**Total time: 1h 0m**
 
 
 
@@ -1961,7 +1961,7 @@ Work done:
 
 ![Oct 19, 2026](assets/placeholder-13.png)
 
-**Total time: 1 hour**
+**Total time: 1h 0m**
 
 
 
@@ -1981,7 +1981,7 @@ Work done:
 
 ![Oct 20, 2026](assets/placeholder-14.png)
 
-**Total time: 1 hour**
+**Total time: 1h 0m**
 
 
 
@@ -2000,7 +2000,7 @@ Work done:
 
 ![Oct 20, 2026](assets/placeholder-15.png)
 
-**Total time: 2 hours**
+**Total time: 2h 0m**
 
 
 
@@ -2019,7 +2019,7 @@ Work done:
 
 ![Oct 20, 2026](assets/brush-1.png)
 
-**Total time: 1 hour**
+**Total time: 1h 0m**
 
 
 
@@ -2038,7 +2038,7 @@ Work done:
 
 ![Oct 20, 2026](assets/placeholder-17.png)
 
-**Total time: 2 hours**
+**Total time: 2h 0m**
 
 
 
@@ -2057,7 +2057,7 @@ Work done:
 
 ![Oct 20, 2026](assets/placeholder-18.png)
 
-**Total time: 2 hours**
+**Total time: 2h 0m**
 
 
 
@@ -2076,7 +2076,7 @@ Work done:
 
 ![Oct 20, 2026](assets/placeholder-19.png)
 
-**Total time: 1 hour**
+**Total time: 1h 0m**
 
 
 
@@ -2095,7 +2095,7 @@ Work done:
 
 ![Oct 20, 2026](assets/placeholder-20.png)
 
-**Total time: 1 hour**
+**Total time: 1h 0m**
 
 
 
@@ -2114,7 +2114,7 @@ Work done:
 
 ![Oct 20, 2026](assets/checklist-1.png)
 
-**Total time: 1 hour**
+**Total time: 1h 0m**
 
 
 
@@ -2133,7 +2133,7 @@ Work done:
 
 ![Oct 20, 2026](assets/placeholder-22.png)
 
-**Total time: 1 hour**
+**Total time: 1h 0m**
 
 
 
@@ -2152,7 +2152,7 @@ Work done:
 
 ![Oct 20, 2026](assets/placeholder-23.png)
 
-**Total time: 1 hour**
+**Total time: 1h 0m**
 
 
 
@@ -2171,7 +2171,7 @@ Work done:
 
 ![Oct 21, 2026](assets/placeholder-24.png)
 
-**Total time: 1 hour**
+**Total time: 1h 0m**
 
 
 
@@ -2190,7 +2190,7 @@ Work done:
 
 ![Oct 21, 2026](assets/placeholder-25.png)
 
-**Total time: 2 hours**
+**Total time: 2h 0m**
 
 
 
@@ -2209,7 +2209,7 @@ Work done:
 
 ![Oct 21, 2026](assets/feature-3.png)
 
-**Total time: 1 hour**
+**Total time: 1h 0m**
 
 
 
@@ -2228,7 +2228,7 @@ Work done:
 
 ![Oct 21, 2026](assets/placeholder-27.png)
 
-**Total time: 1 hour**
+**Total time: 1h 0m**
 
 
 
@@ -2247,7 +2247,7 @@ Work done:
 
 ![Oct 21, 2026](assets/placeholder-28.png)
 
-**Total time: 1 hour**
+**Total time: 1h 0m**
 
 
 
@@ -2266,7 +2266,7 @@ Work done:
 
 ![Oct 21, 2026](assets/placeholder-29.png)
 
-**Total time: 2 hours**
+**Total time: 2h 0m**
 
 
 
@@ -2285,7 +2285,7 @@ Work done:
 
 ![Oct 21, 2026](assets/placeholder-30.png)
 
-**Total time: 1 hour**
+**Total time: 1h 0m**
 
 
 
@@ -2304,7 +2304,7 @@ Work done:
 
 ![Oct 21, 2026](assets/done.png)
 
-**Total time: 1 hour**
+**Total time: 1h 0m**
 
 
 
@@ -2323,7 +2323,7 @@ Work done:
 
 ![Oct 21, 2026](assets/placeholder-32.png)
 
-**Total time: 1 hour**
+**Total time: 1h 0m**
 
 
 
@@ -2342,7 +2342,7 @@ Work done:
 
 ![Oct 21, 2026](assets/placeholder-33.png)
 
-**Total time: 1 hour**
+**Total time: 1h 0m**
 
 
 
@@ -2361,7 +2361,7 @@ Work done:
 
 ![Oct 21, 2026](assets/placeholder-34.png)
 
-**Total time: 1 hour**
+**Total time: 1h 0m**
 
 
 
@@ -2380,7 +2380,7 @@ Work done:
 
 ![Oct 22, 2026](assets/placeholder-35.png)
 
-**Total time: 1 hour**
+**Total time: 1h 0m**
 
 
 
@@ -2399,7 +2399,7 @@ Work done:
 
 ![Oct 22, 2026](assets/changelog-1.png)
 
-**Total time: 2 hours**
+**Total time: 2h 0m**
 
 
 
@@ -2418,7 +2418,7 @@ Work done:
 
 ![Oct 22, 2026](assets/placeholder-37.png)
 
-**Total time: 1 hour**
+**Total time: 1h 0m**
 
 
 
@@ -2437,7 +2437,7 @@ Work done:
 
 ![Oct 22, 2026](assets/placeholder-38.png)
 
-**Total time: 2 hours**
+**Total time: 2h 0m**
 
 
 
@@ -2456,7 +2456,7 @@ Work done:
 
 ![Oct 22, 2026](assets/placeholder-39.png)
 
-**Total time: 1 hour**
+**Total time: 1h 0m**
 
 
 
@@ -2475,7 +2475,7 @@ Work done:
 
 ![Oct 22, 2026](assets/placeholder-40.png)
 
-**Total time: 2 hours**
+**Total time: 2h 0m**
 
 
 
@@ -2495,7 +2495,7 @@ Work done:
 
 ![Oct 22, 2026](assets/photo-3.png)
 
-**Total time: 1 hour**
+**Total time: 1h 0m**
 
 
 
@@ -2514,7 +2514,7 @@ Work done:
 
 ![Oct 22, 2026](assets/placeholder-42.png)
 
-**Total time: 2 hours**
+**Total time: 2h 0m**
 
 
 
@@ -2533,7 +2533,7 @@ Work done:
 
 ![Oct 22, 2026](assets/placeholder-43.png)
 
-**Total time: 2 hours**
+**Total time: 2h 0m**
 
 
 
@@ -2552,7 +2552,7 @@ Work done:
 
 ![Oct 22, 2026](assets/placeholder-44.png)
 
-**Total time: 1 hour**
+**Total time: 1h 0m**
 
 
 
@@ -2571,7 +2571,7 @@ Work done:
 
 ![Oct 22, 2026](assets/placeholder-45.png)
 
-**Total time: 1 hour**
+**Total time: 1h 0m**
 
 
 
@@ -2591,7 +2591,7 @@ Work done:
 
 ![Oct 23, 2026](assets/placeholder-2.png)
 
-**Total time: 1 hour**
+**Total time: 1h 0m**
 
 
 
@@ -2610,7 +2610,7 @@ Work done:
 
 ![Oct 23, 2026](assets/placeholder-3.png)
 
-**Total time: 1 hour**
+**Total time: 1h 0m**
 
 
 
@@ -2630,7 +2630,7 @@ Work done:
 
 ![Oct 23, 2026](assets/placeholder-4.png)
 
-**Total time: 1 hour**
+**Total time: 1h 0m**
 
 
 
@@ -2649,7 +2649,7 @@ Work done:
 
 ![Oct 23, 2026](assets/placeholder-5.png)
 
-**Total time: 1 hour**
+**Total time: 1h 0m**
 
 
 
@@ -2668,7 +2668,7 @@ Work done:
 
 ![Oct 23, 2026](assets/checklist-1.png)
 
-**Total time: 2 hours**
+**Total time: 2h 0m**
 
 
 
@@ -2687,7 +2687,7 @@ Work done:
 
 ![Oct 23, 2026](assets/placeholder-7.png)
 
-**Total time: 2 hours**
+**Total time: 2h 0m**
 
 
 
@@ -2706,7 +2706,7 @@ Work done:
 
 ![Oct 23, 2026](assets/placeholder-8.png)
 
-**Total time: 1 hour**
+**Total time: 1h 0m**
 
 
 
@@ -2725,7 +2725,7 @@ Work done:
 
 ![Oct 23, 2026](assets/placeholder-9.png)
 
-**Total time: 1 hour**
+**Total time: 1h 0m**
 
 
 
@@ -2744,7 +2744,7 @@ Work done:
 
 ![Oct 23, 2026](assets/placeholder-10.png)
 
-**Total time: 1 hour**
+**Total time: 1h 0m**
 
 
 
@@ -2763,7 +2763,7 @@ Work done:
 
 ![Oct 23, 2026](assets/photo-3.png)
 
-**Total time: 1 hour**
+**Total time: 1h 0m**
 
 
 
@@ -2782,7 +2782,7 @@ Work done:
 
 ![Oct 23, 2026](assets/placeholder-12.png)
 
-**Total time: 2 hours**
+**Total time: 2h 0m**
 
 
 
@@ -2801,7 +2801,7 @@ Work done:
 
 ![Oct 23, 2026](assets/placeholder-13.png)
 
-**Total time: 2 hours**
+**Total time: 2h 0m**
 
 
 
@@ -2820,7 +2820,7 @@ Work done:
 
 ![Oct 23, 2026](assets/placeholder-14.png)
 
-**Total time: 2 hours**
+**Total time: 2h 0m**
 
 
 
@@ -2839,7 +2839,7 @@ Work done:
 
 ![Oct 23, 2026](assets/placeholder-15.png)
 
-**Total time: 2 hours**
+**Total time: 2h 0m**
 
 
 
@@ -2858,7 +2858,7 @@ Work done:
 
 ![Oct 23, 2026](assets/brush-1.png)
 
-**Total time: 1 hour**
+**Total time: 1h 0m**
 
 
 
@@ -2877,7 +2877,7 @@ Work done:
 
 ![Oct 23, 2026](assets/placeholder-17.png)
 
-**Total time: 2 hours**
+**Total time: 2h 0m**
 
 
 
@@ -2896,7 +2896,7 @@ Work done:
 
 ![Oct 23, 2026](assets/placeholder-18.png)
 
-**Total time: 1 hour**
+**Total time: 1h 0m**
 
 
 
@@ -2915,7 +2915,7 @@ Work done:
 
 ![Oct 23, 2026](assets/placeholder-19.png)
 
-**Total time: 1 hour**
+**Total time: 1h 0m**
 
 
 
@@ -2934,7 +2934,7 @@ Work done:
 
 ![Oct 24, 2026](assets/placeholder-20.png)
 
-**Total time: 1 hour**
+**Total time: 1h 0m**
 
 
 
@@ -2953,7 +2953,7 @@ Work done:
 
 ![Oct 24, 2026](assets/checklist-1.png)
 
-**Total time: 2 hours**
+**Total time: 2h 0m**
 
 
 
@@ -2972,7 +2972,7 @@ Work done:
 
 ![Oct 24, 2026](assets/placeholder-22.png)
 
-**Total time: 2 hours**
+**Total time: 2h 0m**
 
 
 
@@ -2991,7 +2991,7 @@ Work done:
 
 ![Oct 24, 2026](assets/placeholder-23.png)
 
-**Total time: 2 hours**
+**Total time: 2h 0m**
 
 
 
@@ -3010,7 +3010,7 @@ Work done:
 
 ![Oct 24, 2026](assets/placeholder-24.png)
 
-**Total time: 1 hour**
+**Total time: 1h 0m**
 
 
 
@@ -3029,7 +3029,7 @@ Work done:
 
 ![Oct 24, 2026](assets/placeholder-25.png)
 
-**Total time: 2 hours**
+**Total time: 2h 0m**
 
 
 
@@ -3048,7 +3048,7 @@ Work done:
 
 ![Oct 24, 2026](assets/feature-3.png)
 
-**Total time: 2 hours**
+**Total time: 2h 0m**
 
 
 
@@ -3067,7 +3067,7 @@ Work done:
 
 ![Oct 24, 2026](assets/placeholder-27.png)
 
-**Total time: 1 hour**
+**Total time: 1h 0m**
 
 
 
@@ -3086,7 +3086,7 @@ Work done:
 
 ![Oct 24, 2026](assets/placeholder-28.png)
 
-**Total time: 2 hours**
+**Total time: 2h 0m**
 
 
 
@@ -3105,7 +3105,7 @@ Work done:
 
 ![Oct 24, 2026](assets/placeholder-29.png)
 
-**Total time: 1 hour**
+**Total time: 1h 0m**
 
 
 
@@ -3124,7 +3124,7 @@ Work done:
 
 ![Oct 24, 2026](assets/placeholder-30.png)
 
-**Total time: 2 hours**
+**Total time: 2h 0m**
 
 
 
@@ -3143,7 +3143,7 @@ Work done:
 
 ![Oct 24, 2026](assets/done.png)
 
-**Total time: 1 hour**
+**Total time: 1h 0m**
 
 
 
@@ -3162,7 +3162,7 @@ Work done:
 
 ![Oct 25, 2026](assets/placeholder-32.png)
 
-**Total time: 1 hour**
+**Total time: 1h 0m**
 
 
 
@@ -3181,7 +3181,7 @@ Work done:
 
 ![Oct 25, 2026](assets/placeholder-33.png)
 
-**Total time: 1 hour**
+**Total time: 1h 0m**
 
 
 
@@ -3200,7 +3200,7 @@ Work done:
 
 ![Oct 25, 2026](assets/placeholder-34.png)
 
-**Total time: 2 hours**
+**Total time: 2h 0m**
 
 
 
@@ -3219,7 +3219,7 @@ Work done:
 
 ![Oct 25, 2026](assets/placeholder-35.png)
 
-**Total time: 2 hours**
+**Total time: 2h 0m**
 
 
 
@@ -3238,7 +3238,7 @@ Work done:
 
 ![Oct 25, 2026](assets/changelog-1.png)
 
-**Total time: 1 hour**
+**Total time: 1h 0m**
 
 
 
@@ -3257,7 +3257,7 @@ Work done:
 
 ![Oct 25, 2026](assets/placeholder-37.png)
 
-**Total time: 2 hours**
+**Total time: 2h 0m**
 
 
 
@@ -3276,7 +3276,7 @@ Work done:
 
 ![Oct 25, 2026](assets/placeholder-38.png)
 
-**Total time: 1 hour**
+**Total time: 1h 0m**
 
 
 
@@ -3295,7 +3295,7 @@ Work done:
 
 ![Oct 25, 2026](assets/placeholder-39.png)
 
-**Total time: 1 hour**
+**Total time: 1h 0m**
 
 
 
@@ -3314,7 +3314,7 @@ Work done:
 
 ![Oct 25, 2026](assets/placeholder-40.png)
 
-**Total time: 2 hours**
+**Total time: 2h 0m**
 
 
 
@@ -3333,7 +3333,7 @@ Work done:
 
 ![Oct 25, 2026](assets/photo-3.png)
 
-**Total time: 1 hour**
+**Total time: 1h 0m**
 
 
 
@@ -3352,7 +3352,7 @@ Work done:
 
 ![Oct 25, 2026](assets/placeholder-42.png)
 
-**Total time: 2 hours**
+**Total time: 2h 0m**
 
 
 
@@ -3371,7 +3371,7 @@ Work done:
 
 ![Oct 25, 2026](assets/placeholder-43.png)
 
-**Total time: 1 hour**
+**Total time: 1h 0m**
 
 
 
@@ -3390,7 +3390,7 @@ Work done:
 
 ![Oct 25, 2026](assets/placeholder-44.png)
 
-**Total time: 2 hours**
+**Total time: 2h 0m**
 
 
 
@@ -3409,7 +3409,7 @@ Work done:
 
 ![Oct 26, 2026](assets/placeholder-45.png)
 
-**Total time: 1 hour**
+**Total time: 1h 0m**
 
 
 
@@ -3428,7 +3428,7 @@ Work done:
 
 ![Oct 26, 2026](assets/brush-1.png)
 
-**Total time: 1 hour**
+**Total time: 1h 0m**
 
 
 
@@ -3447,7 +3447,7 @@ Work done:
 
 ![Oct 26, 2026](assets/placeholder-2.png)
 
-**Total time: 1 hour**
+**Total time: 1h 0m**
 
 
 
@@ -3466,7 +3466,7 @@ Work done:
 
 ![Oct 26, 2026](assets/placeholder-3.png)
 
-**Total time: 1 hour**
+**Total time: 1h 0m**
 
 
 
@@ -3485,7 +3485,7 @@ Work done:
 
 ![Oct 26, 2026](assets/placeholder-4.png)
 
-**Total time: 2 hours**
+**Total time: 2h 0m**
 
 
 
@@ -3504,7 +3504,7 @@ Work done:
 
 ![Oct 26, 2026](assets/placeholder-5.png)
 
-**Total time: 2 hours**
+**Total time: 2h 0m**
 
 
 
@@ -3523,7 +3523,7 @@ Work done:
 
 ![Oct 26, 2026](assets/checklist-1.png)
 
-**Total time: 1 hour**
+**Total time: 1h 0m**
 
 
 
@@ -3542,7 +3542,7 @@ Work done:
 
 ![Oct 26, 2026](assets/placeholder-7.png)
 
-**Total time: 2 hours**
+**Total time: 2h 0m**
 
 
 
@@ -3561,7 +3561,7 @@ Work done:
 
 ![Oct 26, 2026](assets/placeholder-8.png)
 
-**Total time: 1 hour**
+**Total time: 1h 0m**
 
 
 
@@ -3580,7 +3580,7 @@ Work done:
 
 ![Oct 26, 2026](assets/placeholder-9.png)
 
-**Total time: 1 hour**
+**Total time: 1h 0m**
 
 
 
@@ -3599,7 +3599,7 @@ Work done:
 
 ![Oct 26, 2026](assets/placeholder-10.png)
 
-**Total time: 2 hours**
+**Total time: 2h 0m**
 
 
 
@@ -3618,7 +3618,7 @@ Work done:
 
 ![Oct 26, 2026](assets/feature-3.png)
 
-**Total time: 2 hours**
+**Total time: 2h 0m**
 
 
 
@@ -3637,7 +3637,7 @@ Work done:
 
 ![Oct 27, 2026](assets/placeholder-12.png)
 
-**Total time: 1 hour**
+**Total time: 1h 0m**
 
 
 
@@ -3656,7 +3656,7 @@ Work done:
 
 ![Oct 27, 2026](assets/placeholder-13.png)
 
-**Total time: 1 hour**
+**Total time: 1h 0m**
 
 
 
@@ -3675,7 +3675,7 @@ Work done:
 
 ![Oct 27, 2026](assets/placeholder-14.png)
 
-**Total time: 2 hours**
+**Total time: 2h 0m**
 
 
 
@@ -3694,7 +3694,7 @@ Work done:
 
 ![Oct 27, 2026](assets/placeholder-15.png)
 
-**Total time: 2 hours**
+**Total time: 2h 0m**
 
 
 
@@ -3713,7 +3713,7 @@ Work done:
 
 ![Oct 27, 2026](assets/done.png)
 
-**Total time: 2 hours**
+**Total time: 2h 0m**
 
 
 
@@ -3732,7 +3732,7 @@ Work done:
 
 ![Oct 27, 2026](assets/placeholder-17.png)
 
-**Total time: 2 hours**
+**Total time: 2h 0m**
 
 
 
@@ -3751,7 +3751,7 @@ Work done:
 
 ![Oct 27, 2026](assets/placeholder-18.png)
 
-**Total time: 1 hour**
+**Total time: 1h 0m**
 
 
 
@@ -3770,7 +3770,7 @@ Work done:
 
 ![Oct 28, 2026](assets/placeholder-19.png)
 
-**Total time: 1 hour**
+**Total time: 1h 0m**
 
 
 
@@ -3789,7 +3789,7 @@ Work done:
 
 ![Oct 28, 2026](assets/placeholder-20.png)
 
-**Total time: 2 hours**
+**Total time: 2h 0m**
 
 
 
@@ -3808,7 +3808,7 @@ Work done:
 
 ![Oct 28, 2026](assets/changelog-1.png)
 
-**Total time: 2 hours**
+**Total time: 2h 0m**
 
 
 
@@ -3827,7 +3827,7 @@ Work done:
 
 ![Oct 28, 2026](assets/placeholder-22.png)
 
-**Total time: 1 hour**
+**Total time: 1h 0m**
 
 
 
@@ -3847,7 +3847,7 @@ Work done:
 
 ![Oct 28, 2026](assets/placeholder-23.png)
 
-**Total time: 1 hour**
+**Total time: 1h 0m**
 
 
 
@@ -3866,7 +3866,7 @@ Work done:
 
 ![Oct 28, 2026](assets/placeholder-24.png)
 
-**Total time: 1 hour**
+**Total time: 1h 0m**
 
 
 
@@ -3885,7 +3885,7 @@ Work done:
 
 ![Oct 28, 2026](assets/placeholder-25.png)
 
-**Total time: 1 hour**
+**Total time: 1h 0m**
 
 
 
@@ -3904,7 +3904,7 @@ Work done:
 
 ![Oct 28, 2026](assets/photo-3.png)
 
-**Total time: 1 hour**
+**Total time: 1h 0m**
 
 
 
@@ -3923,7 +3923,7 @@ Work done:
 
 ![Oct 28, 2026](assets/placeholder-27.png)
 
-**Total time: 1 hour**
+**Total time: 1h 0m**
 
 
 
@@ -3942,7 +3942,7 @@ Work done:
 
 ![Oct 28, 2026](assets/placeholder-28.png)
 
-**Total time: 1 hour**
+**Total time: 1h 0m**
 
 
 
@@ -3961,7 +3961,7 @@ Work done:
 
 ![Oct 28, 2026](assets/placeholder-29.png)
 
-**Total time: 2 hours**
+**Total time: 2h 0m**
 
 
 
@@ -3980,7 +3980,7 @@ Work done:
 
 ![Oct 29, 2026](assets/placeholder-30.png)
 
-**Total time: 2 hours**
+**Total time: 2h 0m**
 
 
 
@@ -3999,7 +3999,7 @@ Work done:
 
 ![Oct 29, 2026](assets/brush-1.png)
 
-**Total time: 1 hour**
+**Total time: 1h 0m**
 
 
 
@@ -4018,7 +4018,7 @@ Work done:
 
 ![Oct 29, 2026](assets/placeholder-32.png)
 
-**Total time: 2 hours**
+**Total time: 2h 0m**
 
 
 
@@ -4037,7 +4037,7 @@ Work done:
 
 ![Oct 29, 2026](assets/placeholder-33.png)
 
-**Total time: 1 hour**
+**Total time: 1h 0m**
 
 
 
@@ -4056,7 +4056,7 @@ Work done:
 
 ![Oct 29, 2026](assets/placeholder-34.png)
 
-**Total time: 1 hour**
+**Total time: 1h 0m**
 
 
 
@@ -4075,7 +4075,7 @@ Work done:
 
 ![Oct 29, 2026](assets/placeholder-35.png)
 
-**Total time: 1 hour**
+**Total time: 1h 0m**
 
 
 
@@ -4095,7 +4095,7 @@ Work done:
 
 ![Oct 29, 2026](assets/checklist-1.png)
 
-**Total time: 2 hours**
+**Total time: 2h 0m**
 
 
 
@@ -4114,7 +4114,7 @@ Work done:
 
 ![Oct 29, 2026](assets/placeholder-37.png)
 
-**Total time: 2 hours**
+**Total time: 2h 0m**
 
 
 
@@ -4133,7 +4133,7 @@ Work done:
 
 ![Oct 29, 2026](assets/placeholder-38.png)
 
-**Total time: 1 hour**
+**Total time: 1h 0m**
 
 
 
@@ -4152,7 +4152,7 @@ Work done:
 
 ![Oct 29, 2026](assets/placeholder-39.png)
 
-**Total time: 1 hour**
+**Total time: 1h 0m**
 
 
 
@@ -4177,7 +4177,7 @@ This adds time because the first architecture pass is where a lot of later rewor
 
 ![Block diagram sketch](assets/placeholder-2.png)
 
-**Total time: 2 hours**
+**Total time: 2h 0m**
 
 ---
 
@@ -4195,7 +4195,7 @@ Work done:
 
 ![Oct 30, 2026](assets/feature-3.png)
 
-**Total time: 1 hour**
+**Total time: 1h 0m**
 
 
 
@@ -4214,7 +4214,7 @@ Work done:
 
 ![Oct 30, 2026](assets/placeholder-42.png)
 
-**Total time: 1 hour**
+**Total time: 1h 0m**
 
 
 
@@ -4233,7 +4233,7 @@ Work done:
 
 ![Oct 30, 2026](assets/placeholder-43.png)
 
-**Total time: 1 hour**
+**Total time: 1h 0m**
 
 
 
@@ -4252,7 +4252,7 @@ Work done:
 
 ![Oct 30, 2026](assets/placeholder-44.png)
 
-**Total time: 1 hour**
+**Total time: 1h 0m**
 
 
 
@@ -4271,7 +4271,7 @@ Work done:
 
 ![Oct 30, 2026](assets/placeholder-45.png)
 
-**Total time: 2 hours**
+**Total time: 2h 0m**
 
 
 
@@ -4290,7 +4290,7 @@ Work done:
 
 ![Oct 30, 2026](assets/done.png)
 
-**Total time: 2 hours**
+**Total time: 2h 0m**
 
 
 
@@ -4309,7 +4309,7 @@ Work done:
 
 ![Oct 30, 2026](assets/placeholder-2.png)
 
-**Total time: 1 hour**
+**Total time: 1h 0m**
 
 
 
@@ -4328,7 +4328,7 @@ Work done:
 
 ![Oct 30, 2026](assets/placeholder-3.png)
 
-**Total time: 1 hour**
+**Total time: 1h 0m**
 
 
 
@@ -4347,7 +4347,7 @@ Work done:
 
 ![Oct 31, 2026](assets/placeholder-4.png)
 
-**Total time: 1 hour**
+**Total time: 1h 0m**
 
 
 
@@ -4366,7 +4366,7 @@ Work done:
 
 ![Oct 31, 2026](assets/placeholder-5.png)
 
-**Total time: 1 hour**
+**Total time: 1h 0m**
 
 
 
@@ -4385,7 +4385,7 @@ Work done:
 
 ![Oct 31, 2026](assets/changelog-1.png)
 
-**Total time: 2 hours**
+**Total time: 2h 0m**
 
 
 
@@ -4404,7 +4404,7 @@ Work done:
 
 ![Oct 31, 2026](assets/placeholder-7.png)
 
-**Total time: 1 hour**
+**Total time: 1h 0m**
 
 
 
@@ -4423,7 +4423,7 @@ Work done:
 
 ![Oct 31, 2026](assets/placeholder-8.png)
 
-**Total time: 1 hour**
+**Total time: 1h 0m**
 
 
 
@@ -4442,7 +4442,7 @@ Work done:
 
 ![Oct 31, 2026](assets/placeholder-9.png)
 
-**Total time: 1 hour**
+**Total time: 1h 0m**
 
 
 
@@ -4461,7 +4461,7 @@ Work done:
 
 ![Oct 31, 2026](assets/placeholder-10.png)
 
-**Total time: 2 hours**
+**Total time: 2h 0m**
 
 
 
@@ -4480,7 +4480,7 @@ Work done:
 
 ![Oct 31, 2026](assets/photo-3.png)
 
-**Total time: 2 hours**
+**Total time: 2h 0m**
 
 
 
@@ -4499,7 +4499,7 @@ Work done:
 
 ![Oct 31, 2026](assets/placeholder-12.png)
 
-**Total time: 1 hour**
+**Total time: 1h 0m**
 
 
 
@@ -4519,7 +4519,7 @@ Work done:
 
 ![Oct 31, 2026](assets/placeholder-13.png)
 
-**Total time: 1 hour**
+**Total time: 1h 0m**
 
 
 
@@ -4538,7 +4538,7 @@ Work done:
 
 ![Oct 31, 2026](assets/placeholder-14.png)
 
-**Total time: 2 hours**
+**Total time: 2h 0m**
 
 
 
@@ -4557,7 +4557,7 @@ Work done:
 
 ![Oct 31, 2026](assets/placeholder-15.png)
 
-**Total time: 2 hours**
+**Total time: 2h 0m**
 
 
 
@@ -4576,7 +4576,7 @@ Work done:
 
 ![Oct 31, 2026](assets/placeholder-17.png)
 
-**Total time: 1 hour**
+**Total time: 1h 0m**
 
 
 
@@ -4596,7 +4596,7 @@ Work done:
 
 ![Oct 31, 2026](assets/done.png)
 
-**Total time: 2 hours**
+**Total time: 2h 0m**
 
 ---
 
