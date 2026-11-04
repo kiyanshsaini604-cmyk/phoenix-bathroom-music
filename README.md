@@ -39,9 +39,9 @@ Progress is tracked in `JOURNAL.md`.
 | Category | Image |
 |---|---|
 | Build photo | ![Build photo](assets/placeholder-1.png) |
-| 3D model | ![3D model of enclosure](assets/enclosure-concept.svg) |
-| Schematic / wiring diagram | ![Schematic and wiring diagram](assets/block-diagram.svg) |
-| PCB | ![PCB layout](assets/pcb-layout.svg) |
+| 3D model | ![3D model of enclosure](assets/enclosure.png) |
+| Schematic / wiring diagram | ![Schematic and wiring diagram](assets/block-diagram.png) |
+| PCB | ![PCB layout](assets/pcb.png) |
 
 Additional diagrams:
 
@@ -57,17 +57,17 @@ Additional diagrams:
 
 ### Enclosure and build — 3D model
 
-![3D model of the sealed two-part ASA enclosure for the Phoenix device](assets/enclosure-concept.svg)
+![3D model of the sealed two-part ASA enclosure for the Phoenix device](assets/enclosure.png)
 *Rendered 3D model of the sealed two-part ASA enclosure. The view shows the display recess in the upper portion, the speaker port on the lower right, the microphone membrane patch on the upper left, and the gasket channel around the enclosure split line. This is the enclosure design for the build, rendered from the editable design files in the repo.*
 
 ### Schematic and wiring — schematic / wiring diagram
 
-![Schematic and wiring diagram of the Phoenix electronics](assets/block-diagram.svg)
+![Schematic and wiring diagram of the Phoenix electronics](assets/block-diagram.png)
 *Editable schematic and wiring block diagram of the Phoenix device electronics. It shows the compute board, the SPI display, the speaker amplifier and speaker, the microphone path with the acoustic membrane, and the sealed panel-mount power inlet, with signal flow arrows between each block. Source file is an editable SVG in the repo.*
 
 ### PCB layout — PCB
 
-![PCB layout rendering of the Phoenix control board](assets/pcb-layout.svg)
+![PCB layout rendering of the Phoenix control board](assets/pcb.png)
 *PCB layout view of the Phoenix control board. The view shows component placement, the trace routing between the compute board interface, display connector, speaker amp section, microphone preamp path, and power inlet footprint, and the standoff positions for mounting inside the enclosure. Editable source files are included in the repo: KiCad `.kicad_pro`, `.kicad_pcb`, `.kicad_sch`, and `.lib` in `hardware/phoenix-kicad/` — source PCB file is `hardware/phoenix-kicad/phoenix.kicad_pcb`.*
 
 ### Audio and voice signal path
