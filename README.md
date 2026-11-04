@@ -41,7 +41,7 @@ Progress is tracked in `JOURNAL.md`.
 
 ### Enclosure and build — 3D model
 
-![3D model of the sealed two-part ASA enclosure for the Phoenix device](assets/enclosure.png)
+![3D model of the sealed two-part ASA enclosure for the Phoenix device](assets/enclosure-concept.svg)
 *Rendered 3D model of the sealed two-part ASA enclosure. The view shows the display recess in the upper portion, the speaker port on the lower right, the microphone membrane patch on the upper left, and the gasket channel around the enclosure split line. This is the enclosure design for the build, rendered from the editable design files in the repo.*
 
 ### Schematic and wiring — schematic / wiring diagram
@@ -56,11 +56,11 @@ Progress is tracked in `JOURNAL.md`.
 
 ### Audio and voice signal path
 
-![Audio signal flow from microphone to speaker in the Phoenix device](assets/audio-flow.png)
-*Audio and voice signal flow for the Phoenix device. The diagram traces the path from microphone capture, through the voice recognition stage, to the music server request and back to speaker playback. This is an editable PNG in the repo.*
+![Audio signal flow from microphone to speaker in the Phoenix device](assets/audio-flow.svg)
+*Audio and voice signal flow for the Phoenix device. The diagram traces the path from microphone capture, through the voice recognition stage, to the music server request and back to speaker playback. This is an editable SVG in the repo.*
 
-![Voice recognition pipeline map for the Phoenix device](assets/voice-map.png)
-*Voice recognition pipeline map for the Phoenix device. The map shows the stages from wake-word detection, to command capture, to Vosk recognition, to intent parsing, and finally to the library match that chooses the track to play. This is an editable PNG in the repo.*
+![Voice recognition pipeline map for the Phoenix device](assets/voice-map.svg)
+*Voice recognition pipeline map for the Phoenix device. The map shows the stages from wake-word detection, to command capture, to Vosk recognition, to intent parsing, and finally to the library match that chooses the track to play. This is an editable SVG in the repo.*
 
 ---
 

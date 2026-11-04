@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="640" viewBox="0 0 1280 640">
+  <rect width="1280" height="640" fill="#0b1720"/>
+  <rect x="40" y="40" width="1200" height="560" rx="18" fill="#112130" stroke="#2a4a66" stroke-width="2"/>
+
+  <text x="60" y="78" font-family="system-ui,sans-serif" font-size="26" font-weight="700" fill="#ffffff">Phoenix — voice recognition pipeline</text>
+  <text x="60" y="108" font-family="system-ui,sans-serif" font-size="16" fill="#9fd0e0">Wake word → capture → Vosk recognition → intent parse → library match</text>
+
+  <g font-family="system-ui,sans-serif" fill="#ffffff">
+    <rect x="100" y="200" width="210" height="110" rx="12" fill="#1c3b4f" stroke="#3d7a96" stroke-width="2"/>
+    <text x="130" y="240" font-weight="700" font-size="18">Wake word</text>
+    <text x="130" y="270" fill="#bcd9e6">"Hey Phoenix" / "Fenix"</text>
+
+    <rect x="390" y="200" width="210" height="110" rx="12" fill="#1c3b4f" stroke="#3d7a96" stroke-width="2"/>
+    <text x="420" y="240" font-weight="700" font-size="18">Command capture</text>
+    <text x="420" y="270" fill="#bcd9e6">5 s capture timeout</text>
+
+    <rect x="680" y="200" width="210" height="110" rx="12" fill="#1c3b4f" stroke="#3d7a96" stroke-width="2"/>
+    <text x="710" y="240" font-weight="700" font-size="18">Vosk recognition</text>
+    <text x="710" y="270" fill="#bcd9e6">offline speech-to-text</text>
+
+    <rect x="445" y="360" width="210" height="110" rx="12" fill="#1c3b4f" stroke="#3d7a96" stroke-width="2"/>
+    <text x="475" y="400" font-weight="700" font-size="18">Intent parsing</text>
+    <text x="475" y="430" fill="#bcd9e6">artist + title split</text>
+
+    <rect x="735" y="360" width="210" height="110" rx="12" fill="#1c3b4f" stroke="#3d7a96" stroke-width="2"/>
+    <text x="765" y="400" font-weight="700" font-size="18">Library match</text>
+    <text x="765" y="430" fill="#bcd9e6">choose track to play</text>
+  </g>
+
+  <g stroke="#4fc3a8" stroke-width="3" fill="none" marker-end="url(#arrowhead)">
+    <path d="M 310 255 L 390 255"/>
+    <path d="M 600 255 L 680 255"/>
+    <path d="M 890 255 L 890 320"/>
+    <path d="M 890 320 L 550 320"/>
+    <path d="M 550 320 L 550 415"/>
+    <path d="M 655 415 L 735 415"/>
+  </g>
+
+  <defs>
+    <marker id="arrowhead" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
+      <polygon fill="#4fc3a8" points="0 0, 10 3.5, 0 7"/>
+    </marker>
+  </defs>
+
+  <g font-family="system-ui,sans-serif" fill="#8fb6c6" font-size="14">
+    <text x="150" y="335">hear wake phrase</text>
+    <text x="430" y="335">capture command</text>
+    <text x="740" y="335">transcribe</text>
+    <text x="560" y="495">parse artist &amp; title</text>
+    <text x="670" y="495">match track</text>
+  </g>
+
+  <text x="60" y="605" font-family="system-ui,sans-serif" fill="#8fb6c6" font-size="14">Vosk runs fully offline on the device so voice requests work without sending audio to a server.</text>
+</svg>
