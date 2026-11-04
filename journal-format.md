@@ -14,7 +14,7 @@ Work done:
 
 ![Month D, 2026](assets/filename.png)
 
-**Total time: Xh 0m** or **Total time: Xh** or **Total time: Xh Ym**
+**Total time: X hours** or **Total time: Xh Ym**
 
 ---
 ```
@@ -45,13 +45,12 @@ Work done:
 
 4. **Time log**:
    ```markdown
-   **Total time: Xh 0m**
+   **Total time: X hours**
    ```
-   - Format: `**Total time:**` followed by space, then `Xh 0m` or `Xh` or `Xh Ym`
+   - Format: `**Total time:**` followed by space, then `X hours` or `Xh Ym`
    - `X` is a positive integer (hours)
-   - Optional `0m` for zero minutes (required for parseability)
-   - Optional `Ym` for additional minutes if needed
-   - Example valid: `**Total time: 2h 0m**`, `**Total time: 1h 30m**`, `**Total time: 3h**`
+   - `Ym` is optional additional minutes if needed
+   - Example valid: `**Total time: 2 hours**`, `**Total time: 1h 30m**`, `**Total time: 3 hours**`
 
 5. **Separator**:
    ```markdown
@@ -65,19 +64,19 @@ Work done:
 After all entries, the file must include:
 
 ```markdown
-**Total time spent: 2h**
+**Total time spent: X hours**
 ```
 
 - This is the global total time spent on the entire project
 - Placed at the very end of JOURNAL.md, after the last `---` separator
-- Format: `**Total time spent: 2h**` (with bold markdown)
+- Format: `**Total time spent: X hours**` (with bold markdown)
 
 ## Formatting Rules
 
 - **One entry per dated header** - no duplicate dates
 - **Entries are sequential** - use consecutive dates or clearly mark gaps
 - **Images must exist** - every `![...](assets/...)` reference must have a corresponding file in `assets/`
-- **Time lines must be parseable** - the `**Total time:**` pattern must match the regex `Total time[,:\s]*([0-9]+\s*(?:h|hr|hours)?\s*(?:m|min|minutes)?)`
+- **Time lines must be parseable** - the `**Total time:**` pattern must match `Total time[,:\s]*([0-9]+\s*(?:hours|h)\s*([0-9]+\s*(?:m|min|minutes)?)?)`
 - **No orphaned content** - every entry must have all 5 components (header, work, image, time, separator)
 - **Consistent style** - same formatting conventions throughout the file
 
@@ -94,7 +93,7 @@ Work done:
 
 ![Music client sketch](assets/placeholder-7.png)
 
-**Total time: 2h 0m**
+**Total time: 2 hours**
 
 ---
 ```
@@ -113,7 +112,7 @@ Work done:
 
 ❌ Wrong time format:
 ```markdown
-**Total time: 2h**  (missing "0m" - this project requires parseable format with minutes)
+**Total time: 2**  (missing "hours" - this project requires parseable format with unit)
 ```
 
 ❌ Missing image:
@@ -123,7 +122,7 @@ Work done:
 Work done:
 - rechecked startup recovery
 
-**Total time: 2h 0m**
+**Total time: 2 hours**
 
 ---
 ```
@@ -134,7 +133,7 @@ Work done:
 
 ![health recheck](assets/state-flow.png)
 
-**Total time: 2h 0m**
+**Total time: 2 hours**
 
 ---
 ```
@@ -144,9 +143,9 @@ Work done:
 For the phoenix-bathroom-music project:
 - **32 total entries** expected
 - **32/32** must have images referencing `assets/`
-- **32/32** must have `**Total time: 2h 0m**` or similar parseable format
+- **32/32** must have `**Total time: X hours**` or `**Total time: Xh Ym**` parseable format
 - **32/32** must have `---` separator
-- **1 global footer**: `**Total time spent: 2h**` at file end
+- **1 global footer**: `**Total time spent: X hours**` at file end
 
 ## Checklist for Each Entry
 
