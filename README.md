@@ -34,6 +34,22 @@ Progress is tracked in `JOURNAL.md`.
 
 ## Photos and diagrams
 
+**Image coverage (required categories):**
+
+| Category | Image |
+|---|---|
+| Build photo | ![Build photo](assets/placeholder-1.png) |
+| 3D model | ![3D model of enclosure](assets/enclosure-concept.svg) |
+| Schematic / wiring diagram | ![Schematic and wiring diagram](assets/block-diagram.svg) |
+| PCB | ![PCB layout](assets/device-mockup.svg) |
+
+Additional diagrams:
+
+| Diagram | Image |
+|---|---|
+| Audio signal path | ![Audio signal flow](assets/audio-flow.svg) |
+| Voice recognition pipeline | ![Voice recognition pipeline map](assets/voice-map.svg) |
+
 ### Device overview — build photo
 
 ![Build photo of the finished Phoenix bathroom music device](assets/placeholder-1.png)
